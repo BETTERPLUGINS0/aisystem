@@ -1,0 +1,43 @@
+package me.SuperRonanCraft.BetterRTP.player.events;
+
+import java.util.List;
+import me.SuperRonanCraft.BetterRTP.BetterRTP;
+import me.SuperRonanCraft.BetterRTP.player.rtp.RTP_TYPE;
+import me.SuperRonanCraft.BetterRTP.references.PermissionNode;
+import me.SuperRonanCraft.BetterRTP.references.file.FileOther;
+import me.SuperRonanCraft.BetterRTP.references.helpers.HelperRTP;
+import me.SuperRonanCraft.BetterRTP.references.messages.Message_RTP;
+import me.SuperRonanCraft.BetterRTP.references.web.Updater;
+import me.SuperRonanCraft.BetterRTP.versions.AsyncHandler;
+import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
+import org.bukkit.event.player.PlayerJoinEvent;
+
+public class Join {
+   static void event(PlayerJoinEvent e) {
+      Player p = e.getPlayer();
+      updater(p);
+      AsyncHandler.async(() -> {
+         getPl().getCooldowns().loadPlayer(p);
+      });
+      rtpOnFirstJoin(p);
+   }
+
+   private static void updater(Player p) {
+      if (!getPl().getFiles().getType(FileOther.FILETYPE.CONFIG).getBoolean("Settings.DisableUpdater") && PermissionNode.UPDATER.check(p) && !getPl().getDescription().getVersion().equals(Updater.updatedVersion)) {
+         Message_RTP.sms(p, "&7There is currently an update for &6BetterRTP &7version &e#" + Updater.updatedVersion + " &7you have version &e#" + getPl().getDescription().getVersion());
+      }
+
+   }
+
+   private static void rtpOnFirstJoin(Player p) {
+      if (getPl().getSettings().isRtpOnFirstJoin_Enabled() && !p.hasPlayedBefore()) {
+         HelperRTP.tp(p, Bukkit.getConsoleSender(), Bukkit.getWorld(getPl().getSettings().getRtpOnFirstJoin_World()), (List)null, RTP_TYPE.JOIN);
+      }
+
+   }
+
+   private static BetterRTP getPl() {
+      return BetterRTP.getInstance();
+   }
+}

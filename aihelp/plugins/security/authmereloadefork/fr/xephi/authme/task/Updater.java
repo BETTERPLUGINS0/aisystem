@@ -1,0 +1,55 @@
+package fr.xephi.authme.task;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URI;
+import java.net.URL;
+import java.util.Scanner;
+
+public class Updater {
+   private final String currentVersion;
+   private String latestVersion;
+   private static boolean isUpdateAvailable = false;
+   private static final String owner = "HaHaWTH";
+   private static final String repo = "AuthMeReReloaded";
+   private static final String UPDATE_URL = "https://api.github.com/repos/HaHaWTH/AuthMeReReloaded/releases/latest";
+
+   public Updater(String currentVersion) {
+      this.currentVersion = currentVersion;
+   }
+
+   public boolean isUpdateAvailable() {
+      URI uri = URI.create("https://api.github.com/repos/HaHaWTH/AuthMeReReloaded/releases/latest");
+
+      try {
+         URL url = uri.toURL();
+         HttpURLConnection conn = (HttpURLConnection)url.openConnection();
+         conn.setConnectTimeout(10000);
+         conn.setReadTimeout(10000);
+         Scanner scanner = new Scanner(conn.getInputStream());
+         String response = scanner.useDelimiter("\\Z").next();
+         scanner.close();
+         String latestVersion = response.substring(response.indexOf("tag_name") + 11);
+         latestVersion = latestVersion.substring(0, latestVersion.indexOf("\""));
+         this.latestVersion = latestVersion;
+         isUpdateAvailable = !this.currentVersion.equals(latestVersion);
+         return isUpdateAvailable;
+      } catch (IOException var7) {
+         this.latestVersion = null;
+         isUpdateAvailable = false;
+         return false;
+      }
+   }
+
+   public String getLatestVersion() {
+      return this.latestVersion;
+   }
+
+   public String getCurrentVersion() {
+      return this.currentVersion;
+   }
+
+   public static boolean hasUpdate() {
+      return isUpdateAvailable;
+   }
+}

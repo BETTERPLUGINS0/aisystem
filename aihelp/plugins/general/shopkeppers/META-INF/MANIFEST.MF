@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: com.nisovin.shopkeepers:Shopkeepers
+Implementation-Version: 2.26.0+dcb982dda
+paperweight-mappings-namespace: mojang
+

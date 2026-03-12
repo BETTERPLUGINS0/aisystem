@@ -1,0 +1,3 @@
+fr.xephi.authme.libs.com.mysql.cj.jdbc.Driver
+fr.xephi.authme.libs.org.mariadb.jdbc.Driver
+fr.xephi.authme.libs.org.postgresql.Driver

@@ -1,0 +1,21 @@
+package me.SuperRonanCraft.BetterRTP.lib.paperlib.features.inventoryholdersnapshot;
+
+import org.bukkit.inventory.InventoryHolder;
+
+public class InventoryHolderSnapshotResult {
+   private final boolean isSnapshot;
+   private final InventoryHolder holder;
+
+   public InventoryHolderSnapshotResult(boolean isSnapshot, InventoryHolder holder) {
+      this.isSnapshot = isSnapshot;
+      this.holder = holder;
+   }
+
+   public boolean isSnapshot() {
+      return this.isSnapshot;
+   }
+
+   public InventoryHolder getHolder() {
+      return this.holder;
+   }
+}

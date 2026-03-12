@@ -1,0 +1,26 @@
+{
+  "version": "LoginSecurity v3.3.1",
+  "data":
+  [
+    [
+      "---[ Changelog ]---",
+      "",
+      "- Fixed captcha map rendering with filled map",
+      "",
+      "- NOTE: This is the last version supporting MC 1.8-1.17"
+    ],
+    [
+      "",
+      "Please check spigot-mc.org for the full changelog.",
+      ""
+    ],
+    [
+      "=====[ SOCIAL ]=====",
+      "IGN: lenis",
+      "Twitter: @lenis0012",
+      "",
+      "Report bugs!",
+      "-lenis"
+    ]
+  ]
+}

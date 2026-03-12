@@ -1,0 +1,47 @@
+package ch.jalu.configme.properties;
+
+import ch.jalu.configme.properties.convertresult.ConvertErrorRecorder;
+import ch.jalu.configme.properties.types.PropertyType;
+import ch.jalu.configme.resource.PropertyReader;
+import java.util.Collection;
+import java.util.Objects;
+import java.util.function.IntFunction;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+public class ArrayProperty<T> extends BaseProperty<T[]> {
+   private final PropertyType<T> type;
+   private final IntFunction<T[]> arrayProducer;
+
+   public ArrayProperty(@NotNull String path, @NotNull T[] defaultValue, @NotNull PropertyType<T> type, @NotNull IntFunction<T[]> arrayProducer) {
+      super(path, defaultValue);
+      Objects.requireNonNull(type, "type");
+      Objects.requireNonNull(arrayProducer, "arrayProducer");
+      this.type = type;
+      this.arrayProducer = arrayProducer;
+   }
+
+   @Nullable
+   protected T[] getFromReader(@NotNull PropertyReader reader, @NotNull ConvertErrorRecorder errorRecorder) {
+      Object object = reader.getObject(this.getPath());
+      if (object instanceof Collection) {
+         Collection<?> collection = (Collection)object;
+         return collection.stream().map((elem) -> {
+            return this.type.convert(elem, errorRecorder);
+         }).filter(Objects::nonNull).toArray(this.arrayProducer);
+      } else {
+         return null;
+      }
+   }
+
+   @NotNull
+   public Object toExportValue(@NotNull T[] value) {
+      Object[] array = new Object[value.length];
+
+      for(int i = 0; i < array.length; ++i) {
+         array[i] = this.type.toExportValue(value[i]);
+      }
+
+      return array;
+   }
+}

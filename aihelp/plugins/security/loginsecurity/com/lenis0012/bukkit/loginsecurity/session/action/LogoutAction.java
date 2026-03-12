@@ -1,0 +1,22 @@
+package com.lenis0012.bukkit.loginsecurity.session.action;
+
+import com.lenis0012.bukkit.loginsecurity.session.AuthAction;
+import com.lenis0012.bukkit.loginsecurity.session.AuthActionType;
+import com.lenis0012.bukkit.loginsecurity.session.AuthMode;
+import com.lenis0012.bukkit.loginsecurity.session.AuthService;
+import com.lenis0012.bukkit.loginsecurity.session.PlayerSession;
+import com.lenis0012.bukkit.loginsecurity.util.MetaData;
+
+public class LogoutAction extends AuthAction {
+   public <T> LogoutAction(AuthService<T> service, T serviceProvider) {
+      super(AuthActionType.LOGOUT, service, serviceProvider);
+   }
+
+   public AuthMode run(PlayerSession session, ActionResponse response) {
+      if (session.getPlayer() != null) {
+         MetaData.set(session.getPlayer(), "ls_login_time", System.currentTimeMillis());
+      }
+
+      return AuthMode.UNAUTHENTICATED;
+   }
+}

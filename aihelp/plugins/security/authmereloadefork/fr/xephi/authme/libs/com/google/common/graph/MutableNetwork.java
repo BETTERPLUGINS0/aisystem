@@ -1,0 +1,23 @@
+package fr.xephi.authme.libs.com.google.common.graph;
+
+import fr.xephi.authme.libs.com.google.common.annotations.Beta;
+import fr.xephi.authme.libs.com.google.errorprone.annotations.CanIgnoreReturnValue;
+
+@ElementTypesAreNonnullByDefault
+@Beta
+public interface MutableNetwork<N, E> extends Network<N, E> {
+   @CanIgnoreReturnValue
+   boolean addNode(N var1);
+
+   @CanIgnoreReturnValue
+   boolean addEdge(N var1, N var2, E var3);
+
+   @CanIgnoreReturnValue
+   boolean addEdge(EndpointPair<N> var1, E var2);
+
+   @CanIgnoreReturnValue
+   boolean removeNode(N var1);
+
+   @CanIgnoreReturnValue
+   boolean removeEdge(E var1);
+}

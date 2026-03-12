@@ -1,0 +1,26 @@
+package javax.mail;
+
+public interface UIDFolder {
+   long LASTUID = -1L;
+   long MAXUID = 4294967295L;
+
+   long getUIDValidity() throws MessagingException;
+
+   Message getMessageByUID(long var1) throws MessagingException;
+
+   Message[] getMessagesByUID(long var1, long var3) throws MessagingException;
+
+   Message[] getMessagesByUID(long[] var1) throws MessagingException;
+
+   long getUID(Message var1) throws MessagingException;
+
+   long getUIDNext() throws MessagingException;
+
+   public static class FetchProfileItem extends FetchProfile.Item {
+      public static final UIDFolder.FetchProfileItem UID = new UIDFolder.FetchProfileItem("UID");
+
+      protected FetchProfileItem(String name) {
+         super(name);
+      }
+   }
+}

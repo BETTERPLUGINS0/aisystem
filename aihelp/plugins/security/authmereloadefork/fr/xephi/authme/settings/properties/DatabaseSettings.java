@@ -1,0 +1,124 @@
+package fr.xephi.authme.settings.properties;
+
+import fr.xephi.authme.datasource.DataSourceType;
+import fr.xephi.authme.libs.ch.jalu.configme.Comment;
+import fr.xephi.authme.libs.ch.jalu.configme.SettingsHolder;
+import fr.xephi.authme.libs.ch.jalu.configme.properties.Property;
+import fr.xephi.authme.libs.ch.jalu.configme.properties.PropertyInitializer;
+
+public final class DatabaseSettings implements SettingsHolder {
+   @Comment({"What type of database do you want to use?", "Valid values: H2, SQLITE, MARIADB, MYSQL, POSTGRESQL"})
+   public static final Property<DataSourceType> BACKEND;
+   @Comment({"Enable the database caching system, should be disabled on bungeecord environments", "or when a website integration is being used."})
+   public static final Property<Boolean> USE_CACHING;
+   @Comment({"Should we try to use VirtualThreads(Java 21+) for database cache loader?"})
+   public static final Property<Boolean> USE_VIRTUAL_THREADS;
+   @Comment({"Database host address"})
+   public static final Property<String> MYSQL_HOST;
+   @Comment({"Database port"})
+   public static final Property<String> MYSQL_PORT;
+   @Comment({"Replacement of Mysql's useSsl (for MariaDB only).", "- disable: No SSL", "- trust: Trust blindly (no validation)", "- verify_ca:  Encryption, certificates validation, BUT no hostname verification", "- verify_full: Encryption, certificate validation and hostname validation", "Read more: https://bit.ly/mariadb-sslmode"})
+   public static final Property<String> MARIADB_SSL_MODE;
+   @Comment({"Connect to MySQL database over SSL", "If you're using MariaDB, use sslMode instead"})
+   public static final Property<Boolean> MYSQL_USE_SSL;
+   @Comment({"Verification of server's certificate.", "We would not recommend to set this option to false.", "Set this option to false at your own risk if and only if you know what you're doing"})
+   public static final Property<Boolean> MYSQL_CHECK_SERVER_CERTIFICATE;
+   @Comment({"Authorize client to retrieve RSA server public key.", "Advanced option, ignore if you don't know what it means.", "If you are using MariaDB, use MariaDbSslMode instead."})
+   public static final Property<Boolean> MYSQL_ALLOW_PUBLIC_KEY_RETRIEVAL;
+   @Comment({"Username to connect to the MySQL database"})
+   public static final Property<String> MYSQL_USERNAME;
+   @Comment({"Password to connect to the MySQL database"})
+   public static final Property<String> MYSQL_PASSWORD;
+   @Comment({"Database Name, use with converters or as SQLITE database name"})
+   public static final Property<String> MYSQL_DATABASE;
+   @Comment({"Table of the database"})
+   public static final Property<String> MYSQL_TABLE;
+   @Comment({"Column of IDs to sort data"})
+   public static final Property<String> MYSQL_COL_ID;
+   @Comment({"Column for storing or checking players nickname"})
+   public static final Property<String> MYSQL_COL_NAME;
+   @Comment({"Column for storing or checking players RealName"})
+   public static final Property<String> MYSQL_COL_REALNAME;
+   @Comment({"Column for storing players passwords"})
+   public static final Property<String> MYSQL_COL_PASSWORD;
+   @Comment({"Column for storing players passwords salts"})
+   public static final Property<String> MYSQL_COL_SALT;
+   @Comment({"Column for storing players emails"})
+   public static final Property<String> MYSQL_COL_EMAIL;
+   @Comment({"Column for storing if a player is logged in or not"})
+   public static final Property<String> MYSQL_COL_ISLOGGED;
+   @Comment({"Column for storing if a player has a valid session or not"})
+   public static final Property<String> MYSQL_COL_HASSESSION;
+   @Comment({"Column for storing a player's TOTP key (for two-factor authentication)"})
+   public static final Property<String> MYSQL_COL_TOTP_KEY;
+   @Comment({"Column for storing the player's last IP"})
+   public static final Property<String> MYSQL_COL_LAST_IP;
+   @Comment({"Column for storing players lastlogins"})
+   public static final Property<String> MYSQL_COL_LASTLOGIN;
+   @Comment({"Column storing the registration date"})
+   public static final Property<String> MYSQL_COL_REGISTER_DATE;
+   @Comment({"Column for storing the IP address at the time of registration"})
+   public static final Property<String> MYSQL_COL_REGISTER_IP;
+   @Comment({"Column for storing player LastLocation - X"})
+   public static final Property<String> MYSQL_COL_LASTLOC_X;
+   @Comment({"Column for storing player LastLocation - Y"})
+   public static final Property<String> MYSQL_COL_LASTLOC_Y;
+   @Comment({"Column for storing player LastLocation - Z"})
+   public static final Property<String> MYSQL_COL_LASTLOC_Z;
+   @Comment({"Column for storing player LastLocation - World Name"})
+   public static final Property<String> MYSQL_COL_LASTLOC_WORLD;
+   @Comment({"Column for storing player LastLocation - Yaw"})
+   public static final Property<String> MYSQL_COL_LASTLOC_YAW;
+   @Comment({"Column for storing player LastLocation - Pitch"})
+   public static final Property<String> MYSQL_COL_LASTLOC_PITCH;
+   @Comment({"Column for storing players uuids (optional)"})
+   public static final Property<String> MYSQL_COL_PLAYER_UUID;
+   @Comment({"Column for storing players groups"})
+   public static final Property<String> MYSQL_COL_GROUP;
+   @Comment({"Overrides the size of the DB Connection Pool, default = 10"})
+   public static final Property<Integer> MYSQL_POOL_SIZE;
+   @Comment({"The maximum lifetime of a connection in the pool, default = 1800 seconds", "You should set this at least 30 seconds less than mysql server wait_timeout"})
+   public static final Property<Integer> MYSQL_CONNECTION_MAX_LIFETIME;
+
+   private DatabaseSettings() {
+   }
+
+   static {
+      BACKEND = PropertyInitializer.newProperty(DataSourceType.class, "DataSource.backend", DataSourceType.SQLITE);
+      USE_CACHING = PropertyInitializer.newProperty("DataSource.caching", true);
+      USE_VIRTUAL_THREADS = PropertyInitializer.newProperty("DataSource.useVirtualThreadsCache", false);
+      MYSQL_HOST = PropertyInitializer.newProperty("DataSource.mySQLHost", "127.0.0.1");
+      MYSQL_PORT = PropertyInitializer.newProperty("DataSource.mySQLPort", "3306");
+      MARIADB_SSL_MODE = PropertyInitializer.newProperty("DataSource.MariaDbSslMode", "disabled");
+      MYSQL_USE_SSL = PropertyInitializer.newProperty("DataSource.mySQLUseSSL", true);
+      MYSQL_CHECK_SERVER_CERTIFICATE = PropertyInitializer.newProperty("DataSource.mySQLCheckServerCertificate", true);
+      MYSQL_ALLOW_PUBLIC_KEY_RETRIEVAL = PropertyInitializer.newProperty("DataSource.mySQLAllowPublicKeyRetrieval", true);
+      MYSQL_USERNAME = PropertyInitializer.newProperty("DataSource.mySQLUsername", "authme");
+      MYSQL_PASSWORD = PropertyInitializer.newProperty("DataSource.mySQLPassword", "12345");
+      MYSQL_DATABASE = PropertyInitializer.newProperty("DataSource.mySQLDatabase", "authme");
+      MYSQL_TABLE = PropertyInitializer.newProperty("DataSource.mySQLTablename", "authme");
+      MYSQL_COL_ID = PropertyInitializer.newProperty("DataSource.mySQLColumnId", "id");
+      MYSQL_COL_NAME = PropertyInitializer.newProperty("DataSource.mySQLColumnName", "username");
+      MYSQL_COL_REALNAME = PropertyInitializer.newProperty("DataSource.mySQLRealName", "realname");
+      MYSQL_COL_PASSWORD = PropertyInitializer.newProperty("DataSource.mySQLColumnPassword", "password");
+      MYSQL_COL_SALT = PropertyInitializer.newProperty("DataSource.mySQLColumnSalt", "");
+      MYSQL_COL_EMAIL = PropertyInitializer.newProperty("DataSource.mySQLColumnEmail", "email");
+      MYSQL_COL_ISLOGGED = PropertyInitializer.newProperty("DataSource.mySQLColumnLogged", "isLogged");
+      MYSQL_COL_HASSESSION = PropertyInitializer.newProperty("DataSource.mySQLColumnHasSession", "hasSession");
+      MYSQL_COL_TOTP_KEY = PropertyInitializer.newProperty("DataSource.mySQLtotpKey", "totp");
+      MYSQL_COL_LAST_IP = PropertyInitializer.newProperty("DataSource.mySQLColumnIp", "ip");
+      MYSQL_COL_LASTLOGIN = PropertyInitializer.newProperty("DataSource.mySQLColumnLastLogin", "lastlogin");
+      MYSQL_COL_REGISTER_DATE = PropertyInitializer.newProperty("DataSource.mySQLColumnRegisterDate", "regdate");
+      MYSQL_COL_REGISTER_IP = PropertyInitializer.newProperty("DataSource.mySQLColumnRegisterIp", "regip");
+      MYSQL_COL_LASTLOC_X = PropertyInitializer.newProperty("DataSource.mySQLlastlocX", "x");
+      MYSQL_COL_LASTLOC_Y = PropertyInitializer.newProperty("DataSource.mySQLlastlocY", "y");
+      MYSQL_COL_LASTLOC_Z = PropertyInitializer.newProperty("DataSource.mySQLlastlocZ", "z");
+      MYSQL_COL_LASTLOC_WORLD = PropertyInitializer.newProperty("DataSource.mySQLlastlocWorld", "world");
+      MYSQL_COL_LASTLOC_YAW = PropertyInitializer.newProperty("DataSource.mySQLlastlocYaw", "yaw");
+      MYSQL_COL_LASTLOC_PITCH = PropertyInitializer.newProperty("DataSource.mySQLlastlocPitch", "pitch");
+      MYSQL_COL_PLAYER_UUID = PropertyInitializer.newProperty("DataSource.mySQLPlayerUUID", "");
+      MYSQL_COL_GROUP = PropertyInitializer.newProperty("ExternalBoardOptions.mySQLColumnGroup", "");
+      MYSQL_POOL_SIZE = PropertyInitializer.newProperty("DataSource.poolSize", (int)10);
+      MYSQL_CONNECTION_MAX_LIFETIME = PropertyInitializer.newProperty("DataSource.maxLifetime", (int)1800);
+   }
+}

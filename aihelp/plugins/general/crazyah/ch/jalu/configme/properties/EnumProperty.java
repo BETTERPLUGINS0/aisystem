@@ -1,0 +1,10 @@
+package ch.jalu.configme.properties;
+
+import ch.jalu.configme.properties.types.EnumPropertyType;
+import org.jetbrains.annotations.NotNull;
+
+public class EnumProperty<E extends Enum<E>> extends TypeBasedProperty<E> {
+   public EnumProperty(@NotNull Class<E> clazz, @NotNull String path, @NotNull E defaultValue) {
+      super(path, defaultValue, EnumPropertyType.of(clazz));
+   }
+}

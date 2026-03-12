@@ -1,0 +1,33 @@
+package com.lenis0012.bukkit.loginsecurity.session.action;
+
+import com.lenis0012.bukkit.loginsecurity.LoginSecurity;
+import com.lenis0012.bukkit.loginsecurity.session.AuthAction;
+import com.lenis0012.bukkit.loginsecurity.session.AuthActionType;
+import com.lenis0012.bukkit.loginsecurity.session.AuthMode;
+import com.lenis0012.bukkit.loginsecurity.session.AuthService;
+import com.lenis0012.bukkit.loginsecurity.session.PlayerSession;
+import java.sql.SQLException;
+import java.util.logging.Level;
+
+public class RemovePassAction extends AuthAction {
+   public <T> RemovePassAction(AuthService<T> service, T serviceProvider) {
+      super(AuthActionType.REMOVE_PASSWORD, service, serviceProvider);
+   }
+
+   public AuthMode run(PlayerSession session, ActionResponse response) {
+      if (!session.isRegistered()) {
+         throw new IllegalStateException("User is not registered!");
+      } else {
+         try {
+            LoginSecurity.getDatastore().getProfileRepository().deleteBlocking(session.getProfile());
+            session.resetProfile();
+            return LoginSecurity.getConfiguration().isPasswordRequired() ? AuthMode.UNREGISTERED : AuthMode.AUTHENTICATED;
+         } catch (SQLException var4) {
+            LoginSecurity.getInstance().getLogger().log(Level.SEVERE, "Failed to remove user password", var4);
+            response.setSuccess(false);
+            response.setErrorMessage("Could not change your account's password, please try again later.");
+            return null;
+         }
+      }
+   }
+}

@@ -1,0 +1,36 @@
+package emanondev.itemedit.command.serveritem;
+
+import emanondev.itemedit.command.ServerItemCommand;
+import emanondev.itemedit.command.SubCmd;
+import emanondev.itemedit.gui.ShowServerItemsGui;
+import java.util.Collections;
+import java.util.List;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+import org.jetbrains.annotations.NotNull;
+
+public class Show extends SubCmd {
+   public Show(ServerItemCommand cmd) {
+      super("show", cmd, true, false);
+   }
+
+   public void onCommand(@NotNull CommandSender sender, @NotNull String alias, String[] args) {
+      Player p = (Player)sender;
+
+      try {
+         int page = 1;
+         if (args.length >= 2) {
+            page = Integer.parseInt(args[1]);
+         }
+
+         p.openInventory((new ShowServerItemsGui(p, page)).getInventory());
+      } catch (Exception var6) {
+         this.onFail(sender, alias);
+      }
+
+   }
+
+   public List<String> onComplete(@NotNull CommandSender sender, String[] args) {
+      return Collections.emptyList();
+   }
+}

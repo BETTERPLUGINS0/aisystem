@@ -1,0 +1,15 @@
+package ac.grim.grimac.checks.impl.combat;
+
+import ac.grim.grimac.checks.Check;
+import ac.grim.grimac.checks.CheckData;
+import ac.grim.grimac.player.GrimPlayer;
+
+@CheckData(
+   name = "Hitboxes",
+   setback = 10.0D
+)
+public class Hitboxes extends Check {
+   public Hitboxes(GrimPlayer player) {
+      super(player);
+   }
+}

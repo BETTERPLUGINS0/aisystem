@@ -1,0 +1,50 @@
+package me.SuperRonanCraft.BetterRTP.player.commands.types;
+
+import java.util.ArrayList;
+import java.util.List;
+import me.SuperRonanCraft.BetterRTP.player.commands.RTPCommand;
+import me.SuperRonanCraft.BetterRTP.player.commands.RTPCommandHelpable;
+import me.SuperRonanCraft.BetterRTP.references.PermissionNode;
+import me.SuperRonanCraft.BetterRTP.references.helpers.HelperRTP_Info;
+import me.SuperRonanCraft.BetterRTP.references.messages.MessagesHelp;
+import me.SuperRonanCraft.BetterRTP.references.messages.MessagesUsage;
+import org.bukkit.World;
+import org.bukkit.command.CommandSender;
+import org.jetbrains.annotations.NotNull;
+
+public class CmdBiome implements RTPCommand, RTPCommandHelpable {
+   public String getName() {
+      return "biome";
+   }
+
+   public void execute(CommandSender sendi, String label, String[] args) {
+      if (args.length >= 2) {
+         CmdTeleport.teleport(sendi, label, (World)null, HelperRTP_Info.getBiomes(args, 1, sendi));
+      } else {
+         this.usage(sendi, label);
+      }
+
+   }
+
+   public List<String> tabComplete(CommandSender sendi, String[] args) {
+      List<String> list = new ArrayList();
+      if (args.length >= 2) {
+         HelperRTP_Info.addBiomes(list, args);
+      }
+
+      return list;
+   }
+
+   @NotNull
+   public PermissionNode permission() {
+      return PermissionNode.BIOME;
+   }
+
+   public void usage(CommandSender sendi, String label) {
+      MessagesUsage.BIOME.send(sendi, label);
+   }
+
+   public String getHelp() {
+      return MessagesHelp.BIOME.get();
+   }
+}

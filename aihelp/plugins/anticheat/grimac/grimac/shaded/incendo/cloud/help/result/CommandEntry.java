@@ -1,0 +1,28 @@
+package ac.grim.grimac.shaded.incendo.cloud.help.result;
+
+import ac.grim.grimac.shaded.incendo.cloud.Command;
+import org.apiguardian.api.API;
+import org.apiguardian.api.API.Status;
+import org.checkerframework.checker.nullness.qual.NonNull;
+import org.immutables.value.Value.Immutable;
+
+@API(
+   status = Status.STABLE
+)
+@Immutable
+public interface CommandEntry<C> extends Comparable<CommandEntry<C>> {
+   @NonNull
+   static <C> CommandEntry<C> of(@NonNull final Command<C> command, @NonNull final String syntax) {
+      return CommandEntryImpl.of(command, syntax);
+   }
+
+   @NonNull
+   Command<C> command();
+
+   @NonNull
+   String syntax();
+
+   default int compareTo(@NonNull final CommandEntry<C> other) {
+      return this.syntax().compareTo(other.syntax());
+   }
+}

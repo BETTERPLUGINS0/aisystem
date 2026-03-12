@@ -1,0 +1,9 @@
+package fr.xephi.authme.libs.org.apache.http.auth;
+
+import java.security.Principal;
+
+public interface Credentials {
+   Principal getUserPrincipal();
+
+   String getPassword();
+}

@@ -1,0 +1,11 @@
+package com.nisovin.shopkeepers.ui.villager.editor;
+
+import com.nisovin.shopkeepers.ui.lib.AbstractUIType;
+
+public final class VillagerEditorUIType extends AbstractUIType {
+   public static final VillagerEditorUIType INSTANCE = new VillagerEditorUIType();
+
+   private VillagerEditorUIType() {
+      super("villager-editor", (String)null);
+   }
+}

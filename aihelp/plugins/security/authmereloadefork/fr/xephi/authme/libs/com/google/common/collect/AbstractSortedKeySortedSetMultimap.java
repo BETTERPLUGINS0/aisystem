@@ -1,0 +1,31 @@
+package fr.xephi.authme.libs.com.google.common.collect;
+
+import fr.xephi.authme.libs.com.google.common.annotations.GwtCompatible;
+import java.util.Collection;
+import java.util.Set;
+import java.util.SortedMap;
+import java.util.SortedSet;
+
+@ElementTypesAreNonnullByDefault
+@GwtCompatible
+abstract class AbstractSortedKeySortedSetMultimap<K, V> extends AbstractSortedSetMultimap<K, V> {
+   AbstractSortedKeySortedSetMultimap(SortedMap<K, Collection<V>> map) {
+      super(map);
+   }
+
+   public SortedMap<K, Collection<V>> asMap() {
+      return (SortedMap)super.asMap();
+   }
+
+   SortedMap<K, Collection<V>> backingMap() {
+      return (SortedMap)super.backingMap();
+   }
+
+   public SortedSet<K> keySet() {
+      return (SortedSet)super.keySet();
+   }
+
+   Set<K> createKeySet() {
+      return this.createMaybeNavigableKeySet();
+   }
+}

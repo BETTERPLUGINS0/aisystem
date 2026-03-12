@@ -1,0 +1,6 @@
+fr.xephi.authme.libs.org.mariadb.jdbc.plugin.authentication.addon.ClearPasswordPlugin
+fr.xephi.authme.libs.org.mariadb.jdbc.plugin.authentication.addon.SendGssApiAuthPacket
+fr.xephi.authme.libs.org.mariadb.jdbc.plugin.authentication.standard.Ed25519PasswordPlugin
+fr.xephi.authme.libs.org.mariadb.jdbc.plugin.authentication.standard.NativePasswordPlugin
+fr.xephi.authme.libs.org.mariadb.jdbc.plugin.authentication.standard.SendPamAuthPacket
+fr.xephi.authme.libs.org.mariadb.jdbc.plugin.authentication.standard.CachingSha2PasswordPlugin
