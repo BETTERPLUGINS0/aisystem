@@ -1,0 +1,24 @@
+name: Playershop
+version: '2.1.4'
+main: me.ag4.playershop.PlayerShop
+api-version: 1.16
+authors: [ AG4 ]
+description: player shop plugin bedrock players supported (easy to use)
+website: ag4dev.xyz
+
+softdepend:
+  - ProtocolLib
+  - Vault
+  - Floodgate
+  - MultiverseCore
+  - DecentHolograms
+  - PlaceholderAPI
+  - WorldGuard
+
+commands:
+  playershop:
+    description: playershop main command
+
+permissions:
+  playershop.use:
+    description: playershop use permission

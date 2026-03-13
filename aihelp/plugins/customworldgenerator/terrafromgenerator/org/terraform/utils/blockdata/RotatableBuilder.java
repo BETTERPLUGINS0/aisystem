@@ -1,0 +1,53 @@
+package org.terraform.utils.blockdata;
+
+import org.bukkit.Bukkit;
+import org.bukkit.Material;
+import org.bukkit.block.BlockFace;
+import org.bukkit.block.data.Rotatable;
+import org.jetbrains.annotations.NotNull;
+import org.terraform.coregen.populatordata.PopulatorDataAbstract;
+import org.terraform.data.SimpleBlock;
+import org.terraform.data.Wall;
+import org.terraform.utils.GenUtils;
+
+public class RotatableBuilder {
+   @NotNull
+   private final Rotatable blockData;
+
+   public RotatableBuilder(@NotNull Material mat) {
+      this.blockData = (Rotatable)Bukkit.createBlockData(mat);
+   }
+
+   public RotatableBuilder(Material... mat) {
+      this.blockData = (Rotatable)Bukkit.createBlockData((Material)GenUtils.randChoice((Object[])mat));
+   }
+
+   @NotNull
+   public RotatableBuilder setRotation(@NotNull BlockFace face) {
+      this.blockData.setRotation(face);
+      return this;
+   }
+
+   @NotNull
+   public RotatableBuilder apply(@NotNull SimpleBlock block) {
+      block.setBlockData(this.blockData);
+      return this;
+   }
+
+   @NotNull
+   public RotatableBuilder apply(@NotNull Wall block) {
+      block.setBlockData(this.blockData);
+      return this;
+   }
+
+   @NotNull
+   public RotatableBuilder apply(@NotNull PopulatorDataAbstract data, int x, int y, int z) {
+      data.setBlockData(x, y, z, this.blockData);
+      return this;
+   }
+
+   @NotNull
+   public Rotatable get() {
+      return this.blockData;
+   }
+}

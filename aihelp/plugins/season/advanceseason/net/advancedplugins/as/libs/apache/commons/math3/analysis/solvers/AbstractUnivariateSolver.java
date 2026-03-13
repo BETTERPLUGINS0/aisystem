@@ -1,0 +1,28 @@
+/*
+ * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
+ */
+package net.advancedplugins.as.libs.apache.commons.math3.analysis.solvers;
+
+import net.advancedplugins.as.libs.apache.commons.math3.analysis.UnivariateFunction;
+import net.advancedplugins.as.libs.apache.commons.math3.analysis.solvers.BaseAbstractUnivariateSolver;
+import net.advancedplugins.as.libs.apache.commons.math3.analysis.solvers.UnivariateSolver;
+
+/*
+ * This class specifies class file version 49.0 but uses Java 6 signatures.  Assumed Java 6.
+ */
+public abstract class AbstractUnivariateSolver
+extends BaseAbstractUnivariateSolver<UnivariateFunction>
+implements UnivariateSolver {
+    protected AbstractUnivariateSolver(double d) {
+        super(d);
+    }
+
+    protected AbstractUnivariateSolver(double d, double d2) {
+        super(d, d2);
+    }
+
+    protected AbstractUnivariateSolver(double d, double d2, double d3) {
+        super(d, d2, d3);
+    }
+}
+

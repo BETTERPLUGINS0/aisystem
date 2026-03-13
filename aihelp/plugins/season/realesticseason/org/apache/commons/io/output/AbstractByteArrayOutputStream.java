@@ -1,0 +1,207 @@
+package org.apache.commons.io.output;
+
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.io.SequenceInputStream;
+import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+import org.apache.commons.io.IOUtils;
+import org.apache.commons.io.input.ClosedInputStream;
+
+public abstract class AbstractByteArrayOutputStream extends OutputStream {
+   static final int DEFAULT_SIZE = 1024;
+   private final List<byte[]> buffers = new ArrayList();
+   private int currentBufferIndex;
+   private int filledBufferSum;
+   private byte[] currentBuffer;
+   protected int count;
+   private boolean reuseBuffers = true;
+
+   protected void needNewBuffer(int var1) {
+      if (this.currentBufferIndex < this.buffers.size() - 1) {
+         this.filledBufferSum += this.currentBuffer.length;
+         ++this.currentBufferIndex;
+         this.currentBuffer = (byte[])this.buffers.get(this.currentBufferIndex);
+      } else {
+         int var2;
+         if (this.currentBuffer == null) {
+            var2 = var1;
+            this.filledBufferSum = 0;
+         } else {
+            var2 = Math.max(this.currentBuffer.length << 1, var1 - this.filledBufferSum);
+            this.filledBufferSum += this.currentBuffer.length;
+         }
+
+         ++this.currentBufferIndex;
+         this.currentBuffer = IOUtils.byteArray(var2);
+         this.buffers.add(this.currentBuffer);
+      }
+
+   }
+
+   public abstract void write(byte[] var1, int var2, int var3);
+
+   protected void writeImpl(byte[] var1, int var2, int var3) {
+      int var4 = this.count + var3;
+      int var5 = var3;
+      int var6 = this.count - this.filledBufferSum;
+
+      while(var5 > 0) {
+         int var7 = Math.min(var5, this.currentBuffer.length - var6);
+         System.arraycopy(var1, var2 + var3 - var5, this.currentBuffer, var6, var7);
+         var5 -= var7;
+         if (var5 > 0) {
+            this.needNewBuffer(var4);
+            var6 = 0;
+         }
+      }
+
+      this.count = var4;
+   }
+
+   public abstract void write(int var1);
+
+   protected void writeImpl(int var1) {
+      int var2 = this.count - this.filledBufferSum;
+      if (var2 == this.currentBuffer.length) {
+         this.needNewBuffer(this.count + 1);
+         var2 = 0;
+      }
+
+      this.currentBuffer[var2] = (byte)var1;
+      ++this.count;
+   }
+
+   public abstract int write(InputStream var1);
+
+   protected int writeImpl(InputStream var1) {
+      int var2 = 0;
+      int var3 = this.count - this.filledBufferSum;
+
+      for(int var4 = var1.read(this.currentBuffer, var3, this.currentBuffer.length - var3); var4 != -1; var4 = var1.read(this.currentBuffer, var3, this.currentBuffer.length - var3)) {
+         var2 += var4;
+         var3 += var4;
+         this.count += var4;
+         if (var3 == this.currentBuffer.length) {
+            this.needNewBuffer(this.currentBuffer.length);
+            var3 = 0;
+         }
+      }
+
+      return var2;
+   }
+
+   public abstract int size();
+
+   public void close() {
+   }
+
+   public abstract void reset();
+
+   protected void resetImpl() {
+      this.count = 0;
+      this.filledBufferSum = 0;
+      this.currentBufferIndex = 0;
+      if (this.reuseBuffers) {
+         this.currentBuffer = (byte[])this.buffers.get(this.currentBufferIndex);
+      } else {
+         this.currentBuffer = null;
+         int var1 = ((byte[])this.buffers.get(0)).length;
+         this.buffers.clear();
+         this.needNewBuffer(var1);
+         this.reuseBuffers = true;
+      }
+
+   }
+
+   public abstract void writeTo(OutputStream var1);
+
+   protected void writeToImpl(OutputStream var1) {
+      int var2 = this.count;
+      Iterator var3 = this.buffers.iterator();
+
+      while(var3.hasNext()) {
+         byte[] var4 = (byte[])var3.next();
+         int var5 = Math.min(var4.length, var2);
+         var1.write(var4, 0, var5);
+         var2 -= var5;
+         if (var2 == 0) {
+            break;
+         }
+      }
+
+   }
+
+   public abstract InputStream toInputStream();
+
+   protected <T extends InputStream> InputStream toInputStream(AbstractByteArrayOutputStream.InputStreamConstructor<T> var1) {
+      int var2 = this.count;
+      if (var2 == 0) {
+         return ClosedInputStream.CLOSED_INPUT_STREAM;
+      } else {
+         ArrayList var3 = new ArrayList(this.buffers.size());
+         Iterator var4 = this.buffers.iterator();
+
+         while(var4.hasNext()) {
+            byte[] var5 = (byte[])var4.next();
+            int var6 = Math.min(var5.length, var2);
+            var3.add(var1.construct(var5, 0, var6));
+            var2 -= var6;
+            if (var2 == 0) {
+               break;
+            }
+         }
+
+         this.reuseBuffers = false;
+         return new SequenceInputStream(Collections.enumeration(var3));
+      }
+   }
+
+   public abstract byte[] toByteArray();
+
+   protected byte[] toByteArrayImpl() {
+      int var1 = this.count;
+      if (var1 == 0) {
+         return IOUtils.EMPTY_BYTE_ARRAY;
+      } else {
+         byte[] var2 = IOUtils.byteArray(var1);
+         int var3 = 0;
+         Iterator var4 = this.buffers.iterator();
+
+         while(var4.hasNext()) {
+            byte[] var5 = (byte[])var4.next();
+            int var6 = Math.min(var5.length, var1);
+            System.arraycopy(var5, 0, var2, var3, var6);
+            var3 += var6;
+            var1 -= var6;
+            if (var1 == 0) {
+               break;
+            }
+         }
+
+         return var2;
+      }
+   }
+
+   /** @deprecated */
+   @Deprecated
+   public String toString() {
+      return new String(this.toByteArray(), Charset.defaultCharset());
+   }
+
+   public String toString(String var1) {
+      return new String(this.toByteArray(), var1);
+   }
+
+   public String toString(Charset var1) {
+      return new String(this.toByteArray(), var1);
+   }
+
+   @FunctionalInterface
+   protected interface InputStreamConstructor<T extends InputStream> {
+      T construct(byte[] var1, int var2, int var3);
+   }
+}

@@ -1,0 +1,76 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>me.casperge.realisticseasons</groupId>
+    <artifactId>RealisticSeasonsMaven</artifactId>
+    <version>6.12</version>
+  </parent>
+  <artifactId>1_18_R2</artifactId>
+  
+ <build>
+  <pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.13.0</version>
+        <configuration>
+          <source>17</source>
+          <target>17</target>
+          <release>17</release> <!-- Optional: Ensures compatibility with JDK 17 -->
+          <executable>C:/Program Files/Zulu/zulu-17/bin/java.exe</executable>
+        </configuration>
+      </plugin>
+    </plugins>
+  </pluginManagement>
+</build>
+
+  
+  <repositories>
+  
+  	 	
+    	
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        
+        
+        <repository>
+    		<id>dmulloy2-repo</id>
+    		<url>https://repo.dmulloy2.net/repository/public/</url>
+  		</repository>
+       
+    </repositories>
+    
+    
+
+  <dependencies>
+  
+  		
+  
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot</artifactId>
+            <version>1.18.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+   			<groupId>com.comphenix.protocol</groupId>
+    		<artifactId>ProtocolLib</artifactId>
+    		<version>4.7.0</version>
+  		</dependency>
+        
+        <dependency>
+            <groupId>me.casperge.realisticseasons</groupId>
+            <artifactId>Interfaces</artifactId>
+            <version>6.12</version>
+        </dependency>
+        
+        
+        
+        
+   </dependencies>
+  
+</project>

@@ -1,0 +1,4 @@
+de.crazydev22.slimjar.helper:spigot:2.1.5
+de.crazydev22.slimjar:runtime:2.1.5
+
+# 61864UJGHMQADW490D8YLZ56O35

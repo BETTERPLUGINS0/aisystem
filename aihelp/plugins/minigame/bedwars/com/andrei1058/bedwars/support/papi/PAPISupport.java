@@ -1,0 +1,244 @@
+/*
+ * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
+ * 
+ * Could not load the following classes:
+ *  me.clip.placeholderapi.expansion.PlaceholderExpansion
+ *  org.bukkit.entity.Player
+ *  org.jetbrains.annotations.NotNull
+ */
+package com.andrei1058.bedwars.support.papi;
+
+import com.andrei1058.bedwars.BedWars;
+import com.andrei1058.bedwars.api.arena.GameState;
+import com.andrei1058.bedwars.api.arena.IArena;
+import com.andrei1058.bedwars.api.arena.team.ITeam;
+import com.andrei1058.bedwars.api.language.Language;
+import com.andrei1058.bedwars.api.language.Messages;
+import com.andrei1058.bedwars.arena.Arena;
+import com.andrei1058.bedwars.commands.shout.ShoutCommand;
+import com.andrei1058.bedwars.stats.PlayerStats;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
+import java.time.Duration;
+import java.time.Instant;
+import me.clip.placeholderapi.expansion.PlaceholderExpansion;
+import org.bukkit.entity.Player;
+import org.jetbrains.annotations.NotNull;
+
+public class PAPISupport
+extends PlaceholderExpansion {
+    @NotNull
+    public String getIdentifier() {
+        return "bw1058";
+    }
+
+    @NotNull
+    public String getAuthor() {
+        return "andrei1058";
+    }
+
+    @NotNull
+    public String getVersion() {
+        return BedWars.plugin.getDescription().getVersion();
+    }
+
+    public boolean persist() {
+        return true;
+    }
+
+    public String onPlaceholderRequest(Player player, @NotNull String s) {
+        if (s.startsWith("arena_status_")) {
+            IArena a = Arena.getArenaByName(s.replace("arena_status_", ""));
+            if (a == null) {
+                return player == null ? Language.getDefaultLanguage().m(Messages.ARENA_STATUS_RESTARTING_NAME) : Language.getMsg(player, Messages.ARENA_STATUS_RESTARTING_NAME);
+            }
+            return a.getDisplayStatus(Language.getDefaultLanguage());
+        }
+        if (s.startsWith("arena_count_")) {
+            String[] arenas;
+            int players = 0;
+            for (String arena : arenas = s.replace("arena_count_", "").split("\\+")) {
+                IArena a = Arena.getArenaByName(arena);
+                if (a == null) continue;
+                players += a.getPlayers().size();
+            }
+            return String.valueOf(players);
+        }
+        if (s.startsWith("group_count_")) {
+            return String.valueOf(Arena.getPlayers(s.replace("group_count_", "")));
+        }
+        if (s.startsWith("arena_group_")) {
+            String a = s.replace("arena_group_", "");
+            IArena arena = Arena.getArenaByName(a);
+            if (arena != null) {
+                return arena.getGroup();
+            }
+            return "-";
+        }
+        if (player == null) {
+            return null;
+        }
+        if (s.startsWith("stats_")) {
+            String targetedStat = s.replaceFirst("stats_", "");
+            if (targetedStat.isEmpty() || targetedStat.isBlank()) {
+                return null;
+            }
+            PlayerStats stats = BedWars.getStatsManager().getUnsafe(player.getUniqueId());
+            if (stats == null) {
+                return null;
+            }
+            switch (targetedStat) {
+                case "firstplay": {
+                    Instant firstPlay = stats.getFirstPlay();
+                    return new SimpleDateFormat(Language.getMsg(player, Messages.FORMATTING_STATS_DATE_FORMAT)).format(firstPlay != null ? Timestamp.from(firstPlay) : null);
+                }
+                case "lastplay": {
+                    Instant lastPlay = stats.getLastPlay();
+                    return new SimpleDateFormat(Language.getMsg(player, Messages.FORMATTING_STATS_DATE_FORMAT)).format(lastPlay != null ? Timestamp.from(lastPlay) : null);
+                }
+                case "total_kills": {
+                    return String.valueOf(stats.getTotalKills());
+                }
+                case "kills": {
+                    return String.valueOf(stats.getKills());
+                }
+                case "wins": {
+                    return String.valueOf(stats.getWins());
+                }
+                case "finalkills": {
+                    return String.valueOf(stats.getFinalKills());
+                }
+                case "deaths": {
+                    return String.valueOf(stats.getDeaths());
+                }
+                case "losses": {
+                    return String.valueOf(stats.getLosses());
+                }
+                case "finaldeaths": {
+                    return String.valueOf(stats.getFinalDeaths());
+                }
+                case "bedsdestroyed": {
+                    return String.valueOf(stats.getBedsDestroyed());
+                }
+                case "gamesplayed": {
+                    return String.valueOf(stats.getGamesPlayed());
+                }
+            }
+        }
+        Object response = "";
+        IArena a = Arena.getArenaByPlayer(player);
+        switch (s) {
+            case "current_online": {
+                response = String.valueOf(Arena.getArenaByPlayer().size());
+                break;
+            }
+            case "current_arenas": {
+                response = String.valueOf(Arena.getArenas().size());
+                break;
+            }
+            case "current_playing": {
+                if (a == null) break;
+                response = String.valueOf(a.getPlayers().size());
+                break;
+            }
+            case "player_team_color": {
+                ITeam team;
+                if (a == null || !a.isPlayer(player) || a.getStatus() != GameState.playing || (team = a.getTeam(player)) == null) break;
+                response = (String)response + String.valueOf(team.getColor().chat());
+                break;
+            }
+            case "player_team": {
+                if (a == null) break;
+                if (ShoutCommand.isShout(player)) {
+                    response = (String)response + Language.getMsg(player, Messages.FORMAT_PAPI_PLAYER_TEAM_SHOUT);
+                }
+                if (a.isPlayer(player)) {
+                    ITeam bwt;
+                    if (a.getStatus() != GameState.playing || (bwt = a.getTeam(player)) == null) break;
+                    response = (String)response + Language.getMsg(player, Messages.FORMAT_PAPI_PLAYER_TEAM_TEAM).replace("{TeamName}", bwt.getDisplayName(Language.getPlayerLanguage(player))).replace("{TeamColor}", String.valueOf(bwt.getColor().chat()));
+                    break;
+                }
+                response = (String)response + Language.getMsg(player, Messages.FORMAT_PAPI_PLAYER_TEAM_SPECTATOR);
+                break;
+            }
+            case "player_level": {
+                response = BedWars.getLevelSupport().getLevel(player);
+                break;
+            }
+            case "player_level_raw": {
+                response = String.valueOf(BedWars.getLevelSupport().getPlayerLevel(player));
+                break;
+            }
+            case "player_progress": {
+                response = BedWars.getLevelSupport().getProgressBar(player);
+                break;
+            }
+            case "player_xp_formatted": {
+                response = BedWars.getLevelSupport().getCurrentXpFormatted(player);
+                break;
+            }
+            case "player_xp": {
+                response = String.valueOf(BedWars.getLevelSupport().getCurrentXp(player));
+                break;
+            }
+            case "player_rerq_xp_formatted": {
+                response = BedWars.getLevelSupport().getRequiredXpFormatted(player);
+                break;
+            }
+            case "player_rerq_xp": {
+                response = String.valueOf(BedWars.getLevelSupport().getRequiredXp(player));
+                break;
+            }
+            case "player_status": {
+                if (a != null) {
+                    switch (a.getStatus()) {
+                        case waiting: 
+                        case starting: {
+                            response = "WAITING";
+                            break;
+                        }
+                        case playing: {
+                            if (a.isPlayer(player)) {
+                                response = "PLAYING";
+                                break;
+                            }
+                            if (a.isSpectator(player)) {
+                                response = "SPECTATING";
+                                break;
+                            }
+                            response = "IN_GAME_BUT_NOT";
+                            break;
+                        }
+                        case restarting: {
+                            response = "RESTARTING";
+                        }
+                    }
+                    break;
+                }
+                response = "NONE";
+                break;
+            }
+            case "current_arena_group": {
+                if (a == null) break;
+                response = a.getGroup();
+                break;
+            }
+            case "elapsed_time": {
+                if (a == null) break;
+                Instant startTime = a.getStartTime();
+                if (null != startTime) {
+                    Duration time = Duration.ofMillis(Instant.now().minusMillis(startTime.toEpochMilli()).toEpochMilli());
+                    if (time.toHours() == 0L) {
+                        response = String.format("%02d:%02d", time.toMinutes(), time.toSeconds());
+                        break;
+                    }
+                    response = String.format("%02d:%02d:%02d", time.toHours(), time.toMinutes(), time.toSeconds());
+                    break;
+                }
+                response = "";
+            }
+        }
+        return response;
+    }
+}
+

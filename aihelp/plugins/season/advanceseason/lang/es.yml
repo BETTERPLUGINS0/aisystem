@@ -1,0 +1,40 @@
+prefix: "&6AdvancedSeasons "
+temperature:
+  actionBar: '%icon% &b%temperature%°%unit% %season%                             '
+  icon:
+    sun: "&6☀" # Shown during the day when sky is clear
+    moon: "&7☽" # Shown at night when sky is clear
+    rain: "&3☂" # Shown when raining
+    snow: "&b✻" # Shown when snowing
+  eventMessage: '&fAhora estás &r%event%!'
+  events:
+    freeze: '&5Congelándote'
+    ice_forming: '&bCongelándote lentamente'
+    shivering: '&dTemblando'
+    breath_visibility: '&f&oEnfriándote'
+    warmth: '&eCálido'
+    sweating: '&cSudando'
+    heatstroke: '&4Teniendo un golpe de calor'
+
+times:
+  MORNING: 'Mañana'
+  DAY: 'Mediodía'
+  EVENING: 'Tarde'
+  NIGHT: 'Noche'
+
+seasons:
+  SPRING: 'Primavera'
+  SUMMER: 'Verano'
+  FALL: 'Otoño'
+  WINTER: 'Invierno'
+
+messages:
+  notAllowedWorld: "&cLas estaciones no están permitidas en el mundo &e%world%&c"
+  notEnoughMoney: '%prefix% &cNo tienes suficiente EXPERIENCIA para comprar este objeto!'
+  purchasedItem: '%prefix% &aHas comprado el objeto %item name% por %price%!'
+  biomeInfo:
+    - "%prefix% &fActualmente, te encuentras en:"
+    - "  &fBioma: &b%biome%"
+    - "  &fTemperatura: &b%temperature%°%unit%"
+    - "  &fEstación: &b%season%"
+  toggleUnits: "%prefix% &fHas cambiado tus unidades de temperatura a &b%unit%!"

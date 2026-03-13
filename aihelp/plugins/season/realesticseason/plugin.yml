@@ -1,0 +1,37 @@
+name: RealisticSeasons
+main: me.casperge.realisticseasons.RealisticSeasons
+version: 11.10.3
+api-version: 1.13
+depend: [ProtocolLib]
+softdepend: [PlaceholderAPI, WorldGuard, WorldEdit, Multiverse-Core, floodgate, dynmap, MythicMobs, ViaVersion, ViaBackwards, ViaRewind, BlueMap, Factions, GriefPrevention, Lands]
+commands:
+   season:
+      description: Display current season info
+      usage: /<command>
+   realisticseasons:
+      description: Main realisticseasons command
+      usage: /<command>
+   rs:
+      description: Alias of realisticseasons
+      usage: /<command>
+   toggleseasoncolors:
+      description: Toggle colors of seasons, a personal setting.
+      usage: /<command>
+   toggletemperature:
+      description: Toggle temperature, a personal setting.
+      usage: /<command>
+   toggleseasonparticles:
+      description: Toggle all seasons particles, a personal setting.
+      usage: /<command>
+   togglefahrenheit:
+      description: Toggle between fahrenheit and celcius, a personal setting
+      usage: /<command>
+   currentbiome:
+      description: View name of biome currently in
+      usage: /<command>
+   seasondump:
+      description: Uploads information about server to the support server. Should only be used when asked by support and requires a special key.
+      usage: /<command>
+      
+
+   

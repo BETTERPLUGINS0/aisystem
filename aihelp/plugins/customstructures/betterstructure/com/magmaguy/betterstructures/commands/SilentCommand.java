@@ -1,0 +1,26 @@
+/*
+ * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
+ */
+package com.magmaguy.betterstructures.commands;
+
+import com.magmaguy.betterstructures.config.DefaultConfig;
+import com.magmaguy.magmacore.command.AdvancedCommand;
+import com.magmaguy.magmacore.command.CommandData;
+import com.magmaguy.magmacore.util.Logger;
+import java.util.List;
+
+public class SilentCommand
+extends AdvancedCommand {
+    public SilentCommand() {
+        super(List.of((Object)"silent"));
+        this.setUsage("/betterstructures silent");
+        this.setDescription("Silences the warnings about structures appearing for admins.");
+    }
+
+    @Override
+    public void execute(CommandData commandData) {
+        DefaultConfig.toggleWarnings();
+        Logger.sendMessage(commandData.getCommandSender(), "&2Toggled build warnings to " + DefaultConfig.isNewBuildingWarn() + "!");
+    }
+}
+

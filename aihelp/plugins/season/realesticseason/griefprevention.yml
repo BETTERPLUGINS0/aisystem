@@ -1,0 +1,8 @@
+#Configuration file for integration with the plugin GriefPrevention
+claimed-areas:
+   seasons-enabled: true
+   seasonal-block-changes: true
+   seasonal-mob-spawns: true
+   fixed-temperature:
+      enabled: false
+      value: 25

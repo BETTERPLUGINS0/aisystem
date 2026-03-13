@@ -1,0 +1,16 @@
+/*
+ * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
+ */
+package org.apache.commons.io;
+
+import org.apache.commons.io.IOUtils;
+
+class IO {
+    IO() {
+    }
+
+    static void clear() {
+        IOUtils.clear();
+    }
+}
+

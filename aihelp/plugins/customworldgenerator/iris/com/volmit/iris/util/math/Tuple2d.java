@@ -1,0 +1,263 @@
+package com.volmit.iris.util.math;
+
+import com.volmit.iris.Iris;
+import java.io.Serializable;
+
+public abstract class Tuple2d implements Serializable, Cloneable {
+   static final long serialVersionUID = 6205762482756093838L;
+   public double x;
+   public double y;
+
+   public Tuple2d(double x, double y) {
+      this.x = var1;
+      this.y = var3;
+   }
+
+   public Tuple2d(double[] t) {
+      this.x = var1[0];
+      this.y = var1[1];
+   }
+
+   public Tuple2d(Tuple2d t1) {
+      this.x = var1.x;
+      this.y = var1.y;
+   }
+
+   public Tuple2d(Tuple2f t1) {
+      this.x = (double)var1.x;
+      this.y = (double)var1.y;
+   }
+
+   public Tuple2d() {
+      this.x = 0.0D;
+      this.y = 0.0D;
+   }
+
+   public final void set(double x, double y) {
+      this.x = var1;
+      this.y = var3;
+   }
+
+   public final void set(double[] t) {
+      this.x = var1[0];
+      this.y = var1[1];
+   }
+
+   public final void set(Tuple2d t1) {
+      this.x = var1.x;
+      this.y = var1.y;
+   }
+
+   public final void set(Tuple2f t1) {
+      this.x = (double)var1.x;
+      this.y = (double)var1.y;
+   }
+
+   public final void get(double[] t) {
+      var1[0] = this.x;
+      var1[1] = this.y;
+   }
+
+   public final void add(Tuple2d t1, Tuple2d t2) {
+      this.x = var1.x + var2.x;
+      this.y = var1.y + var2.y;
+   }
+
+   public final void add(Tuple2d t1) {
+      this.x += var1.x;
+      this.y += var1.y;
+   }
+
+   public final void sub(Tuple2d t1, Tuple2d t2) {
+      this.x = var1.x - var2.x;
+      this.y = var1.y - var2.y;
+   }
+
+   public final void sub(Tuple2d t1) {
+      this.x -= var1.x;
+      this.y -= var1.y;
+   }
+
+   public final void negate(Tuple2d t1) {
+      this.x = -var1.x;
+      this.y = -var1.y;
+   }
+
+   public final void negate() {
+      this.x = -this.x;
+      this.y = -this.y;
+   }
+
+   public final void scale(double s, Tuple2d t1) {
+      this.x = var1 * var3.x;
+      this.y = var1 * var3.y;
+   }
+
+   public final void scale(double s) {
+      this.x *= var1;
+      this.y *= var1;
+   }
+
+   public final void scaleAdd(double s, Tuple2d t1, Tuple2d t2) {
+      this.x = var1 * var3.x + var4.x;
+      this.y = var1 * var3.y + var4.y;
+   }
+
+   public final void scaleAdd(double s, Tuple2d t1) {
+      this.x = var1 * this.x + var3.x;
+      this.y = var1 * this.y + var3.y;
+   }
+
+   public int hashCode() {
+      long var1 = 1L;
+      var1 = 31L * var1 + VecMathUtil.doubleToLongBits(this.x);
+      var1 = 31L * var1 + VecMathUtil.doubleToLongBits(this.y);
+      return (int)(var1 ^ var1 >> 32);
+   }
+
+   public boolean equals(Tuple2d t1) {
+      try {
+         return this.x == var1.x && this.y == var1.y;
+      } catch (NullPointerException var3) {
+         Iris.reportError(var3);
+         return false;
+      }
+   }
+
+   public boolean equals(Object t1) {
+      try {
+         Tuple2d var2 = (Tuple2d)var1;
+         return this.x == var2.x && this.y == var2.y;
+      } catch (ClassCastException | NullPointerException var3) {
+         Iris.reportError(var3);
+         return false;
+      }
+   }
+
+   public boolean epsilonEquals(Tuple2d t1, double epsilon) {
+      double var4 = this.x - var1.x;
+      if (Double.isNaN(var4)) {
+         return false;
+      } else if ((var4 < 0.0D ? -var4 : var4) > var2) {
+         return false;
+      } else {
+         var4 = this.y - var1.y;
+         if (Double.isNaN(var4)) {
+            return false;
+         } else {
+            return !((var4 < 0.0D ? -var4 : var4) > var2);
+         }
+      }
+   }
+
+   public String toString() {
+      return "(" + this.x + ", " + this.y + ")";
+   }
+
+   public final void clamp(double min, double max, Tuple2d t) {
+      if (var5.x > var3) {
+         this.x = var3;
+      } else {
+         this.x = Math.max(var5.x, var1);
+      }
+
+      if (var5.y > var3) {
+         this.y = var3;
+      } else {
+         this.y = Math.max(var5.y, var1);
+      }
+
+   }
+
+   public final void clampMin(double min, Tuple2d t) {
+      this.x = Math.max(var3.x, var1);
+      this.y = Math.max(var3.y, var1);
+   }
+
+   public final void clampMax(double max, Tuple2d t) {
+      this.x = Math.min(var3.x, var1);
+      this.y = Math.min(var3.y, var1);
+   }
+
+   public final void absolute(Tuple2d t) {
+      this.x = Math.abs(var1.x);
+      this.y = Math.abs(var1.y);
+   }
+
+   public final void clamp(double min, double max) {
+      if (this.x > var3) {
+         this.x = var3;
+      } else if (this.x < var1) {
+         this.x = var1;
+      }
+
+      if (this.y > var3) {
+         this.y = var3;
+      } else if (this.y < var1) {
+         this.y = var1;
+      }
+
+   }
+
+   public final void clampMin(double min) {
+      if (this.x < var1) {
+         this.x = var1;
+      }
+
+      if (this.y < var1) {
+         this.y = var1;
+      }
+
+   }
+
+   public final void clampMax(double max) {
+      if (this.x > var1) {
+         this.x = var1;
+      }
+
+      if (this.y > var1) {
+         this.y = var1;
+      }
+
+   }
+
+   public final void absolute() {
+      this.x = Math.abs(this.x);
+      this.y = Math.abs(this.y);
+   }
+
+   public final void interpolate(Tuple2d t1, Tuple2d t2, double alpha) {
+      this.x = (1.0D - var3) * var1.x + var3 * var2.x;
+      this.y = (1.0D - var3) * var1.y + var3 * var2.y;
+   }
+
+   public final void interpolate(Tuple2d t1, double alpha) {
+      this.x = (1.0D - var2) * this.x + var2 * var1.x;
+      this.y = (1.0D - var2) * this.y + var2 * var1.y;
+   }
+
+   public Object clone() {
+      try {
+         return super.clone();
+      } catch (CloneNotSupportedException var2) {
+         Iris.reportError(var2);
+         throw new InternalError();
+      }
+   }
+
+   public final double getX() {
+      return this.x;
+   }
+
+   public final void setX(double x) {
+      this.x = var1;
+   }
+
+   public final double getY() {
+      return this.y;
+   }
+
+   public final void setY(double y) {
+      this.y = var1;
+   }
+}

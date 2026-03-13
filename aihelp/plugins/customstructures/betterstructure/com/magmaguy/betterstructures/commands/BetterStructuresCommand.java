@@ -1,0 +1,31 @@
+/*
+ * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
+ */
+package com.magmaguy.betterstructures.commands;
+
+import com.magmaguy.magmacore.command.AdvancedCommand;
+import com.magmaguy.magmacore.command.CommandData;
+import com.magmaguy.magmacore.command.SenderType;
+import com.magmaguy.magmacore.util.Logger;
+import java.util.ArrayList;
+
+public class BetterStructuresCommand
+extends AdvancedCommand {
+    public BetterStructuresCommand() {
+        super(new ArrayList<String>());
+        this.setUsage("/bs");
+        this.setPermission("betterstructures.*");
+        this.setDescription("A basic help command for BetterStructures.");
+        this.setSenderType(SenderType.PLAYER);
+    }
+
+    @Override
+    public void execute(CommandData commandData) {
+        Logger.sendMessage(commandData.getCommandSender(), "BetterStructures is a plugin that adds random structures to your Minecraft world!");
+        Logger.sendMessage(commandData.getCommandSender(), "You can check installed content and download structure packs in the &2/betterstructures setup &fcommand.");
+        Logger.sendMessage(commandData.getCommandSender(), "If your Nightbreak account is linked, you can install everything with &2/betterstructures downloadall&f.");
+        Logger.sendMessage(commandData.getCommandSender(), "Once a pack is installed, structures will automatically generate in freshly generated chunks. You do not have to run any commands for this to happen.");
+        Logger.sendMessage(commandData.getCommandSender(), "By default, OPs will get notified about new structures generating until they disable these messages.");
+    }
+}
+

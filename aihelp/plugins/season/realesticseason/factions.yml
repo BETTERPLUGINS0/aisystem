@@ -1,0 +1,29 @@
+#Configuration file for integration with the plugin Factions
+wilderness:
+   seasons-enabled: true
+   seasonal-block-changes: true
+   seasonal-mob-spawns: true
+   fixed-temperature:
+      enabled: false
+      value: 25
+safezone:
+   seasons-enabled: true
+   seasonal-block-changes: true
+   seasonal-mob-spawns: true
+   fixed-temperature:
+      enabled: false
+      value: 25
+warzone:
+   seasons-enabled: true
+   seasonal-block-changes: true
+   seasonal-mob-spawns: true
+   fixed-temperature:
+      enabled: false
+      value: 25
+claimed-areas:
+   seasons-enabled: true
+   seasonal-block-changes: true
+   seasonal-mob-spawns: true
+   fixed-temperature:
+      enabled: false
+      value: 25

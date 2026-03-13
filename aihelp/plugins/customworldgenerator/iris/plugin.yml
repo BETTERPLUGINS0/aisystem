@@ -1,0 +1,11 @@
+name: Iris
+version: 3.9.1-1.20.1-1.21.11
+main: com.volmit.iris.Iris
+load: STARTUP
+authors: [ cyberpwn, NextdoorPsycho, Vatuu ]
+website: volmit.com
+description: More than a Dimension!
+commands:
+  iris:
+    aliases: [ ir, irs ]
+api-version: '1.19'

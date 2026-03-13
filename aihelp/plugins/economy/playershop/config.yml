@@ -1,0 +1,64 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                      PlayerShop                      | #
+# |     Creator: AG4                                     | #
+# |     Website: https://ag4dev.xyz/                     | #
+# |     Discord: https://discord.gg/ZehW4qTTkC           | #
+# +------------------------------------------------------+ #
+############################################################
+
+Enabled-Worlds:
+  - 'world'
+  - 'shop'
+
+GUI-Item: DIAMOND
+
+#It is recommended to enable it if you do not use a private world.
+#If you disable it, the default chest will be used
+Craft:
+  Enable: true
+  Name: "&c&k* &a&lPlayerShop &c&k*"
+  Items-Craft: EMERALD
+
+#It does not work if you have Disable Craft (Please Enable Craft Section to use permission)
+# - playershop.use
+Permission:
+  Enable: false
+
+#DecentHolograms plugin required !!!
+Hologram:
+  Enable: false
+  First-Line: "#ICON: {item}"
+  Second-Line: "&a{price}$"
+
+#WorldGuard & WorldEdit plugins required !!!
+# Flag Name = playershop
+WorldGuard:
+  Enable: false
+
+#first give permission to player , playershop.<group>
+#If you want no limit set it to 0
+Group:
+  default: 5
+  vip: 10
+  mvp: 15
+
+## If you want to disable checking for some variables just delete the variable
+## Available variables ->
+## > DisplayName
+## > Material
+## > Lore
+## > CustomModelData
+BlackListItems:
+  FirstExample:
+    DisplayName: "&dBarrier"
+    Material: "barrier"
+    Lore: "&fSome text that will be searched in each line."
+    CustomModelData: "0"
+  SecondExample:
+    Material: "command_block"
+    Lore: "&fSome text that will be searched in each line."
+
+#send the plugin link when typing /playershop
+#If it is set to false, just OP get the link
+Plugin-Link: true

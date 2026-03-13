@@ -1,0 +1,7 @@
+github.nighter.smartspawner.libs.mariadb.plugin.authentication.addon.ClearPasswordPluginFactory
+github.nighter.smartspawner.libs.mariadb.plugin.authentication.addon.SendGssApiAuthPacketFactory
+github.nighter.smartspawner.libs.mariadb.plugin.authentication.standard.Ed25519PasswordPluginFactory
+github.nighter.smartspawner.libs.mariadb.plugin.authentication.standard.NativePasswordPluginFactory
+github.nighter.smartspawner.libs.mariadb.plugin.authentication.standard.SendPamAuthPacketFactory
+github.nighter.smartspawner.libs.mariadb.plugin.authentication.standard.CachingSha2PasswordPluginFactory
+github.nighter.smartspawner.libs.mariadb.plugin.authentication.standard.ParsecPasswordPluginFactory

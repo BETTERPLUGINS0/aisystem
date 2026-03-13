@@ -1,0 +1,67 @@
+/*
+ * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
+ * 
+ * Could not load the following classes:
+ *  org.bukkit.Bukkit
+ *  org.bukkit.event.EventHandler
+ *  org.bukkit.event.Listener
+ *  org.bukkit.event.player.PlayerJoinEvent
+ *  org.bukkit.plugin.Plugin
+ *  org.bukkit.util.Vector
+ */
+package com.andrei1058.bedwars.support.vipfeatures;
+
+import com.andrei1058.bedwars.BedWars;
+import com.andrei1058.bedwars.api.arena.IArena;
+import com.andrei1058.bedwars.api.arena.team.ITeam;
+import com.andrei1058.bedwars.api.events.player.PlayerJoinArenaEvent;
+import com.andrei1058.bedwars.api.server.ServerType;
+import com.andrei1058.vipfeatures.api.IVipFeatures;
+import com.andrei1058.vipfeatures.api.event.BlockChangeEvent;
+import org.bukkit.Bukkit;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerJoinEvent;
+import org.bukkit.plugin.Plugin;
+import org.bukkit.util.Vector;
+
+public class VipListeners
+implements Listener {
+    private final IVipFeatures api;
+
+    public VipListeners(IVipFeatures api) {
+        this.api = api;
+    }
+
+    @EventHandler
+    public void onServerJoin(PlayerJoinEvent e) {
+        if (BedWars.getServerType() == ServerType.MULTIARENA) {
+            Bukkit.getScheduler().runTaskLater((Plugin)BedWars.plugin, () -> this.api.givePlayerItemStack(e.getPlayer()), 10L);
+        }
+    }
+
+    @EventHandler
+    public void onArenaJoin(PlayerJoinArenaEvent e) {
+        Bukkit.getScheduler().runTaskLater((Plugin)BedWars.plugin, () -> this.api.givePlayerItemStack(e.getPlayer()), 10L);
+    }
+
+    @EventHandler
+    public void onBockChange(BlockChangeEvent e) {
+        if (BedWars.getAPI().getArenaUtil().getArenaByName(e.getLocation().getWorld().getName()) != null) {
+            IArena a = BedWars.getAPI().getArenaUtil().getArenaByName(e.getLocation().getWorld().getName());
+            for (ITeam t : a.getTeams()) {
+                for (int x = -1; x < 2; ++x) {
+                    for (int z = -1; z < 2; ++z) {
+                        if (e.getLocation().getBlockX() != t.getBed().getBlockX() || e.getLocation().getBlockY() != t.getBed().getBlockY() || e.getLocation().getBlockZ() != t.getBed().getBlockZ()) continue;
+                        if (BedWars.nms.isBed(t.getBed().clone().add((double)x, 0.0, (double)z).getBlock().getType())) {
+                            e.setCancelled(true);
+                        }
+                        return;
+                    }
+                }
+            }
+            a.getPlaced().add(new Vector(e.getLocation().getBlockX(), e.getLocation().getBlockY(), e.getLocation().getBlockZ()));
+        }
+    }
+}
+
