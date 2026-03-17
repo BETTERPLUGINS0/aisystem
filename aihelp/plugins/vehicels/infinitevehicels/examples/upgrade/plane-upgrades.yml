@@ -1,0 +1,272 @@
+id: "plane-upgrades"
+material: "ELYTRA"
+display-name: "&bPlane Upgrades"
+slot: 8
+title: "Plane Upgrades"
+rows: 3
+
+upgrades:
+  engine_upgrade:
+    slot: 11
+    tiers:
+      1:
+        material: "PLAYER_HEAD"
+        head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI2ZWU3ZTMyYzUyNWVmM2MyZjY1NGQxOWQ1ZjY2YzA4MDhhZjU1OTc1ODcwYzcxNTU3OTI3MjU0OTg5MzQzIn19fQ=="
+        display-name: "&6Engine Upgrade I"
+        description:
+          - ""
+          - "&7Boosts your plane's engine power"
+          - "&7to level 1"
+          - ""
+          - "&8+ Increased top speed"
+          - "&8+ Faster acceleration"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "PLAYER_HEAD"
+          head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI2ZWU3ZTMyYzUyNWVmM2MyZjY1NGQxOWQ1ZjY2YzA4MDhhZjU1OTc1OTI3MjU0OTg5MzQzIn19fQ=="
+          display-name: "&6Engine Upgrade I"
+          description:
+            - ""
+            - "&7Boosts your plane's engine power"
+            - "&7to level 1"
+            - ""
+            - "&8+ Increased top speed"
+            - "&8+ Faster acceleration"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          max-positive-acceleration: 1.5
+          positive-acceleration: 0.08
+          deceleration: 0.015
+          rotation-angle: 7
+        requirements:
+          vault-money: 1200
+          exp: 12
+          level: 12
+      2:
+        material: "PLAYER_HEAD"
+        head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI2ZWU3ZTMyYzUyNWVmM2MyZjY1NGQxOWQ1ZjY2YzA4MDhhZjU1OTc1ODcwYzcxNTU3OTI3MjU0OTg5MzQzIn19fQ=="
+        display-name: "&6Engine Upgrade II"
+        description:
+          - ""
+          - "&7Significantly enhances engine performance"
+          - "&7to level 2"
+          - ""
+          - "&8++ Higher top speed"
+          - "&8++ Quicker acceleration"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "PLAYER_HEAD"
+          head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI2ZWU3ZTMyYzUyNWVmM2MyZjY1NGQxOWQ1ZjY2YzA4MDhhZjU1OTc1ODcwYzcxNTU3OTI3MjU0OTg5MzQzIn19fQ=="
+          display-name: "&6Engine Upgrade II"
+          description:
+            - ""
+            - "&7Significantly enhances engine performance"
+            - "&7to level 2"
+            - ""
+            - "&8++ Higher top speed"
+            - "&8++ Quicker acceleration"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          max-positive-acceleration: 1.8
+          positive-acceleration: 0.10
+          deceleration: 0.018
+          rotation-angle: 8
+        requirements:
+          vault-money: 1800
+          exp: 18
+          level: 18
+      3:
+        material: "PLAYER_HEAD"
+        head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI2ZWU3ZTMyYzUyNWVmM2MyZjY1NGQxOWQ1ZjY2YzA4MDhhZjU1OTc1ODcwYzcxNTU3OTI3MjU0OTg5MzQzIn19fQ=="
+        display-name: "&6Engine Upgrade III"
+        description:
+          - ""
+          - "&7Maximizes your plane's engine output"
+          - "&7to level 3"
+          - ""
+          - "&8+++ Elite top speed"
+          - "&8+++ Instant acceleration"
+          - ""
+          - "&7Click to upgrade"
+        selected-description:
+          - ""
+          - "&8+ Max top speed"
+          - "&8+ Max acceleration"
+          - ""
+          - "&cMAX LEVEL"
+        physical-item:
+          material: "PLAYER_HEAD"
+          head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI2ZWU3ZTMyYzUyNWVmM2MyZjY1NGQxOWQ1ZjY2YzA4MDhhZjU1OTc1ODcwYzcxNTU3OTI3MjU0OTg5MzQzIn19fQ=="
+          display-name: "&6Engine Upgrade III"
+          description:
+            - ""
+            - "&7Maximizes your plane's engine output"
+            - "&7to level 3"
+            - ""
+            - "&8+++ Elite top speed"
+            - "&8+++ Instant acceleration"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          max-positive-acceleration: 2.2
+          positive-acceleration: 0.12
+          deceleration: 0.02
+          rotation-angle: 9
+        requirements:
+          vault-money: 2500
+          exp: 25
+          level: 25
+
+  aerodynamics_upgrade:
+    slot: 13
+    tiers:
+      1:
+        material: "FEATHER"
+        display-name: "&aAerodynamics Upgrade I"
+        description:
+          - ""
+          - "&7Improves your plane's maneuverability"
+          - "&7to level 1"
+          - ""
+          - "&8+ Enhanced turning responsiveness"
+          - "&8+ Better stability in air"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "FEATHER"
+          display-name: "&aAerodynamics Upgrade I"
+          description:
+            - ""
+            - "&7Improves your plane's maneuverability"
+            - "&7to level 1"
+            - ""
+            - "&8+ Enhanced turning responsiveness"
+            - "&8+ Better stability in air"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          turning-angle-min: 4
+          turning-angle-max: 8
+          max-negative-acceleration: 0.4
+          negative-acceleration: 0.05
+        requirements:
+          vault-money: 800
+          exp: 8
+          level: 8
+      2:
+        material: "FEATHER"
+        display-name: "&aAerodynamics Upgrade II"
+        description:
+          - ""
+          - "&7Further refines flight control"
+          - "&7to level 2"
+          - ""
+          - "&8++ Sharper turns"
+          - "&8++ Superior air stability"
+          - ""
+          - "&7Click to upgrade"
+        selected-description:
+          - ""
+          - "&8+ Max turning precision"
+          - "&8+ Ultimate flight stability"
+          - ""
+          - "&cMAX LEVEL"
+        physical-item:
+          material: "FEATHER"
+          display-name: "&aAerodynamics Upgrade II"
+          description:
+            - ""
+            - "&7Further refines flight control"
+            - "&7to level 2"
+            - ""
+            - "&8++ Sharper turns"
+            - "&8++ Superior air stability"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          turning-angle-min: 6
+          turning-angle-max: 10
+          max-negative-acceleration: 0.5
+          negative-acceleration: 0.06
+        requirements:
+          vault-money: 1300
+          exp: 13
+          level: 13
+
+  landing_gear_upgrade:
+    slot: 15
+    tiers:
+      1:
+        material: "IRON_INGOT"
+        display-name: "&cLanding Gear Upgrade I"
+        description:
+          - ""
+          - "&7Enhances landing and takeoff capabilities"
+          - "&7to level 1"
+          - ""
+          - "&8+ Smoother landings"
+          - "&8+ Reduced takeoff distance"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "IRON_INGOT"
+          display-name: "&cLanding Gear Upgrade I"
+          description:
+            - ""
+            - "&7Enhances landing and takeoff capabilities"
+            - "&7to level 1"
+            - ""
+            - "&8+ Smoother landings"
+            - "&8+ Reduced takeoff distance"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          deceleration: 0.025
+          positive-acceleration-on-solid: 0.05 # Represents faster takeoff on solid ground
+          negative-acceleration-on-solid: 0.04 # Represents quicker braking on solid ground
+        requirements:
+          vault-money: 900
+          exp: 9
+          level: 9
+      2:
+        material: "IRON_INGOT"
+        display-name: "&cLanding Gear Upgrade II"
+        description:
+          - ""
+          - "&7Optimizes landing and takeoff for precision"
+          - "&7to level 2"
+          - ""
+          - "&8++ Ultra-smooth landings"
+          - "&8++ Minimal takeoff distance"
+          - ""
+          - "&7Click to upgrade"
+        selected-description:
+          - ""
+          - "&8+ Perfect landings"
+          - "&8+ Instant takeoff"
+          - ""
+          - "&cMAX LEVEL"
+        physical-item:
+          material: "IRON_INGOT"
+          display-name: "&cLanding Gear Upgrade II"
+          description:
+            - ""
+            - "&7Optimizes landing and takeoff for precision"
+            - "&7to level 2"
+            - ""
+            - "&8++ Ultra-smooth landings"
+            - "&8++ Minimal takeoff distance"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          deceleration: 0.03
+          positive-acceleration-on-solid: 0.06
+          negative-acceleration-on-solid: 0.05
+        requirements:
+          vault-money: 1500
+          exp: 15
+          level: 15

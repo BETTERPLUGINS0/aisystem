@@ -1,0 +1,29 @@
+/*
+ * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
+ */
+package me.zombie_striker.qav.hooks.worldguard.shaded.javassist.tools.web;
+
+import java.io.IOException;
+import java.net.Socket;
+import me.zombie_striker.qav.hooks.worldguard.shaded.javassist.tools.web.Webserver;
+
+class ServiceThread
+extends Thread {
+    Webserver web;
+    Socket sock;
+
+    public ServiceThread(Webserver webserver, Socket socket) {
+        this.web = webserver;
+        this.sock = socket;
+    }
+
+    @Override
+    public void run() {
+        try {
+            this.web.process(this.sock);
+        } catch (IOException iOException) {
+            // empty catch block
+        }
+    }
+}
+

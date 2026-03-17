@@ -1,0 +1,70 @@
+# vehicle projectiles go into the model of a vehicle, here are some examples:
+projectile-shooters:
+  #beam that damages entities
+  shooter0:
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 3.0
+    # possible binds: LEFT_CLICK, RIGHT_CLICK, SWAP_OFFHAND, CROUCH, JUMP
+    shoot-bind: LEFT_CLICK
+    projectile:
+      type: PARTICLE_BEAM
+      impact-type:
+        type: DAMAGE_ENTITY
+        damage: 2.0
+      duration: 5
+      pierce-amount: 0
+      particle-speed: 0.0
+      particle-amount: 1
+      particle-distance-blocks: 1.0
+  #exploding example
+  shooter1:
+    offset:
+      x: 1.0
+      y: 5.0
+      z: 1.0
+    shoot-bind: LEFT_CLICK
+    projectile:
+      type: PARTICLE_GRAVITY
+      impact-type:
+        type: EXPLODE
+        explosion-strength: 5.0
+      gravity: -0.006
+      y-force: 0.0
+      particle-speed: 0.0
+      particle-amount: 1
+      particle-distance-blocks: 1.0
+  #block example
+  shooter2:
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 3.0
+    shoot-bind: LEFT_CLICK
+    projectile:
+      type: BLOCK
+      impact-type:
+        type: EXPLODE
+        explosion-strength: 5.0
+      velocity-multiplier:
+        x: 1.0
+        y: 1.0
+        z: 1.0
+      block-data: minecraft:tnt[unstable=false]
+  #entity example
+  shooter3:
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 3.0
+    shoot-bind: LEFT_CLICK
+    projectile:
+      type: ENTITY
+      impact-type:
+        type: DESTROY_BLOCK
+      velocity-multiplier:
+        x: 1.0
+        y: 1.0
+        z: 1.0
+      entity: ARMOR_STAND

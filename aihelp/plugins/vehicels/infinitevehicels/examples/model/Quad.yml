@@ -1,0 +1,1651 @@
+id: quad
+type: COMPOUND
+hitbox:
+  width: 3.0543863844543107
+  height: 2.3981518765499414
+  depth: 3.0543863844543107
+seats:
+  seat-0:
+    main: false
+    offset:
+      x: -0.06200800302375674
+      y: 1.7413228107168446
+      z: -1.7742493088576055
+  seat-1:
+    main: true
+    offset:
+      x: -0.03205331480126238
+      y: 1.4380112556120042
+      z: 0.08763426118399131
+particles: { }
+sounds: { }
+parts:
+  part-84088674:
+    identifier: 9451747f-4e83-4642-b038-cd154ba38e40
+    id: part-84088674
+    material: GRAY_SHULKER_BOX
+    offset:
+      x: -0.6
+      y: 1.6007452833616724
+      z: -0.9369990856998432
+    rotation:
+      x: 35.000000000000036
+      y: -6.513394673234412E-16
+      z: 4.560728049533705E-16
+    scale:
+      x: 1.2581834263177107
+      y: 0.18496584951718714
+      z: 0.6325548183019627
+  part-8527611:
+    identifier: 9cf466b8-ed87-400b-a138-317d53842e00
+    id: part-8527611
+    material: YELLOW_CONCRETE
+    offset:
+      x: 0.6999999999999992
+      y: 0.6609919310716841
+      z: 0.9999999999999998
+    rotation:
+      x: -70.00000000000061
+      y: -4.6907866306768586E-14
+      z: 1.3773095122121823E-14
+    scale:
+      x: 0.3951001653805014
+      y: 0.10000000000000031
+      z: 1.0
+  part-24871194:
+    identifier: bc14bbd3-045f-45cf-a6f9-c32e7c59bbfd
+    id: part-24871194
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: -0.4907162813370406
+      y: 1.5031079970193928
+      z: 1.18699321502737
+    rotation:
+      x: -55.000000000000014
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.2613971259301683
+      z: 0.4947668628742781
+  part-62173057:
+    identifier: 04346e46-1c72-47ed-a9cc-492954805bb1
+    id: part-62173057
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.0000000000000002
+      y: 0.4601768292141639
+      z: -0.40000000000000036
+    rotation:
+      x: -105.00000000000018
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.36051255650129943
+      y: 0.11366806059211525
+      z: 0.313779276180489
+  part-86884410:
+    identifier: bbb5d6c4-6232-4938-a189-fa6c605d599a
+    id: part-86884410
+    material: IRON_BLOCK
+    offset:
+      x: -0.6439534419561771
+      y: 0.3609919310716848
+      z: -1.5624209644720168
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.3335114522631353
+      y: 0.20267569377531705
+      z: 0.14287912712632886
+  part-37731281:
+    identifier: 2ca4c892-3d73-4c1f-add8-7aa8b62a9cf9
+    id: part-37731281
+    material: WHITE_CONCRETE
+    offset:
+      x: -0.5416364318762221
+      y: 1.186963711305283
+      z: 2.2
+    rotation:
+      x: 10.000000000000021
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0855116781672045
+      y: 0.5051373906571507
+      z: 0.1048518872333784
+  part-93278987:
+    identifier: ab9c95fa-5143-4ff0-96e7-bb40462b86ae
+    id: part-93278987
+    material: YELLOW_CONCRETE
+    offset:
+      x: -1.0000000000000002
+      y: 0.7601768292141639
+      z: -0.4765228063922594
+    rotation:
+      x: -105.00000000000018
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.3951001653805014
+      y: 0.10000000000000014
+      z: 0.9
+  part-10723348:
+    identifier: c99b0f31-e5bc-4ebf-9db7-70694b617429
+    id: part-10723348
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: -0.7187539446113882
+      y: 0.4609919310716848
+      z: -1.4903522652799652
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 1.6081755881896895
+      y: 1.6369660518828897
+      z: 1.2468732860603733
+  part-15275285:
+    identifier: be4efdd4-193c-4372-9112-fbab789e2383
+    id: part-15275285
+    material: GRAY_SHULKER_BOX
+    offset:
+      x: -0.9999999999999999
+      y: 0.3609919310716848
+      z: -0.5
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.3951001653805014
+      y: 0.10000000000000003
+      z: 1.4000000000000004
+  part-75763381:
+    identifier: 5ce8c235-d1c6-4732-bc27-023144c90841
+    id: part-75763381
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: 0.8812460553886117
+      y: 0.4609919310716848
+      z: -1.4903522652799652
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 1.6081755881896895
+      y: 1.6369660518828897
+      z: 1.2468732860603733
+  part-27360021:
+    identifier: 50013d2e-b462-42fa-9294-ec50dd66f6db
+    id: part-27360021
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.6771246414027733
+      y: 1.7987188952063125
+      z: 1.3542154129264081
+    rotation:
+      x: 30.000000000000014
+      y: 0.0
+      z: 0.0
+    scale:
+      x: -0.0664271877864709
+      y: 0.14720719749351105
+      z: 0.9535300155264063
+  part-93371749:
+    identifier: 60971e4a-3558-4683-9268-bf97e5c6806e
+    id: part-93371749
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.7564745058293855
+      y: 1.7501363310416964
+      z: 1.4923154947252117
+    rotation:
+      x: 31.138972436978854
+      y: 90.0
+      z: -1.036914464530091
+    scale:
+      x: -0.0664271877864709
+      y: 0.14720719749351105
+      z: 1.5310830458165139
+  part-32990955:
+    identifier: fbc85575-6513-4867-9106-c2f889a307c2
+    id: part-32990955
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.8318461563171278
+      y: 1.531245922386963
+      z: 1.2480300641919126
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: -0.0664271877864709
+      y: 0.14720719749351105
+      z: 0.9535300155264063
+  part-105214472:
+    identifier: 20b04257-03aa-460e-a3bd-b5647791ba41
+    id: part-105214472
+    material: GRAY_CONCRETE
+    offset:
+      x: 0.6999999999999992
+      y: 0.3609919310716848
+      z: 0.8999999999999998
+    rotation:
+      x: -70.00000000000061
+      y: -4.6907866306768586E-14
+      z: 1.3773095122121823E-14
+    scale:
+      x: 0.3951001653805014
+      y: 0.10000000000000031
+      z: 0.326087570970939
+  part-45372633:
+    identifier: 79d61781-7b69-496a-ae5e-60007f72917c
+    id: part-45372633
+    material: YELLOW_TERRACOTTA
+    offset:
+      x: -0.5203256565923727
+      y: 0.3609919310716848
+      z: 1.8
+    rotation:
+      x: -60.00000000000003
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.095100165380502
+      y: 1.1484218594443352
+      z: 1.1189190014935184
+  part-121606512:
+    identifier: ac672d19-942f-4429-9300-ead2788d2c04
+    id: part-121606512
+    material: YELLOW_CONCRETE
+    offset:
+      x: -0.9999999999999999
+      y: 1.5060048099045864
+      z: 1.3041307903010364
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.3951001653805014
+      y: 0.10000000000000003
+      z: 0.9
+  part-72279794:
+    identifier: 6f830fb2-c527-4522-a5eb-e7be8554ce80
+    id: part-72279794
+    material: YELLOW_CONCRETE
+    offset:
+      x: 0.6999999999999996
+      y: 1.5060048099045864
+      z: -2.1
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.3951001653805014
+      y: 0.10000000000000003
+      z: 1.4000000000000004
+  part-120444429:
+    identifier: 279a5292-a044-459b-a288-59c3323b3a62
+    id: part-120444429
+    material: IRON_BLOCK
+    offset:
+      x: 0.12754530746121817
+      y: 0.3609919310716848
+      z: -1.5624209644720168
+    rotation:
+      x: -164.12728617710107
+      y: -86.42305211218883
+      z: -129.59319165137958
+    scale:
+      x: 1.1039500838513119
+      y: 0.20267569377531705
+      z: 0.14287912712632886
+  part-68934655:
+    identifier: 4db617de-d6ed-40a2-b837-c613c17b63f3
+    id: part-68934655
+    material: YELLOW_CONCRETE
+    offset:
+      x: 0.6999999999999996
+      y: 1.5060048099045864
+      z: 1.3
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.3951001653805014
+      y: 0.10000000000000003
+      z: 0.9
+  part-29411609:
+    identifier: 6e70df9d-167f-4501-b8a0-2f416dc6ae6e
+    id: part-29411609
+    material: IRON_BLOCK
+    offset:
+      x: -0.5404594009480744
+      y: 0.5765786999506555
+      z: -0.840258840149887
+    rotation:
+      x: -20.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.1611858277484914
+      y: 0.30643323921425913
+      z: 0.2690701889837074
+  part-61141460:
+    identifier: 7a7024ba-b360-4af8-88bd-61857736752b
+    id: part-61141460
+    material: YELLOW_CONCRETE
+    offset:
+      x: -1.0000000000000002
+      y: 0.6609919310716841
+      z: 1.0041307903010366
+    rotation:
+      x: -70.00000000000061
+      y: -4.6907866306768586E-14
+      z: 1.3773095122121823E-14
+    scale:
+      x: 0.3951001653805014
+      y: 0.10000000000000031
+      z: 1.0
+  part-24555632:
+    identifier: c0c79b45-1cdc-49ab-b081-35900534849c
+    id: part-24555632
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.0000000000000002
+      y: 0.3609919310716848
+      z: 0.8999999999999999
+    rotation:
+      x: -70.00000000000061
+      y: -4.6907866306768586E-14
+      z: 1.3773095122121823E-14
+    scale:
+      x: 0.36051255650129943
+      y: 0.11366806059211541
+      z: 0.31377927618048923
+  part-115413839:
+    identifier: 29f24b33-7662-4735-a599-4fe4b6fa4529
+    id: part-115413839
+    material: GRAY_SHULKER_BOX
+    offset:
+      x: 0.6000000000000001
+      y: 1.1372697896137316
+      z: 2.519523450569025
+    rotation:
+      x: 0.0
+      y: 25.000000000000004
+      z: 0.0
+    scale:
+      x: 0.5951001653805013
+      y: 0.5000000000000001
+      z: 0.2000000000000001
+  part-51284679:
+    identifier: 909b5a7e-55e2-4948-8162-936985a00f4f
+    id: part-51284679
+    material: GRAY_SHULKER_BOX
+    offset:
+      x: -1.140502538765365
+      y: 1.1372697896137316
+      z: 2.280595350611318
+    rotation:
+      x: 9.989601237743586E-16
+      y: -25.000000000000036
+      z: 8.32297315955192E-16
+    scale:
+      x: 0.5951001653805013
+      y: 0.5000000000000001
+      z: 0.2000000000000001
+  part-26176066:
+    identifier: bd15df94-684b-4aa7-893c-ef1e9224d1fe
+    id: part-26176066
+    material: GRAY_CONCRETE
+    offset:
+      x: 0.6999999999999992
+      y: 0.4609919310716848
+      z: -0.40000000000000047
+    rotation:
+      x: -105.00000000000018
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.3951001653805014
+      y: 0.10000000000000014
+      z: 0.31305070755441267
+  part-76259182:
+    identifier: 20180cd5-1b28-4d76-b39e-d8b5a63f5d64
+    id: part-76259182
+    material: OAK_FENCE_GATE
+    offset:
+      x: -0.4897217890353819
+      y: 1.9524475736149833
+      z: 0.12910726511375364
+    rotation:
+      x: 45.00000000000007
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-87201509:
+    identifier: ee247946-3562-4956-bf12-7c5888032140
+    id: part-87201509
+    material: LIGHT_GRAY_SHULKER_BOX
+    offset:
+      x: -0.060735075396410085
+      y: 1.6313796099167952
+      z: 1.2688978583261925
+    rotation:
+      x: -130.00000000000014
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.13781153725929546
+      y: 0.15927731981094276
+      z: 0.4947668628742781
+  part-17628160:
+    identifier: 2e0bc56b-deb8-4267-a226-4690e169248b
+    id: part-17628160
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: -0.7187539446113886
+      y: 0.4609919310716848
+      z: 1.709647734720035
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 1.6081755881896895
+      y: 1.6369660518828897
+      z: 1.2468732860603733
+  part-22333056:
+    identifier: f3be3e46-2df4-45e9-a85d-de30bd203aed
+    id: part-22333056
+    material: GRAY_CONCRETE
+    offset:
+      x: 0.8956491027480907
+      y: 1.531245922386963
+      z: 1.2480300641919126
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: -0.0664271877864709
+      y: 0.14720719749351105
+      z: 0.9535300155264063
+  part-67487605:
+    identifier: 932b6b9c-6e53-4025-9da6-59e94a775e6d
+    id: part-67487605
+    material: YELLOW_CONCRETE
+    offset:
+      x: -1.0000000000000004
+      y: 1.5060048099045864
+      z: -2.1
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.9150141588848368
+      y: 0.10000000000000003
+      z: 1.4000000000000004
+  part-79192848:
+    identifier: 891f9c98-dbbc-465a-80a0-970a91ec3d95
+    id: part-79192848
+    material: LIGHT_GRAY_SHULKER_BOX
+    offset:
+      x: -0.7
+      y: 0.3609919310716848
+      z: -0.40000000000000013
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.4600434304609944
+      y: 0.5042665715694139
+      z: 1.993591388970695
+  part-29376644:
+    identifier: d1b7ff60-9302-4a3a-b719-f6e0b0fa38e0
+    id: part-29376644
+    material: LIGHT_GRAY_SHULKER_BOX
+    offset:
+      x: -0.7
+      y: 1.3016674653143858
+      z: -1.2341094255423413
+    rotation:
+      x: 45.00000000000004
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.4368455183577533
+      y: 0.536368223441477
+      z: 1.2106324360088685
+  part-40608711:
+    identifier: 76842091-2fb8-4b55-853b-1aa9959469d6
+    id: part-40608711
+    material: GRAY_CONCRETE
+    offset:
+      x: 0.715390971706904
+      y: 1.7987188952063125
+      z: 1.3542154129264081
+    rotation:
+      x: 30.000000000000014
+      y: 0.0
+      z: 0.0
+    scale:
+      x: -0.0664271877864709
+      y: 0.14720719749351105
+      z: 0.9535300155264063
+  part-123333086:
+    identifier: 26d25e8e-ae97-44f1-b61a-28e8f3ad942f
+    id: part-123333086
+    material: GRAY_SHULKER_BOX
+    offset:
+      x: -0.5074796197036355
+      y: 1.1372697896137316
+      z: 2.4999918328364767
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.9951001653805018
+      y: 0.5000000000000001
+      z: 0.2000000000000001
+  part-38535266:
+    identifier: 7dab4737-b94e-4861-a1cf-af4bfeece98a
+    id: part-38535266
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: 0.8133027897210796
+      y: 0.4609919310716848
+      z: 1.709647734720035
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 1.6081755881896895
+      y: 1.6369660518828897
+      z: 1.2468732860603733
+  part-28695599:
+    identifier: 2f0d211b-90af-4f4a-83a7-3852140b8426
+    id: part-28695599
+    material: GRAY_SHULKER_BOX
+    offset:
+      x: -0.6
+      y: 0.8007452833616713
+      z: -0.40000000000000036
+    rotation:
+      x: 0.0
+      y: -7.95138670365879E-16
+      z: 0.0
+    scale:
+      x: 1.2581834263177107
+      y: 0.6042665715694139
+      z: 1.3346515099390837
+  part-64225362:
+    identifier: 4d7c61ea-c662-4774-b184-ee7bb1467255
+    id: part-64225362
+    material: YELLOW_CONCRETE
+    offset:
+      x: 0.6999999999999992
+      y: 0.7609919310716847
+      z: -0.4765228063922594
+    rotation:
+      x: -105.00000000000018
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.3951001653805014
+      y: 0.10000000000000014
+      z: 0.9
+  part-105957083:
+    identifier: 7aa7b65e-ed04-4603-b317-0ed8e78d6883
+    id: part-105957083
+    material: YELLOW_CONCRETE
+    offset:
+      x: -0.9999999999999999
+      y: 1.5060048099045864
+      z: -2.1
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.3951001653805014
+      y: 0.10000000000000003
+      z: 1.4000000000000004
+  part-89897247:
+    identifier: be368973-bb01-40d5-b896-7914ddc90ba2
+    id: part-89897247
+    material: GRAY_SHULKER_BOX
+    offset:
+      x: -0.8000000000000003
+      y: 1.6060048099045872
+      z: -2.1
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.669207774779435
+      y: 0.10000000000000003
+      z: 1.2000000000000004
+  part-67246806:
+    identifier: 93926d90-4497-4af5-af9a-6b7167467d42
+    id: part-67246806
+    material: GRAY_SHULKER_BOX
+    offset:
+      x: 0.6999999999999996
+      y: 0.3609919310716848
+      z: -0.5000000000000001
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.3951001653805014
+      y: 0.10000000000000003
+      z: 1.4000000000000004
+bones:
+  front-wheels:
+    identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+    id: front-wheels
+    pivot:
+      x: 0.0
+      y: 0.4
+      z: 1.7000000000000002
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  back-wheels:
+    identifier: 5a67511c-d385-495b-a110-611e22b09f54
+    id: back-wheels
+    pivot:
+      x: 0.0
+      y: 0.4
+      z: -1.4999999999999996
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+rig:
+  7dab4737-b94e-4861-a1cf-af4bfeece98a:
+    identifier: 7dab4737-b94e-4861-a1cf-af4bfeece98a
+    parent: ec1a4785-a7db-4882-aa93-bf57f578008d
+  ec1a4785-a7db-4882-aa93-bf57f578008d:
+    identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+    children:
+      - 2e0bc56b-deb8-4267-a226-4690e169248b
+      - 7dab4737-b94e-4861-a1cf-af4bfeece98a
+  5ce8c235-d1c6-4732-bc27-023144c90841:
+    identifier: 5ce8c235-d1c6-4732-bc27-023144c90841
+    parent: 5a67511c-d385-495b-a110-611e22b09f54
+  2e0bc56b-deb8-4267-a226-4690e169248b:
+    identifier: 2e0bc56b-deb8-4267-a226-4690e169248b
+    parent: ec1a4785-a7db-4882-aa93-bf57f578008d
+  5a67511c-d385-495b-a110-611e22b09f54:
+    identifier: 5a67511c-d385-495b-a110-611e22b09f54
+    children:
+      - c99b0f31-e5bc-4ebf-9db7-70694b617429
+      - 5ce8c235-d1c6-4732-bc27-023144c90841
+  c99b0f31-e5bc-4ebf-9db7-70694b617429:
+    identifier: c99b0f31-e5bc-4ebf-9db7-70694b617429
+    parent: 5a67511c-d385-495b-a110-611e22b09f54
+animations:
+  wheel-spin-backward:
+    id: wheel-spin-backward
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -45.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -45.0
+              y: 0.0
+              z: 0.0
+    states-to-apply: moving_backwards
+  wheel-spin-forward:
+    id: wheel-spin-forward
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 45.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 45.0
+              y: 0.0
+              z: 0.0
+    states-to-apply: moving
+  wheel-spin-backward-turn-left:
+    id: wheel-spin-backward-turn-left
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.3
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.0
+              y: 0.0
+              z: -10.0
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 40.000000000000014
+              y: 0.0
+              z: 0.0
+      keyframe-1:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.3
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.0
+              y: 0.0
+              z: -10.0
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 80.00000000000007
+              y: 0.0
+              z: 0.0
+      keyframe-2:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.3
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.0
+              y: 0.0
+              z: -10.0
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 3.41909628257328E-14
+              y: 14.999999999999998
+              z: -7.311379284693403E-31
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 130.00000000000014
+              y: 0.0
+              z: 0.0
+      keyframe-3:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.3
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.0
+              y: 0.0
+              z: -10.0
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 35.93866357696899
+              y: 12.24029548639521
+              z: -8.737385187915175
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 130.00000000000014
+              y: 0.0
+              z: 0.0
+      keyframe-4:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.3
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.0
+              y: 0.0
+              z: -10.0
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -35.93866357696885
+              y: 12.24029548639525
+              z: 8.737385187915196
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 130.00000000000014
+              y: 0.0
+              z: 0.0
+      keyframe-5:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.3
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.0
+              y: 0.0
+              z: -10.0
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 1.2061180950999746E-13
+              y: 15.000000000000066
+              z: -8.460346972400412E-15
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 130.00000000000014
+              y: 0.0
+              z: 0.0
+      keyframe-6:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.3
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.0
+              y: 0.0
+              z: -10.0
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 1.2061180950999746E-13
+              y: 15.000000000000066
+              z: -8.460346972400412E-15
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 130.00000000000014
+              y: 0.0
+              z: 0.0
+    states-to-apply: moving_backwards_turning_left
+  wheel-spin-forward-turn-right:
+    id: wheel-spin-forward-turn-right
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.5
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 8.474700092256305E-30
+              y: -1.7970133950268883E-13
+              z: 15.00000000000001
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: -20.000000000000004
+              z: 0.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-1:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.5
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 8.474700092256305E-30
+              y: -1.7970133950268883E-13
+              z: 15.00000000000001
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 31.566703966140963
+              y: -17.229396562958915
+              z: 10.314104815618201
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-2:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.5
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 8.474700092256305E-30
+              y: -1.7970133950268883E-13
+              z: 15.00000000000001
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -3.078907223607257E-14
+              y: -20.000000000000014
+              z: -9.76874583860717E-15
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -34.89743217536449
+              y: 2.865437862895182
+              z: -4.0991806559300175
+      keyframe-3:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.5
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 8.474700092256305E-30
+              y: -1.7970133950268883E-13
+              z: 15.00000000000001
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -3.078907223607257E-14
+              y: -20.000000000000014
+              z: -9.76874583860717E-15
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -9.962710787264273
+              y: 0.8671724090795084
+              z: -4.924415151213698
+      keyframe-4:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.5
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 8.474700092256305E-30
+              y: -1.7970133950268883E-13
+              z: 15.00000000000001
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -3.078907223607257E-14
+              y: -20.000000000000014
+              z: -9.76874583860717E-15
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -9.962710787264273
+              y: 0.8671724090795084
+              z: -4.924415151213698
+    states-to-apply: moving_turning_right
+  wheel-spin-backward-turn-right:
+    id: wheel-spin-backward-turn-right
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: -17.00000000000001
+              z: 0.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.2
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 0.0
+              y: 7.951386703658794E-16
+              z: 10.000000000000002
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -45.0
+              y: -7.0
+              z: -7.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -45.0
+              y: 0.0
+              z: 0.0
+    states-to-apply: moving_backwards_turning_right
+  wheel-spin-forward-turn-left:
+    id: wheel-spin-forward-turn-left
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.30000000000000004
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -0.09999999999999998
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 1.5902773407317598E-15
+              y: 4.4139062980501586E-32
+              z: -9.999999999999998
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 35.00000000000002
+              y: 0.0
+              z: 0.0
+      keyframe-1:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.30000000000000004
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -0.09999999999999998
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 1.5902773407317598E-15
+              y: 4.4139062980501586E-32
+              z: -9.999999999999998
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 2.1468744099878737E-14
+              y: 0.0
+              z: 0.0
+      keyframe-2:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.30000000000000004
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -0.09999999999999998
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 1.5902773407317598E-15
+              y: 4.4139062980501586E-32
+              z: -9.999999999999998
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 160.00000000000028
+              y: 0.0
+              z: 0.0
+      keyframe-3:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.30000000000000004
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -0.09999999999999998
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 1.5902773407317598E-15
+              y: 4.4139062980501586E-32
+              z: -9.999999999999998
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -90.0000000000002
+              y: 0.0
+              z: 0.0
+      keyframe-4:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.30000000000000004
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -0.09999999999999998
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 1.5902773407317598E-15
+              y: 4.4139062980501586E-32
+              z: -9.999999999999998
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 40.980841769133804
+              y: 11.435629820149009
+              z: -9.772426150993985
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -90.0000000000002
+              y: 0.0
+              z: 0.0
+      keyframe-5:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.30000000000000004
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -0.09999999999999998
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 1.5902773407317598E-15
+              y: 4.4139062980501586E-32
+              z: -9.999999999999998
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 75.48918130093024
+              y: 3.840965716258135
+              z: -14.510818699069901
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -90.0000000000002
+              y: 0.0
+              z: 0.0
+      keyframe-6:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.30000000000000004
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -0.09999999999999998
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 1.5902773407317598E-15
+              y: 4.4139062980501586E-32
+              z: -9.999999999999998
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 164.4959101663471
+              y: -14.47751218593
+              z: -3.967130800837626
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -90.0000000000002
+              y: 0.0
+              z: 0.0
+      keyframe-7:
+        duration: 1
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.30000000000000004
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -0.09999999999999998
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 1.5902773407317598E-15
+              y: 4.4139062980501586E-32
+              z: -9.999999999999998
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -85.16955060971574
+              y: 1.2925629689520526
+              z: 14.945479183940932
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -90.0000000000002
+              y: 0.0
+              z: 0.0
+      keyframe-8:
+        duration: 0
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.30000000000000004
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -0.09999999999999998
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 1.5902773407317598E-15
+              y: 4.4139062980501586E-32
+              z: -9.999999999999998
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -35.938663576969155
+              y: 12.240295486395311
+              z: 8.737385187915255
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -90.0000000000002
+              y: 0.0
+              z: 0.0
+      keyframe-9:
+        duration: 0
+        translations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: -0.30000000000000004
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -0.09999999999999998
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: 48df8f94-5b23-4169-946d-6f9a88490484
+            value:
+              x: 1.5902773407317598E-15
+              y: 4.4139062980501586E-32
+              z: -9.999999999999998
+          v-1:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -1.8760691025232963E-13
+              y: 15.000000000000151
+              z: -4.638282684590993E-16
+          v-2:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -90.0000000000002
+              y: 0.0
+              z: 0.0
+    states-to-apply: moving_turning_left

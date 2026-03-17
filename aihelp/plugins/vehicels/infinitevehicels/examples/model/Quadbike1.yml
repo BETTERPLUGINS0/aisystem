@@ -1,0 +1,2426 @@
+id: quad3
+type: COMPOUND
+model-offset: 0.0
+hitbox:
+  width: 6.0
+  height: 4.0
+  depth: 6.0
+seats:
+  seat-0:
+    main: false
+    offset:
+      x: -0.4324383956602207
+      y: 1.530464046845058
+      z: 1.3171947430518958
+  seat-1:
+    main: false
+    offset:
+      x: 0.6018617995157272
+      y: 1.530464046845058
+      z: 1.3171947430518958
+particles: { }
+sounds:
+  sound-0:
+    type: BLOCK.CALCITE.BREAK
+    delay: 1
+    volume: 1.0
+    pitch: 0.4
+    global: true
+projectile-shooters: { }
+parts:
+  deepslate_tile_stairs-13755982:
+    identifier: 4bd17877-a04e-4f0a-84c8-74c994e2d8af
+    id: deepslate_tile_stairs-13755982
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -3.0
+      y: 1.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone-122586514:
+    identifier: 50b3e93c-9841-4938-9711-0826bb4eabc6
+    id: polished_blackstone-122586514
+    material: POLISHED_BLACKSTONE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_bed-89334752:
+    identifier: 270bed3d-78a6-4fce-8a92-ffe1c6fe3398
+    id: black_bed-89334752
+    material: BLACK_BED
+    data:
+      data-type: block-data
+      value: minecraft:black_bed[facing=west,occupied=false,part=foot]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_slab-47057581:
+    identifier: 14d2bf59-6c12-40db-9d38-cb7c94138e36
+    id: blackstone_slab-47057581
+    material: BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_brick_wall-103756949:
+    identifier: b5d93da7-075d-4d0d-8f68-3dc4ab0c6600
+    id: deepslate_brick_wall-103756949
+    material: DEEPSLATE_BRICK_WALL
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_brick_wall[east=tall,north=tall,south=tall,up=true,waterlogged=false,west=none]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_slab-122909034:
+    identifier: 027f1f0b-9b65-4140-b631-0aa5622182a5
+    id: birch_slab-122909034
+    material: BIRCH_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:birch_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-70083695:
+    identifier: 4847a4ac-fa3c-49c0-adbc-0ab2d710498f
+    id: deepslate_tile_stairs-70083695
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -3.0
+      y: 0.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_pressure_plate-114345104:
+    identifier: a670e15d-5bbf-47f3-9ee2-e65e4162fedb
+    id: polished_blackstone_pressure_plate-114345104
+    material: POLISHED_BLACKSTONE_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_pressure_plate[powered=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_fence_gate-39679576:
+    identifier: 28216a25-c13a-4c56-a7c3-fb55cc4cd975
+    id: dark_oak_fence_gate-39679576
+    material: DARK_OAK_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_fence_gate[facing=east,in_wall=false,open=true,powered=false]
+    offset:
+      x: -3.0
+      y: 0.0
+      z: 0.7698412698412699
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-11818793:
+    identifier: f6bec93a-59bb-49c0-b73c-bde860d6c923
+    id: dark_oak_trapdoor-11818793
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_slab-81293243:
+    identifier: 92011111-6bb3-43c9-bedb-dbf9615437d5
+    id: birch_slab-81293243
+    material: BIRCH_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:birch_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 0.7698412698412699
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_brick_slab-11694102:
+    identifier: d43d9283-b0d6-4b08-8128-90af0949fea7
+    id: stone_brick_slab-11694102
+    material: STONE_BRICK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:stone_brick_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-80643834:
+    identifier: 3918a919-4dd8-4b64-823b-e543906bd8ce
+    id: polished_blackstone_stairs-80643834
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-16021835:
+    identifier: 11dfd7a2-2200-49ff-bb5e-0293c9eadcfe
+    id: polished_blackstone_stairs-16021835
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 3.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone-31339024:
+    identifier: b0f6ac61-c35d-4def-8139-add462ae307e
+    id: polished_blackstone-31339024
+    material: POLISHED_BLACKSTONE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-83650279:
+    identifier: 17eaaab3-6f6c-4ea1-87a0-7e9976e521f3
+    id: polished_blackstone_slab-83650279
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 1.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-37324456:
+    identifier: 594659ca-87c0-402d-b3c8-590e36b811cd
+    id: dark_oak_trapdoor-37324456
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_brick_wall-79208662:
+    identifier: 14ac22e1-8996-4c7c-ba9a-8198a4659799
+    id: deepslate_brick_wall-79208662
+    material: DEEPSLATE_BRICK_WALL
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_brick_wall[east=none,north=tall,south=tall,up=true,waterlogged=false,west=tall]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-63359078:
+    identifier: eb7a370e-4d88-497a-b1da-fb0c6d1e43cc
+    id: polished_blackstone_slab-63359078
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-5422975:
+    identifier: 39c86ec8-8cc3-4860-b9d1-81d06795fea8
+    id: polished_blackstone_slab-5422975
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 1.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_stairs-88516757:
+    identifier: f6483f5a-e821-4035-83ef-e5693f447c09
+    id: birch_stairs-88516757
+    material: BIRCH_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:birch_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_slab-46996413:
+    identifier: 5c674874-d5c3-4e78-9d24-4438f5fc8166
+    id: birch_slab-46996413
+    material: BIRCH_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:birch_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_stairs-91468465:
+    identifier: 756195f6-3092-4988-bc9c-5d9e01b9e41c
+    id: quartz_stairs-91468465
+    material: QUARTZ_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-19278199:
+    identifier: 5175ae50-20a9-45e8-bfc9-88ff23a6db7f
+    id: deepslate_tile_stairs-19278199
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 2.0
+      y: 1.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_fence_gate-81612129:
+    identifier: 86912daf-b1fc-4a8b-9d8b-7710f1032b39
+    id: birch_fence_gate-81612129
+    material: BIRCH_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:birch_fence_gate[facing=south,in_wall=false,open=true,powered=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_fence_gate-116843071:
+    identifier: 048f936d-4866-46b5-8408-76552e1f357f
+    id: birch_fence_gate-116843071
+    material: BIRCH_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:birch_fence_gate[facing=north,in_wall=false,open=false,powered=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-21929793:
+    identifier: 0cf1b3ae-50ea-4cb9-8fc6-431d8fdfa3e9
+    id: polished_blackstone_stairs-21929793
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 1.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_fence_gate-11425117:
+    identifier: 5a04dd68-5bac-45fa-9e6c-7026f14dfa00
+    id: dark_oak_fence_gate-11425117
+    material: DARK_OAK_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=true,powered=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete_powder-84008057:
+    identifier: f7da9e60-e028-4049-aef5-ddd2d9144603
+    id: black_concrete_powder-84008057
+    material: BLACK_CONCRETE_POWDER
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete_powder
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_pressure_plate-59749036:
+    identifier: 8c9e8bf5-2710-4aff-b383-d0e91a563c4b
+    id: polished_blackstone_pressure_plate-59749036
+    material: POLISHED_BLACKSTONE_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_pressure_plate[powered=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 3.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_slab-111916710:
+    identifier: 85be8342-ccda-4ed7-b4a3-c9993b9ad260
+    id: birch_slab-111916710
+    material: BIRCH_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:birch_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: 0.7698412698412699
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  barrier-12918278:
+    identifier: cad23a6c-5a1c-4d8c-bdad-e02092f1f7f3
+    id: barrier-12918278
+    material: BARRIER
+    data:
+      data-type: block-data
+      value: minecraft:barrier
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 3.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-63021707:
+    identifier: 673bcb7f-6563-4c0a-a749-f236af56331c
+    id: polished_blackstone_stairs-63021707
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-100470977:
+    identifier: 4c3c5f54-5c3d-46aa-8b45-1e97b6f32bd8
+    id: polished_blackstone_slab-100470977
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-17810818:
+    identifier: 6b5209f7-4a32-4377-b0fe-3aafde4dedeb
+    id: polished_blackstone_slab-17810818
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_brick_slab-64105893:
+    identifier: fc64e3ef-626f-4bde-a966-1be7718ba589
+    id: stone_brick_slab-64105893
+    material: STONE_BRICK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-95281505:
+    identifier: a3c1f92b-4259-482e-ae67-b8aa07b81d37
+    id: polished_blackstone_slab-95281505
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_slab-21137968:
+    identifier: 713f5e0e-17a3-44de-8bb7-11d9adcc6652
+    id: birch_slab-21137968
+    material: BIRCH_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:birch_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: 0.7698412698412699
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_slab-77456448:
+    identifier: d2502181-8b54-417a-98b2-1257396870a8
+    id: birch_slab-77456448
+    material: BIRCH_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:birch_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  lever-83500321:
+    identifier: 97eb5a24-108b-407f-9402-26883e91176d
+    id: lever-83500321
+    material: LEVER
+    data:
+      data-type: block-data
+      value: minecraft:lever[face=wall,facing=east,powered=true]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-22436529:
+    identifier: 495f7301-31ad-43e6-adaa-e2a7cea4ce89
+    id: polished_blackstone_stairs-22436529
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-105539729:
+    identifier: dae3417c-2317-4370-b146-ed72d8ed9e41
+    id: polished_blackstone_slab-105539729
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 1.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  barrier-96107698:
+    identifier: a3568493-2cb4-45c6-a206-54c903dbfbd9
+    id: barrier-96107698
+    material: BARRIER
+    data:
+      data-type: block-data
+      value: minecraft:barrier
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 3.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-58330051:
+    identifier: b3657586-f64a-4f4d-8f92-8996da6a3058
+    id: deepslate_tile_stairs-58330051
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 2.0
+      y: 0.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-79363940:
+    identifier: 29697a3b-f8e9-4ade-9fc7-0aaaf8762531
+    id: dark_oak_trapdoor-79363940
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-44267951:
+    identifier: ea9c4124-ade5-40fe-bd26-40e54ecc3682
+    id: deepslate_tile_stairs-44267951
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -3.0
+      y: 1.0
+      z: 3.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_trapdoor-93167405:
+    identifier: 5992981c-f66d-44eb-8dda-8f7b35ee7a81
+    id: birch_trapdoor-93167405
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 3.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone-90670406:
+    identifier: 5e7eaea7-7bfa-46df-a6dc-63c85b2653be
+    id: polished_blackstone-90670406
+    material: POLISHED_BLACKSTONE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_bed-21604304:
+    identifier: 019b7686-1691-41df-93b2-0480e86643e5
+    id: black_bed-21604304
+    material: BLACK_BED
+    data:
+      data-type: block-data
+      value: minecraft:black_bed[facing=east,occupied=false,part=foot]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-39673361:
+    identifier: aa6705ba-32a3-4667-aa15-6ee3be7ac1ec
+    id: deepslate_tile_stairs-39673361
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -3.0
+      y: 0.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_slab-90582571:
+    identifier: 000512d5-766a-44ea-b154-f717a04fc92e
+    id: quartz_slab-90582571
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-16560462:
+    identifier: 73ecc10e-41de-4d72-931a-a96ec2d11696
+    id: iron_trapdoor-16560462
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_slab-72205902:
+    identifier: d2c4359d-3e45-439b-94c9-2ebae5a7b609
+    id: birch_slab-72205902
+    material: BIRCH_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:birch_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 0.7698412698412699
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_pressure_plate-44160612:
+    identifier: 7b65ac0c-061c-4e16-b44b-8014a6865bb1
+    id: polished_blackstone_pressure_plate-44160612
+    material: POLISHED_BLACKSTONE_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_pressure_plate[powered=false]
+    offset:
+      x: 1.0
+      y: 4.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_stairs-54432523:
+    identifier: 3b48ce72-3c65-47f9-81d1-d4681574841b
+    id: birch_stairs-54432523
+    material: BIRCH_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:birch_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-77403112:
+    identifier: 5703712b-9d60-4e99-b52c-6ea0c22ee841
+    id: polished_blackstone_slab-77403112
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_slab-87601456:
+    identifier: 081d20c2-1a13-43f2-994c-aa2b793969c5
+    id: quartz_slab-87601456
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_stairs-89251017:
+    identifier: a6d2e9eb-3923-4b9a-9e89-c09d4a8e62a0
+    id: quartz_stairs-89251017
+    material: QUARTZ_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-2051739:
+    identifier: 32fa4a2e-4734-4674-8a78-bdbc554a2db2
+    id: deepslate_tile_stairs-2051739
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -3.0
+      y: 1.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  crimson_button-108540147:
+    identifier: 2eeb343c-ec86-4f89-9bf5-e4a4d4be6a36
+    id: crimson_button-108540147
+    material: CRIMSON_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:crimson_button[face=floor,facing=south,powered=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_slab-63165961:
+    identifier: 69451e78-8ab9-45bc-ba1d-843a9b24852f
+    id: blackstone_slab-63165961
+    material: BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-90850605:
+    identifier: 5bbe87cc-eafc-420f-825d-96e75c1479cf
+    id: iron_trapdoor-90850605
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-84916903:
+    identifier: 3a5837af-e1c8-47af-aeb1-9c9a3d201f43
+    id: iron_trapdoor-84916903
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-81724885:
+    identifier: bd4a5d26-f48e-4699-ab84-70d45969a0f5
+    id: deepslate_tile_stairs-81724885
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 2.0
+      y: 0.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-28302842:
+    identifier: 41cbcd61-fdfb-421e-bb3c-68eb2aa5eb5b
+    id: polished_blackstone_slab-28302842
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 0.7698412698412699
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-67486108:
+    identifier: c9f82af5-fd20-47ee-883a-4a79fec25c4e
+    id: dark_oak_trapdoor-67486108
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-103583272:
+    identifier: c3b383df-b79d-415b-953d-17244967287b
+    id: deepslate_tile_stairs-103583272
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 2.0
+      y: 0.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_slab-27387590:
+    identifier: 0e3975e2-6a6f-4d70-8dc2-b1b20d051b55
+    id: quartz_slab-27387590
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-31552974:
+    identifier: 32bb5add-85e1-4159-9891-5f6c147e8cfa
+    id: polished_blackstone_slab-31552974
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-35850994:
+    identifier: bfbc8669-b781-4a80-8ca5-333a571afe16
+    id: deepslate_tile_stairs-35850994
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 2.0
+      y: 1.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone-81526373:
+    identifier: 47c1fed1-e86c-4c7f-8450-24a27280a80d
+    id: polished_blackstone-81526373
+    material: POLISHED_BLACKSTONE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_pressure_plate-118774148:
+    identifier: 04eeec33-b72f-41e2-8166-895b50ed5b0e
+    id: polished_blackstone_pressure_plate-118774148
+    material: POLISHED_BLACKSTONE_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_pressure_plate[powered=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_fence_gate-50364724:
+    identifier: a0bf9b7c-8206-4a3b-a6da-cf7c9af2f7cc
+    id: dark_oak_fence_gate-50364724
+    material: DARK_OAK_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=true,powered=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-75862897:
+    identifier: eeaf7399-d7d3-4398-87e5-af567b7160d4
+    id: polished_blackstone_button-75862897
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=floor,facing=west,powered=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-62204085:
+    identifier: 9027284a-9179-44af-98d3-745092b1a604
+    id: polished_blackstone_slab-62204085
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_deepslate_stairs-5695517:
+    identifier: fb7570a6-ad91-4736-9fc1-aaf95f861887
+    id: polished_deepslate_stairs-5695517
+    material: POLISHED_DEEPSLATE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_deepslate_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-32382445:
+    identifier: 7cab5876-9d4d-4231-ae4d-91a00c64e70e
+    id: polished_blackstone_stairs-32382445
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_slab-13797428:
+    identifier: 69fca351-99fe-41a1-a085-9635fdc5ec7e
+    id: birch_slab-13797428
+    material: BIRCH_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:birch_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_deepslate_stairs-53283638:
+    identifier: 70e42c03-bf54-405c-8f30-37bbad15ab07
+    id: polished_deepslate_stairs-53283638
+    material: POLISHED_DEEPSLATE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_deepslate_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-75905999:
+    identifier: 306831e6-ee13-4730-8ac0-83188b90c6b7
+    id: polished_blackstone_slab-75905999
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  lever-79057298:
+    identifier: f75e0042-cc49-4e4e-93c2-96ce742ee517
+    id: lever-79057298
+    material: LEVER
+    data:
+      data-type: block-data
+      value: minecraft:lever[face=wall,facing=west,powered=true]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-78217102:
+    identifier: be59c657-d06e-4a99-9861-87e8b4e3660c
+    id: polished_blackstone_slab-78217102
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 1.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-23240046:
+    identifier: 22c6e55d-39ea-47ac-99c0-57b78040ee91
+    id: deepslate_tile_stairs-23240046
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 2.0
+      y: 1.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-5195183:
+    identifier: 163b410e-b744-48dd-970b-a5980ba068ab
+    id: dark_oak_trapdoor-5195183
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone-118600306:
+    identifier: e76d6eae-3dea-4b45-a4f5-4c84e2e81dd2
+    id: polished_blackstone-118600306
+    material: POLISHED_BLACKSTONE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-76751690:
+    identifier: 1a45f75c-f588-4817-914b-b9f110a2d61a
+    id: polished_blackstone_slab-76751690
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-29416225:
+    identifier: dce78fda-5cd2-496d-a9a7-21d502c62746
+    id: polished_blackstone_button-29416225
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=floor,facing=east,powered=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone-20691394:
+    identifier: 56ba586d-0f57-4584-a836-56abebc027c3
+    id: polished_blackstone-20691394
+    material: POLISHED_BLACKSTONE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-22347348:
+    identifier: d07de65d-0269-42a1-93c8-4c6852866a6e
+    id: deepslate_tile_stairs-22347348
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 2.0
+      y: 0.0
+      z: 3.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-95620014:
+    identifier: 1ce9c865-c4a5-4390-ab90-9c56e0354ece
+    id: dark_oak_trapdoor-95620014
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-115823005:
+    identifier: 53a82678-8aa6-4467-9a80-8148e98f0bce
+    id: blackstone_stairs-115823005
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 0.7698412698412699
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_slab-12944314:
+    identifier: 88687620-9060-4072-a37c-9d38c2bac8c1
+    id: birch_slab-12944314
+    material: BIRCH_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:birch_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 1.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_deepslate_slab-68125924:
+    identifier: 009eec0a-f5b5-45ff-9c8b-92aa09d39ada
+    id: polished_deepslate_slab-68125924
+    material: POLISHED_DEEPSLATE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_deepslate_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_slab-85346874:
+    identifier: 33b9ce42-2830-470c-9031-7357bec25b14
+    id: quartz_slab-85346874
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_pressure_plate-122676131:
+    identifier: a5de633d-6bd3-44ea-be10-1c6fa6686a82
+    id: polished_blackstone_pressure_plate-122676131
+    material: POLISHED_BLACKSTONE_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_pressure_plate[powered=false]
+    offset:
+      x: -2.0
+      y: 4.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_fence_gate-114022233:
+    identifier: 113fa795-504d-4e2f-8227-d98b60ed45ea
+    id: dark_oak_fence_gate-114022233
+    material: DARK_OAK_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_fence_gate[facing=west,in_wall=false,open=true,powered=false]
+    offset:
+      x: 2.0
+      y: 0.0
+      z: 0.7698412698412699
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-53094577:
+    identifier: e45001dc-d7b1-4f32-904b-c23fb1e09b77
+    id: polished_blackstone_slab-53094577
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_slab-56322032:
+    identifier: a974e4d3-58bd-4950-8b77-252b04b88420
+    id: birch_slab-56322032
+    material: BIRCH_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:birch_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-36145024:
+    identifier: cae401d1-dc31-4005-a63f-4825a53cc9d7
+    id: iron_trapdoor-36145024
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_slab-83143644:
+    identifier: 07700cdc-49ac-42dd-97eb-66f27cda69d3
+    id: birch_slab-83143644
+    material: BIRCH_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:birch_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 1.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_stairs-10369667:
+    identifier: b2db501c-c67f-4836-a073-6e5c7e17be8b
+    id: birch_stairs-10369667
+    material: BIRCH_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:birch_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-62084575:
+    identifier: f7d40a9a-dbce-4c04-9676-8025b7f37021
+    id: dark_oak_trapdoor-62084575
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=bottom,open=false,powered=true,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-115211648:
+    identifier: a302c037-42c1-4031-bd50-a5fefa518a9b
+    id: polished_blackstone_stairs-115211648
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 1.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_pressure_plate-41875834:
+    identifier: fc75e86a-2fe1-4eb2-b7b1-90dc3e1088e5
+    id: polished_blackstone_pressure_plate-41875834
+    material: POLISHED_BLACKSTONE_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_pressure_plate[powered=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 3.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_stairs-65423105:
+    identifier: 8375cb7e-9b31-41ca-a033-7882f3648672
+    id: birch_stairs-65423105
+    material: BIRCH_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:birch_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-101363776:
+    identifier: 02aba85d-462f-48b7-a2d2-66b8dd942175
+    id: polished_blackstone_slab-101363776
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 0.7698412698412699
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_deepslate_slab-29885263:
+    identifier: d95bb32e-0089-4aef-b51a-8030d1177e5c
+    id: polished_deepslate_slab-29885263
+    material: POLISHED_DEEPSLATE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_deepslate_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_slab-86304816:
+    identifier: 98d458e4-3bc5-4cf1-bb6f-628c35851a88
+    id: birch_slab-86304816
+    material: BIRCH_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:birch_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -0.23015873015873015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone-39546481:
+    identifier: afd1fb2d-4daa-47a4-82c0-09769987f61d
+    id: polished_blackstone-39546481
+    material: POLISHED_BLACKSTONE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_brick_slab-36640892:
+    identifier: 7c8eb16b-3795-4e0b-9605-e5007ec32387
+    id: stone_brick_slab-36640892
+    material: STONE_BRICK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:stone_brick_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -3.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_fence_gate-79261028:
+    identifier: a8737cdd-e040-49b5-b1fc-a0b80c077922
+    id: birch_fence_gate-79261028
+    material: BIRCH_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:birch_fence_gate[facing=south,in_wall=false,open=true,powered=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-109101017:
+    identifier: 4cb979b3-a72f-4ee3-938d-0e795eb1681a
+    id: deepslate_tile_stairs-109101017
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -3.0
+      y: 1.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_trapdoor-11535645:
+    identifier: 300c3b74-5a8b-4319-9a77-7d09c4b16a6d
+    id: birch_trapdoor-11535645
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 3.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_brick_slab-44468797:
+    identifier: bc9123be-79dc-41cd-a158-c2b873177ac4
+    id: stone_brick_slab-44468797
+    material: STONE_BRICK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete_powder-109178132:
+    identifier: c7110403-faa2-4a26-8234-a7f05daf87d4
+    id: black_concrete_powder-109178132
+    material: BLACK_CONCRETE_POWDER
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete_powder
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-51253623:
+    identifier: cdc6a103-4f0a-4e0a-95e4-4befe7ff9a73
+    id: polished_blackstone_slab-51253623
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 0.7698412698412699
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-65269360:
+    identifier: a94dffd5-3c91-4309-b1f0-b12c78950058
+    id: deepslate_tile_stairs-65269360
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -3.0
+      y: 0.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-113357831:
+    identifier: bed82c34-caa9-4aa7-b632-ea38783385ca
+    id: dark_oak_trapdoor-113357831
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -1.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-37656818:
+    identifier: c60c3c54-8912-46d4-8218-e7f51c5a1265
+    id: blackstone_stairs-37656818
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 0.7698412698412699
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone-67811675:
+    identifier: 7843d19a-c37a-490c-9153-39c3f578e2d3
+    id: polished_blackstone-67811675
+    material: POLISHED_BLACKSTONE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -2.2301587301587302
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-45033504:
+    identifier: f9e2cbf5-8430-4b6c-b0ce-51588cd60e23
+    id: polished_blackstone_stairs-45033504
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 3.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_fence_gate-20159892:
+    identifier: 95b1b890-727b-49b6-87fa-c4981eab4774
+    id: birch_fence_gate-20159892
+    material: BIRCH_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:birch_fence_gate[facing=north,in_wall=false,open=false,powered=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 2.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-20158807:
+    identifier: 491e3ca6-0293-42c9-af57-b09b6f61450f
+    id: polished_blackstone_slab-20158807
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 0.7698412698412699
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-94079626:
+    identifier: 8128734c-fd92-4ea2-a9e2-99a21e8044c8
+    id: deepslate_tile_stairs-94079626
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 2.0
+      y: 1.0
+      z: 3.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-72945822:
+    identifier: cd511c5d-273b-45d3-ab18-7f126abbbd61
+    id: deepslate_tile_stairs-72945822
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -3.0
+      y: 0.0
+      z: 3.7698412698412698
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  crimson_button-101082975:
+    identifier: 477e8f2e-f416-456f-a14d-316ab6c32519
+    id: crimson_button-101082975
+    material: CRIMSON_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:crimson_button[face=floor,facing=south,powered=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -4.23015873015873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones: { }
+animations: { }

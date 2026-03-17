@@ -1,0 +1,2014 @@
+id: pink-car
+type: COMPOUND
+model-offset: 0.0
+hitbox:
+  width: 5.0
+  height: 3.0
+  depth: 5.0
+seats:
+  seat-0:
+    main: true
+    offset:
+      x: -0.6311616019553916
+      y: 1.3175216681832491
+      z: 0.5770705063635855
+  seat-1:
+    main: false
+    offset:
+      x: 0.47894752048385303
+      y: 1.523969705049953
+      z: -1.361754485530114
+  seat-2:
+    main: false
+    offset:
+      x: 0.45921573958792006
+      y: 1.3175216681832491
+      z: 0.5365701711604176
+  seat-3:
+    main: false
+    offset:
+      x: -0.418911768101604
+      y: 1.523969705049953
+      z: -1.361754485530114
+particles: { }
+sounds: { }
+projectile-shooters: { }
+parts:
+  cherry_planks-64620604:
+    identifier: e4fbb276-9de8-48b2-96a7-1066daf58a59
+    id: cherry_planks-64620604
+    material: CHERRY_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_planks
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -4.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_trapdoor-50726612:
+    identifier: 7d488028-01a9-47cf-b6c9-d647441bed8f
+    id: cherry_trapdoor-50726612
+    material: CHERRY_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:cherry_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 2.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_planks-80716022:
+    identifier: a208f7ac-6efb-4069-9a89-d4f6aa4c73d9
+    id: cherry_planks-80716022
+    material: CHERRY_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_planks
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -2.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  observer-30375765:
+    identifier: 875f41dc-2814-4f9c-b137-1a1c6ccaf547
+    id: observer-30375765
+    material: OBSERVER
+    data:
+      data-type: block-data
+      value: minecraft:observer[facing=north,powered=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 2.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-32258928:
+    identifier: f34e1790-9731-460a-9d87-c766978d2758
+    id: iron_trapdoor-32258928
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 3.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  hopper-17442772:
+    identifier: 99632f56-3258-4428-8dac-57ecbe198a26
+    id: hopper-17442772
+    material: HOPPER
+    data:
+      data-type: block-data
+      value: minecraft:hopper[enabled=true,facing=north]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -4.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_slab-116667094:
+    identifier: 777a3b87-9468-460d-991f-bc7d1528625a
+    id: stone_slab-116667094
+    material: STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -0.06081957637139079
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-3644784:
+    identifier: 9d509ae8-7b92-4f46-90f5-2989631f91a5
+    id: iron_trapdoor-3644784
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 3.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_stairs-15030069:
+    identifier: 622b2517-612d-41e4-b91d-52833e61f9d1
+    id: quartz_stairs-15030069
+    material: QUARTZ_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:quartz_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 1.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  crimson_slab-105332257:
+    identifier: e5c599f8-05ec-4302-914d-c9b1ef9da5e3
+    id: crimson_slab-105332257
+    material: CRIMSON_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:crimson_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -1.0608195763713908
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-62756570:
+    identifier: c57151b9-8cb4-45fc-bafd-8c95cd8e2db0
+    id: polished_andesite_slab-62756570
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -5.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  hopper-55552826:
+    identifier: 818153dd-bdf5-4391-834b-5a3ad659b0c9
+    id: hopper-55552826
+    material: HOPPER
+    data:
+      data-type: block-data
+      value: minecraft:hopper[enabled=true,facing=west]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -3.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_slab-62745445:
+    identifier: 3b827e0f-a0e6-4e90-b5f5-103162c6a524
+    id: quartz_slab-62745445
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -2.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_stairs-8257213:
+    identifier: 4ea53d09-ef57-4255-8099-af5119abcf4e
+    id: quartz_stairs-8257213
+    material: QUARTZ_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -0.06081957637139079
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_button-114172961:
+    identifier: 252d0ce1-88f1-4dcc-b327-8ed1ac43dc9d
+    id: stone_button-114172961
+    material: STONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:stone_button[face=wall,facing=south,powered=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 4.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_slab-108524540:
+    identifier: 6f2d9759-26ab-422d-8e67-b7cc44b89f20
+    id: cherry_slab-108524540
+    material: CHERRY_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:cherry_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 3.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_trapdoor-82545048:
+    identifier: 672b3763-c8cb-4726-9869-f5a79a2548e4
+    id: cherry_trapdoor-82545048
+    material: CHERRY_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:cherry_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -1.0608195763713908
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-2975391:
+    identifier: 8eddfdca-7582-464f-b299-011737c6e72f
+    id: smooth_stone_slab-2975391
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 3.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_wool-16755615:
+    identifier: 9a7115e6-2b1e-42ca-a896-fd655b986f1e
+    id: black_wool-16755615
+    material: BLACK_WOOL
+    data:
+      data-type: block-data
+      value: minecraft:black_wool
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 2.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_trapdoor-78089726:
+    identifier: 2679ba37-f9c2-4ad9-b453-af45f30faaf0
+    id: cherry_trapdoor-78089726
+    material: CHERRY_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:cherry_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 2.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_stairs-95208562:
+    identifier: 4d92ca4c-6f3e-4bf0-9366-3836691a5b55
+    id: cherry_stairs-95208562
+    material: CHERRY_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -3.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_slab-41486274:
+    identifier: 6bfee123-2884-4fc1-baa2-aa377f58820b
+    id: stone_slab-41486274
+    material: STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -2.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_planks-45045696:
+    identifier: 51341eb9-1c57-44b7-8e90-fd4d44f93b74
+    id: cherry_planks-45045696
+    material: CHERRY_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_planks
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -3.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  crimson_slab-33216790:
+    identifier: 724582b7-38fc-4956-9f8a-1cb000725956
+    id: crimson_slab-33216790
+    material: CRIMSON_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:crimson_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -1.0608195763713908
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  pink_carpet-62306350:
+    identifier: 23c70122-e500-4c27-9fa0-c99da0fc6e64
+    id: pink_carpet-62306350
+    material: PINK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:pink_carpet
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -1.0608195763713908
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_trapdoor-34446270:
+    identifier: 14f8579d-29ce-485a-afb1-a07bad214830
+    id: cherry_trapdoor-34446270
+    material: CHERRY_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:cherry_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -3.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  pink_carpet-53036655:
+    identifier: 6c766726-80e8-44a8-9185-73474b4836c2
+    id: pink_carpet-53036655
+    material: PINK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:pink_carpet
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -2.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_stairs-33541131:
+    identifier: c768bb36-47c6-4844-a9d9-fd87a5bebe39
+    id: cherry_stairs-33541131
+    material: CHERRY_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -5.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_slab-38431180:
+    identifier: 12b822c0-b3c3-457b-adbd-a2fcc98c2e90
+    id: cherry_slab-38431180
+    material: CHERRY_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:cherry_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 2.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  pink_carpet-31021547:
+    identifier: 2e2ca99b-e10f-4056-9cd0-4a99b2607c95
+    id: pink_carpet-31021547
+    material: PINK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:pink_carpet
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -4.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_stairs-101511654:
+    identifier: b1a6c27d-6525-423a-8a38-8df577527454
+    id: cherry_stairs-101511654
+    material: CHERRY_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_stairs[facing=west,half=top,shape=inner_left,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -5.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  observer-97801984:
+    identifier: e3d84c94-d6c0-48aa-bab1-631a3a7dfb2d
+    id: observer-97801984
+    material: OBSERVER
+    data:
+      data-type: block-data
+      value: minecraft:observer[facing=north,powered=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 1.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  observer-50609017:
+    identifier: 9d34b827-23c4-4433-a651-4298622e0ff1
+    id: observer-50609017
+    material: OBSERVER
+    data:
+      data-type: block-data
+      value: minecraft:observer[facing=north,powered=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 1.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_stairs-42300132:
+    identifier: 5e4ed1eb-6fd3-488f-98b9-1afa5a9a4ab8
+    id: cherry_stairs-42300132
+    material: CHERRY_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 3.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-55276917:
+    identifier: 41846308-4b62-45c4-ab82-1fe1bb6a4bb6
+    id: smooth_stone_slab-55276917
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -5.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_planks-20788585:
+    identifier: b4bed952-5cf6-462b-b353-7796d2ec8e79
+    id: cherry_planks-20788585
+    material: CHERRY_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_planks
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -2.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_pressure_plate-38827185:
+    identifier: 9d9c3b63-5af3-44cc-8eb3-198780aab326
+    id: cherry_pressure_plate-38827185
+    material: CHERRY_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:cherry_pressure_plate[powered=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 1.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  brewing_stand-17952085:
+    identifier: 287207d4-ddde-45a9-8a19-b4472a99f130
+    id: brewing_stand-17952085
+    material: BREWING_STAND
+    data:
+      data-type: block-data
+      value: minecraft:brewing_stand[has_bottle_0=false,has_bottle_1=false,has_bottle_2=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 0.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_slab-43576374:
+    identifier: b93eae3a-7c20-4bef-91e1-e20f5977a0d0
+    id: quartz_slab-43576374
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -0.06081957637139079
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-26901290:
+    identifier: 4ec81890-c0be-4c9b-b6c6-578f60e4f857
+    id: polished_andesite_slab-26901290
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 0.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  hopper-77238148:
+    identifier: 7ce735c1-d075-4a07-abd6-1d820c8bc111
+    id: hopper-77238148
+    material: HOPPER
+    data:
+      data-type: block-data
+      value: minecraft:hopper[enabled=true,facing=east]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 2.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_stairs-15228222:
+    identifier: 983741db-fb4d-4c0b-8c68-1b3287166043
+    id: quartz_stairs-15228222
+    material: QUARTZ_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:quartz_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 1.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_slab-79340184:
+    identifier: df148542-eba7-401b-8cfc-c64c88a93a61
+    id: cherry_slab-79340184
+    material: CHERRY_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:cherry_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 3.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_stained_glass-68537985:
+    identifier: 8b0185af-71ce-430a-a16a-44c1086f78d2
+    id: light_gray_stained_glass-68537985
+    material: LIGHT_GRAY_STAINED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_stained_glass
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 0.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_stained_glass-111641688:
+    identifier: 9fe4304a-cf5f-4e22-82b5-65e932a7732e
+    id: light_gray_stained_glass-111641688
+    material: LIGHT_GRAY_STAINED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_stained_glass
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 0.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_slab-33876657:
+    identifier: 6cf7833a-82e5-4ac1-b058-922c6d25566d
+    id: quartz_slab-33876657
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -1.0608195763713908
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  pink_carpet-73734882:
+    identifier: e256cd19-8d39-48a4-9277-27fbf0403252
+    id: pink_carpet-73734882
+    material: PINK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:pink_carpet
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -2.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_stairs-71826231:
+    identifier: 927c00e9-8c36-43ab-981f-b210b5c6545f
+    id: cherry_stairs-71826231
+    material: CHERRY_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -3.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_wool-109211811:
+    identifier: 83469825-bc1a-4731-a027-e5f1812c815a
+    id: black_wool-109211811
+    material: BLACK_WOOL
+    data:
+      data-type: block-data
+      value: minecraft:black_wool
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -3.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_block-33524133:
+    identifier: 200942e2-8c88-4358-b60e-568c85af80b7
+    id: quartz_block-33524133
+    material: QUARTZ_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:quartz_block
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 0.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_planks-79560861:
+    identifier: f9457cf1-a816-4fd1-82e4-bf0ed3ab937d
+    id: cherry_planks-79560861
+    material: CHERRY_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_planks
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -4.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_button-118861209:
+    identifier: f91ede30-de31-448c-af99-5ef1163ecd47
+    id: mangrove_button-118861209
+    material: MANGROVE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_button[face=wall,facing=north,powered=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -6.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_button-86446929:
+    identifier: e70e3a21-d041-44eb-b78f-abc88489e205
+    id: mangrove_button-86446929
+    material: MANGROVE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_button[face=wall,facing=north,powered=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -6.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_planks-4023749:
+    identifier: 634bc13c-bc58-4dcc-806d-e548d52ea6d4
+    id: cherry_planks-4023749
+    material: CHERRY_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_planks
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -4.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  observer-59970900:
+    identifier: 07ee0f6d-6f3c-44ee-821c-0102e0d9a102
+    id: observer-59970900
+    material: OBSERVER
+    data:
+      data-type: block-data
+      value: minecraft:observer[facing=north,powered=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 2.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_slab-111384143:
+    identifier: 5700a4fe-1ec5-45f4-aeea-1fc825b8a783
+    id: quartz_slab-111384143
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -1.0608195763713908
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  pink_carpet-16733046:
+    identifier: 636f4c41-95a8-44c6-b147-dafaf9af8115
+    id: pink_carpet-16733046
+    material: PINK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:pink_carpet
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -4.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_slab-10621137:
+    identifier: 7d65bcd2-5fe6-496f-b056-e897dbfba301
+    id: stone_slab-10621137
+    material: STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 1.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_pressure_plate-92087379:
+    identifier: 0fc8228c-5870-4495-973c-462bccfdc588
+    id: cherry_pressure_plate-92087379
+    material: CHERRY_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:cherry_pressure_plate[powered=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 1.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_slab-16887018:
+    identifier: 25f67956-ed35-4daa-9a9f-fe48532b7947
+    id: quartz_slab-16887018
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -1.0608195763713908
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_slab-26373463:
+    identifier: 928810c0-f404-4030-a562-190e304310eb
+    id: quartz_slab-26373463
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -0.06081957637139079
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_stairs-7503801:
+    identifier: 9ce01614-486d-4587-8b72-4565bcb33c51
+    id: quartz_stairs-7503801
+    material: QUARTZ_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -2.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  lever-78988479:
+    identifier: 471088b7-8078-4ca6-b737-23edf283a89e
+    id: lever-78988479
+    material: LEVER
+    data:
+      data-type: block-data
+      value: minecraft:lever[face=floor,facing=north,powered=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -0.06081957637139079
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_trapdoor-2194242:
+    identifier: f2f49b29-097e-4014-b8ac-607b3aa9e34d
+    id: cherry_trapdoor-2194242
+    material: CHERRY_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:cherry_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 1.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  lever-115190107:
+    identifier: 1c77335e-eacc-4af2-a88a-b2e9fc08384d
+    id: lever-115190107
+    material: LEVER
+    data:
+      data-type: block-data
+      value: minecraft:lever[face=floor,facing=north,powered=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -0.06081957637139079
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_stairs-110185916:
+    identifier: 792be6f3-0a02-46a8-bd02-a1c2433fb3c0
+    id: quartz_stairs-110185916
+    material: QUARTZ_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -2.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_trapdoor-37903361:
+    identifier: dee1339d-9bf9-4acb-8d68-fa402863bed2
+    id: cherry_trapdoor-37903361
+    material: CHERRY_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:cherry_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -3.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_planks-57188831:
+    identifier: d2192f39-9966-438c-8be8-4c74306dea85
+    id: dark_oak_planks-57188831
+    material: DARK_OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_wall_sign[facing=north,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.28125
+      z: 1.8391804236286091
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  stone_slab-2969592:
+    identifier: b6335a9c-f053-454a-a5e7-a5fcd20ebdd0
+    id: stone_slab-2969592
+    material: STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 1.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-84857553:
+    identifier: 99faa281-cde8-43da-971b-1dc805d89459
+    id: smooth_stone_slab-84857553
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -5.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_planks-118914302:
+    identifier: 64c9bdd8-dd95-42c5-bf99-820299cc7a97
+    id: cherry_planks-118914302
+    material: CHERRY_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_planks
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -3.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  pink_carpet-45576483:
+    identifier: 5c37be74-8ce9-46ff-8a65-5f39cc433e97
+    id: pink_carpet-45576483
+    material: PINK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:pink_carpet
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -1.0608195763713908
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-60051931:
+    identifier: a9385bda-a699-4a65-bd62-32d7ef9a80a4
+    id: polished_andesite_slab-60051931
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 0.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-108533165:
+    identifier: aa0228db-97d7-4fa7-92bc-33c2a72c6a29
+    id: smooth_stone_slab-108533165
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 3.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  diorite_slab-1950139:
+    identifier: 68202b13-509e-4fca-b4c1-3d69f71ea44b
+    id: diorite_slab-1950139
+    material: DIORITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:diorite_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 0.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_carpet-92249328:
+    identifier: e2f68d65-be4a-42c2-b06a-6569f64687f0
+    id: light_gray_carpet-92249328
+    material: LIGHT_GRAY_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_carpet
+    offset:
+      x: 0.0
+      y: 3.0
+      z: 0.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_stairs-935388:
+    identifier: 7bed85f6-b9ae-46f9-8863-553cdd058711
+    id: cherry_stairs-935388
+    material: CHERRY_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -5.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_stairs-79430275:
+    identifier: 16d8af58-1dd3-4079-96ff-54c589057d49
+    id: cherry_stairs-79430275
+    material: CHERRY_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 3.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_slab-107656154:
+    identifier: becc147e-09f7-4447-bbe1-3c6f0c0c56ce
+    id: quartz_slab-107656154
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -1.0608195763713908
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_stairs-54866076:
+    identifier: c542c9af-44f7-4160-a6f4-c2b0518323da
+    id: cherry_stairs-54866076
+    material: CHERRY_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_stairs[facing=east,half=top,shape=inner_right,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -5.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_carpet-57127719:
+    identifier: b2ee525d-9b0e-4788-8b9d-e6c2b5920225
+    id: light_gray_carpet-57127719
+    material: LIGHT_GRAY_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_carpet
+    offset:
+      x: -1.0
+      y: 3.0
+      z: 0.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_slab-81255008:
+    identifier: 5e206ea9-a562-481f-9fad-8f3a8db6bbac
+    id: cherry_slab-81255008
+    material: CHERRY_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:cherry_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 2.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_wool-117356071:
+    identifier: 488fae94-9342-4b16-a8ca-0b77cc58bd98
+    id: black_wool-117356071
+    material: BLACK_WOOL
+    data:
+      data-type: block-data
+      value: minecraft:black_wool
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 2.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  hopper-115577564:
+    identifier: 021b0b98-a15d-4038-9c91-acea7a1975c0
+    id: hopper-115577564
+    material: HOPPER
+    data:
+      data-type: block-data
+      value: minecraft:hopper[enabled=true,facing=north]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -4.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_stained_glass_pane-2595762:
+    identifier: b38f1963-5ce2-4306-a6e2-ed8543c8d290
+    id: light_gray_stained_glass_pane-2595762
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 0.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_trapdoor-39426834:
+    identifier: 0dd78853-7d51-43d8-b014-da37c6498462
+    id: cherry_trapdoor-39426834
+    material: CHERRY_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:cherry_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -1.0608195763713908
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_stairs-45855828:
+    identifier: d6c1d126-fc45-410f-a3de-f80fafdc598b
+    id: quartz_stairs-45855828
+    material: QUARTZ_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -0.06081957637139079
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  hopper-57417627:
+    identifier: 78114048-46b9-494a-86a7-8464a1b2f192
+    id: hopper-57417627
+    material: HOPPER
+    data:
+      data-type: block-data
+      value: minecraft:hopper[enabled=true,facing=east]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -3.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_trapdoor-46642583:
+    identifier: 14c8a122-d949-44bb-87c3-e3f051c2722b
+    id: cherry_trapdoor-46642583
+    material: CHERRY_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:cherry_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 1.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  hopper-43689322:
+    identifier: e215ac5c-0855-443a-b389-8d9aca4b9769
+    id: hopper-43689322
+    material: HOPPER
+    data:
+      data-type: block-data
+      value: minecraft:hopper[enabled=true,facing=west]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 2.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_slab-106851768:
+    identifier: 06180968-2206-4131-9db0-bd942a7387b0
+    id: cherry_slab-106851768
+    material: CHERRY_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:cherry_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -4.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_wool-27521958:
+    identifier: 961e8d9c-632f-40f8-a5a7-594eebb05df3
+    id: black_wool-27521958
+    material: BLACK_WOOL
+    data:
+      data-type: block-data
+      value: minecraft:black_wool
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -3.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_slab-5364089:
+    identifier: d7871c0b-5366-4fa8-9dda-70200de5cc52
+    id: stone_slab-5364089
+    material: STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -0.06081957637139079
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_block-38917517:
+    identifier: d87f02e5-9777-4f8f-896b-165fe3d8c6a7
+    id: quartz_block-38917517
+    material: QUARTZ_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:quartz_block
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 0.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_button-55205812:
+    identifier: 4e4b851f-c1c0-4163-b4b6-0b7ef82095b2
+    id: stone_button-55205812
+    material: STONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:stone_button[face=wall,facing=south,powered=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 4.939180423628609
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_slab-104136143:
+    identifier: 050d4b51-bc57-4d4f-8e04-1ecad24828fe
+    id: quartz_slab-104136143
+    material: QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -2.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_slab-60246098:
+    identifier: d9eb3fee-b7e4-46fa-bbeb-5d9a1f6d23cd
+    id: stone_slab-60246098
+    material: STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -2.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_block-14810694:
+    identifier: 72c995fc-70f3-4101-8144-b2984c9063f0
+    id: quartz_block-14810694
+    material: QUARTZ_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:quartz_block
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -0.06081957637139079
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_stained_glass_pane-38108756:
+    identifier: 97277252-1156-4a6e-8cdb-88bf3a7947ca
+    id: light_gray_stained_glass_pane-38108756
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 0.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_slab-78229690:
+    identifier: 4d1caa28-519a-4c14-981f-d72d615115e3
+    id: cherry_slab-78229690
+    material: CHERRY_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:cherry_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -4.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cherry_planks-61641587:
+    identifier: f3f54926-8d5b-413b-b694-70844e49c1f5
+    id: cherry_planks-61641587
+    material: CHERRY_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:cherry_planks
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -4.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_block-24378390:
+    identifier: 3cda4906-b2f5-4ec2-b614-e235aae24c79
+    id: quartz_block-24378390
+    material: QUARTZ_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:quartz_block
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -0.06081957637139079
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  diorite_slab-50496435:
+    identifier: cce789a5-63bd-4580-97b7-0564deaf0ce9
+    id: diorite_slab-50496435
+    material: DIORITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:diorite_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 0.9391804236286092
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-61213894:
+    identifier: 4f6c3418-5e78-4e51-b0d1-6f8dcda15236
+    id: polished_andesite_slab-61213894
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -5.060819576371391
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones: { }
+animations: { }

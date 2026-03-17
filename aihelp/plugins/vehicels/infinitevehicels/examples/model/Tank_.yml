@@ -1,0 +1,3970 @@
+id: tank
+type: COMPOUND
+hitbox:
+  width: 6.0
+  height: 6.0
+  depth: 6.0
+seats:
+  seat-0:
+    main: true
+    offset:
+      x: 0.0
+      y: 3.589331062231546
+      z: 0.23591119892143383
+particles: { }
+sounds: { }
+parts:
+  deepslate_tile_slab-43247007:
+    identifier: f123d54e-55c1-4072-a033-c01f10faad32
+    id: deepslate_tile_slab-43247007
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 1.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_stained_glass_pane-26680223:
+    identifier: 3a131816-98e5-45eb-8ce8-4062cb65b0df
+    id: yellow_stained_glass_pane-26680223
+    material: YELLOW_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:yellow_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]
+    offset:
+      x: 1.523271635959023
+      y: 3.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-86520804:
+    identifier: cd1223c7-a6c9-47b9-904e-2f0c7eca9764
+    id: smooth_sandstone_slab-86520804
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 0.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-18303057:
+    identifier: 53ae1e96-b539-4d49-bd40-380f3e970a2f
+    id: deepslate_tile_slab-18303057
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 1.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_button-73934574:
+    identifier: c4e4116c-ba4b-4ed4-8a75-193083c3e5f8
+    id: birch_button-73934574
+    material: BIRCH_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:birch_button[face=floor,facing=south,powered=false]
+    offset:
+      x: -1.476728364040977
+      y: 3.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-80136085:
+    identifier: 31d0b11c-0c4e-4ec3-80d1-dd7cd92f4a82
+    id: smooth_sandstone_slab-80136085
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 0.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_stained_glass_pane-10718425:
+    identifier: 3f22cc03-2744-4637-bda5-c918be59c1e0
+    id: yellow_stained_glass_pane-10718425
+    material: YELLOW_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:yellow_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=true]
+    offset:
+      x: 1.523271635959023
+      y: 3.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_wall-3148643:
+    identifier: 02947ead-9583-41a4-8516-d19d1e987f83
+    id: deepslate_tile_wall-3148643
+    material: DEEPSLATE_TILE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=low]
+    offset:
+      x: -0.47672836404097707
+      y: 1.0
+      z: 3.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stripped_birch_log-50814826:
+    identifier: 28fc15f0-78cf-4834-97da-b0df16109d56
+    id: stripped_birch_log-50814826
+    material: STRIPPED_BIRCH_LOG
+    data:
+      data-type: block-data
+      value: minecraft:stripped_birch_log[axis=y]
+    offset:
+      x: -0.47672836404097707
+      y: 2.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stripped_birch_log-54133702:
+    identifier: bf450912-7a38-4b9f-965c-76a783e480fc
+    id: stripped_birch_log-54133702
+    material: STRIPPED_BIRCH_LOG
+    data:
+      data-type: block-data
+      value: minecraft:stripped_birch_log[axis=x]
+    offset:
+      x: -2.476728364040977
+      y: 0.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-34308491:
+    identifier: 952045fc-f9c2-4ca8-8d5c-aa4fe0449157
+    id: smooth_sandstone_slab-34308491
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 1.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-77456646:
+    identifier: 214d5152-c3c2-4e66-a676-ed32816bb5db
+    id: smooth_sandstone-77456646
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: 0.5232716359590229
+      y: 1.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-38748648:
+    identifier: f0939c66-9802-4fd7-99f7-f407f3d995f0
+    id: smooth_sandstone_slab-38748648
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 3.0
+      z: 6.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-90270907:
+    identifier: bf05c894-0c69-4f0a-8937-f03cc480e5cb
+    id: smooth_sandstone_slab-90270907
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 3.0
+      z: 3.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-71422326:
+    identifier: 94401711-f4ea-43be-84ee-2bacf8784855
+    id: smooth_sandstone-71422326
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -1.476728364040977
+      y: 1.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_stained_glass_pane-94160557:
+    identifier: e2c8e5e5-928b-4257-8eee-59adb5e76726
+    id: yellow_stained_glass_pane-94160557
+    material: YELLOW_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:yellow_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=true]
+    offset:
+      x: -0.47672836404097707
+      y: 1.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-19055360:
+    identifier: 4c4202eb-c9c5-4897-89c0-1743b2cbfc12
+    id: sandstone_wall-19055360
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=low]
+    offset:
+      x: 1.523271635959023
+      y: 2.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  daylight_detector-90309362:
+    identifier: 032af0f1-4c97-4a02-8585-54b29fb7d913
+    id: daylight_detector-90309362
+    material: DAYLIGHT_DETECTOR
+    data:
+      data-type: block-data
+      value: minecraft:daylight_detector[inverted=false,power=10]
+    offset:
+      x: -1.476728364040977
+      y: 4.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-96477361:
+    identifier: 86f337b1-da4c-402d-bd5c-8d9ad7cb4ab6
+    id: smooth_sandstone_slab-96477361
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 0.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-93977882:
+    identifier: cc133e5b-0119-4d62-92ec-9f81ab612f17
+    id: smooth_sandstone_slab-93977882
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 3.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-47250377:
+    identifier: 188e6ea5-332b-4820-92be-5532f86c9b37
+    id: sandstone_wall-47250377
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]
+    offset:
+      x: 1.523271635959023
+      y: 0.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-56679033:
+    identifier: e81d8ae7-effa-49db-9dba-8510d0d6f555
+    id: smooth_sandstone_slab-56679033
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 3.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-108764384:
+    identifier: 7ae34e58-e3ec-48d4-ad30-72ef8d8de1b1
+    id: sandstone_wall-108764384
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=low]
+    offset:
+      x: 0.5232716359590229
+      y: 1.0
+      z: 3.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-100844747:
+    identifier: 5c75962c-a107-4aca-b4ba-5d22c6b8a354
+    id: deepslate_tile_slab-100844747
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 1.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-114736635:
+    identifier: 295eb887-f2b1-42b0-8b78-28764b0ff507
+    id: smooth_sandstone-114736635
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: 0.5232716359590229
+      y: 1.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_wall-96423950:
+    identifier: b13a4dad-ab8a-4e4a-bc3b-ac55b7567d80
+    id: deepslate_tile_wall-96423950
+    material: DEEPSLATE_TILE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_wall[east=tall,north=none,south=tall,up=true,waterlogged=false,west=tall]
+    offset:
+      x: -2.476728364040977
+      y: 0.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_bars-75846080:
+    identifier: d9628dce-4d4e-4c96-b0d7-48a480f95f83
+    id: iron_bars-75846080
+    material: IRON_BARS
+    data:
+      data-type: block-data
+      value: minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]
+    offset:
+      x: -2.476728364040977
+      y: 5.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-53010688:
+    identifier: fdecaccf-c554-46a4-b5d4-b77c621ae383
+    id: sandstone_wall-53010688
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=tall,north=none,south=low,up=true,waterlogged=false,west=none]
+    offset:
+      x: -2.476728364040977
+      y: 2.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-30343050:
+    identifier: f26285f1-20fd-41c3-ad53-de32006c531d
+    id: smooth_sandstone-30343050
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -0.47672836404097707
+      y: 2.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-7280677:
+    identifier: 3b5a40af-9905-453a-ab90-ab245b02fec9
+    id: smooth_sandstone_slab-7280677
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 0.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stripped_birch_log-94730812:
+    identifier: 24b303db-fc19-43c2-9d17-381f3d5ae23d
+    id: stripped_birch_log-94730812
+    material: STRIPPED_BIRCH_LOG
+    data:
+      data-type: block-data
+      value: minecraft:stripped_birch_log[axis=x]
+    offset:
+      x: -2.476728364040977
+      y: 1.0
+      z: 3.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-111192633:
+    identifier: 6ed3362a-f1d5-40a3-b9bf-016be98c10a4
+    id: smooth_sandstone-111192633
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: 0.5232716359590229
+      y: 1.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-104725606:
+    identifier: 759ea85a-c7c2-4a0f-ad39-c5b2d9fa4d8e
+    id: dark_oak_trapdoor-104725606
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 1.0
+      z: 4.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_button-64801615:
+    identifier: 0abcc3bc-cb7d-42d5-813b-ee385e0b0112
+    id: birch_button-64801615
+    material: BIRCH_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:birch_button[face=floor,facing=south,powered=false]
+    offset:
+      x: 0.5232716359590229
+      y: 3.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_planks-96330811:
+    identifier: 13ec3d14-6655-47a7-87ab-6f241f10dee3
+    id: dark_oak_planks-96330811
+    material: DARK_OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_wall_sign[facing=east,waterlogged=false]
+    offset:
+      x: 2.623271635959023
+      y: 1.28125
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: -5156.620156177409
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  smooth_sandstone_slab-22768194:
+    identifier: e3c08f6d-ea17-412c-971e-d4acd339f9d3
+    id: smooth_sandstone_slab-22768194
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 2.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-74582757:
+    identifier: 4b30ab1d-d251-4d34-93ab-74e072afc58d
+    id: smooth_sandstone-74582757
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -1.476728364040977
+      y: 3.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-84834973:
+    identifier: 1596610c-9553-455e-8563-2e649eb0312f
+    id: dark_oak_trapdoor-84834973
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 1.0
+      z: 4.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  chain-17010865:
+    identifier: 0a6a5f62-c866-4077-b3e5-42cfe4be32b8
+    id: chain-17010865
+    material: CHAIN
+    data:
+      data-type: block-data
+      value: minecraft:chain[axis=z,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 4.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-861555:
+    identifier: 7b6e25a6-b59e-42ad-9b65-61eae8f65a6d
+    id: smooth_sandstone_slab-861555
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 0.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_stained_glass_pane-65193382:
+    identifier: ead825bb-a15d-4af9-bcd0-b15950fc8250
+    id: yellow_stained_glass_pane-65193382
+    material: YELLOW_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:yellow_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]
+    offset:
+      x: -2.476728364040977
+      y: 3.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-42379497:
+    identifier: 64f5d40e-2cc8-486d-8e7a-d3ff809770e6
+    id: deepslate_tile_stairs-42379497
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 0.0
+      z: 3.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-55648391:
+    identifier: 05c967b4-3893-425d-9403-ebbce7ad2ab5
+    id: smooth_sandstone_slab-55648391
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 4.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  netherite_block-14664257:
+    identifier: a8537529-0823-46f7-b29a-6f744793569b
+    id: netherite_block-14664257
+    material: NETHERITE_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:netherite_block
+    offset:
+      x: 0.5232716359590229
+      y: 2.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-27368618:
+    identifier: cb4d939d-d51c-45bb-807c-ca9b349b1416
+    id: deepslate_tile_slab-27368618
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 1.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-49937694:
+    identifier: 5ec85195-3d0f-4586-96f3-72fc2f933ef6
+    id: deepslate_tile_slab-49937694
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 1.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-90653350:
+    identifier: 00c6ca60-aa1c-4013-b9b9-1100c6c5c824
+    id: smooth_sandstone_stairs-90653350
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 2.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-91098575:
+    identifier: 9cad8730-51b3-43a2-99fb-a7f4421b3e66
+    id: smooth_sandstone-91098575
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: 0.5232716359590229
+      y: 3.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-86860969:
+    identifier: c52bfb11-e391-4e02-818a-f09794e7cd7a
+    id: smooth_sandstone_slab-86860969
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 1.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-64461418:
+    identifier: 099da4e8-b1fd-4fc7-be13-7523504fca5a
+    id: smooth_sandstone-64461418
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -0.47672836404097707
+      y: 1.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-89758567:
+    identifier: d7863489-f71e-488a-a53c-7a2d65c7678b
+    id: smooth_sandstone_slab-89758567
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 0.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-17617711:
+    identifier: 49d13b57-a6a0-4a09-81b2-6ea180481488
+    id: sandstone_wall-17617711
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=low]
+    offset:
+      x: -1.476728364040977
+      y: 1.0
+      z: 3.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-57064775:
+    identifier: a82c95c7-e914-4773-a902-418d34b56295
+    id: smooth_sandstone_slab-57064775
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 1.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-36872900:
+    identifier: 5c38eecf-208d-402c-ab35-b4d053619ada
+    id: smooth_sandstone-36872900
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -1.476728364040977
+      y: 1.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-117627084:
+    identifier: b4892162-97ab-4e0e-8b1a-ba55604c3eaf
+    id: sandstone_wall-117627084
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=none,north=low,south=low,up=false,waterlogged=false,west=none]
+    offset:
+      x: 1.523271635959023
+      y: 2.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_pressure_plate-17363188:
+    identifier: 243daa41-42e3-4e8f-98f0-d49fdae40920
+    id: birch_pressure_plate-17363188
+    material: BIRCH_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:birch_pressure_plate[powered=false]
+    offset:
+      x: 0.5232716359590229
+      y: 2.0
+      z: 3.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_wall-121007539:
+    identifier: d3bdcf1f-dcd6-465c-9f74-f37a6a9b1d63
+    id: deepslate_tile_wall-121007539
+    material: DEEPSLATE_TILE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_wall[east=tall,north=none,south=tall,up=true,waterlogged=false,west=tall]
+    offset:
+      x: 1.523271635959023
+      y: 0.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_planks-117904429:
+    identifier: 29f1fe78-4b15-428e-a340-4681bb3d886e
+    id: dark_oak_planks-117904429
+    material: DARK_OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_wall_sign[facing=east,waterlogged=false]
+    offset:
+      x: 2.623271635959023
+      y: 1.28125
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: -5156.620156177409
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  birch_trapdoor-48417530:
+    identifier: 078b7ea4-ef61-4172-aec0-203c29318cb1
+    id: birch_trapdoor-48417530
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 2.0
+      z: 3.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-83087293:
+    identifier: 257d4a84-4d61-4c8d-b935-a0948c0503a0
+    id: smooth_sandstone_slab-83087293
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 0.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-75582956:
+    identifier: 89dae305-b47d-44ba-8ab7-a770647f21a9
+    id: smooth_sandstone_slab-75582956
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 2.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-101850364:
+    identifier: 5b1779ce-f903-4950-9bb8-30343c5098bc
+    id: smooth_sandstone_slab-101850364
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 0.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-62407838:
+    identifier: 69d8832f-0035-4113-953f-37273ac406ad
+    id: smooth_sandstone-62407838
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -1.476728364040977
+      y: 1.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  daylight_detector-16103902:
+    identifier: 8894daa6-6a24-4ae5-a388-ad470116896f
+    id: daylight_detector-16103902
+    material: DAYLIGHT_DETECTOR
+    data:
+      data-type: block-data
+      value: minecraft:daylight_detector[inverted=true,power=1]
+    offset:
+      x: 1.523271635959023
+      y: 1.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stripped_birch_log-96904306:
+    identifier: d26119b7-919c-476b-a319-f1d7167ecb8e
+    id: stripped_birch_log-96904306
+    material: STRIPPED_BIRCH_LOG
+    data:
+      data-type: block-data
+      value: minecraft:stripped_birch_log[axis=x]
+    offset:
+      x: -2.476728364040977
+      y: 0.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  tripwire_hook-91331821:
+    identifier: d197e95b-3a77-45df-a565-060ebfe4a255
+    id: tripwire_hook-91331821
+    material: TRIPWIRE_HOOK
+    data:
+      data-type: block-data
+      value: minecraft:tripwire_hook[attached=false,facing=north,powered=false]
+    offset:
+      x: 1.523271635959023
+      y: 4.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-47771562:
+    identifier: cedc37ff-7c83-48de-86f9-076c192c10fb
+    id: smooth_sandstone_stairs-47771562
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 2.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_deepslate_wall-110204805:
+    identifier: 48fb42a4-e88d-47d9-8c3e-eab9b15aa040
+    id: polished_deepslate_wall-110204805
+    material: POLISHED_DEEPSLATE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:polished_deepslate_wall[east=tall,north=none,south=tall,up=true,waterlogged=false,west=none]
+    offset:
+      x: -1.476728364040977
+      y: 1.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-110129407:
+    identifier: 3cf8dc96-d3a7-434f-ae1b-47c0adde0147
+    id: deepslate_tile_slab-110129407
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=double,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 2.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-18169406:
+    identifier: f73ccf1a-7cbc-48cc-a382-686c6f40be55
+    id: deepslate_tile_stairs-18169406
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 0.0
+      z: 3.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-45733210:
+    identifier: 53cc609c-ced4-40f2-a0e7-3f6ac22331cc
+    id: smooth_sandstone_stairs-45733210
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 2.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-108578610:
+    identifier: e65a1913-02df-4309-a946-8266719a7a05
+    id: smooth_sandstone_slab-108578610
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 2.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stripped_birch_log-46797002:
+    identifier: c7415d45-f994-47d3-b6eb-072c2eb7ce2e
+    id: stripped_birch_log-46797002
+    material: STRIPPED_BIRCH_LOG
+    data:
+      data-type: block-data
+      value: minecraft:stripped_birch_log[axis=z]
+    offset:
+      x: -1.476728364040977
+      y: 2.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-43754075:
+    identifier: f04ce92b-f9e6-4db3-a6cf-fd48206e50ed
+    id: smooth_sandstone_slab-43754075
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 2.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-59044517:
+    identifier: 86d1527f-7a13-4b75-b4d4-500112890487
+    id: sandstone_wall-59044517
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=none]
+    offset:
+      x: -2.476728364040977
+      y: 2.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-92844957:
+    identifier: 55dcfb37-3934-456c-a123-ae88e92c7762
+    id: smooth_sandstone-92844957
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -1.476728364040977
+      y: 1.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-118557799:
+    identifier: 41c106f4-5676-49f6-9d19-fb5e6c8be58b
+    id: sandstone_wall-118557799
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]
+    offset:
+      x: -2.476728364040977
+      y: 0.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_trapdoor-30052678:
+    identifier: 862b7e32-9247-49b3-b860-08d7594c82ce
+    id: birch_trapdoor-30052678
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 4.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-31264172:
+    identifier: bfb3e504-e5f8-42bc-9704-3991bb890f44
+    id: smooth_sandstone-31264172
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -0.47672836404097707
+      y: 3.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-108401677:
+    identifier: 4de1e286-1676-4d32-b4cb-4c7ffd0c869c
+    id: smooth_sandstone_stairs-108401677
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 1.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-90352978:
+    identifier: e6110054-991e-44d1-9e30-01ffe2932a39
+    id: smooth_sandstone_slab-90352978
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 2.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-86186897:
+    identifier: d0d3793d-227f-479f-af77-cd3d06c3192a
+    id: smooth_sandstone_stairs-86186897
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 3.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_trapdoor-52006129:
+    identifier: da31a7e8-6fe4-4f6b-a3b4-d29b231c84ef
+    id: birch_trapdoor-52006129
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 3.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-1085810:
+    identifier: 0401c00e-0329-4977-9fc4-2daebfc645dc
+    id: sandstone_wall-1085810
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]
+    offset:
+      x: 1.523271635959023
+      y: 0.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  flower_pot-38815966:
+    identifier: 5b924eb4-e8fa-44f2-84d5-edfa017af307
+    id: flower_pot-38815966
+    material: FLOWER_POT
+    data:
+      data-type: block-data
+      value: minecraft:flower_pot
+    offset:
+      x: 1.523271635959023
+      y: 3.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_planks-15053928:
+    identifier: c2304721-21fb-4f0a-b2d9-9ceacadf8939
+    id: dark_oak_planks-15053928
+    material: DARK_OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_wall_sign[facing=west,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 1.28125
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: -5156.620156177409
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  birch_trapdoor-45683847:
+    identifier: 34b61f07-ee4c-489a-85c9-dde6a4733f0e
+    id: birch_trapdoor-45683847
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 3.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-122196919:
+    identifier: 05d13534-4ecc-4a35-9cf7-4be2102fd1e0
+    id: smooth_sandstone_slab-122196919
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 0.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_pressure_plate-91884616:
+    identifier: f1f3bc7b-60ad-4b90-be22-3228f0522bdc
+    id: birch_pressure_plate-91884616
+    material: BIRCH_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:birch_pressure_plate[powered=false]
+    offset:
+      x: -1.476728364040977
+      y: 3.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-86023622:
+    identifier: f7fbccde-421c-42ba-a7a3-d181bde2f5a8
+    id: smooth_sandstone-86023622
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -0.47672836404097707
+      y: 2.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_candle-81036428:
+    identifier: 37d78736-f318-478e-86a1-97d0da1f08da
+    id: black_candle-81036428
+    material: BLACK_CANDLE
+    data:
+      data-type: block-data
+      value: minecraft:black_candle[candles=4,lit=false,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 4.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stripped_birch_log-53678938:
+    identifier: 8158c0da-fab9-4826-9de4-4e0c0075b227
+    id: stripped_birch_log-53678938
+    material: STRIPPED_BIRCH_LOG
+    data:
+      data-type: block-data
+      value: minecraft:stripped_birch_log[axis=x]
+    offset:
+      x: -2.476728364040977
+      y: 0.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-101642792:
+    identifier: 2d87d590-dbf1-4b42-a75e-f831a52267f7
+    id: sandstone_wall-101642792
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]
+    offset:
+      x: 1.523271635959023
+      y: 0.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stripped_birch_log-85846097:
+    identifier: 9ef1434f-1e8f-4015-8c4a-2ae9e7daf3a4
+    id: stripped_birch_log-85846097
+    material: STRIPPED_BIRCH_LOG
+    data:
+      data-type: block-data
+      value: minecraft:stripped_birch_log[axis=x]
+    offset:
+      x: 1.523271635959023
+      y: 0.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-74064910:
+    identifier: 9505d7f7-7f87-49db-90e0-3b65b26d0531
+    id: smooth_sandstone_slab-74064910
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 0.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_trapdoor-48718124:
+    identifier: 17821666-10e6-4a55-8796-48e7ce25f75b
+    id: birch_trapdoor-48718124
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=north,half=bottom,open=true,powered=true,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 4.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  daylight_detector-13749800:
+    identifier: c6a9a615-2960-4804-af14-5c4c570e6763
+    id: daylight_detector-13749800
+    material: DAYLIGHT_DETECTOR
+    data:
+      data-type: block-data
+      value: minecraft:daylight_detector[inverted=false,power=10]
+    offset:
+      x: -0.47672836404097707
+      y: 4.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-2177373:
+    identifier: 48e1d373-5cb6-494a-8ea2-df92fafc5dd4
+    id: smooth_sandstone_slab-2177373
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 2.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-75396785:
+    identifier: 8446dea4-3834-4742-9105-5fa43a24157f
+    id: smooth_sandstone_slab-75396785
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 0.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_trapdoor-111692999:
+    identifier: 0bbd2981-8135-482c-84fc-22f50a14850d
+    id: birch_trapdoor-111692999
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 4.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-75012443:
+    identifier: 935fce43-04c7-474b-856c-024dccb16f8f
+    id: deepslate_tile_slab-75012443
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=double,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 2.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_fence_gate-5641208:
+    identifier: 94202a3c-b214-49a4-a07d-5f63d88166d1
+    id: birch_fence_gate-5641208
+    material: BIRCH_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:birch_fence_gate[facing=south,in_wall=false,open=true,powered=false]
+    offset:
+      x: -2.476728364040977
+      y: 2.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-68123111:
+    identifier: 663d6ff0-0838-4525-b9d4-5be292959e6f
+    id: smooth_sandstone_slab-68123111
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 0.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-75501842:
+    identifier: 9e7136c6-5911-4217-ad4b-d13c2e10482e
+    id: smooth_sandstone_slab-75501842
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 0.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-23153986:
+    identifier: c7460553-acda-4724-b999-d8dcdff0d61b
+    id: deepslate_tile_slab-23153986
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 1.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  netherite_block-96101470:
+    identifier: 73ac6bbe-b911-473d-8c1f-4e3819e187ed
+    id: netherite_block-96101470
+    material: NETHERITE_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:netherite_block
+    offset:
+      x: -1.476728364040977
+      y: 2.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-105769432:
+    identifier: d7fd4b32-795b-47a0-8628-b84e716c3ab4
+    id: smooth_sandstone_slab-105769432
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 1.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  flower_pot-15731872:
+    identifier: 718aad4f-dd4b-4497-b0e6-baf0ea0701b2
+    id: flower_pot-15731872
+    material: FLOWER_POT
+    data:
+      data-type: block-data
+      value: minecraft:flower_pot
+    offset:
+      x: -2.476728364040977
+      y: 3.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-68071652:
+    identifier: 1d842000-806b-4a19-bf28-5292a226de6d
+    id: deepslate_tile_slab-68071652
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 1.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-65407665:
+    identifier: 61d96381-4a43-41fb-923d-6cfa13fcf881
+    id: smooth_sandstone_slab-65407665
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 1.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-74794712:
+    identifier: f9d07a40-1c10-4a1b-b33d-6aca5e5e37cb
+    id: sandstone_wall-74794712
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]
+    offset:
+      x: 1.523271635959023
+      y: 0.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-44656462:
+    identifier: fc307db7-80f6-4e59-a8fb-e0c2ef831b08
+    id: smooth_sandstone_slab-44656462
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 0.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_trapdoor-60144965:
+    identifier: 90d02b48-5601-4ccd-b7b7-7217dd2cc2b9
+    id: birch_trapdoor-60144965
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 3.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  daylight_detector-120814617:
+    identifier: d3d3e2cf-5b4e-422a-a743-435bc4aa37c0
+    id: daylight_detector-120814617
+    material: DAYLIGHT_DETECTOR
+    data:
+      data-type: block-data
+      value: minecraft:daylight_detector[inverted=false,power=10]
+    offset:
+      x: 0.5232716359590229
+      y: 4.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-22470467:
+    identifier: 39d3e07e-e252-40e7-a6d0-4c15119db58c
+    id: smooth_sandstone_stairs-22470467
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 3.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-42309071:
+    identifier: 24e043ea-5e1f-4800-8668-aff60603d05e
+    id: smooth_sandstone_slab-42309071
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 1.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_bars-113424923:
+    identifier: e7434008-b6e7-4c46-97ee-e4bb7265a016
+    id: iron_bars-113424923
+    material: IRON_BARS
+    data:
+      data-type: block-data
+      value: minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]
+    offset:
+      x: -2.476728364040977
+      y: 6.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-41771989:
+    identifier: 6c5e7269-ec94-4e34-9ac0-b88180789010
+    id: sandstone_wall-41771989
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=tall]
+    offset:
+      x: 1.523271635959023
+      y: 2.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_bars-59625304:
+    identifier: 524cf832-7cf1-4190-a725-b0fbd1f8fa21
+    id: iron_bars-59625304
+    material: IRON_BARS
+    data:
+      data-type: block-data
+      value: minecraft:iron_bars[east=false,north=false,south=false,waterlogged=false,west=false]
+    offset:
+      x: -2.476728364040977
+      y: 4.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  wither_skeleton_wall_skull-94871039:
+    identifier: 8fb80120-4b5e-43d7-a005-fdc1699e5695
+    id: wither_skeleton_wall_skull-94871039
+    material: WITHER_SKELETON_WALL_SKULL
+    data:
+      data-type: block-data
+      value: minecraft:wither_skeleton_wall_skull[facing=east]
+    offset:
+      x: 1.523271635959023
+      y: 4.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-118943341:
+    identifier: e2e7a083-00aa-4b6a-ab5b-7255a73dff22
+    id: sandstone_wall-118943341
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]
+    offset:
+      x: -2.476728364040977
+      y: 0.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-22381414:
+    identifier: 79274b39-6cfa-4910-80ad-b64754ba5338
+    id: deepslate_tile_slab-22381414
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=double,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 2.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-35125283:
+    identifier: 6c17908e-a047-425f-98ba-3225c774a497
+    id: deepslate_tile_stairs-35125283
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 2.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  chain-50049647:
+    identifier: e78e9f9e-5ede-4b9a-afc2-400420ef4fd8
+    id: chain-50049647
+    material: CHAIN
+    data:
+      data-type: block-data
+      value: minecraft:chain[axis=z,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 2.0
+      z: 3.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_trapdoor-83119580:
+    identifier: af7f0eb2-03cc-4872-a33f-ac88c4e4305d
+    id: birch_trapdoor-83119580
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 3.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-113375876:
+    identifier: c14b3cb5-cfa2-4e80-aed8-1fb0e9574c25
+    id: smooth_sandstone-113375876
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -0.47672836404097707
+      y: 3.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-8407405:
+    identifier: edad2162-05b0-4bfc-838f-f03bb9add7dd
+    id: smooth_sandstone_slab-8407405
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 0.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-96579125:
+    identifier: 0604bb4a-22a8-4d4e-94ab-c89f6d68e8c9
+    id: deepslate_tile_slab-96579125
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 1.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-42029079:
+    identifier: 0efcbc74-0100-4527-8026-d356f97d0d89
+    id: smooth_sandstone-42029079
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -1.476728364040977
+      y: 1.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-50052039:
+    identifier: c463a31f-bfc6-4161-a8ba-c2c764da88e3
+    id: smooth_sandstone_slab-50052039
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 3.0
+      z: 4.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-23838130:
+    identifier: fcf4db19-cb0b-41f0-81f9-8ef0e4fd6785
+    id: smooth_sandstone_stairs-23838130
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 1.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_pressure_plate-94424232:
+    identifier: 99ed55cb-b6c7-4700-8811-b48f8b1b6747
+    id: birch_pressure_plate-94424232
+    material: BIRCH_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:birch_pressure_plate[powered=false]
+    offset:
+      x: -1.476728364040977
+      y: 3.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-34059753:
+    identifier: c3ed66b3-588b-4010-b9cf-437154848485
+    id: smooth_sandstone-34059753
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: 0.5232716359590229
+      y: 2.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-82633806:
+    identifier: a78a0a13-7619-4237-aedc-df0d000f0c15
+    id: deepslate_tile_slab-82633806
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 1.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-29320471:
+    identifier: 0f746c1c-858b-4f07-8e44-0b9faf70b2f7
+    id: sandstone_wall-29320471
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=none,north=low,south=none,up=true,waterlogged=false,west=low]
+    offset:
+      x: 1.523271635959023
+      y: 2.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  daylight_detector-26065847:
+    identifier: 49e391ee-71a4-4397-8b63-a178498ffd27
+    id: daylight_detector-26065847
+    material: DAYLIGHT_DETECTOR
+    data:
+      data-type: block-data
+      value: minecraft:daylight_detector[inverted=false,power=10]
+    offset:
+      x: -1.476728364040977
+      y: 4.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_planks-109791061:
+    identifier: 56ab4f6f-edfb-4fdf-8f33-72ba05126517
+    id: dark_oak_planks-109791061
+    material: DARK_OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_wall_sign[facing=west,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 1.28125
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: -5156.620156177409
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  end_rod-73279415:
+    identifier: 57b09879-a457-42c0-92d8-05ee2f6f2347
+    id: end_rod-73279415
+    material: END_ROD
+    data:
+      data-type: block-data
+      value: minecraft:end_rod[facing=up]
+    offset:
+      x: -2.476728364040977
+      y: 3.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-74733932:
+    identifier: c26a6a82-c55b-4aeb-9f76-2295b92a5f87
+    id: smooth_sandstone-74733932
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: 0.5232716359590229
+      y: 1.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_fence_gate-61283423:
+    identifier: c1451b27-f719-4bc5-ab88-549388c1c158
+    id: birch_fence_gate-61283423
+    material: BIRCH_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:birch_fence_gate[facing=south,in_wall=false,open=true,powered=false]
+    offset:
+      x: 1.523271635959023
+      y: 2.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-95955396:
+    identifier: 0b25d16f-6c89-4612-94a9-f4ba3bede79d
+    id: sandstone_wall-95955396
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]
+    offset:
+      x: -2.476728364040977
+      y: 0.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-47375438:
+    identifier: ef45820f-82ee-49a3-914e-fa4bae58d79d
+    id: smooth_sandstone_slab-47375438
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 2.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stripped_birch_log-38077487:
+    identifier: 08890eba-f956-4e04-a2cc-88897e6df4ea
+    id: stripped_birch_log-38077487
+    material: STRIPPED_BIRCH_LOG
+    data:
+      data-type: block-data
+      value: minecraft:stripped_birch_log[axis=x]
+    offset:
+      x: 1.523271635959023
+      y: 0.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-62755202:
+    identifier: 48210ebb-4cab-4012-8f4e-6a283530d0ea
+    id: smooth_sandstone-62755202
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: 0.5232716359590229
+      y: 3.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-23133918:
+    identifier: 81a85e0e-2374-466f-bff3-0eab4ad0f90e
+    id: deepslate_tile_slab-23133918
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 1.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-87656319:
+    identifier: d312ba8c-0ad2-41e9-87f0-a26fa4a71e73
+    id: smooth_sandstone_stairs-87656319
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 2.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stripped_birch_log-13084622:
+    identifier: 1f29ae28-4972-4c4a-a7ed-ce49c16de776
+    id: stripped_birch_log-13084622
+    material: STRIPPED_BIRCH_LOG
+    data:
+      data-type: block-data
+      value: minecraft:stripped_birch_log[axis=x]
+    offset:
+      x: 1.523271635959023
+      y: 0.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-73945121:
+    identifier: c3ad4731-eca2-447a-8eb3-4a05a0f4e226
+    id: smooth_sandstone_slab-73945121
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 0.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-30370258:
+    identifier: 6429bf72-492c-4b1b-87ce-8d21e3146ac3
+    id: smooth_sandstone-30370258
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -0.47672836404097707
+      y: 2.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  flower_pot-34802405:
+    identifier: e47595ad-3acb-430d-aa3c-4c6e1bea7a5d
+    id: flower_pot-34802405
+    material: FLOWER_POT
+    data:
+      data-type: block-data
+      value: minecraft:flower_pot
+    offset:
+      x: 0.5232716359590229
+      y: 3.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_pressure_plate-113873639:
+    identifier: 822d56ab-8f0b-4041-9b66-2f428143ff68
+    id: birch_pressure_plate-113873639
+    material: BIRCH_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:birch_pressure_plate[powered=false]
+    offset:
+      x: -0.47672836404097707
+      y: 2.0
+      z: 3.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  flower_pot-63963897:
+    identifier: 322aabba-45dd-426b-891d-b92daff258ab
+    id: flower_pot-63963897
+    material: FLOWER_POT
+    data:
+      data-type: block-data
+      value: minecraft:flower_pot
+    offset:
+      x: -1.476728364040977
+      y: 3.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-36658290:
+    identifier: 2288e767-055d-4840-9178-cc0ad77bc504
+    id: deepslate_tile_slab-36658290
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=double,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 2.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-39693503:
+    identifier: f88d8e57-8f5f-41bc-8d87-ff9e6a6dcb6a
+    id: smooth_sandstone_slab-39693503
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 0.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-26584172:
+    identifier: c8b0b286-2f91-4a7f-b047-3a60ef260a08
+    id: deepslate_tile_slab-26584172
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 1.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stripped_birch_log-11271302:
+    identifier: a600e404-b6cb-4bbd-8523-ecf10d9aac88
+    id: stripped_birch_log-11271302
+    material: STRIPPED_BIRCH_LOG
+    data:
+      data-type: block-data
+      value: minecraft:stripped_birch_log[axis=x]
+    offset:
+      x: 1.523271635959023
+      y: 1.0
+      z: 3.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_trapdoor-67873497:
+    identifier: d8d1a9c7-d498-4e94-bbe0-925a3e66c94d
+    id: birch_trapdoor-67873497
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 2.0
+      z: 3.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-57435291:
+    identifier: 82f22e82-ed0a-4fda-800d-1d0fb5bf77c3
+    id: deepslate_tile_slab-57435291
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 1.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-2185812:
+    identifier: 72224e13-d6bf-47e8-8c4b-75ba063a9fc7
+    id: sandstone_wall-2185812
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=none,north=tall,south=tall,up=false,waterlogged=false,west=none]
+    offset:
+      x: -2.476728364040977
+      y: 0.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-101344068:
+    identifier: 329f41bc-8aab-4370-a469-70f625e5a064
+    id: smooth_sandstone_slab-101344068
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 3.0
+      z: 5.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_pressure_plate-44649735:
+    identifier: 7cca271e-b3cf-43dc-9740-f53b10e34149
+    id: birch_pressure_plate-44649735
+    material: BIRCH_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:birch_pressure_plate[powered=false]
+    offset:
+      x: 0.5232716359590229
+      y: 3.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_pressure_plate-113136874:
+    identifier: df722ea1-c25f-4d56-a20b-cd1bc326aa82
+    id: birch_pressure_plate-113136874
+    material: BIRCH_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:birch_pressure_plate[powered=false]
+    offset:
+      x: -0.47672836404097707
+      y: 4.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-92266362:
+    identifier: bd5f8eb4-7ecc-4b47-95d1-19544572c648
+    id: smooth_sandstone_slab-92266362
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 0.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-1352546:
+    identifier: 4b20a0f4-ab21-479b-86b0-273254f47318
+    id: smooth_sandstone-1352546
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -0.47672836404097707
+      y: 1.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_pressure_plate-6341358:
+    identifier: 64e8c276-6af3-4dc1-b23d-db8662e2bef0
+    id: birch_pressure_plate-6341358
+    material: BIRCH_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:birch_pressure_plate[powered=false]
+    offset:
+      x: -0.47672836404097707
+      y: 4.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-99430152:
+    identifier: 8c661770-f69b-457b-b089-92572309f0c6
+    id: smooth_sandstone_slab-99430152
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 0.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stripped_birch_log-104879713:
+    identifier: a1769209-5cbc-49d4-b5c4-d225711d77fd
+    id: stripped_birch_log-104879713
+    material: STRIPPED_BIRCH_LOG
+    data:
+      data-type: block-data
+      value: minecraft:stripped_birch_log[axis=x]
+    offset:
+      x: -2.476728364040977
+      y: 0.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-33832915:
+    identifier: 5f775cfc-1d69-459f-abf5-1d9be297e433
+    id: smooth_sandstone_slab-33832915
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 0.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-113734749:
+    identifier: 9dbbb33c-b88b-4bd3-98d8-1970ac4dcdee
+    id: smooth_sandstone_stairs-113734749
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 2.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-13674959:
+    identifier: 3ccc6632-6101-43d0-a558-77bc514a9541
+    id: smooth_sandstone-13674959
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: 0.5232716359590229
+      y: 2.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-60286476:
+    identifier: e4930799-3514-4dd8-b376-21f2b2471a85
+    id: sandstone_wall-60286476
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=low,north=low,south=low,up=true,waterlogged=false,west=none]
+    offset:
+      x: -2.476728364040977
+      y: 2.0
+      z: 1.7167273704229928
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  daylight_detector-9155855:
+    identifier: 6bd8bd75-30fa-40fc-95a9-4d5e6a1f9bab
+    id: daylight_detector-9155855
+    material: DAYLIGHT_DETECTOR
+    data:
+      data-type: block-data
+      value: minecraft:daylight_detector[inverted=true,power=1]
+    offset:
+      x: -2.476728364040977
+      y: 1.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_deepslate_wall-112423819:
+    identifier: c2cc2f7b-bd0d-43fa-b8c6-b6467b8fcf6c
+    id: polished_deepslate_wall-112423819
+    material: POLISHED_DEEPSLATE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:polished_deepslate_wall[east=none,north=none,south=tall,up=true,waterlogged=false,west=tall]
+    offset:
+      x: 0.5232716359590229
+      y: 1.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_trapdoor-101851768:
+    identifier: fadf8f7f-00c0-45b3-9432-60b34d9e89d6
+    id: birch_trapdoor-101851768
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 4.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-18811710:
+    identifier: 1c7850d0-c264-45b1-b03c-19945034bec1
+    id: smooth_sandstone-18811710
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -0.47672836404097707
+      y: 1.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-50995724:
+    identifier: 3782b9ca-8758-4753-90ae-7ade009384aa
+    id: smooth_sandstone_slab-50995724
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 1.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-21646320:
+    identifier: ec8d897f-62a3-43b8-bfdd-88d237172814
+    id: oak_stairs-21646320
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 3.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-31106366:
+    identifier: 089eb572-c176-41d9-8b3b-b966f612f88d
+    id: smooth_sandstone-31106366
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -0.47672836404097707
+      y: 1.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_trapdoor-99429557:
+    identifier: 02d07541-a3d5-42b5-85b9-5abd288437e2
+    id: birch_trapdoor-99429557
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    offset:
+      x: 0.5232716359590229
+      y: 4.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-68172027:
+    identifier: d8be44a7-d6bf-4920-b140-3cf0e3a80684
+    id: sandstone_wall-68172027
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=low,north=low,south=none,up=true,waterlogged=false,west=none]
+    offset:
+      x: -2.476728364040977
+      y: 2.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-63476419:
+    identifier: df8389e4-9ce6-4dc5-be07-1bc26e943429
+    id: smooth_sandstone-63476419
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -1.476728364040977
+      y: 3.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-59997024:
+    identifier: cd52226c-8c23-4c13-904d-690a2d8afcd5
+    id: deepslate_tile_stairs-59997024
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 2.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_stained_glass_pane-3697946:
+    identifier: 931afabe-ab80-4008-905a-16c398a034ad
+    id: yellow_stained_glass_pane-3697946
+    material: YELLOW_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:yellow_stained_glass_pane[east=true,north=true,south=true,waterlogged=false,west=false]
+    offset:
+      x: -2.476728364040977
+      y: 3.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-20667987:
+    identifier: 8b21cc41-77c2-4035-b386-a8c2527f2501
+    id: smooth_sandstone_slab-20667987
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 1.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-64116994:
+    identifier: 83e2f946-0cc8-4d13-bb2d-e50f6b32c030
+    id: smooth_sandstone_stairs-64116994
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 2.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-58000964:
+    identifier: b0cbd9f2-3e00-4ccf-9cf8-0c3dad1ae2e1
+    id: smooth_sandstone-58000964
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -1.476728364040977
+      y: 2.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-38311166:
+    identifier: f0d2614d-a3c6-4f28-9541-8ff5a0f17cd5
+    id: smooth_sandstone_stairs-38311166
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 3.0
+      z: -2.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-68228896:
+    identifier: c3aa813c-d91e-406f-81be-4fd43c2e89c4
+    id: smooth_sandstone-68228896
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -0.47672836404097707
+      y: 1.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-95975305:
+    identifier: 2c60980e-59a9-44ff-b503-67d0935b40ed
+    id: smooth_sandstone_stairs-95975305
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 2.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stripped_birch_log-118009944:
+    identifier: 4b21cc4b-d915-430e-b493-538d91291045
+    id: stripped_birch_log-118009944
+    material: STRIPPED_BIRCH_LOG
+    data:
+      data-type: block-data
+      value: minecraft:stripped_birch_log[axis=x]
+    offset:
+      x: 1.523271635959023
+      y: 0.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-78683868:
+    identifier: 2e437bcc-0d0c-41c0-ac0c-8e254beea07f
+    id: smooth_sandstone_slab-78683868
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 0.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-53774382:
+    identifier: 17646735-b4bd-44f8-9fe3-5aa9c3f80b80
+    id: smooth_sandstone_stairs-53774382
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 2.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-109399273:
+    identifier: c69e344b-4403-4d19-a7ad-dfcb700ce304
+    id: smooth_sandstone_slab-109399273
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 0.0
+      z: -3.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-117982502:
+    identifier: d557869c-26e3-47fb-81e6-b5ddd204c738
+    id: smooth_sandstone-117982502
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -0.47672836404097707
+      y: 2.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-48294328:
+    identifier: 081bcfab-c963-416b-ac13-32fbc3399831
+    id: smooth_sandstone_slab-48294328
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=double,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 1.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-55112677:
+    identifier: 6271cf93-b239-4c5d-bc58-0fdd93630335
+    id: deepslate_tile_slab-55112677
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 1.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-107709081:
+    identifier: b3b486f3-1259-4102-b60e-271953c19cfc
+    id: smooth_sandstone-107709081
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: 0.5232716359590229
+      y: 3.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sandstone_wall-98271101:
+    identifier: 40c3c031-e9f1-4e87-a6e4-ef1d6c3f7b44
+    id: sandstone_wall-98271101
+    material: SANDSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:sandstone_wall[east=low,north=none,south=low,up=true,waterlogged=false,west=low]
+    offset:
+      x: -0.47672836404097707
+      y: 2.0
+      z: -5.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-18921471:
+    identifier: f3415ab3-2e5e-4f59-88bb-76b2b6690dbd
+    id: smooth_sandstone-18921471
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: 0.5232716359590229
+      y: 1.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_candle-13206939:
+    identifier: 90d76320-37b2-4508-9f1e-001489f39d73
+    id: black_candle-13206939
+    material: BLACK_CANDLE
+    data:
+      data-type: block-data
+      value: minecraft:black_candle[candles=4,lit=false,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 4.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-33078447:
+    identifier: 4818e269-6bff-4efa-9f97-a3c7322bb58a
+    id: smooth_sandstone-33078447
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -1.476728364040977
+      y: 2.0
+      z: -0.28327262957700705
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_stairs-910220:
+    identifier: e3fbc3ed-59d4-4965-a623-622f74c30cd0
+    id: smooth_sandstone_stairs-910220
+    material: SMOOTH_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.476728364040977
+      y: 2.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_slab-102963052:
+    identifier: ec4c04a4-cc66-4466-85e1-0768e3dfb4f4
+    id: deepslate_tile_slab-102963052
+    material: DEEPSLATE_TILE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.523271635959023
+      y: 1.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_button-108265575:
+    identifier: 7a45ab19-8cde-4810-9e47-1b9d86e0a067
+    id: birch_button-108265575
+    material: BIRCH_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:birch_button[face=floor,facing=south,powered=false]
+    offset:
+      x: -0.47672836404097707
+      y: 3.0
+      z: -4.283272629577007
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-56342783:
+    identifier: eeaabda7-b7ee-4db4-b5da-2ec38f4758b8
+    id: smooth_sandstone_slab-56342783
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.476728364040977
+      y: 0.0
+      z: 2.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone-67910464:
+    identifier: 5b93c118-614e-44c7-8dec-09e150770db6
+    id: smooth_sandstone-67910464
+    material: SMOOTH_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone
+    offset:
+      x: -1.476728364040977
+      y: 3.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_trapdoor-26748569:
+    identifier: 3037fbbb-32a6-4b19-8452-ba0367a994ee
+    id: birch_trapdoor-26748569
+    material: BIRCH_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:birch_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 4.0
+      z: 0.716727370422993
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_sandstone_slab-121542538:
+    identifier: 224021ce-939b-4cba-b39f-09da9f272505
+    id: smooth_sandstone_slab-121542538
+    material: SMOOTH_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.47672836404097707
+      y: 0.0
+      z: -1.2832726295770072
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones: { }
+animations: { }

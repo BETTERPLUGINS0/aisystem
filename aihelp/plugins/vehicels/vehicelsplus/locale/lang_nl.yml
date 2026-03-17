@@ -1,0 +1,311 @@
+vehiclesplus:
+  general:
+    errors:
+      noeconomy: '<c5>Economieondersteuning is uitgeschakeld! Dit commando werkt hierdoor niet. Neem contact op met de eigenaar van de server.</c5>'
+      notenoughmoney: '<c5>Kon de betaling niet voltooien. Je hebt niet genoeg geld!</c5>'
+    vehicles:
+      actionbar:
+        normal: '<c1>Versnelling </c1><c7>%gear%</c7><c2> | </c2><c1>Snelheid </c1><c7>%curspeed%</c7><c2>/</c2><c7>%maxspeed%</c7><c1>KM/H</c1><c2> | </c2><c1>Brandstof Tank </c1><c7>%fuelperc%</c7><c1>%</c1><c2> (</c2><c7>%curfuel%</c7><c2>/</c2><c7>%maxfuel%</c7><c1>L</c1><c2>)</c2>'
+        outoffuel: '<c5>Brandstof is op!</c5>'
+  commands:
+    addon:
+      descriptions:
+        main: 'VehiclesPlus Addon commando'
+        givepaint: 'Geef een verfblik aan een speler'
+        givewheel: 'Geef een wiel aan een speler'
+      givepaint:
+        item:
+          name: '<c3>Verfblik</c3>'
+          lore: '<c4>Rood: %red%</c4>\n<c4>Groen: %green%</c4>\n<c4>Blauw: %blue%</c4>'
+        given: '<c3>Het verfblik is aan </c3><c4>%player%</c4><c3> gegeven.</c3>'
+        received: '<c3>Je hebt een verfblik ontvangen! Klik op een onderdeel om zijn kleur te veranderen.</c3>'
+      givewheel:
+        item:
+          name: '<c3>Wiel</c3>'
+          lore: '<c4>Type: %type%</c4>'
+        given: '<c3>Het wiel is aan </c3><c4>%player%</c4><c3> gegeven.</c3>'
+        received: '<c3>Je hebt een wiel ontvangen! Klik op het oude wiel om hem te vervangen door deze.</c3>'
+    fuel:
+      descriptions:
+        main: 'VehiclesPlus Brandstof commando'
+        give: 'Geef brandstof aan een speler'
+        buy: 'Koop rechtstreeks brandstof'
+        shop: 'Open de brandstofwinkel'
+      give: '<c3>De brandstof is gegeven.</c3>'
+      buy: '<c3>Je hebt succesvol </c3><c4>%liters%L</c4><c3> van </c3><c4>%type%</c4><c3> gekocht.</c3>'
+    garage:
+      descriptions:
+        main: 'VehiclesPlus Garage commando'
+        open: 'Open de garage'
+        create: 'Maak een nieuwe garage'
+        delete: 'Verwijder een garage'
+        addmember: 'Voeg een lid toe aan een garage'
+        removemember: 'Verwijder een lid uit een garage'
+        setowner: 'Verander de eigenaar van de garage'
+      invalid: '<c5>Die garage bestaat niet!</c5>'
+      already: '<c5>Die garage bestaat al!</c5>'
+      created: '<c4>%garage%</c4><c3> succesvol aangemaakt!</c3>'
+      deleted: '<c4>%garage%</c4><c3> succesvol verwijderd!</c3>'
+      addedmember: '<c4>%player%</c4><c3> succesvol toegevoegd aan </c3><c4>%garage%</c4><c3>!</c3>'
+      removedmember: '<c4>%player%</c4><c3> succesvol verwijderd uit </c3><c4>%garage%</c4><c3>!</c3>'
+      setowner: '<c4>%player%</c4><c3> succesvol ingesteld als de eigenaar van </c3><c4>%garage%</c4><c3>!</c3>'
+    vehiclemodel:
+      descriptions:
+        main: 'VehiclesPlus Voertuigmodel commando'
+        delete: 'Verwijder een voertuigmodel'
+        list: 'Toon alle voertuigmodellen'
+        reload: 'Herlaad de voertuigmodellen'
+        info: 'Krijg informatie over een voertuigmodel'
+      delete:
+        confirm: '<c3>Weet je zeker dat je het voertuigmodel </c3><c4>%model%</c4><c3> wilt verwijderen? Dit zal ook alle gekoppelde voertuigen uit de garages verwijderen!</c3>'
+        deleted: '<c3>Voertuigmodel </c3><c4>%model%</c4><c3> succesvol verwijderd!</c3>'
+        cancelled: '<c3>Verwijderen van voertuigmodel succesvol geannuleerd!</c3>'
+      list:
+        title: 'Naam: <c7>%name%</c7> | Type: <c7>%type%</c7>'
+        hover: 'Klik links voor meer informatie.'
+      reload: '<c3>Voertuigmodellen succesvol herladen!</c3>'
+      info:
+        name: 'Naam: <c7>%name%</c7>'
+        type: 'Type: <c7>%type%</c7>'
+        parts:
+          header: 'Onderdelen:'
+          part: '- <c7>%part%</c7>'
+        settings:
+          header: 'Instellingen:'
+          setting: '<c5>%setting%</c5>'
+          upgradable:
+            base: 'Basis instelling: <c7>%base% %unit%</c7>'
+            max: 'Maximale instelling: <c7>%max% %unit%</c7>'
+            step: 'Stap per upgrade: <c7>%step% %unit%</c7>'
+            stepcost: 'Kosten per upgrade-stap: <c7>%stepcost%</c7>'
+            notupgradable: '<c5>Niet opwaardeerbaar</c5>'
+            maxedout: '<c5>Maximum bereikt</c5>'
+          exhaust:
+            enabled: 'Ingeschakeld: <c7>%enabled%</c7>'
+            xoffset: 'X-offset: <c7>%xoffset%</c7>'
+            yoffset: 'Y-offset: <c7>%yoffset%</c7>'
+            zoffset: 'Z-offset: <c7>%zoffset%</c7>'
+            particle: 'Deeltje: <c7>%particle%</c7>'
+          fuel:
+            type: 'Type: <c7>%type%</c7>'
+            usage: 'Gebruik: <c7>%usage%</c7>'
+          heightlimit:
+            minheight: 'Min. hoogte: <c7>%min%</c7>'
+            maxheight: 'Max. hoogte: <c7>%max%</c7>'
+          hitbox:
+            length: 'Lengte: <c7>%length%</c7>'
+            width: 'Breedte: <c7>%width%</c7>'
+            height: 'Hoogte: <c7>%height%</c7>'
+          horn:
+            enabled: 'Ingeschakeld: <c7>%enabled%</c7>'
+            sound: 'Geluid: %sound%'
+          permissions:
+            buy: 'Kopen: <c7>%buy%</c7>'
+            adjust: 'Aanpassen: <c7>%adjust%</c7>'
+            spawn: 'Spawnen: <c7>%spawn%</c7>'
+            ride: 'Rijden: <c7>%ride%</c7>'
+            cansitwithoutride: 'Zitten zonder rijpermissie: <c7>%sit%</c7>'
+          sounds:
+            sound:
+              sound: '- Geluid: <c7>%sound%</c7>'
+              duration: '- Duur: <c7>%duration%</c7>'
+              volume: '- Volume: <c7>%volume%</c7>'
+              pitch: '- Toonhoogte: <c7>%pitch%</c7>'
+            idle: 'Stationair geluid: %sound%'
+            start: 'Startgeluid: %sound%'
+            acceleration: 'Versnellingsgeluid: %sound%'
+            driving: 'Rijgeluid: %sound%'
+            slowingdown: 'Vertraggingsgeluid: %sound%'
+          gearbox:
+            realistic: 'Realistisch: <c7>%realistic%</c7>'
+            cooldown: 'Cooldown: <c7>%cooldown%</c7>'
+        drift: 'Drift: <c7>%drift%</c7>'
+        exitwhilemoving: 'Uitstappen tijdens rijden: <c7>%exitwhilemoving%</c7>'
+        price: 'Prijs: <c7>%price%</c7>'
+        health: 'Health: <c7>%health%</c7>'
+        trunksize: 'Formaat kofferbak: <c7>%trunksize%</c7>'
+    vehicles:
+      descriptions:
+        main: 'VehiclesPlus Voertuigen commando'
+        give: 'Geef een voertuig aan een speler'
+        shop: 'Open de voertuigen winkel'
+        repair: 'Repareer het voertuig'
+        spawn: 'Spawn een voertuig'
+        spawnpersistent: 'Spawn een blijvend voertuig'
+      spawn:
+        spawned: '<c3>Voertuig </c3><c4>%vehicle%</c4><c3> succesvol gespawned!</c3>'
+      spawnpersistent:
+        spawned: '<c3>Blijvend voertuig </c3><c4>%vehicle%</c4><c3> succesvol gespawned!</c3>'
+      give:
+        invalidgarage: '<c5>Die garage bestaat niet!</c5>'
+        invalidcolor: '<c5>De opgegeven kleur is ongeldig! RGB-waarden moeten tussen 0 en 255 liggen.</c5>'
+        nocolor: '<c5>Het opgegeven voertuig ondersteunt geen kleuring!</c5>'
+        added: '<c4>%vehicle%</c4><c3> succesvol toegevoegd aan </c3><c4>%garage%</c4><c3>!</c3>'
+      repair:
+        novehicle: '<c5>De speler zit niet in een voertuig!</c5>'
+        repaired: '<c3>Voertuig </c3><c4>%vehicle%</c4><c3> succesvol gerepareerd!</c3>'
+  inventories:
+    confirmation:
+      confirm:
+        title: '<c3>Bevestigen</c3>'
+        lore: '<c4>Bevestig je actie.</c4>'
+      cancel:
+        title: '<c5>Annuleren</c5>'
+        lore: '<c6>Annuleer je actie.</c6>'
+    pagination:
+      first:
+        title: 'Eerste pagina'
+        lore: '<c7>Ga naar de eerste pagina (1).</c7>'
+      previous:
+        title: 'Vorige pagina'
+        lore: '<c7>Ga naar de vorige pagina (%page%).</c7>'
+      next:
+        title: 'Volgende pagina'
+        lore: '<c7>Ga naar de volgende pagina (%page%).</c7>'
+      last:
+        title: 'Laatste pagina'
+        lore: '<c7>Ga naar de laatste pagina (%page%).</c7>'
+    fuel:
+      shop:
+        title: 'Brandstofwinkel'
+        item:
+          name: '<c3>%type%</c3>'
+          lore: '<c3>Prijs:</c3> <c4>%price%/L</c4>'
+      amount:
+        title: 'Kies de hoeveelheid'
+        item:
+          name: '<c3>%type%</c3> <c7>%amount%L<c7>'
+          lore: '<c3>Prijs:</c3> <c4>%price%</c4>'
+      bought: '<c3>Je hebt succesvol </c3><c4>%liters%L</c4><c3> van </c3><c4>%type%</c4><c3> gekocht.</c3>'
+    vehicles:
+      shop:
+        vehicle:
+          title: 'Voertuigwinkel'
+          item:
+            name: '%name%'
+            lore: '<c3>Prijs:</c3> <c4>%price%</c4>'
+        color:
+          title: 'Kies een kleur'
+        garage:
+          title: 'Kies een garage'
+          item:
+            name: '%garage%'
+            lore:
+              available: '<c3>Eigenaar:</c3> <c4>%owner%</c4>'
+              limited: '<c5>Voertuiglimiet bereikt!<c5>'
+        confirmation:
+          title: 'Aankoop bevestigen'
+          bought: '<c3>Je hebt de </c3><c4>%vehicle%</c4><c3> gekocht. Hij is opgeslagen in de garage </c3><c4>%garage%</c4><c3>!</c3>'
+      garage:
+        title: '%garage%'
+        moving: '<c5>Je kunt deze actie niet uitvoeren als het voertuig beweegt!</c5>'
+        settings:
+          button:
+            name: '<c3>Instellingen</c3>'
+            lore: '<c4>Klik om de garage instellingen te openen.</c4>'
+          title: "Garage Instellingen"
+          setting:
+            rolelist:
+              noowner: '<c5>Je kunt de permissies van de eigenaar van de garage niet wijzigen!</c5>'
+              button:
+                name: '<c3>%role%</c3>'
+                lore: '<c4>Klik met de rechtermuisknop om te verwijderen.</c4>'
+              create:
+                name: '<c3>Voe nieuwe rol toe</c3>'
+                lore: '<c4>Klik om een nieuwe rol toe te voegen.</c4>'
+              delete:
+                title: '<c3>Weet je het zeker?</c3>'
+                default: '<c5>Je kunt de standaard rol niet verwijderen!</c5>'
+                failed: '<c5>Het verwijderen van de rol is mislukt! Zorg ervoor dat geen enkele speler deze rol heeft.</c5>'
+            managemembers:
+              name: "Permissies leden beheren"
+              button:
+                name: '<c3>%member%</c3>'
+                loreowner: 'Huidige rol: <c7>%role%</c7>'
+                lore: 'Huidige rol: <c7>%role%</c7>\nKlik om te veranderen.'
+            delete: "Verwijder garage permissie"
+            buy: "Koop permissie"
+            remove: "Verwijder lid permissie"
+            repair: "Repareer permissie"
+            spawn: "Spawn permissie"
+            adjust: "Wijzigen permissie"
+            ride: "Rijden permissie"
+            opentrunk: 'Open kofferbank permissie'
+            lock: 'Vergrendelen permissie'
+            upgrade: 'Upgrade permissie'
+            tune: 'Verbeteren permissie'
+            renamevehicle: 'Voertuig hernoemen permissie'
+            transfervehicle: 'Voertuig verplaatsen permissie'
+            manageroles: 'Rollen beheren permissie'
+            rename: 'Garage hernoemen permissie'
+            deletegarage: 'Verwijder garage permissie'
+            toggle:
+              enabled: "<c3>Verleend</c3>"
+              disabled: "<c5>Geweigerd</c5>"
+          repaired: '<c3>Voertuig </c3><c4>%vehicle%</c4><c3> succesvol gerepareerd!</c3>'
+        spawn:
+          failed: '<c5>Kon het voertuig niet spawnen!</c5>'
+          limited: '<c5>Je kunt slechts </c5><c6>%limit%</c6><c5> voertuigen tegelijk spawnen vanuit deze garage!</c5>'
+        remove:
+          moving: '<c5>Je kunt een rijdend voertuig niet verwijderen!</c5>'
+          confirmation:
+            title: 'Verwijderen bevestigen'
+            removed: '<c3>Voertuig </c3><c4>%vehicle%</c4><c3> succesvol verwijderd uit de garage!</c3>'
+        repair:
+          repaired: '<c3>Voertuig </c3><c4>%vehicle%</c4><c3> succesvol gerepareerd!</c3>'
+      interaction:
+        title: '%vehicle%'
+        enter: '<c3>Instappen</c3>'
+        remove: '<c5>Despawn voertuig</c5>'
+        remove_persistent: '<c5>Voertuig verwijderen</c5>'
+        lock: '<c3>Voertuig vergrendelen</c3>'
+        unlock: '<c3>Voertuig ontgrendelen</c3>'
+        locked: '<c3>Het voertuig is vergrendeld.</c3>'
+        unlocked: '<c3>Het voertuig is ontgrendeld.</c3>'
+        trunk: '<c3>Kofferbak openen</c3>'
+        settings: '<c3>Instellingen</c3>'
+        tuning: '<c3>Tunen</c3>'
+        upgrades: '<c3>Upgrades</c3>'
+      enter:
+        title: 'Kies een stoel'
+        item:
+          seat: '<c3>Stoel #%seat%</c3>'
+          driverseat: '<c3>Bestuurdersstoel</c3>'
+          lore:
+            taken: '<c5>BEZET</c5>'
+            free: 'Klik om in te stappen'
+        nopermission: '<c5>Je hebt geen toestemming om dit voertuig te besturen!</c5>'
+      settings:
+        title: 'Voertuiginstellingen'
+        rename:
+          name: '<c3>Hernoemen</c3>'
+          lore: '<c4>Kosten: %cost%</c4>'
+      upgrade:
+        title: 'Voertuigupgrades'
+        items:
+          speed: '<c3>Snelheid</c3>'
+          fueltank: '<c3>Brandstoftank</c3>'
+          acceleration: '<c3>Versnelling</c3>'
+          turningradius: '<c3>Draaicirkel</c3>'
+        current: 'Huidige instelling: <c7>%current% %unit%</c7>'
+        maxedout: '<c5>Deze upgrade is al maximaal!</c5>'
+        upgraded: '<c3>Het voertuig is succesvol geüpgraded!</c3>'
+      trunk:
+        title: '<c3>Kofferbak</c3>'
+  prompts:
+    general:
+      cancel: 'De actie is geannuleerd.'
+      number:
+        invalid: '<c5>Het opgegeven aantal getallen is ongeldig! Verwachtte </c5><c6>%num%</c6><c5>, kreeg </c5><c6>%input%</c6><c5>.</c5>'
+    garage:
+      role:
+        create: 'Stuur de naam van de nieuwe garage rol in de chat (stuur STOP om te annuleren).'
+        created: '<c3>Succesvol de nieuwe garage rol </c3><c4>%role%</c4><c3> aangemaakt!</c3>'
+        addmember: 'Stuur de naam van de nieuwe garage rol voor de speler in de chat (stuur STOP om te annuleren).'
+      rename: 'Stuur de nieuwe naam van de garage in de chat (stuur STOP om te annuleren).'
+      transfer: 'Stuur de naam van de nieuwe eigenaar in de chat (stuur STOP om te annuleren).'
+    vehicles:
+      setname: 'Stuur de nieuwe naam van het voertuig in de chat (stuur STOP om te annuleren).'
+      renamed: '<c3>Voertuig succesvol hernoemd naar </c3><c4>%name%</c4><c3>!</c3>'
+      transfer: 'Stuur de naam van de nieuwe garage in de chat (stuur STOP om te annuleren).'
+      moved: '<c3>Het voertuig met succes verplaatst naar </c3><c4>%garage%</c4><c3>!</c3>'

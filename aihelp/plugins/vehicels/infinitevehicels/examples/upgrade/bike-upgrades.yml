@@ -1,0 +1,301 @@
+id: "bike-upgrades"
+material: "END_CRYSTAL"
+display-name: "&6Bike Upgrades"
+slot: 8
+title: "Bike Upgrades"
+rows: 3
+
+upgrades:
+  paddle_upgrade:
+    slot: 11
+    tiers:
+      # tiers can only be integers!
+      1:
+        material: "PLAYER_HEAD"
+        head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNmM2RkNTE2MmVkOTI2MWY1ZmQ5YzZiZmE4YzhjNDVjNzA3Y2Q3YTcwMjY5M2I3MjQ3NTZiODZiYjZmNWZlYiJ9fX0="
+        display-name: "&6Paddle Upgrade I"
+        description:
+          - ""
+          - "&7Upgrades your bike paddles"
+          - "&7to level 1"
+          - ""
+          - "&8+ 10% max speed"
+          - "&8+ 10% acceleration"
+          - "&8+ 10% handling"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "PLAYER_HEAD"
+          head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNmM2RkNTE2MmVkOTI2MWY1ZmQ5YzZiZmE4YzhjNDVjNzA3Y2Q3YTcwMjY5M2I3MjQ3NTZiODZiYjZmNWZlYiJ9fX0="
+          display-name: "&6Paddle Upgrade I"
+          description:
+            - ""
+            - "&7Upgrades your bike paddles"
+            - "&7to level 1"
+            - ""
+            - "&8+ 10% max speed"
+            - "&8+ 10% acceleration"
+            - "&8+ 10% handling"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          # same as vehicle properties, sets these values, does not add them
+          max-positive-acceleration: 1
+          positive-acceleration-on-solid: 0.5
+          positive-acceleration-on-dusty: 0.45
+          positive-acceleration-on-snowy: 0.4
+          positive-acceleration-on-slippery: 0.4
+          turning-angle-min: 2
+          turning-angle-max: 4
+
+        requirements:
+          vault-money: 1000
+          exp: 10
+          # XP levels
+          level: 10
+      2:
+        material: "PLAYER_HEAD"
+        head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNmM2RkNTE2MmVkOTI2MWY1ZmQ5YzZiZmE4YzhjNDVjNzA3Y2Q3YTcwMjY5M2I3MjQ3NTZiODZiYjZmNWZlYiJ9fX0="
+        display-name: "&6Paddle Upgrade II"
+        description:
+          - ""
+          - "&7Upgrades your bike paddles"
+          - "&7to level 2"
+          - ""
+          - "&8+ 10% max speed"
+          - "&8+ 10% acceleration"
+          - "&8+ 10% handling"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "PLAYER_HEAD"
+          head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNmM2RkNTE2MmVkOTI2MWY1ZmQ5YzZiZmE4YzhjNDVjNzA3Y2Q3YTcwMjY5M2I3MjQ3NTZiODZiYjZmNWZlYiJ9fX0="
+          display-name: "&6Paddle Upgrade II"
+          description:
+            - ""
+            - "&7Upgrades your bike paddles"
+            - "&7to level 2"
+            - ""
+            - "&8+ 10% max speed"
+            - "&8+ 10% acceleration"
+            - "&8+ 10% handling"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          max-positive-acceleration: 1.25
+          positive-acceleration-on-solid: 0.8
+          positive-acceleration-on-dusty: 0.75
+          positive-acceleration-on-snowy: 0.7
+          positive-acceleration-on-slippery: 0.7
+          turning-angle-min: 4
+          turning-angle-max: 6
+        requirements:
+          vault-money: 1000
+          exp: 10
+          # XP levels
+          level: 10
+      3:
+        material: "PLAYER_HEAD"
+        head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNmM2RkNTE2MmVkOTI2MWY1ZmQ5YzZiZmE4YzhjNDVjNzA3Y2Q3YTcwMjY5M2I3MjQ3NTZiODZiYjZmNWZlYiJ9fX0="
+        display-name: "&6Paddle Upgrade III"
+        description:
+          - ""
+          - "&7Upgrades your bike paddles"
+          - "&7to level 3"
+          - ""
+          - "&8+ 10% max speed"
+          - "&8+ 10% acceleration"
+          - "&8+ 10% handling"
+          - ""
+          - "&7Click to upgrade"
+        # Shows when the upgrade is selected, meaning when this upgrade is the last upgrade and
+        # player has already bough the last (a.k.a the max) upgrade
+        # Make sure to account for all the upgrades player has made so far
+        selected-description:
+          - ""
+          - "&8+ 30% max speed"
+          - "&8+ 30% acceleration"
+          - "&8+ 30% handling"
+          - ""
+          - "&cMAX LEVEL"
+        physical-item:
+          material: "PLAYER_HEAD"
+          head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNmM2RkNTE2MmVkOTI2MWY1ZmQ5YzZiZmE4YzhjNDVjNzA3Y2Q3YTcwMjY5M2I3MjQ3NTZiODZiYjZmNWZlYiJ9fX0="
+          display-name: "&6Paddle Upgrade III"
+          description:
+            - ""
+            - "&7Upgrades your bike paddles"
+            - "&7to level 3"
+            - ""
+            - "&8+ 10% max speed"
+            - "&8+ 10% acceleration"
+            - "&8+ 10% handling"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        requirements:
+          vault-money: 1000
+          exp: 10
+          # XP levels
+          level: 10
+        upgrades:
+          max-positive-acceleration: 1.50
+          positive-acceleration-on-solid: 1
+          positive-acceleration-on-dusty: 0.9
+          positive-acceleration-on-snowy: 0.8
+          positive-acceleration-on-slippery: 0.8
+          turning-angle-min: 6
+          turning-angle-max: 8
+  brakes_upgrade:
+    slot: 13
+    tiers:
+      1:
+        material: "REDSTONE"
+        display-name: "&cBrakes Upgrade I"
+        description:
+          - ""
+          - "&7Improves your vehicle's braking system"
+          - "&7to level 1"
+          - ""
+          - "&8+ 20% brake power"
+          - "&8+ 10% reverse traction"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "REDSTONE"
+          display-name: "&cBrakes Upgrade I"
+          description:
+            - ""
+            - "&7Improves the braking system"
+            - "&7to level 1"
+            - ""
+            - "&8+ 20% brake power"
+            - "&8+ 10% reverse traction"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          max-negative-acceleration: 0.25
+          negative-acceleration-on-solid: 0.03
+          negative-acceleration-on-dusty: 0.027
+          negative-acceleration-on-snowy: 0.024
+          negative-acceleration-on-slippery: 0.024
+          deceleration: 0.02
+        requirements:
+          vault-money: 750
+          exp: 5
+          level: 5
+      2:
+        material: "REDSTONE"
+        display-name: "&cBrakes Upgrade II"
+        description:
+          - ""
+          - "&7Improves the braking system"
+          - "&7to level 2"
+          - ""
+          - "&8+ 20% brake power"
+          - "&8+ 10% reverse traction"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "REDSTONE"
+          display-name: "&cBrakes Upgrade II"
+          description:
+            - ""
+            - "&7Improves the braking system"
+            - "&7to level 2"
+            - ""
+            - "&8+ 20% brake power"
+            - "&8+ 10% reverse traction"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        selected-description:
+          - ""
+          - "&8+ 40% brake power"
+          - "&8+ 20% reverse traction"
+          - ""
+          - "&cMAX LEVEL"
+        upgrades:
+          max-negative-acceleration: 0.3
+          negative-acceleration-on-solid: 0.035
+          negative-acceleration-on-dusty: 0.032
+          negative-acceleration-on-snowy: 0.03
+          negative-acceleration-on-slippery: 0.03
+          deceleration: 0.025
+        requirements:
+          vault-money: 1000
+          exp: 10
+          level: 10
+  handling_upgrade:
+    slot: 15
+    tiers:
+      1:
+        material: "SLIME_BALL"
+        display-name: "&aHandling Upgrade I"
+        description:
+          - ""
+          - "&7Enhances turning abilities of the vehicle"
+          - "&7to level 1"
+          - ""
+          - "&8+ 10% turn sharpness"
+          - "&8+ 5% control on slippery terrain"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "SLIME_BALL"
+          display-name: "&aHandling Upgrade I"
+          description:
+            - ""
+            - "&7Enhances turning abilities of the vehicle"
+            - "&7to level 1"
+            - ""
+            - "&8+ 10% turn sharpness"
+            - "&8+ 5% control on slippery terrain"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          turning-angle-min: 2
+          turning-angle-max: 5
+          negative-acceleration-on-slippery: 0.025
+          positive-acceleration-on-slippery: 0.025
+        requirements:
+          vault-money: 750
+          exp: 5
+          level: 5
+      2:
+        material: "SLIME_BALL"
+        display-name: "&aHandling Upgrade II"
+        description:
+          - ""
+          - "&7Enhances turning abilities of the vehicle"
+          - "&7to level 2"
+          - ""
+          - "&8+ 15% turn sharpness"
+          - "&8+ 10% control on slippery terrain"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "SLIME_BALL"
+          display-name: "&aHandling Upgrade II"
+          description:
+            - ""
+            - "&7Enhances turning abilities of the vehicle"
+            - "&7to level 2"
+            - ""
+            - "&8+ 15% turn sharpness"
+            - "&8+ 10% control on slippery terrain"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        selected-description:
+          - ""
+          - "&8+ 20% turn sharpness"
+          - "&8+ 15% control on slippery terrain"
+          - ""
+          - "&cMAX LEVEL"
+        upgrades:
+          turning-angle-min: 3
+          turning-angle-max: 6
+          negative-acceleration-on-slippery: 0.03
+          positive-acceleration-on-slippery: 0.03
+        requirements:
+          vault-money: 1000
+          exp: 10
+          level: 10

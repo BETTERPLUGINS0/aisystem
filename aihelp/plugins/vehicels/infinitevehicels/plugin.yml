@@ -1,0 +1,22 @@
+name: InfiniteVehicles
+version: '2.2.24'
+main: advancedplugins.pm2.cv.InfiniteVehiclesPlugin
+authors:
+  - PM2
+
+libraries:
+  - org.jetbrains:annotations:20.1.0
+  - org.checkerframework:checker-qual:3.49.3
+  - com.jeff-media:MorePersistentDataTypes:2.4.0
+  - net.sf.trove4j:trove4j:3.0.3
+  - commons-lang:commons-lang:2.6
+  - net.kyori:adventure-api:4.14.0
+  - net.kyori:adventure-text-serializer-gson:4.14.0
+  - net.kyori:adventure-text-serializer-bungeecord:4.3.0
+
+api-version: 1.19
+
+softdepend:
+  - WeaponMechanics
+  - Vault
+  - ItemsAdder

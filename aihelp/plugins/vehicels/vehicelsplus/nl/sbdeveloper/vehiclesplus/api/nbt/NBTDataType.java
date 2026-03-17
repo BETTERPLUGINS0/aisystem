@@ -1,0 +1,14 @@
+/*
+ * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
+ */
+package nl.sbdeveloper.vehiclesplus.api.nbt;
+
+public enum NBTDataType {
+    V_UUID,
+    V_PART_DATA,
+    FUEL_TYPE,
+    ADDON_PAINT_COLOR,
+    ADDON_WHEEL_PART;
+
+}
+

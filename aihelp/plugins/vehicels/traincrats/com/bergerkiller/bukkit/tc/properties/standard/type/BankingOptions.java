@@ -1,0 +1,39 @@
+package com.bergerkiller.bukkit.tc.properties.standard.type;
+
+public final class BankingOptions {
+   public static final BankingOptions DEFAULT = new BankingOptions(0.0D, 10.0D);
+   private final double strength;
+   private final double smoothness;
+
+   private BankingOptions(double strength, double smoothness) {
+      this.strength = strength;
+      this.smoothness = smoothness;
+   }
+
+   public double strength() {
+      return this.strength;
+   }
+
+   public double smoothness() {
+      return this.smoothness;
+   }
+
+   public int hashCode() {
+      return Double.hashCode(this.strength);
+   }
+
+   public boolean equals(Object o) {
+      if (o == this) {
+         return true;
+      } else if (!(o instanceof BankingOptions)) {
+         return false;
+      } else {
+         BankingOptions other = (BankingOptions)o;
+         return this.strength == other.strength && this.smoothness == other.smoothness;
+      }
+   }
+
+   public static BankingOptions create(double strength, double smoothness) {
+      return new BankingOptions(strength, smoothness);
+   }
+}

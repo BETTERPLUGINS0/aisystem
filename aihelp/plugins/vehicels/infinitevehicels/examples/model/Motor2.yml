@@ -1,0 +1,265 @@
+id: motor2
+type: COMPOUND
+hitbox:
+  width: 2.0
+  height: 2.0
+  depth: 2.0
+seats:
+  seat-0:
+    main: true
+    offset:
+      x: 0.0
+      y: 2.1586652195302185
+      z: -0.7358557470957529
+particles: { }
+sounds: { }
+parts:
+  smooth_red_sandstone_slab-85735628:
+    identifier: c5a285f2-10a9-45e4-895f-3752c473907b
+    id: smooth_red_sandstone_slab-85735628
+    material: SMOOTH_RED_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_red_sandstone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 2.0
+      z: -1.9615384615384617
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  nether_brick_stairs-41821851:
+    identifier: 9363cda0-9a75-4c08-973b-6b088e8921cd
+    id: nether_brick_stairs-41821851
+    material: NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:nether_brick_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -0.9615384615384616
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_button-8054961:
+    identifier: 50d701b4-7bde-42ed-a89b-8b7c006427ba
+    id: stone_button-8054961
+    material: STONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:stone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: -1.9615384615384617
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_button-11506352:
+    identifier: 0df3d1c4-6e80-4338-9fa8-c7f8b7433d32
+    id: stone_button-11506352
+    material: STONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:stone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 1.0384615384615383
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-53095907:
+    identifier: ae9960f0-9f33-41ec-ac3e-6bac3ca111e4
+    id: dark_oak_trapdoor-53095907
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 2.0
+      z: -0.9615384615384616
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  acacia_planks-73293924:
+    identifier: ce92a867-87b3-4008-8179-2c5da2e44ddd
+    id: acacia_planks-73293924
+    material: ACACIA_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:acacia_planks
+    offset:
+      x: -0.5
+      y: 1.0
+      z: 0.038461538461538436
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_button-53428001:
+    identifier: b977519c-e8e9-48b6-85db-7f4f4294180a
+    id: stone_button-53428001
+    material: STONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:stone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 1.0384615384615383
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_wool-111283704:
+    identifier: ca8b7104-01d5-4fa7-92c4-ebd3a26e9424
+    id: black_wool-111283704
+    material: BLACK_WOOL
+    data:
+      data-type: block-data
+      value: minecraft:black_wool
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -1.9615384615384617
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_button-97588317:
+    identifier: 4f7784c7-eeee-4147-8055-ab882c44dcdc
+    id: stone_button-97588317
+    material: STONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:stone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: -1.9615384615384617
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  acacia_fence_gate-121215208:
+    identifier: faab60c1-6f43-43ca-a376-9815dd4e340d
+    id: acacia_fence_gate-121215208
+    material: ACACIA_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:acacia_fence_gate[facing=north,in_wall=false,open=true,powered=false]
+    offset:
+      x: -0.5
+      y: 1.0
+      z: 1.0384615384615383
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-69471668:
+    identifier: 5714866f-0eec-4ade-8b66-72c543deacf5
+    id: smooth_stone_slab-69471668
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -0.9615384615384616
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_wool-91329706:
+    identifier: 1cdba4ce-f2d5-4573-8254-fdd08e3c3d41
+    id: black_wool-91329706
+    material: BLACK_WOOL
+    data:
+      data-type: block-data
+      value: minecraft:black_wool
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 1.0384615384615383
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_red_sandstone_slab-84747130:
+    identifier: 987daec8-30dc-4b66-9a56-1106b5416b49
+    id: smooth_red_sandstone_slab-84747130
+    material: SMOOTH_RED_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_red_sandstone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 2.0
+      z: 0.038461538461538436
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones: { }
+animations: { }

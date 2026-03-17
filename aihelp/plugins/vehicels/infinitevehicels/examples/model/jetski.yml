@@ -1,0 +1,290 @@
+id: jetski
+type: COMPOUND
+hitbox:
+  width: 3.0543863844543107
+  height: 2.3981518765499414
+  depth: 3.0543863844543107
+seats:
+  seat-0:
+    main: true
+    offset:
+      x: 0.03883265628874936
+      y: 0.7496121949091629
+      z: -0.5179466781931511
+particles: { }
+sounds: { }
+parts:
+  part-115855931:
+    identifier: df477c4f-ba77-4b51-b461-c112616066bb
+    id: part-115855931
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: -0.349579145012041
+      y: 0.8576572004701211
+      z: -0.6092777842384972
+    rotation:
+      x: 20.000000000000007
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.09999999999999992
+      y: 0.10000000000000003
+      z: 0.5000000000000002
+  part-99412227:
+    identifier: 000fc3e4-b0fc-4685-b0e8-19294b630594
+    id: part-99412227
+    material: BLACK_CONCRETE
+    offset:
+      x: -0.7
+      y: 0.0
+      z: 0.6999999999999998
+    rotation:
+      x: 0.0
+      y: 29.999999999999996
+      z: 0.0
+    scale:
+      x: 0.5000000000000006
+      y: 0.3999999999999999
+      z: 0.9999999999999999
+  part-91334360:
+    identifier: 1848ddb8-1844-4f89-8252-ef111cbfa5b4
+    id: part-91334360
+    material: BLACK_CONCRETE
+    offset:
+      x: -0.1
+      y: 0.7999999999999999
+      z: 0.4
+    rotation:
+      x: -60.00000000000001
+      y: -2.7544411522729343E-15
+      z: 1.5902773407317621E-15
+    scale:
+      x: 0.10000000000000003
+      y: 0.5
+      z: 0.1
+  part-35349272:
+    identifier: c95d7caf-e0ea-4189-b5f6-2ed4610bdbca
+    id: part-35349272
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: -0.349579145012041
+      y: 0.504694997633074
+      z: 0.7114989864917729
+    rotation:
+      x: 20.000000000000046
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.6
+      y: 0.17644205111191827
+      z: 0.6
+  part-56905783:
+    identifier: a86abc5b-3128-4419-b547-5207a713d4fd
+    id: part-56905783
+    material: BLACK_CONCRETE
+    offset:
+      x: 0.13969343228827802
+      y: 0.0
+      z: 0.4272486738818021
+    rotation:
+      x: 0.0
+      y: -30.000000000000004
+      z: 0.0
+    scale:
+      x: 0.5333012815802635
+      y: 0.3999999999999999
+      z: 0.9999999999999999
+  part-30171023:
+    identifier: 2ed62ef5-4792-4c49-9fc1-1108ba292625
+    id: part-30171023
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: 0.2504208549879591
+      y: 0.07029481326280981
+      z: -0.8970789859829947
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.20000000000000004
+      y: 0.6000000000000001
+      z: 1.7000000000000002
+  part-60182165:
+    identifier: ed3b8449-cda9-43cf-9a27-2fa8b90b45d4
+    id: part-60182165
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: -0.349579145012041
+      y: 0.07029481326280981
+      z: 0.11371836947541887
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.6
+      y: 0.9
+      z: 0.6
+  part-85722974:
+    identifier: 2036c60f-9cbf-41fc-b265-dc30e59f0690
+    id: part-85722974
+    material: BLACK_CONCRETE
+    offset:
+      x: -0.20375495314386657
+      y: 0.0
+      z: 0.26004344027175585
+    rotation:
+      x: 0.0
+      y: -7.95138670365879E-16
+      z: 0.0
+    scale:
+      x: 0.2964684727845772
+      y: 0.3999999999999999
+      z: 1.003005857309324
+  part-30899290:
+    identifier: b7fae421-ea9d-43ab-8852-0aad44ce62c8
+    id: part-30899290
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: -0.349579145012041
+      y: 0.07029481326280981
+      z: -0.6970789859829948
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.6
+      y: 0.6000000000000001
+      z: 1.7000000000000002
+  part-76467601:
+    identifier: 796e505c-686c-41ac-a892-423bc98f36ba
+    id: part-76467601
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: 0.150420854987959
+      y: 0.8576572004701211
+      z: -0.6092777842384972
+    rotation:
+      x: 20.000000000000007
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.09999999999999992
+      y: 0.10000000000000003
+      z: 0.5000000000000002
+  part-11652877:
+    identifier: 1edaf06d-5301-4c3a-8492-1453f10fe68d
+    id: part-11652877
+    material: BLACK_CONCRETE
+    offset:
+      x: -0.7
+      y: 0.0
+      z: -1.0000000000000002
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.295915786990581
+      y: 0.3999999999999999
+      z: 1.7
+  part-46923689:
+    identifier: ab4497a6-85fb-4095-a1f5-eb0fb4e7b532
+    id: part-46923689
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: -0.34957914501204096
+      y: 0.07029481326280981
+      z: -0.8970789859829947
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.6083368946346689
+      y: 0.6000000000000001
+      z: 0.22071728063626483
+  part-29516436:
+    identifier: a14ba2fe-0663-45c1-805e-c0d9f9148217
+    id: part-29516436
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: -0.349579145012041
+      y: 0.3647504954928493
+      z: 0.2802420071801273
+    rotation:
+      x: 35.000000000000036
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.6
+      y: 0.7441814393888397
+      z: 0.6
+  part-66757364:
+    identifier: 6bc56ec4-273d-46b6-8291-74441f94632f
+    id: part-66757364
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: -0.549579145012041
+      y: 0.07029481326280981
+      z: -0.8970789859829947
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.20000000000000004
+      y: 0.6000000000000001
+      z: 1.7000000000000002
+  part-56728215:
+    identifier: b7c12b2b-1d8e-4c80-97fd-597ea7e3e81e
+    id: part-56728215
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: -0.349579145012041
+      y: 0.67029481326281
+      z: -0.6970789859829948
+    rotation:
+      x: 20.000000000000007
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.6
+      y: 0.30000000000000004
+      z: 0.5000000000000002
+  part-101747775:
+    identifier: 94d6378c-ec15-44cb-a937-bcf94c35bc29
+    id: part-101747775
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: -0.349579145012041
+      y: 0.8516601217081696
+      z: -0.5355113628285129
+    rotation:
+      x: 180.0
+      y: 90.0
+      z: -174.28940686250036
+    scale:
+      x: 0.09999999999999992
+      y: 0.10000000000000003
+      z: 0.6000000000000002
+  part-14943828:
+    identifier: 82f83680-3970-4495-af91-4299c9666e0c
+    id: part-14943828
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: 0.2
+      y: 1.079528748634957
+      z: -0.059958540160303886
+    rotation:
+      x: 29.99999999999966
+      y: 5.406942958487978E-14
+      z: 90.00000000000014
+    scale:
+      x: 0.06630645913305024
+      y: 0.5
+      z: 0.1
+bones: { }
+animations: { }

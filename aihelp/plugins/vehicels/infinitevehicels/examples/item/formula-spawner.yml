@@ -1,0 +1,8 @@
+id: formula-spawner
+material: PLAYER_HEAD
+display-name: '&cSpawn Formula'
+head-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE4ZWFjNDdiMGM4OTJlY2JkNGJlZTIwOGY5NGQ3YmVjNGY1YzliOTEzNzA5Zjc0NDM4YmZkZTZiMzczZTczOCJ9fX0='
+
+action:
+  type: spawn
+  vehicle-id: 'formula'

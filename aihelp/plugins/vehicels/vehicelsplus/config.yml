@@ -1,0 +1,90 @@
+# The config version
+# Do NOT change!
+config-version: 1
+
+# The locale to use for the plugin messages.
+# There must be a file /plugins/VehiclesPlus/locale/lang_xx.yml for this to work.
+locale: en
+
+# Data storage settings
+data:
+  # The database storage type. Choose between SQLITE and MYSQL.
+  type: SQLITE
+
+  # The interval in seconds to save the data.
+  interval: 120
+
+  # If in verbose mode, the plugin will log into console when it saves any data.
+  verbose: false
+
+  # The name of your database.
+  # For SQLITE this is the name of the file without the extension.
+  # For MYSQL this is the name of your MySQL database.
+  database: 'data'
+
+  # MySQL Settings (MySQL is disabled by default, change type to MYSQL and change below!)
+  host: localhost
+  port: 3306
+  username: 'username'
+  password: 'password'
+
+collision:
+  # The damage level dealt to the vehicle upon collision.
+  # Possible values: REALISTIC, NORMAL, REDUCED, MINIMAL, NONE
+  damageLevel: NORMAL
+
+  # Should the vehicle despawn when its health reaches zero due to a crash?
+  despawnOnZeroHealth: true
+
+  # Should the vehicle drop the trunk when it despawns due to a crash?
+  # **This won't work if the vehicle is not set to despawn on crash**
+  dropTrunkItems: true
+
+  # Driving and collision behavior settings.
+  behavior:
+    slabDriving: true
+    blockDriving: true
+    stopAtVehicle: true
+    stopAtEntity: true
+    stopAtBlock: true
+
+# The division of the repair cost.
+# If the vehicle costs 100,000 and the division is 100.00 the repair will cost 1,000.
+repairCostDivision: 100.0
+
+# The cost to rename a vehicle.
+renameCost: 1000.0
+
+# Is the actionbar enabled?
+actionBar: true
+
+# Should vehicles spawn locked?
+spawnLocked: false
+
+# Is the update checker enabled, and should it update automatically?
+updateChecker:
+  enabled: true
+  downloadOnUpdate: true
+
+# The max amount of vehicles a garage can ... (-1 to allow unlimited)
+limits:
+  have: 10
+  spawn: 5
+
+# The rim design to use for default vehicles.
+defaultRimDesignId: default
+
+# the fuel amounts you can buy
+fuel:
+  - 5
+  - 10
+  - 15
+  - 25
+  - 50
+
+# The wildcard permissions
+permissions:
+  buy: 'vp.buy.*'
+  adjust: 'vp.adjust.*'
+  spawn: 'vp.spawn.*'
+  ride: 'vp.ride.*'

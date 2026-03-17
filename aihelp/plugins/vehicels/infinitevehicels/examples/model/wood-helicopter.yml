@@ -1,0 +1,934 @@
+id: wood-helicopter
+type: COMPOUND
+hitbox:
+  width: 2.1628007338023054
+  height: 2.1338001298482348
+  depth: 2.1628007338023054
+seats:
+  seat-0:
+    main: true
+    offset:
+      x: 0.0
+      y: 0.7821526864652691
+      z: 0.542893303622604
+  seat-1:
+    main: false
+    offset:
+      x: 0.0
+      y: 0.7821526864652691
+      z: -0.6455954754046029
+particles: { }
+sounds:
+  sound-0:
+    type: ENTITY_IRON_GOLEM_REPAIR
+    delay: 1
+    volume: 0.5
+    pitch: 0.5
+    global: true
+parts:
+  part-116211073:
+    identifier: 3605ba09-05a5-448e-b59e-95123181f44d
+    id: part-116211073
+    material: COPPER_BLOCK
+    offset:
+      x: -0.36556557831556935
+      y: 0.6
+      z: -1.0739510866610904
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.8
+      y: 1.0
+      z: 0.10000000000000009
+  part-2456495:
+    identifier: 7d44dc8d-50e6-4210-bc2d-d42751124618
+    id: part-2456495
+    material: COPPER_BLOCK
+    offset:
+      x: -0.3655655783155707
+      y: 0.6
+      z: 0.12604891333891013
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.8
+      y: 0.10000000000000009
+      z: 0.7000000000000001
+  part-110684444:
+    identifier: d3fe5de8-6b87-4e15-aae0-183ce504834f
+    id: part-110684444
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: -0.7655655783155697
+      y: 0.4
+      z: -0.4739510866610901
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 140.0
+    scale:
+      x: 0.30000000000000016
+      y: 1.7
+      z: 0.4
+  part-97755906:
+    identifier: a2d7d166-3831-4bca-83d3-72b1c4fc4e4e
+    id: part-97755906
+    material: OAK_PLANKS
+    offset:
+      x: -0.5555655783155693
+      y: 0.7
+      z: 1.2260489133389056
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: -3.180554681463516E-15
+    scale:
+      x: 1.18
+      y: 0.6
+      z: 0.6
+  part-48847954:
+    identifier: e06ee549-367e-4d9c-880f-5b33a8c0693a
+    id: part-48847954
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 0.03443442168443056
+      y: 2.200000000000001
+      z: 0.026048913338909935
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.4000000000000004
+      y: 0.20000000000000004
+      z: 0.30000000000000016
+  part-23846102:
+    identifier: 9a0bdd9c-dc5d-4569-990f-876fd05a0cc6
+    id: part-23846102
+    material: OAK_PLANKS
+    offset:
+      x: -0.5555655783155693
+      y: 1.5000000000000002
+      z: 1.6260489133389076
+    rotation:
+      x: 135.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.18
+      y: 0.30000000000000004
+      z: 0.5
+  part-17581459:
+    identifier: 88fc1ae7-5e9b-4850-9c82-9f4bb0042c44
+    id: part-17581459
+    material: OAK_SLAB
+    offset:
+      x: 0.6344344216844315
+      y: 0.5
+      z: 1.6260489133389107
+    rotation:
+      x: -90.0
+      y: -1.6856939811756638E-13
+      z: 90.00000000000026
+    scale:
+      x: 1.0
+      y: 0.29999999999999993
+      z: 1.0
+  part-83610891:
+    identifier: 7b795c68-6f58-4948-837a-7a7714bba314
+    id: part-83610891
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2Yjc3MjMyOWNmMzJmODY0M2M0OTI4NjI2YjZhMzI1MjMzZmY2MWFhOWM3NzI1ODczYTRiZDY2ZGIzZDY5MiJ9fX0=
+    offset:
+      x: 0.034434421684430117
+      y: 2.7000000000000006
+      z: -1.6739510866610903
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+    scale:
+      x: 15.0
+      y: 0.1
+      z: 0.4
+  part-26947690:
+    identifier: 64c68be3-8c91-47e9-9421-6462853d9b13
+    id: part-26947690
+    material: OAK_PLANKS
+    offset:
+      x: -0.5555655783155693
+      y: 0.4999999999999999
+      z: 1.6260489133389089
+    rotation:
+      x: 315.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.18
+      y: 0.5
+      z: 0.30000000000000004
+  part-29529544:
+    identifier: b3364ed1-88c3-431b-9d5e-8914c24b352c
+    id: part-29529544
+    material: OAK_SLAB
+    offset:
+      x: -0.5655655783155691
+      y: 0.5
+      z: 0.6260489133389099
+    rotation:
+      x: -90.00000000000033
+      y: -1.5902773407317584E-13
+      z: -89.99999999999979
+    scale:
+      x: 1.0
+      y: 0.29999999999999993
+      z: 1.0
+  part-71265575:
+    identifier: 8c4bda8b-87ca-4734-9a75-a3523030974b
+    id: part-71265575
+    material: OAK_SLAB
+    offset:
+      x: 0.6344344216844315
+      y: 0.5
+      z: -0.37395108666109
+    rotation:
+      x: -90.0
+      y: -1.6856939811756638E-13
+      z: 90.00000000000026
+    scale:
+      x: 1.0
+      y: 0.29999999999999993
+      z: 1.0
+  part-39061903:
+    identifier: 16a97222-fdaf-47ae-91d2-1af1419b32ec
+    id: part-39061903
+    material: COPPER_BLOCK
+    offset:
+      x: -0.21556557831557033
+      y: 1.6
+      z: 0.12604891333891013
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5000000000000001
+      y: 0.5
+      z: 0.10000000000000009
+  part-50744994:
+    identifier: 1d631ba6-0219-4823-a1e6-56af8cec484a
+    id: part-50744994
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: -0.4655655783155699
+      y: 1.8000000000000007
+      z: -1.3739510866610898
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 1.3000000000000005
+      z: 0.30000000000000004
+  part-25416143:
+    identifier: f912e367-cd87-48db-8076-1ea52a17b8ca
+    id: part-25416143
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 0.534434421684431
+      y: 1.8000000000000007
+      z: 0.0260489133389106
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 1.3000000000000005
+      z: 0.30000000000000004
+  part-84296617:
+    identifier: 1ecd3663-4c74-4b46-ac39-b85e28a29d92
+    id: part-84296617
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 0.034434421684431005
+      y: 2.700000000000001
+      z: -1.6739510866610903
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.8
+      y: 0.30000000000000004
+      z: 0.8
+  part-91592668:
+    identifier: 935d0397-6898-4062-b173-2c39560cc0d8
+    id: part-91592668
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 0.03443442168443189
+      y: 1.1000000000000012
+      z: -3.173951086661092
+    rotation:
+      x: 15.000000000000018
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.40000000000000013
+      z: 7.199999999999996
+  part-88125689:
+    identifier: ac186c24-c05e-4487-89c1-28efd8c8955e
+    id: part-88125689
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 0.534434421684431
+      y: 1.8000000000000007
+      z: 1.22604891333891
+    rotation:
+      x: 135.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 2.200000000000001
+      z: 0.30000000000000004
+  part-17411383:
+    identifier: 765d48b8-7a10-4de9-b3ce-1410ae32d96f
+    id: part-17411383
+    material: OAK_SLAB
+    offset:
+      x: -0.5655655783155691
+      y: 0.5
+      z: -1.3739510866610902
+    rotation:
+      x: -90.00000000000033
+      y: -1.5902773407317584E-13
+      z: -89.99999999999979
+    scale:
+      x: 1.0
+      y: 0.29999999999999993
+      z: 1.0
+  part-6190647:
+    identifier: e63df9d7-9f89-4266-87d4-45e8b77ab9f7
+    id: part-6190647
+    material: OAK_PLANKS
+    offset:
+      x: -0.06556557831556953
+      y: 1.5000000000000004
+      z: -6.873951086661089
+    rotation:
+      x: -10.000000000000002
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.2
+      y: 1.7000000000000004
+      z: 0.7000000000000001
+  part-18650483:
+    identifier: ea5532f8-d1bc-43bc-b519-abda55c0182e
+    id: part-18650483
+    material: OAK_SLAB
+    offset:
+      x: -0.16556557831557006
+      y: 1.5000000000000002
+      z: -6.57395108666109
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.4
+      y: 1.1000000000000003
+      z: 5.5
+  part-27726871:
+    identifier: 16387256-7a77-45c3-a376-c660ca6131e2
+    id: part-27726871
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 0.03443442168443056
+      y: 2.200000000000001
+      z: 0.8260489133389101
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.4000000000000004
+      y: 0.20000000000000004
+      z: 0.30000000000000016
+  part-4567428:
+    identifier: 56417ffd-c0a8-49c1-97c1-0e04e87164e5
+    id: part-4567428
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 0.8344344216844313
+      y: 0.4
+      z: -0.4739510866610901
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: -140.0
+    scale:
+      x: 0.30000000000000016
+      y: 1.7
+      z: 0.4
+  part-75772456:
+    identifier: 653e6e5e-b027-4a27-ae55-e89884baf20b
+    id: part-75772456
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 0.43443442168443047
+      y: 1.9000000000000004
+      z: -6.5239510866610875
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.9999999999999999
+      y: 0.20000000000000004
+      z: 0.20000000000000004
+  part-49271150:
+    identifier: de7a979b-992a-41ee-aa71-26bae6b18166
+    id: part-49271150
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 0.534434421684431
+      y: 1.8000000000000007
+      z: -1.3739510866610898
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 1.3000000000000005
+      z: 0.30000000000000004
+  part-54738522:
+    identifier: cb559f04-77ec-4aad-8ce6-e8b38e556346
+    id: part-54738522
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: -1.0155655783155693
+      y: 0.09999999999999998
+      z: 0.12604891333891058
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5000000000000001
+      y: 0.30000000000000004
+      z: 5.3999999999999995
+  part-88381368:
+    identifier: e0e03bff-4697-4b1d-9e89-4387588523a3
+    id: part-88381368
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2Yjc3MjMyOWNmMzJmODY0M2M0OTI4NjI2YjZhMzI1MjMzZmY2MWFhOWM3NzI1ODczYTRiZDY2ZGIzZDY5MiJ9fX0=
+    offset:
+      x: 0.034434421684430117
+      y: 2.7000000000000006
+      z: -1.6739510866610903
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 15.0
+      y: 0.1
+      z: 0.4
+  part-65124127:
+    identifier: 209e9e4a-c5da-474b-b2bb-b0b92027c527
+    id: part-65124127
+    material: COPPER_BLOCK
+    offset:
+      x: -0.3655655783155698
+      y: 0.6
+      z: 0.12604891333891013
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.8
+      y: 1.0
+      z: 0.10000000000000009
+  part-61558569:
+    identifier: c86b5807-400b-4ef8-a3ee-f267d99fc37d
+    id: part-61558569
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: -0.7655655783155697
+      y: 0.4
+      z: 0.72604891333891
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 140.0
+    scale:
+      x: 0.30000000000000016
+      y: 1.7000000000000006
+      z: 0.4
+  part-37660206:
+    identifier: 98b4ac03-4b05-4358-80fd-4fb486fcf5fa
+    id: part-37660206
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: -0.4655655783155699
+      y: 1.8000000000000007
+      z: 1.22604891333891
+    rotation:
+      x: 135.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 2.200000000000001
+      z: 0.30000000000000004
+  part-96867735:
+    identifier: 8b738f1f-2929-41a7-9466-35533335d9c1
+    id: part-96867735
+    material: OAK_PLANKS
+    offset:
+      x: -0.5655655783155713
+      y: 0.5
+      z: -1.3761897779280787
+    rotation:
+      x: 0.0
+      y: 45.0
+      z: 0.0
+    scale:
+      x: 0.8
+      y: 1.0105442810569036
+      z: 0.5499999949117416
+  part-48581999:
+    identifier: 9f72d760-f220-43ba-a1dc-082f6bf21969
+    id: part-48581999
+    material: COPPER_BLOCK
+    offset:
+      x: -0.21556557831556988
+      y: 1.6
+      z: -1.0739510866610904
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5000000000000001
+      y: 0.5
+      z: 0.10000000000000009
+  part-68622512:
+    identifier: bbb17fea-beda-463b-aa37-0e40dccce3f5
+    id: part-68622512
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: -0.4655655783155699
+      y: 1.8000000000000007
+      z: 0.0260489133389106
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 1.3000000000000005
+      z: 0.30000000000000004
+  part-7022306:
+    identifier: 92f3ad1d-367c-4bb5-9387-859132b7ecb7
+    id: part-7022306
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 0.03443442168443056
+      y: 2.200000000000001
+      z: -1.3739510866610902
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.4000000000000004
+      y: 0.20000000000000004
+      z: 0.30000000000000016
+  part-86907162:
+    identifier: 7ae33e92-40d2-4f4f-91c7-83215d1423bb
+    id: part-86907162
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 0.034434421684431005
+      y: 2.600000000000001
+      z: -1.6739510866610903
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.4
+      y: 1.2000000000000002
+      z: 0.4
+  part-86773663:
+    identifier: 12c02f52-48d5-4b10-be5d-99b3091f981c
+    id: part-86773663
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 1.0844344216844308
+      y: 0.09999999999999998
+      z: 0.12604891333891058
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5000000000000001
+      y: 0.30000000000000004
+      z: 5.3999999999999995
+  part-93741818:
+    identifier: bb00fce7-cbff-46db-96f5-554f890a131c
+    id: part-93741818
+    material: OAK_PLANKS
+    offset:
+      x: 0.03443442168442923
+      y: 0.5
+      z: -1.973951086661094
+    rotation:
+      x: 0.0
+      y: -45.00000000000004
+      z: 0.0
+    scale:
+      x: 0.8
+      y: 0.9999999999999999
+      z: 0.5999999999999999
+  part-39253020:
+    identifier: 3068782d-02a2-481f-ba4a-843922e5fa9b
+    id: part-39253020
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 0.8344344216844313
+      y: 0.4
+      z: 0.72604891333891
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: -140.0
+    scale:
+      x: 0.30000000000000016
+      y: 1.7000000000000006
+      z: 0.4
+  part-112537469:
+    identifier: 021577ed-a811-43f4-81b9-d84317cb43f8
+    id: part-112537469
+    material: OAK_PRESSURE_PLATE
+    offset:
+      x: -0.5655655783155704
+      y: 0.5
+      z: -1.4739510866610903
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.12
+      y: 1.0
+      z: 3.300000000000001
+  part-58820250:
+    identifier: 4870a7b7-8622-4498-96a3-1028cdf590a0
+    id: part-58820250
+    material: OAK_SLAB
+    offset:
+      x: -0.5655655783155691
+      y: 0.5
+      z: -0.37395108666109
+    rotation:
+      x: -90.00000000000033
+      y: -1.5902773407317584E-13
+      z: -89.99999999999979
+    scale:
+      x: 1.0
+      y: 0.29999999999999993
+      z: 1.0
+  part-75211455:
+    identifier: 2f0f5f01-a35a-4b40-98db-545776274530
+    id: part-75211455
+    material: OAK_PLANKS
+    offset:
+      x: -1.2655655783155693
+      y: 1.7800000000000005
+      z: -6.773951086661089
+    rotation:
+      x: -10.000000000000002
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.2000000000000002
+      y: 0.2
+      z: 0.5000000000000001
+  part-99944980:
+    identifier: e250a2d2-d555-4fd9-acfe-3c5299fcff6b
+    id: part-99944980
+    material: OAK_SLAB
+    offset:
+      x: -0.15601183166248694
+      y: 1.9000000000000004
+      z: -1.873951086661091
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.3891037694277219
+      y: 1.0000000000000002
+      z: 0.45
+  part-30793261:
+    identifier: e4c7f515-918e-4779-83ca-a06c51d808d2
+    id: part-30793261
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: -0.46556557831556855
+      y: 2.200000000000001
+      z: -0.27395108666109036
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.3000000000000001
+      z: 4.600000000000001
+  part-106992741:
+    identifier: 2dfc8a5a-73e3-434b-b542-917927d6f528
+    id: part-106992741
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2Yjc3MjMyOWNmMzJmODY0M2M0OTI4NjI2YjZhMzI1MjMzZmY2MWFhOWM3NzI1ODczYTRiZDY2ZGIzZDY5MiJ9fX0=
+    offset:
+      x: 0.5344344216844306
+      y: 1.9000000000000006
+      z: -6.5239510866610875
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.1
+      y: 0.30000000000000004
+      z: 2.4999999999999996
+  part-66202756:
+    identifier: 496eb9eb-2591-4793-bbf8-d33530d9a645
+    id: part-66202756
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZmOTgxN2Q3NjdkMmVkZTcxODFhMDU3YWEyNmYwOGY3ZWNmNDY1MWRlYzk3ZGU1YjU0ZWVkZTFkZDJiNDJjNyJ9fX0=
+    offset:
+      x: 0.5344344216844323
+      y: 2.200000000000001
+      z: -0.27395108666109036
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.3000000000000001
+      z: 4.600000000000001
+  part-19410711:
+    identifier: 3fa8e35e-28fd-421a-8909-e439c9b5bc98
+    id: part-19410711
+    material: OAK_SLAB
+    offset:
+      x: -0.15847402569934885
+      y: 1.5000000000000007
+      z: -3.3739510866610902
+    rotation:
+      x: -18.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.3914757284914771
+      y: 0.8000000000000003
+      z: 1.6999999999999995
+  part-67750041:
+    identifier: 87ce4488-746c-4dd4-b19d-fbb0c6f14fa4
+    id: part-67750041
+    material: OAK_SLAB
+    offset:
+      x: 0.6344344216844315
+      y: 0.5
+      z: 0.6260489133389103
+    rotation:
+      x: -90.0
+      y: -1.6856939811756638E-13
+      z: 90.00000000000026
+    scale:
+      x: 1.0
+      y: 0.29999999999999993
+      z: 1.0
+  part-71492391:
+    identifier: 72ec3622-1126-4edd-9085-d687a4a56b05
+    id: part-71492391
+    material: COPPER_BLOCK
+    offset:
+      x: -0.36556557831557024
+      y: 0.6
+      z: -1.0739510866610902
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.8
+      y: 0.10000000000000009
+      z: 0.7000000000000001
+bones:
+  back-rotor:
+    identifier: 18a3a3ab-bd68-474e-96a3-c792c6d41aab
+    id: back-rotor
+    pivot:
+      x: 0.0
+      y: 1.88
+      z: -6.55
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  top-rotor:
+    identifier: ebc44e6e-c392-41d3-bcb0-609990e97aee
+    id: top-rotor
+    pivot:
+      x: 0.0
+      y: 2.7
+      z: -1.7000000000000002
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+rig:
+  18a3a3ab-bd68-474e-96a3-c792c6d41aab:
+    identifier: 18a3a3ab-bd68-474e-96a3-c792c6d41aab
+    children:
+      - 2dfc8a5a-73e3-434b-b542-917927d6f528
+  7b795c68-6f58-4948-837a-7a7714bba314:
+    identifier: 7b795c68-6f58-4948-837a-7a7714bba314
+    parent: ebc44e6e-c392-41d3-bcb0-609990e97aee
+  ebc44e6e-c392-41d3-bcb0-609990e97aee:
+    identifier: ebc44e6e-c392-41d3-bcb0-609990e97aee
+    children:
+      - e0e03bff-4697-4b1d-9e89-4387588523a3
+      - 7b795c68-6f58-4948-837a-7a7714bba314
+      - 1ecd3663-4c74-4b46-ac39-b85e28a29d92
+  1ecd3663-4c74-4b46-ac39-b85e28a29d92:
+    identifier: 1ecd3663-4c74-4b46-ac39-b85e28a29d92
+    parent: ebc44e6e-c392-41d3-bcb0-609990e97aee
+  2dfc8a5a-73e3-434b-b542-917927d6f528:
+    identifier: 2dfc8a5a-73e3-434b-b542-917927d6f528
+    parent: 18a3a3ab-bd68-474e-96a3-c792c6d41aab
+  e0e03bff-4697-4b1d-9e89-4387588523a3:
+    identifier: e0e03bff-4697-4b1d-9e89-4387588523a3
+    parent: ebc44e6e-c392-41d3-bcb0-609990e97aee
+animations:
+  rotor-spin:
+    id: rotor-spin
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        rotations:
+          v-0:
+            identifier: 18a3a3ab-bd68-474e-96a3-c792c6d41aab
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: ebc44e6e-c392-41d3-bcb0-609990e97aee
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-1:
+        duration: 0
+        rotations:
+          v-0:
+            identifier: 18a3a3ab-bd68-474e-96a3-c792c6d41aab
+            value:
+              x: 125.0
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: ebc44e6e-c392-41d3-bcb0-609990e97aee
+            value:
+              x: 0.0
+              y: 125.0
+              z: 0.0

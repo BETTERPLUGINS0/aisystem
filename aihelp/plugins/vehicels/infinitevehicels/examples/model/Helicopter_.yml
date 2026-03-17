@@ -1,0 +1,2204 @@
+id: helicopter
+type: COMPOUND
+model-offset: 0.0
+hitbox:
+  width: 8.0
+  height: 5.0
+  depth: 8.0
+seats:
+  seat-0:
+    main: false
+    offset:
+      x: 0.8968635895666741
+      y: 1.0944246888079547
+      z: 1.3421354626752862
+  seat-1:
+    main: false
+    offset:
+      x: -1.0747438911182472
+      y: 1.0944246888079547
+      z: 1.3421354626752862
+  seat-2:
+    main: true
+    offset:
+      x: 0.0
+      y: 1.544448069277913
+      z: 2.942551068535101
+  seat-3:
+    main: false
+    offset:
+      x: 0.0
+      y: 1.0944246888079547
+      z: 0.5029864434434957
+particles: { }
+sounds: { }
+projectile-shooters: { }
+parts:
+  piston_head-30102874:
+    identifier: 7677236a-ca52-4b1a-a1e7-015c0ce2cf20
+    id: piston_head-30102874
+    material: PISTON_HEAD
+    data:
+      data-type: block-data
+      value: minecraft:piston_head[facing=up,short=false,type=normal]
+    offset:
+      x: -0.5
+      y: 4.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-71584705:
+    identifier: 9d4aa80d-a687-4be9-b724-ae9e4179eb78
+    id: iron_trapdoor-71584705
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 4.0
+      z: -3.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-4775373:
+    identifier: 254db294-9a19-4995-bd0e-754065c7f54c
+    id: smooth_stone_slab-4775373
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 0.11061946902654873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_stained_glass_pane-48518316:
+    identifier: 69b3888c-96dc-4b38-adc5-d4a35eb3cfcb
+    id: gray_stained_glass_pane-48518316
+    material: GRAY_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:gray_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    offset:
+      x: -1.5
+      y: 2.0
+      z: 4.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_bars-4736566:
+    identifier: 4ff41427-75c8-4b06-bf18-95a357d1851a
+    id: iron_bars-4736566
+    material: IRON_BARS
+    data:
+      data-type: block-data
+      value: minecraft:iron_bars[east=false,north=true,south=false,waterlogged=false,west=false]
+    offset:
+      x: 0.5
+      y: 1.0
+      z: 0.11061946902654873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_stained_glass_pane-109508617:
+    identifier: 0c30e696-4ece-4d55-915e-757475753206
+    id: gray_stained_glass_pane-109508617
+    material: GRAY_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:gray_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    offset:
+      x: 0.5
+      y: 2.0
+      z: 4.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-109836291:
+    identifier: 6bfc4b25-8b8c-471e-a0ba-8a2f00b529fe
+    id: iron_trapdoor-109836291
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 4.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-38754670:
+    identifier: 71891342-24fa-4bb1-99d4-0051720be537
+    id: iron_trapdoor-38754670
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -3.5
+      y: 4.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-109703180:
+    identifier: 0c458b93-4276-4dc2-8532-158bb48b33d5
+    id: smooth_stone_slab-109703180
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -7.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-66858841:
+    identifier: a6ecfd7d-c4c1-4c30-a1b8-004ba3a170c8
+    id: smooth_stone_slab-66858841
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-48899852:
+    identifier: 3fc5beab-b7a1-481f-986f-e759721273e0
+    id: gray_concrete-48899852
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: 0.5
+      y: 1.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-113683468:
+    identifier: 4387c38f-adea-4bf7-a971-28f565888826
+    id: iron_trapdoor-113683468
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 5.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-85157506:
+    identifier: d247e27d-c1df-45c9-b716-65080fa8f2a0
+    id: iron_trapdoor-85157506
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=west,half=top,open=true,powered=true,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 2.0
+      z: -7.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-99851663:
+    identifier: 980d246f-bc19-430d-853e-1a5f2284172a
+    id: polished_basalt-99851663
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -3.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-28689093:
+    identifier: 8f570a1d-8e3d-4847-a252-cb9e5e0107a9
+    id: gray_concrete-28689093
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -2.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-76908052:
+    identifier: 4a11ceac-ead8-46bb-8adc-cec2a6738747
+    id: gray_concrete-76908052
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -1.5
+      y: 1.0
+      z: 4.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-105036303:
+    identifier: cf062bf4-de1a-4bd1-91c9-dd1ac53714f2
+    id: smooth_stone_slab-105036303
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 3.0
+      z: 1.1106194690265487
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-37012353:
+    identifier: 7c4d826d-68f8-4c5d-82f6-b9ad70969877
+    id: iron_trapdoor-37012353
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 4.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-57897728:
+    identifier: 33e18f30-57fc-4963-90a2-9d805684b379
+    id: iron_trapdoor-57897728
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=true,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 2.0
+      z: -6.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-48026805:
+    identifier: 05ab5d40-7c18-457f-af51-ec07c460962f
+    id: gray_concrete-48026805
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -4.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-49773373:
+    identifier: df08fb13-5287-4756-b350-f2218fdbc9e9
+    id: iron_trapdoor-49773373
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 4.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-84534785:
+    identifier: 59f1fb68-4f02-41be-bf61-bf0702d50d43
+    id: gray_concrete-84534785
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -1.5
+      y: 1.0
+      z: 3.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-31056121:
+    identifier: 4173f7a8-d492-4a74-a4c1-6c3ee468ffd9
+    id: smooth_stone_slab-31056121
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 2.0
+      z: -8.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-92986258:
+    identifier: eae1b6b1-c356-4f2a-8bdb-fc81991e2e32
+    id: smooth_stone_slab-92986258
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -2.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_block-9639744:
+    identifier: 87a28bf6-4c02-42b0-907b-9cb0348600a0
+    id: iron_block-9639744
+    material: IRON_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:iron_block
+    offset:
+      x: 0.5
+      y: 2.0
+      z: 3.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_block-57494760:
+    identifier: 4ef35741-d71a-4032-9492-74e1ad8d76a2
+    id: iron_block-57494760
+    material: IRON_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:iron_block
+    offset:
+      x: -0.5
+      y: 2.0
+      z: -2.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-32321333:
+    identifier: c9bde36e-6f18-486a-a614-afa107cbf092
+    id: iron_trapdoor-32321333
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 2.0
+      z: -8.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_stained_glass_pane-100352222:
+    identifier: 08ad0754-7172-4c96-b2b7-75a4e6882c2d
+    id: gray_stained_glass_pane-100352222
+    material: GRAY_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: -0.5
+      y: 2.0
+      z: 4.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_carpet-68324571:
+    identifier: 34213a45-02c9-40e4-a475-118cc7f1f696
+    id: gray_carpet-68324571
+    material: GRAY_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:gray_carpet
+    offset:
+      x: -1.5
+      y: 3.0
+      z: 4.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  lever-83447833:
+    identifier: 373e5977-5a55-4c71-be38-826856dfdcbb
+    id: lever-83447833
+    material: LEVER
+    data:
+      data-type: block-data
+      value: minecraft:lever[face=floor,facing=north,powered=true]
+    offset:
+      x: -0.5
+      y: 3.0
+      z: -7.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-91950147:
+    identifier: 8debecbe-2675-42e4-a425-33ee301502be
+    id: smooth_stone_slab-91950147
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 3.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-110367182:
+    identifier: f23cead4-b5f8-4aa2-94e6-561cdf73681c
+    id: smooth_stone_slab-110367182
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 3.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-92863574:
+    identifier: 8e1f611a-0c80-462c-a268-e06c441b13ce
+    id: iron_trapdoor-92863574
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 3.5
+      y: 4.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-38713073:
+    identifier: 1fa68fd4-1ed1-42d5-a388-e2b4b485925e
+    id: smooth_stone_slab-38713073
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 3.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-93868223:
+    identifier: bb33b4e6-1a13-4b2c-925c-3337a1f19f1c
+    id: gray_concrete-93868223
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: 5.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-104233454:
+    identifier: 10d9a117-a6a2-45be-86ca-6e2657d15245
+    id: gray_concrete-104233454
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: 4.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-103749306:
+    identifier: cf9aa12e-3ea1-4f7d-b168-d0e5e8e35240
+    id: smooth_stone_slab-103749306
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: -1.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  lever-88077902:
+    identifier: 76ff91f1-715c-4d28-a00f-08943b4f8970
+    id: lever-88077902
+    material: LEVER
+    data:
+      data-type: block-data
+      value: minecraft:lever[face=wall,facing=south,powered=true]
+    offset:
+      x: -0.5
+      y: 2.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_bars-46975537:
+    identifier: a3d00aab-3f78-4ae9-8558-39d1a7af8653
+    id: iron_bars-46975537
+    material: IRON_BARS
+    data:
+      data-type: block-data
+      value: minecraft:iron_bars[east=false,north=true,south=false,waterlogged=false,west=false]
+    offset:
+      x: 0.5
+      y: 2.0
+      z: 0.11061946902654873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-106165910:
+    identifier: 592b863e-5dd1-4b5e-88d3-8dfb2a8badff
+    id: smooth_stone_slab-106165910
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -5.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-23873580:
+    identifier: 5c215ae8-761d-4de4-bf85-39a2aa7a35fe
+    id: gray_concrete-23873580
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -1.5
+      y: 1.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-93200675:
+    identifier: 24df3dcb-5a25-479e-927a-a9a4fcc07167
+    id: smooth_stone_slab-93200675
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-45931216:
+    identifier: 726eff57-5536-4d4f-93b3-afbec5d550fa
+    id: smooth_stone_slab-45931216
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 3.0
+      z: 3.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-29398967:
+    identifier: 21136f6d-2c49-4df9-b009-7458e3d449a0
+    id: smooth_stone_slab-29398967
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_block-47148604:
+    identifier: 6cdd7c42-751e-4f4a-a1c3-15ba2843823e
+    id: iron_block-47148604
+    material: IRON_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:iron_block
+    offset:
+      x: -1.5
+      y: 2.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-11255341:
+    identifier: 4b57dbf5-8805-43af-933b-09cc539ecb8e
+    id: smooth_stone_slab-11255341
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 3.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-12929220:
+    identifier: 37f9c223-4e0c-4133-b763-efc32f94f0ab
+    id: smooth_stone_slab-12929220
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 0.11061946902654873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-75889221:
+    identifier: 7481f71d-8b80-4255-b2ab-85cc7c3143ab
+    id: gray_concrete-75889221
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -0.5
+      y: 2.0
+      z: -7.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_bars-121941858:
+    identifier: ed5ec90c-ec6e-49d6-8ac8-1aa2c426f02f
+    id: iron_bars-121941858
+    material: IRON_BARS
+    data:
+      data-type: block-data
+      value: minecraft:iron_bars[east=false,north=true,south=false,waterlogged=false,west=false]
+    offset:
+      x: -1.5
+      y: 2.0
+      z: 0.11061946902654873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-19086949:
+    identifier: 14cb543e-80c1-4640-ba21-0ca92e98b162
+    id: gray_concrete-19086949
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -1.5
+      y: 1.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-26964759:
+    identifier: 7ddf35e1-6b2b-4067-bc56-fb80136b8d4a
+    id: smooth_stone_slab-26964759
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -1.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-39327185:
+    identifier: 5483b0df-f5f4-4ffd-914b-61c7286b8f9a
+    id: polished_blackstone_button-39327185
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 1.5
+      y: 0.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-72099119:
+    identifier: 1a10a5a4-c97e-4d05-b3fd-00b31a3edbd5
+    id: smooth_stone_slab-72099119
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -4.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_block-18939079:
+    identifier: 958c4ec4-e94e-47e9-8e0a-11b952abae11
+    id: iron_block-18939079
+    material: IRON_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:iron_block
+    offset:
+      x: -1.5
+      y: 2.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-103270333:
+    identifier: 39d1841c-bcce-43a0-9233-48b3573c30d9
+    id: smooth_stone_slab-103270333
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 1.1106194690265487
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-49896847:
+    identifier: 694d762d-0608-4ca8-9e96-99d0a7743cea
+    id: smooth_stone_slab-49896847
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 3.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-63721038:
+    identifier: b4e3dba6-4179-4506-a417-a8810d7b6b37
+    id: gray_concrete-63721038
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -5.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-19289171:
+    identifier: acdc6316-4175-458b-aa83-e2f83ac50da7
+    id: gray_concrete-19289171
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -0.5
+      y: 3.0
+      z: 1.1106194690265487
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-118979999:
+    identifier: 34a45acb-2a2a-406e-b4c3-3998e721b8e7
+    id: smooth_stone_slab-118979999
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-105907032:
+    identifier: 5eb869db-db0a-4fba-8def-5145873f8933
+    id: iron_trapdoor-105907032
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 4.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-71544104:
+    identifier: 17009345-f8f9-430b-b021-20edd99a589a
+    id: smooth_stone_slab-71544104
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 3.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-105141974:
+    identifier: 337a86a9-debb-4de7-895f-c1c02ae97bef
+    id: iron_trapdoor-105141974
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.5
+      y: 4.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-70048501:
+    identifier: e0e61905-c19e-44c7-8d18-bcfa10786c5a
+    id: smooth_stone_slab-70048501
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 3.0
+      z: -1.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-29619075:
+    identifier: 737eb84d-3fcc-40ad-b6de-fb2a299f06c2
+    id: gray_concrete-29619075
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: 0.5
+      y: 1.0
+      z: -1.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-112087357:
+    identifier: 7ac122cd-7926-418f-bbbf-3239d428e6fa
+    id: smooth_stone_slab-112087357
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: -1.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-79821814:
+    identifier: 2bf00b54-c7cb-4372-9c5a-85ae1601ab06
+    id: smooth_stone_slab-79821814
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 3.0
+      z: 1.1106194690265487
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-103414131:
+    identifier: dd04b3a8-0aa0-4951-9701-aa317197b3c0
+    id: smooth_stone_slab-103414131
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 0.11061946902654873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-59244996:
+    identifier: 90179fc4-53d8-4ef9-b2cf-d3209d587e4c
+    id: smooth_stone_slab-59244996
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 3.0
+      z: 0.11061946902654873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-41372073:
+    identifier: 09184b76-a21a-4798-978a-8a6c857cd10e
+    id: smooth_stone_slab-41372073
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 1.1106194690265487
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-121988652:
+    identifier: 1e462948-c7a0-4111-acdc-f5c36bbb9bc6
+    id: gray_concrete-121988652
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -6.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-22342442:
+    identifier: 25e48b04-a76d-4108-a089-44acc7d3a00b
+    id: iron_trapdoor-22342442
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=east,half=top,open=true,powered=true,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 2.0
+      z: -7.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-35939598:
+    identifier: 0e100cde-cd67-45f6-9714-d3350aadb72d
+    id: smooth_stone_slab-35939598
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 3.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_stairs-63948245:
+    identifier: eb311a5f-68cf-45b6-ad63-d9231819d4bd
+    id: smooth_quartz_stairs-63948245
+    material: SMOOTH_QUARTZ_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 1.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_block-98750433:
+    identifier: 748ee431-afb4-4e7f-a6f1-f81e2d07e9b5
+    id: iron_block-98750433
+    material: IRON_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:iron_block
+    offset:
+      x: -0.5
+      y: 2.0
+      z: -1.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-15945700:
+    identifier: 84e37f76-901c-4b15-b0ac-33a3dae38230
+    id: iron_trapdoor-15945700
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 2.0
+      z: -8.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-42357250:
+    identifier: 8a0545bf-8d27-4fa0-85e9-8fabc12950fd
+    id: iron_trapdoor-42357250
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 2.5
+      y: 4.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-73684338:
+    identifier: 868a6ccd-23ea-4ff1-b1b6-5f104ffd6122
+    id: gray_concrete-73684338
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: 0.5
+      y: 1.0
+      z: 3.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-117256107:
+    identifier: 2dc1988a-23ef-4033-8ca4-d4a974695809
+    id: polished_blackstone_button-117256107
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: -3.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-118027210:
+    identifier: e75519b8-72e8-46c1-8a90-3fba39a9572b
+    id: gray_concrete-118027210
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: 0.5
+      y: 1.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-22375188:
+    identifier: cd7d3752-b00e-4d64-a3b8-9f2fe7134bf3
+    id: iron_trapdoor-22375188
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 4.0
+      z: 1.1106194690265487
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-62790413:
+    identifier: abb3b7df-4150-49a3-a14e-432b7527cedf
+    id: smooth_stone_slab-62790413
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 3.0
+      z: -1.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-69838813:
+    identifier: 511b63a5-4bb1-4fe2-bb89-122af01ab9e9
+    id: smooth_stone_slab-69838813
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 3.0
+      z: 0.11061946902654873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-14535312:
+    identifier: 6826d910-3f7b-48ed-8c63-88ace65a2604
+    id: iron_trapdoor-14535312
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.5
+      y: 4.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  lever-1360013:
+    identifier: a7564f2a-b014-4baa-9606-e981fd0b8ef5
+    id: lever-1360013
+    material: LEVER
+    data:
+      data-type: block-data
+      value: minecraft:lever[face=wall,facing=north,powered=false]
+    offset:
+      x: -0.5
+      y: 1.0
+      z: 3.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  piston-29623086:
+    identifier: 0aaf3477-1361-4a89-95b1-ac2c9a78b616
+    id: piston-29623086
+    material: PISTON
+    data:
+      data-type: block-data
+      value: minecraft:piston[extended=true,facing=up]
+    offset:
+      x: -0.5
+      y: 3.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-106622952:
+    identifier: cbaaf2af-d9fa-480e-aa54-a5167dd1f44d
+    id: iron_trapdoor-106622952
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=west,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -4.5
+      y: 4.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-76541224:
+    identifier: 06f184ee-11c2-40ea-b75e-21a9d869bd99
+    id: gray_concrete-76541224
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -1.5
+      y: 1.0
+      z: -1.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_block-42626946:
+    identifier: 130feeef-8b41-45d7-b1f9-021276dffe58
+    id: iron_block-42626946
+    material: IRON_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:iron_block
+    offset:
+      x: 0.5
+      y: 2.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-103619155:
+    identifier: be5a9a98-c751-4d9e-89d6-c9dc00fb2b8e
+    id: polished_basalt-103619155
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-81282813:
+    identifier: c3b19e71-413d-41ad-a53f-6efb4c133242
+    id: iron_trapdoor-81282813
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 4.0
+      z: 0.11061946902654873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-7607382:
+    identifier: e365f1ff-7bdf-41b7-a7ea-1fb9c107d229
+    id: gray_concrete-7607382
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -3.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-85717680:
+    identifier: bd95be56-9180-4aaa-bf87-5f53c1d4452f
+    id: polished_basalt-85717680
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-24819628:
+    identifier: ad62db14-c686-4469-99a6-61ef0c686f49
+    id: iron_trapdoor-24819628
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=east,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 4.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_block-52881509:
+    identifier: 6ac05403-cb61-495f-89a1-1757080d00c7
+    id: iron_block-52881509
+    material: IRON_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:iron_block
+    offset:
+      x: 0.5
+      y: 2.0
+      z: -1.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-64246909:
+    identifier: a367ac06-33de-46dd-88c9-d6bb2a7ab6af
+    id: gray_concrete-64246909
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -0.5
+      y: 3.0
+      z: 0.11061946902654873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_block-35837332:
+    identifier: 20f5d21c-5912-4036-9080-53ed12552629
+    id: iron_block-35837332
+    material: IRON_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:iron_block
+    offset:
+      x: -1.5
+      y: 2.0
+      z: -1.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-121384690:
+    identifier: e27ba18c-919b-471c-aaca-c827020e3f70
+    id: black_concrete-121384690
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -1.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-59750996:
+    identifier: 3986a023-e744-417e-b8a5-6df4da6f8737
+    id: gray_concrete-59750996
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: 0.5
+      y: 1.0
+      z: 4.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_block-9940450:
+    identifier: 06510b1f-b8db-49a0-b8b4-a16c5330b9e5
+    id: iron_block-9940450
+    material: IRON_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:iron_block
+    offset:
+      x: 0.5
+      y: 2.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_block-88485475:
+    identifier: c84a195f-889d-45ba-bce7-6f7982fc98f5
+    id: iron_block-88485475
+    material: IRON_BLOCK
+    data:
+      data-type: block-data
+      value: minecraft:iron_block
+    offset:
+      x: -1.5
+      y: 2.0
+      z: 3.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_bars-79896088:
+    identifier: 3553f0a8-b1aa-4a09-9053-f87bc6b31cee
+    id: iron_bars-79896088
+    material: IRON_BARS
+    data:
+      data-type: block-data
+      value: minecraft:iron_bars[east=false,north=true,south=false,waterlogged=false,west=false]
+    offset:
+      x: -1.5
+      y: 1.0
+      z: 0.11061946902654873
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-102647092:
+    identifier: feeae072-9400-4976-8f03-3643bba303eb
+    id: iron_trapdoor-102647092
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 4.0
+      z: 3.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-64950533:
+    identifier: b6c14b3d-eac6-4d38-bfec-4c6f85254c03
+    id: smooth_stone_slab-64950533
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 1.1106194690265487
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_carpet-72621391:
+    identifier: b2ab98ad-c0c2-42ac-8456-d77b17adbc2e
+    id: gray_carpet-72621391
+    material: GRAY_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:gray_carpet
+    offset:
+      x: 0.5
+      y: 3.0
+      z: 4.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-55988144:
+    identifier: b03a7ad5-d2df-46a6-8ea2-02f2f8a0aacf
+    id: iron_trapdoor-55988144
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 4.0
+      z: -4.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-99383146:
+    identifier: 7037c3be-200d-48d0-bf3c-d371d1feaae7
+    id: smooth_stone_slab-99383146
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 3.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-117511684:
+    identifier: 2bdea5d9-1323-4c27-b610-25e3b16a99e9
+    id: iron_trapdoor-117511684
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 4.0
+      z: -2.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-22783104:
+    identifier: 1e552de0-1458-4061-8303-b9f37f0a9f31
+    id: gray_concrete-22783104
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -0.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_concrete-21418916:
+    identifier: 69bbd96c-f6ae-4eea-8013-19c3b744eef0
+    id: gray_concrete-21418916
+    material: GRAY_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:gray_concrete
+    offset:
+      x: -0.5
+      y: 3.0
+      z: -1.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-95151801:
+    identifier: 523d814c-0d6b-4ad7-9ca2-072fd9cbc70d
+    id: iron_trapdoor-95151801
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 4.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  gray_carpet-51290713:
+    identifier: 56157be4-d3c3-4055-a40e-a6def4c68b37
+    id: gray_carpet-51290713
+    material: GRAY_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:gray_carpet
+    offset:
+      x: -0.5
+      y: 3.0
+      z: 4.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-72821342:
+    identifier: e7b84c86-5d27-4857-acd5-a5bfa8ba337f
+    id: iron_trapdoor-72821342
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 4.0
+      z: -1.8893805309734513
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-88247846:
+    identifier: f1e01928-c604-4ed7-bfe4-5c02dd5d0952
+    id: polished_blackstone_button-88247846
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: -3.889380530973451
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-12771496:
+    identifier: a50775ce-d9ee-466c-b780-af5024c16c38
+    id: polished_blackstone_button-12771496
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -2.5
+      y: 0.0
+      z: 2.110619469026549
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones: { }
+animations: { }

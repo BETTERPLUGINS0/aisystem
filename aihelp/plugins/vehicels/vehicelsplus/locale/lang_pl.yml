@@ -1,0 +1,311 @@
+vehiclesplus:
+  general:
+    errors:
+      noeconomy: '<c5>Wsparcie ekonomii jest wyłączone! Ta komenda nie będzie działać. Skontaktuj się z właścicielem serwera.</c5>'
+      notenoughmoney: '<c5>Nie udało się sfinalizować transakcji. Nie posiadasz wystarczającej ilości pieniędzy!</c5>'
+    vehicles:
+      actionbar:
+        normal: '<c1>Bieg </c1><c7>%gear%</c7><c2> | </c2><c1>Prędkość </c1><c7>%curspeed%</c7><c2>/</c2><c7>%maxspeed%</c7><c1>KM/H</c1><c2> | </c2><c1>Poziom paliwa </c1><c7>%fuelperc%</c7><c1>%</c1><c2> (</c2><c7>%curfuel%</c7><c2>/</c2><c7>%maxfuel%</c7><c1>L</c1><c2>)</c2>'
+        outoffuel: '<c5>Brak paliwa!</c5>'
+  commands:
+    addon:
+      descriptions:
+        main: 'Komenda VehiclePlus Addon'
+        givepaint: 'Daj wiadro z farbą graczu'
+        givewheel: 'Daj koło graczu'
+      givepaint:
+        item:
+          name: '<c3>Wiadro z farbą</c3>'
+          lore: '<c4>Czerwony: %red%</c4>\n<c4>Zielony: %green%</c4>\n<c4>Niebieski: %blue%</c4>'
+        given: '<c3>Dodano wiadro z farbą graczu </c3><c4>%player%</c4><c3>.</c3>'
+        received: '<c3>Otrzymałeś wiadro z farbą! Kliknij na część, aby zmienić jej kolor.</c3>'
+      givewheel:
+        item:
+          name: '<c3>Koło</c3>'
+          lore: '<c4>Typ: %type%</c4>'
+        given: '<c3>Dodano koło graczu </c3><c4>%player%</c4><c3>.</c3>'
+        received: '<c3>Otrzymałeś koło! Kliknij na stare koło aby je zamienić.</c3>'
+    fuel:
+      descriptions:
+        main: 'Komenda VehiclePlus Fuel'
+        give: 'Daj paliwo graczu'
+        buy: 'Kup paliwo bezpośrednio'
+        shop: 'Otwórz sklep z paliwem'
+      give: '<c3>Paliwo zostało dodane.</c3>'
+      buy: '<c3>Pomyślnie zakupiłeś </c3><c4>%liters%L</c4> <c4>%type%</c4><c3>.</c3>'
+    garage:
+      descriptions:
+        main: 'Komenda VehiclePlus Garage'
+        open: 'Otwórz garaż'
+        create: 'Stwórz nowy garaż'
+        delete: 'Usuń garaż'
+        addmember: 'Dodaj członka do garażu'
+        removemember: 'Usuń członka z garażu'
+        setowner: 'Zmień właściciela garażu'
+      invalid: '<c5>Ten garaż nie istnieje!</c5>'
+      already: '<c5>Ten garaż już istnieje!</c5>'
+      created: '<c3>Pomyślnie utworzono </c3><c4>%garage%</c4><c3>!</c3>'
+      deleted: '<c3>Pomyślnie usunięto </c3><c4>%garage%</c4><c3>!</c3>'
+      addedmember: '<c3>Pomyślnie dodano gracza </c3><c4>%player%</c4><c3> do </c3><c4>%garage%</c4><c3>!</c3>'
+      removedmember: '<c3>Pomyślnie usunięto gracza </c3><c4>%player%</c4><c3> z </c3><c4>%garage%</c4><c3>!</c3>'
+      setowner: '<c3>Pomyślnie zmieniono właściciela garażu </c3><c4>%garage%</c4><c3>na </c3><c4>%player%</c4><c3>!</c3>'
+    vehiclemodel:
+      descriptions:
+        main: 'Komenda VehiclePlus VehicleModel'
+        delete: 'Usuń model pojazdu'
+        list: 'Lista wszystkich modeli pojazdów'
+        reload: 'Odśwież modele pojazdów'
+        info: 'Zdobądź informacje o modelu pojazdu'
+      delete:
+        confirm: '<c3>Czy na pewno chcesz usunąć model </c3><c4>%model%</c4><c3>? Usuniesz również wszystkie pojazdy połączone z tym modelem!</c3>'
+        deleted: '<c3>Pomyślnie usunięto model pojazdu </c3><c4>%model%</c4><c3>!</c3>'
+        cancelled: '<c3>Pomyślnie anulowano usuwanie modelu pojazdu!</c3>'
+      list:
+        title: 'Nazwa: <c7>%name%</c7> | Typ: <c7>%type%</c7>'
+        hover: 'Lewy przycisk myszy po więcej informacji.'
+      reload: '<c3>Pomyślnie odświeżono modele pojazdów!</c3>'
+      info:
+        name: 'Nazwa: <c7>%name%</c7>'
+        type: 'Typ: <c7>%type%</c7>'
+        parts:
+          header: 'Części:'
+          part: '- <c7>%part%</c7>'
+        settings:
+          header: 'Ustawienia:'
+          setting: '<c5>%setting%</c5>'
+          upgradable:
+            base: 'Domyślne ustawienie: <c7>%base% %unit%</c7>'
+            max: 'Maksymalne ustawienie: <c7>%max% %unit%</c7>'
+            step: 'Krok ulepszania: <c7>%step% %unit%</c7>'
+            stepcost: 'Koszt za jedno ulepszenie: <c7>%stepcost%</c7>'
+            notupgradable: '<c5>Brak możliwości ulepszenia</c5>'
+            maxedout: '<c5>Maksymalnie ulepszone</c5>'
+          exhaust:
+            enabled: 'Włączone: <c7>%enabled%</c7>'
+            xoffset: 'Zmiana X: <c7>%xoffset%</c7>'
+            yoffset: 'Zmiana Y: <c7>%yoffset%</c7>'
+            zoffset: 'Zmiana Z: <c7>%zoffset%</c7>'
+            particle: 'Cząsteczka: <c7>%particle%</c7>'
+          fuel:
+            type: 'Typ: <c7>%type%</c7>'
+            usage: 'Użycie: <c7>%usage%</c7>'
+          heightlimit:
+            minheight: 'Minimalna wysokość: <c7>%min%</c7>'
+            maxheight: 'Maksymalna wysokość: <c7>%max%</c7>'
+          hitbox:
+            length: 'Długość: <c7>%length%</c7>'
+            width: 'Szerokość: <c7>%width%</c7>'
+            height: 'Wysokość: <c7>%height%</c7>'
+          horn:
+            enabled: 'Włączone: <c7>%enabled%</c7>'
+            sound: 'Dźwięk: %sound%'
+          permissions:
+            buy: 'Kupno: <c7>%buy%</c7>'
+            adjust: 'Dostosuj: <c7>%adjust%</c7>'
+            spawn: 'Spawnuj: <c7>%spawn%</c7>'
+            ride: 'Jedź: <c7>%ride%</c7>'
+            cansitwithoutride: 'Może usiąść bez uprawnienia do jazdy: <c7>%sit%</c7>'
+          sounds:
+            sound:
+              sound: '- Dźwięk: <c7>%sound%</c7>'
+              duration: '- Czas trwania: <c7>%duration%</c7>'
+              volume: '- Głośność: <c7>%volume%</c7>'
+              pitch: '- Wysokość tonu: <c7>%pitch%</c7>'
+            idle: 'Dźwięk w spoczynku: %sound%'
+            start: 'Dźwięk przy odpalaniu: %sound%'
+            acceleration: 'Dźwięk przy przyspieszaniu: %sound%'
+            driving: 'Dźwięk przy jeździe: %sound%'
+            slowingdown: 'Dźwięk przy zwalnianiu: %sound%'
+          gearbox:
+            realistic: 'Realistyczne: <c7>%realistic%</c7>'
+            cooldown: 'Czas odnowienia: <c7>%cooldown%</c7>'
+        drift: 'Drift: <c7>%drift%</c7>'
+        exitwhilemoving: 'Wychodzenie w ruchu: <c7>%exitwhilemoving%</c7>'
+        price: 'Cena: <c7>%price%</c7>'
+        health: 'Życie: <c7>%health%</c7>'
+        trunksize: 'Rozmiar bagażnika: <c7>%trunksize%</c7>'
+    vehicles:
+      descriptions:
+        main: 'Komenda VehiclesPlus Vehicles'
+        give: 'Daj pojazd graczu'
+        shop: 'Otwórz sklep z pojazdami'
+        repair: 'Napraw pojazd'
+        spawn: 'Zespawnuj pojazd'
+        spawnpersistent: 'Zespawnuj trwały pojazd'
+      spawn:
+        spawned: '<c3>Pomyślnie zespawnowano pojazd </c3><c4>%vehicle%</c4><c3>!</c3>'
+      spawnpersistent:
+        spawned: '<c3>Pomyślnie zespawnowano trwały pojazd </c3><c4>%vehicle%</c4><c3>!</c3>'
+      give:
+        invalidgarage: '<c5>Ten garaż nie istnieje!</c5>'
+        invalidcolor: '<c5>Podany kolor jest nieprawidłowy! Wartości RGB muszą się mieścić pomiędzy 0 a 255.</c5>'
+        nocolor: '<c5>Dany pojazd nie wspiera malowania!</c5>'
+        added: '<c3>Pomyślnie dodano </c3><c4>%vehicle%</c4><c3> do </c3><c4>%garage%</c4><c3>!</c3>'
+      repair:
+        novehicle: '<c5>Ten gracz nie jest w środku pojazdu!</c5>'
+        repaired: '<c3>Pomyślnie naprawiono pojazd </c3><c4>%vehicle%</c4><c3>!</c3>'
+  inventories:
+    confirmation:
+      confirm:
+        title: '<c3>Potwierdź</c3>'
+        lore: '<c4>Zatwierdź swoją akcję.</c4>'
+      cancel:
+        title: '<c5>Anuluj</c5>'
+        lore: '<c6>Anuluj swoją akcję.</c6>'
+    pagination:
+      first:
+        title: 'Pierwsza strona'
+        lore: '<c7>Przejdź do pierwszej strony (1).</c7>'
+      previous:
+        title: 'Poprzednia strona'
+        lore: '<c7>Przejdź do poprzedniej strony (%page%).</c7>'
+      next:
+        title: 'Następna strona'
+        lore: '<c7>Przejdź do następnej strony (%page%).</c7>'
+      last:
+        title: 'Ostatnia strona'
+        lore: '<c7>Przejdź do ostatniej strony (%page%).</c7>'
+    fuel:
+      shop:
+        title: 'Sklep z paliwem'
+        item:
+          name: '<c3>%type%</c3>'
+          lore: '<c3>Cena:</c3> <c4>%price%/L</c4>'
+      amount:
+        title: 'Wybierz liczbę'
+        item:
+          name: '<c3>%type%</c3> <c7>%amount%L<c7>'
+          lore: '<c3>Cena:</c3> <c4>%price%</c4>'
+      bought: '<c3>Pomyślnie zakupiłeś </c3><c4>%liters%L</c4><c4>%type%</c4><c3>.</c3>'
+    vehicles:
+      shop:
+        vehicle:
+          title: 'Sklep z pojazdami'
+          item:
+            name: '%name%'
+            lore: '<c3>Cena:</c3> <c4>%price%</c4>'
+        color:
+          title: 'Wybierz kolor'
+        garage:
+          title: 'Wybierz garaż'
+          item:
+            name: '%garage%'
+            lore:
+              available: '<c3>Właściciel:</c3> <c4>%owner%</c4>'
+              limited: '<c5>Osiągnięto globalny limit pojazdów!<c5>'
+        confirmation:
+          title: 'Potwierdź zakup'
+          bought: '<c3>Pomyślnie zakupiłeś </c3><c4>%vehicle%</c4><c3>. Został schowany w </c3><c4>%garage%</c4><c3>!</c3>'
+      garage:
+        title: '%garage%'
+        moving: '<c5>Nie możesz wykonać tej akcji kiedy pojazd jest nadal w ruchu!</c5>'
+        settings:
+          button:
+            name: '<c3>Ustawienia</c4>'
+            lore: '<c4>Kliknij aby otworzyć ustawienia garażu.</c4>'
+          title: "Ustawienia garażu"
+          setting:
+            rolelist:
+              noowner: '<c5>Nie możesz zmienić uprawnień właściciela garażu!</c5>'
+              button:
+                name: '<c3>%role%</c3>'
+                lore: '<c4>Kliknij prawym przyciskiem myszy, aby usunąć.</c4>'
+              create:
+                name: '<c3>Utwórz nową rolę</c3>'
+                lore: '<c4>Kliknij, aby utworzyć nową rolę.</c4>'
+              delete:
+                title: '<c3>Czy jesteś pewien?</c3>'
+                default: '<c5>Nie możesz usunąć roli domyślnej!</c5>'
+                failed: '<c5>Nie udało się usunąć roli! Upewnij się, że żaden członek nie ma tej roli.</c5>'
+            managemembers:
+              name: "Zarządzaj uprawnieniami członków"
+              button:
+                name: '<c3>%member%</c3>'
+                loreowner: 'Aktualna rola: <c7>%role%</c7>'
+                lore: 'Aktualna rola: <c7>%role%</c7>\nKliknij, aby zmienić.'
+            delete: "Usuń uprawnienie"
+            buy: "Kup uprawnienie"
+            remove: "Usuń uprawnienie"
+            repair: "Uprawnienie na naprawę"
+            spawn: "Uprawnienie na spawnowanie"
+            adjust: "Dostosuj uprawnienie"
+            ride: "Uprawnienie na jazdę"
+            opentrunk: 'Uprawnienie do otwierania bagażnika'
+            lock: 'Zablokuj uprawnienie'
+            upgrade: 'Uprawnienie na aktualizację'
+            tune: 'Uprawnienie na tuning'
+            renamevehicle: 'Uprawnienie na zmianę nazwy pojazdu'
+            transfervehicle: 'Uprawnienie na transfer pojazdu'
+            manageroles: 'Zarządzaj uprawnieniami ról'
+            rename: 'Uprawnienie do zmiany nazwy garażu'
+            deletegarage: 'Uprawnienie do usunięcia garażu'
+            toggle:
+              enabled: "<c3>Przyznano</c3>"
+              disabled: "<c5>Odrzucono</c5>"
+          repaired: '<c3>Pomyślnie naprawiono pojazd </c3><c4>%vehicle%</c4><c3>!</c3>'
+        spawn:
+          failed: '<c5>Nie udało się zespawnować pojazdu!</c5>'
+          limited: '<c5>W tym garażu możesz jednocześnie zespawnować </c5><c6>%limit%</c6><c5> pojazdów!</c5>'
+        remove:
+          moving: '<c5>Nie możesz usunąć pojazdu, gdy jest w ruchu!</c5>'
+          confirmation:
+            title: 'Potwierdź usunięcie'
+            removed: '<c3>Udało się usunąć pojazd </c3><c4>%vehicle%</c4><c3> z jego garażu!</c3>'
+        repair:
+          repaired: '<c3>Pomyślnie naprawiono pojazd </c3><c4>%vehicle%</c4><c3>!</c3>'
+      interaction:
+        title: '%vehicle%'
+        enter: '<c3>Wejdź do pojazdu</c3>'
+        remove: '<c5>Zdespawnuj pojazd</c5>'
+        remove_persistent: '<c5>Usuń pojazd</c5>'
+        lock: '<c3>Zablokuj pojazd</c3>'
+        unlock: '<c3>Odblokuj pojazd</c3>'
+        locked: '<c3>Pojazd został zamknięty.</c3>'
+        unlocked: '<c3>Pojazd został odblokowany.</c3>'
+        trunk: '<c3>Otwórz bagażnik</c3>'
+        settings: '<c3>Ustawienia</c3>'
+        tuning: '<c3>Tuning</c3>'
+        upgrades: '<c3>Ulepszenia</c3>'
+      enter:
+        title: 'Wybierz miejsce'
+        item:
+          seat: '<c3>Miejsce #%seat%</c3>'
+          driverseat: '<c3>Fotel kierowcy</c3>'
+          lore:
+            taken: '<c5>ZAJĘTE</c5>'
+            free: 'Kliknij, aby wejść'
+        nopermission: '<c5>Nie masz uprawnień do prowadzenia tego pojazdu!</c5>'
+      settings:
+        title: 'Ustawienia pojazdu'
+        rename:
+          name: '<c3>Zmień nazwę</c3>'
+          lore: '<c4>Koszt: %cost%</c4>'
+      upgrade:
+        title: 'Ulepszenia pojazdów'
+        items:
+          speed: '<c3>Prędkość</c3>'
+          fueltank: '<c3>Zbiornik paliwa</c3>'
+          acceleration: '<c3>Przyspieszenie</c3>'
+          turningradius: '<c3>Promień skrętu</c3>'
+        current: 'Aktualne ustawienie: <c7>%current% %unit%</c7>'
+        maxedout: '<c5>To ulepszenie zostało już wyczerpane!</c5>'
+        upgraded: '<c3>Pojazd został pomyślnie ulepszony!</c3>'
+      trunk:
+        title: '<c3>Bagażnik</c3>'
+  prompts:
+    general:
+      cancel: 'Ta akcja została anulowana.'
+      number:
+        invalid: '<c5>Podana ilość liczb jest nieprawidłowa! Oczekiwano </c5><c6>%num%</c6><c5>, uzyskano </c5><c6>%input%</c6><c5>.</c5>'
+    garage:
+      role:
+        create: 'Napisz nazwę nowej roli w garażu na czacie (Napisz STOP, aby anulować).'
+        created: '<c3>Pomyślnie utworzono nową rolę w garażu </c3><c4>%role%</c4><c3>!</c3>'
+        addmember: 'Napisz nazwę nowej roli garażu dla członka na czacie (Napisz STOP, aby anulować).'
+      rename: 'Napisz nową nazwę garażu na czacie (Napisz STOP, aby anulować).'
+      transfer: 'Napisz nazwę nowego właściciela na czacie (Napisz STOP, aby anulować).'
+    vehicles:
+      setname: 'Napisz nową nazwę pojazdu na czacie (Napisz STOP, aby anulować).'
+      renamed: '<c3>Pomyślnie zmieniono nazwę pojazdu na </c3><c4>%name%</c4><c3>!</c3>'
+      transfer: 'Napisz nazwę nowego garażu na czacie (Napisz STOP, aby anulować).'
+      moved: '<c3>Pomyślnie przeniesiono pojazd do </c3><c4>%garage%</c4><c3>!</c3>'

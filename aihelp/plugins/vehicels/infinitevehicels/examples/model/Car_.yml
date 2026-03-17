@@ -1,0 +1,1938 @@
+id: car
+type: COMPOUND
+model-offset: 0.0
+hitbox:
+  width: 5.0
+  height: 4.0
+  depth: 5.0
+seats:
+  seat-0:
+    main: true
+    offset:
+      x: -0.4166916316807569
+      y: 1.4065213375519665
+      z: 1.3626151209896125
+  seat-1:
+    main: false
+    offset:
+      x: -0.51981189062525
+      y: 1.0782235717987894
+      z: -2.0356740730534435
+  seat-2:
+    main: false
+    offset:
+      x: 0.6097763206329301
+      y: 1.0782235717987894
+      z: -2.0356740730534435
+  seat-3:
+    main: false
+    offset:
+      x: 0.6097763206329301
+      y: 1.4065213375519665
+      z: 1.4077960835077894
+particles: { }
+sounds: { }
+projectile-shooters: { }
+parts:
+  mangrove_stairs-57349866:
+    identifier: 14512fe2-bc2a-439e-9e79-d662438203f6
+    id: mangrove_stairs-57349866
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_terracotta-119229262:
+    identifier: dac531c0-3068-4508-9648-fb762250b048
+    id: red_terracotta-119229262
+    material: RED_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:red_terracotta
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -1.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-21984083:
+    identifier: 8a4e7a0c-e98e-4577-bda1-51f9a34e0f93
+    id: mangrove_trapdoor-21984083
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-107846306:
+    identifier: 4dd9c49e-f527-4007-87aa-724d31f4602a
+    id: mangrove_slab-107846306
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -0.22536764892877317
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-95799659:
+    identifier: dec84c87-ff9d-46df-83ea-adfb82e895f1
+    id: polished_basalt-95799659
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 1.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-23383197:
+    identifier: 8b16a8ee-4857-4840-8b1a-160765d7a5d4
+    id: mangrove_trapdoor-23383197
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-7568695:
+    identifier: 73787bec-779e-456d-9e23-39e145f02688
+    id: mangrove_trapdoor-7568695
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-50792465:
+    identifier: 21a76928-5fbe-452c-8cd7-858953ef15a5
+    id: mangrove_stairs-50792465
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_terracotta-58618734:
+    identifier: 5ee3def1-ba94-44e5-8f10-f227d62b4918
+    id: red_terracotta-58618734
+    material: RED_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:red_terracotta
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_wall-113552981:
+    identifier: 6975d706-891f-4c4b-bbbb-ac0d8b4333a0
+    id: red_nether_brick_wall-113552981
+    material: RED_NETHER_BRICK_WALL
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-9669632:
+    identifier: 392c46fc-91ad-4882-b4a7-23a3610669cf
+    id: polished_basalt-9669632
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 2.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-29132849:
+    identifier: ff5c91b4-2038-4c8e-b6db-cf620e8f0a60
+    id: red_carpet-29132849
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -0.22536764892877317
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_terracotta-99543288:
+    identifier: b36cb6fb-facc-4cb4-a46b-0f266e40fcfb
+    id: red_terracotta-99543288
+    material: RED_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:red_terracotta
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-4522734:
+    identifier: 0637d87b-3b46-4ae9-855c-e7cad19bcbdd
+    id: mangrove_slab-4522734
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -0.22536764892877317
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-122394609:
+    identifier: 42200550-f99a-4f3a-88a2-42e3044b114d
+    id: mangrove_slab-122394609
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  tinted_glass-61889964:
+    identifier: f433af12-c802-4306-b8d8-c958b3b6e2ba
+    id: tinted_glass-61889964
+    material: TINTED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:tinted_glass
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 1.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-51092537:
+    identifier: 8b4b4597-fc2f-41f4-84ca-d9d9dc03b5ee
+    id: mangrove_stairs-51092537
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 1.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-19055405:
+    identifier: 9b4cbe20-1384-4b2c-ae31-366e03399f1a
+    id: polished_basalt-19055405
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-64056466:
+    identifier: 0c054bc9-6230-4a3d-8e79-7edd2b7c86dc
+    id: mangrove_slab-64056466
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -1.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-122110841:
+    identifier: c9d90988-86cb-4677-8949-02a1dcbb711f
+    id: mangrove_slab-122110841
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -0.22536764892877317
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  crimson_trapdoor-87579096:
+    identifier: 6d6922d7-ed46-4418-bece-d2273c0a24c3
+    id: crimson_trapdoor-87579096
+    material: CRIMSON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:crimson_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 3.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_terracotta-39289474:
+    identifier: 6e9ff966-f511-4e93-88ed-7217fbdaf584
+    id: red_terracotta-39289474
+    material: RED_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:red_terracotta
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-37219615:
+    identifier: 59b20227-4fca-4f48-be47-d603b79c059d
+    id: mangrove_stairs-37219615
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-34864521:
+    identifier: 2eb786d8-d472-4c45-b31a-a94ed48e1921
+    id: mangrove_trapdoor-34864521
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-87059966:
+    identifier: b65d3389-2ea6-43ad-9830-4254ffa3266b
+    id: mangrove_slab-87059966
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -0.22536764892877317
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-30757872:
+    identifier: bb661af1-55f2-4881-9f04-ac038b7a6883
+    id: mangrove_stairs-30757872
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=north,half=bottom,shape=inner_right,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 2.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-111351647:
+    identifier: eee8b632-23f0-4795-b302-2613b5d98ea4
+    id: mangrove_trapdoor-111351647
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-106497475:
+    identifier: 3436d93f-bd6d-4b57-bc07-8bf9269e2278
+    id: mangrove_stairs-106497475
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-3762099:
+    identifier: 3b348017-ebe1-4fa6-a53b-1336254714b0
+    id: mangrove_trapdoor-3762099
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-49683501:
+    identifier: 8a5f460b-3adf-426d-bb9f-464a447d355e
+    id: mangrove_stairs-49683501
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=north,half=bottom,shape=inner_left,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 2.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-98312655:
+    identifier: 67d524b6-447e-4c97-9d60-c3dce5275894
+    id: polished_blackstone_button-98312655
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 2.0
+      y: 0.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-24211432:
+    identifier: 27676536-b135-4cda-be3e-6ed1a9a38ecc
+    id: mangrove_trapdoor-24211432
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-9553768:
+    identifier: 02966cfd-3a89-47cb-b70a-bf7c4d84e0e5
+    id: mangrove_slab-9553768
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -1.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-74249458:
+    identifier: 77e0efb3-123c-4a1c-bfd8-b2a62fc08c44
+    id: polished_basalt-74249458
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 2.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-78596038:
+    identifier: dc516af3-49f2-4e9b-b5cb-8183d48b0a85
+    id: mangrove_stairs-78596038
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-73580411:
+    identifier: 5de63acf-e888-4371-9d42-68a3fd61e847
+    id: mangrove_stairs-73580411
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=west,half=top,shape=outer_right,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 2.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-85265291:
+    identifier: ab23ae01-2c99-4378-a907-d3f4c47bdb7f
+    id: mangrove_slab-85265291
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 1.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_terracotta-85854983:
+    identifier: 79b25651-1999-4ef0-8424-7de9690d2248
+    id: red_terracotta-85854983
+    material: RED_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:red_terracotta
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-78820858:
+    identifier: 5ea54be7-7f80-4774-933a-62c1a0b876a2
+    id: polished_blackstone_button-78820858
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -3.0
+      y: 0.0
+      z: 1.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-53362465:
+    identifier: 50aad62b-1879-4693-a598-d1236f91740c
+    id: mangrove_stairs-53362465
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -1.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_terracotta-99191437:
+    identifier: 87a3b3e3-a1f7-4127-90ac-59344df1a89d
+    id: red_terracotta-99191437
+    material: RED_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:red_terracotta
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -1.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-27704338:
+    identifier: 0b774e75-f81e-4fa3-8634-bcb796f4c788
+    id: mangrove_stairs-27704338
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-68929262:
+    identifier: 15fb6225-61d5-43ed-bf9f-abdd81287be0
+    id: mangrove_stairs-68929262
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 2.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-19886011:
+    identifier: 905fe4a7-0a1e-4af1-9121-47f4a8091d47
+    id: mangrove_stairs-19886011
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_planks-5079032:
+    identifier: 600dbc43-c427-4436-92f4-f603fcd50a5f
+    id: bamboo_planks-5079032
+    material: BAMBOO_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_wall_sign[facing=north,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.28125
+      z: -3.3253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  tinted_glass-11555968:
+    identifier: 8587dda5-2b5c-4b00-b495-5c8586d1f17f
+    id: tinted_glass-11555968
+    material: TINTED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:tinted_glass
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 1.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-40757527:
+    identifier: 9d00aa43-29e9-4b5e-98f2-da78a45eae42
+    id: mangrove_trapdoor-40757527
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-116794891:
+    identifier: 603a6aa4-28ad-4b69-8345-c30f8465ece5
+    id: mangrove_slab-116794891
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -1.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-96008512:
+    identifier: adbe0b4b-3a2e-42b2-a678-1860fddd349a
+    id: mangrove_trapdoor-96008512
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-28636052:
+    identifier: a99411ac-39bd-49f3-ac57-c133cfe1567d
+    id: mangrove_stairs-28636052
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-71956712:
+    identifier: 93732e23-7d79-438d-9032-130534ec910b
+    id: mangrove_slab-71956712
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 1.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-36816217:
+    identifier: ceb5bc12-8f03-4f88-80fa-6f6758eccfa8
+    id: mangrove_slab-36816217
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -0.22536764892877317
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-57940054:
+    identifier: b9dfa55f-4839-410e-add9-c67aee2994de
+    id: mangrove_trapdoor-57940054
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -4.225367648928773
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-70564180:
+    identifier: c8f1716a-12b9-4cec-872d-59171c9cccf5
+    id: mangrove_slab-70564180
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -1.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-65634447:
+    identifier: a138fd35-8d11-4a7a-8eb5-e4e51b4d1880
+    id: mangrove_trapdoor-65634447
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_planks-69176325:
+    identifier: 1ae2f813-d783-4e65-997c-abf587625d35
+    id: bamboo_planks-69176325
+    material: BAMBOO_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_wall_sign[facing=north,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.28125
+      z: -3.3253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  mangrove_slab-119954332:
+    identifier: 39e804e8-6f96-474e-bfcd-312ce19087ed
+    id: mangrove_slab-119954332
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_terracotta-110745650:
+    identifier: f230693c-e7b4-4ae3-b625-03d8a644ce29
+    id: red_terracotta-110745650
+    material: RED_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:red_terracotta
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -0.22536764892877317
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-95231934:
+    identifier: 384c8e64-a6ff-405c-891d-f7dca4090670
+    id: mangrove_slab-95231934
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-115747354:
+    identifier: b7e0c3a3-c0d8-4e52-afa4-c95c85c08474
+    id: polished_basalt-115747354
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 1.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-110120040:
+    identifier: 50aee60b-0b24-4521-9b29-38b332d1c895
+    id: polished_basalt-110120040
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-22442360:
+    identifier: fbb1b92c-8368-4b99-b0b0-229400b435d3
+    id: mangrove_stairs-22442360
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=north,half=top,shape=outer_right,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 2.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-77518716:
+    identifier: 6cf2bc0a-cc28-4f0c-882c-778c0b75dbb0
+    id: mangrove_trapdoor-77518716
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_wall-90459135:
+    identifier: 70736780-2a31-4586-a38d-d276e48c0a0b
+    id: red_nether_brick_wall-90459135
+    material: RED_NETHER_BRICK_WALL
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-99468344:
+    identifier: d7c2541f-6da2-4b7e-b432-55f467cafead
+    id: mangrove_trapdoor-99468344
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  tinted_glass-99457419:
+    identifier: cd3e0300-236e-48cd-9817-19fa131647c0
+    id: tinted_glass-99457419
+    material: TINTED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:tinted_glass
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 1.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-112177766:
+    identifier: 14ccbebf-da22-46f0-9b7f-062e1f1f056d
+    id: mangrove_stairs-112177766
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_terracotta-49103870:
+    identifier: b0bf827b-0896-45b4-95d6-7d73ffdd8405
+    id: red_terracotta-49103870
+    material: RED_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:red_terracotta
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-37501913:
+    identifier: 994fb29e-babd-41b0-bac2-2a9e89b58d4c
+    id: mangrove_trapdoor-37501913
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -4.225367648928773
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-79715528:
+    identifier: ae62f1a9-0fb5-41bb-9bc3-f3b9c3db0f75
+    id: mangrove_stairs-79715528
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-103538300:
+    identifier: 635c0260-9331-44d7-895e-0182c6135dbe
+    id: mangrove_slab-103538300
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -1.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-57968881:
+    identifier: b88e17b3-f0d6-41a8-a571-dd4c448c0f1d
+    id: polished_basalt-57968881
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-9415366:
+    identifier: 2d74ea53-712f-4a9d-84de-66d4f39792f3
+    id: mangrove_slab-9415366
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -0.22536764892877317
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-16844794:
+    identifier: df70c629-877b-4339-a2aa-aecc82b2aec6
+    id: red_carpet-16844794
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -0.22536764892877317
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-101628191:
+    identifier: 98ffed13-6abe-4db6-b443-799ef584d18d
+    id: red_carpet-101628191
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 2.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-40081913:
+    identifier: cb3bfae9-48c4-4477-90b7-95e9e16f4995
+    id: mangrove_slab-40081913
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 0.7746323510712269
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-14767612:
+    identifier: eafcd99d-a639-4d4b-aa6d-61b9cbd4297f
+    id: mangrove_slab-14767612
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-81300410:
+    identifier: a894a3f4-c18c-4a01-983f-fa8f4608bb2c
+    id: polished_blackstone_button-81300410
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -3.0
+      y: 0.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-113758175:
+    identifier: 96433c95-b310-40a3-93c3-1a395357f6d6
+    id: red_carpet-113758175
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 2.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-20777452:
+    identifier: e3ca20f9-b63a-4025-979b-bff8a1d6d833
+    id: polished_blackstone_button-20777452
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 2.0
+      y: 0.0
+      z: 1.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-35673452:
+    identifier: ddd6d8fe-2fad-4e06-affd-cdeea4ed5002
+    id: mangrove_trapdoor-35673452
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -4.225367648928773
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_wall-16390070:
+    identifier: 18ef2118-dae6-4b62-b2bd-52b6474204b1
+    id: red_nether_brick_wall-16390070
+    material: RED_NETHER_BRICK_WALL
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -1.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-123367396:
+    identifier: 2a48b4bf-4a66-40df-8862-b3b30c2038a4
+    id: mangrove_stairs-123367396
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -0.22536764892877317
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-80919912:
+    identifier: 5be105d2-25be-4ee2-bd4d-34cadeed9759
+    id: mangrove_stairs-80919912
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -0.22536764892877317
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_terracotta-4652471:
+    identifier: 5f5a33fc-9de4-4df5-8ee1-f28dcb1f93de
+    id: red_terracotta-4652471
+    material: RED_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:red_terracotta
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -0.22536764892877317
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-15094776:
+    identifier: 4a57d417-e612-4b64-b9f8-a5e6bf4ec180
+    id: mangrove_slab-15094776
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -1.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_slab-122248512:
+    identifier: c4a6dacd-68df-4840-87c4-45f603957028
+    id: mangrove_slab-122248512
+    material: MANGROVE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_wall-38453165:
+    identifier: de6c373e-2cfd-4512-affe-e1997eab0d55
+    id: red_nether_brick_wall-38453165
+    material: RED_NETHER_BRICK_WALL
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -1.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-43918641:
+    identifier: d8dbed30-50da-447d-8c65-0c14c804d9f5
+    id: mangrove_stairs-43918641
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_terracotta-9078:
+    identifier: 15108fa0-6919-4b81-81c4-c3e634e7c4ec
+    id: red_terracotta-9078
+    material: RED_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:red_terracotta
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -3.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-68570169:
+    identifier: 876765ee-3ecb-4488-9ccb-15c744c5c2ce
+    id: polished_basalt-68570169
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_planks-87936058:
+    identifier: 8651ac0e-f38c-4726-a41c-53fa2c79cee3
+    id: bamboo_planks-87936058
+    material: BAMBOO_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_wall_sign[facing=south,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.28125
+      z: 3.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  crimson_trapdoor-87959568:
+    identifier: 00b1cf6a-2129-4a7f-9f85-92df25c921c1
+    id: crimson_trapdoor-87959568
+    material: CRIMSON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:crimson_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 3.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  tinted_glass-49785171:
+    identifier: b407e386-f381-475e-89df-ad9b7fae8913
+    id: tinted_glass-49785171
+    material: TINTED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:tinted_glass
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 1.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-96941051:
+    identifier: 33a1cfc2-1342-4d5d-9080-5c36836de72f
+    id: mangrove_stairs-96941051
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -2.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-76541456:
+    identifier: 2a77e588-2a22-49e4-a010-1b6d1e347f70
+    id: mangrove_stairs-76541456
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 2.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_stairs-68914671:
+    identifier: 22266a29-e361-4ffb-8b3d-52fc705e478a
+    id: mangrove_stairs-68914671
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -1.2253676489287733
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_planks-62406273:
+    identifier: 736cdb61-f3ef-4994-a33f-e6ecbd9c7116
+    id: bamboo_planks-62406273
+    material: BAMBOO_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_wall_sign[facing=south,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.28125
+      z: 3.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  mangrove_stairs-65872791:
+    identifier: 01c897af-2c15-4e2b-8459-7e19c1abc1ce
+    id: mangrove_stairs-65872791
+    material: MANGROVE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 1.7746323510712267
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  mangrove_trapdoor-48590009:
+    identifier: 3c926770-beaf-4e73-891f-5b9b4089ea93
+    id: mangrove_trapdoor-48590009
+    material: MANGROVE_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:mangrove_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -4.225367648928773
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones: { }
+animations: { }

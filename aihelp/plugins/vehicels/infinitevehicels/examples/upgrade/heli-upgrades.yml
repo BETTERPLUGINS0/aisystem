@@ -1,0 +1,263 @@
+id: "heli-upgrades"
+material: "END_CRYSTAL"
+display-name: "&6Heli Upgrades"
+slot: 8
+title: "Vehicle Upgrades"
+rows: 3
+
+upgrades:
+  lift_system:
+    slot: 11
+    tiers:
+      1:
+        material: "PLAYER_HEAD"
+        head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzcwNjk0MzdjYmQ1ZjVhYWM3YzMyYjU0MWRkYmNmZjAwZmZkN2Q1YjY5MzQzYzYwNGQzNmE1ZTlhNWI0ODY4ZSJ9fX0="
+        display-name: "&6Lift System Upgrade I"
+        description:
+          - ""
+          - "&7Improves vertical thrust power"
+          - ""
+          - "&8+ Lift Speed"
+          - "&8+ Forward Acceleration"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "PLAYER_HEAD"
+          head-texture: "..."
+          display-name: "&6Lift System Upgrade I"
+          description:
+            - ""
+            - "&7Improves vertical thrust power"
+            - ""
+            - "&8+ Lift Speed"
+            - "&8+ Forward Acceleration"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          max-positive-acceleration: 1.1
+          positive-acceleration: 0.065
+          increase-height-speed: 0.28
+          decrease-height-speed: 0.26
+          rotation-angle: 4
+        requirements:
+          vault-money: 1000
+          exp: 10
+          level: 10
+      2:
+        material: "PLAYER_HEAD"
+        head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzcwNjk0MzdjYmQ1ZjVhYWM3YzMyYjU0MWRkYmNmZjAwZmZkN2Q1YjY5MzQzYzYwNGQzNmE1ZTlhNWI0ODY4ZSJ9fX0="
+        display-name: "&6Lift System Upgrade II"
+        description:
+          - ""
+          - "&7Boosts lift and control further"
+          - ""
+          - "&8++ Lift Speed"
+          - "&8++ Acceleration"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "PLAYER_HEAD"
+          head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzcwNjk0MzdjYmQ1ZjVhYWM3YzMyYjU0MWRkYmNmZjAwZmZkN2Q1YjY5MzQzYzYwNGQzNmE1ZTlhNWI0ODY4ZSJ9fX0="
+          display-name: "&6Lift System Upgrade II"
+          description:
+            - ""
+            - "&7Boosts lift and control further"
+            - ""
+            - "&8++ Lift Speed"
+            - "&8++ Acceleration"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          max-positive-acceleration: 1.25
+          positive-acceleration: 0.075
+          increase-height-speed: 0.33
+          decrease-height-speed: 0.30
+          rotation-angle: 5
+        requirements:
+          vault-money: 1500
+          exp: 15
+          level: 15
+      3:
+        material: "PLAYER_HEAD"
+        head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzcwNjk0MzdjYmQ1ZjVhYWM3YzMyYjU0MWRkYmNmZjAwZmZkN2Q1YjY5MzQzYzYwNGQzNmE1ZTlhNWI0ODY4ZSJ9fX0="
+        display-name: "&6Lift System Upgrade III"
+        description:
+          - ""
+          - "&7Maximizes your vertical control"
+          - ""
+          - "&8+++ Lift and Acceleration"
+          - ""
+          - "&7Click to upgrade"
+        selected-description:
+          - ""
+          - "&8+ Max Lift"
+          - "&8+ Max Acceleration"
+          - ""
+          - "&cMAX LEVEL"
+        physical-item:
+          material: "PLAYER_HEAD"
+          head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzcwNjk0MzdjYmQ1ZjVhYWM3YzMyYjU0MWRkYmNmZjAwZmZkN2Q1YjY5MzQzYzYwNGQzNmE1ZTlhNWI0ODY4ZSJ9fX0="
+          display-name: "&6Lift System Upgrade III"
+          description:
+            - ""
+            - "&7Maximizes your vertical control"
+            - ""
+            - "&8+++ Lift and Acceleration"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          max-positive-acceleration: 1.4
+          positive-acceleration: 0.085
+          increase-height-speed: 0.40
+          decrease-height-speed: 0.35
+          rotation-angle: 6
+        requirements:
+          vault-money: 2000
+          exp: 20
+          level: 20
+
+  descent_control:
+    slot: 13
+    tiers:
+      1:
+        material: "REDSTONE"
+        display-name: "&cDescent Control Upgrade I"
+        description:
+          - ""
+          - "&7Improves downward precision and braking"
+          - ""
+          - "&8+ Controlled descent"
+          - "&8+ Better stopping power"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "REDSTONE"
+          display-name: "&cDescent Control Upgrade I"
+          description:
+            - ""
+            - "&7Improves downward precision and braking"
+            - ""
+            - "&8+ Controlled descent"
+            - "&8+ Better stopping power"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          max-negative-acceleration: 0.3
+          negative-acceleration: 0.04
+          deceleration: 0.045
+          decrease-height-speed: 0.28
+        requirements:
+          vault-money: 750
+          exp: 5
+          level: 5
+      2:
+        material: "REDSTONE"
+        display-name: "&cDescent Control Upgrade II"
+        description:
+          - ""
+          - "&7Further improves braking and vertical descent"
+          - ""
+          - "&8++ Downward control"
+          - "&8++ Stopping power"
+          - ""
+          - "&7Click to upgrade"
+        selected-description:
+          - ""
+          - "&8+ Max descent precision"
+          - "&8+ Max braking"
+          - ""
+          - "&cMAX LEVEL"
+        physical-item:
+          material: "REDSTONE"
+          display-name: "&cDescent Control Upgrade II"
+          description:
+            - ""
+            - "&7Further improves braking and vertical descent"
+            - ""
+            - "&8++ Downward control"
+            - "&8++ Stopping power"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          max-negative-acceleration: 0.35
+          negative-acceleration: 0.045
+          deceleration: 0.05
+          decrease-height-speed: 0.32
+        requirements:
+          vault-money: 1000
+          exp: 10
+          level: 10
+
+  steering_stabilizer:
+    slot: 15
+    tiers:
+      1:
+        material: "SLIME_BALL"
+        display-name: "&aStabilizer Upgrade I"
+        description:
+          - ""
+          - "&7Enhances rotation and mid-air turning"
+          - ""
+          - "&8+ Rotation angle"
+          - "&8+ Control on slippery surfaces"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "SLIME_BALL"
+          display-name: "&aStabilizer Upgrade I"
+          description:
+            - ""
+            - "&7Enhances rotation and mid-air turning"
+            - ""
+            - "&8+ Rotation angle"
+            - "&8+ Control on slippery surfaces"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          rotation-angle: 5
+          turning-angle-min: 3
+          turning-angle-max: 6
+          positive-acceleration-on-slippery: 0.03
+          negative-acceleration-on-slippery: 0.03
+        requirements:
+          vault-money: 750
+          exp: 5
+          level: 5
+      2:
+        material: "SLIME_BALL"
+        display-name: "&aStabilizer Upgrade II"
+        description:
+          - ""
+          - "&7Maximizes control and turning stability"
+          - ""
+          - "&8++ Rotation angle"
+          - "&8++ Maneuvering precision"
+          - ""
+          - "&7Click to upgrade"
+        selected-description:
+          - ""
+          - "&8+ Max turning control"
+          - "&8+ Max rotation"
+          - ""
+          - "&cMAX LEVEL"
+        physical-item:
+          material: "SLIME_BALL"
+          display-name: "&aStabilizer Upgrade II"
+          description:
+            - ""
+            - "&7Maximizes control and turning stability"
+            - ""
+            - "&8++ Rotation angle"
+            - "&8++ Maneuvering precision"
+            - ""
+            - "&7Right-click vehicle to upgrade"
+        upgrades:
+          rotation-angle: 6
+          turning-angle-min: 4
+          turning-angle-max: 7
+          positive-acceleration-on-slippery: 0.035
+          negative-acceleration-on-slippery: 0.035
+        requirements:
+          vault-money: 1000
+          exp: 10
+          level: 10

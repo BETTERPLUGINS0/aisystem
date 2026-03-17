@@ -1,0 +1,227 @@
+id: motor1
+type: COMPOUND
+hitbox:
+  width: 2.0
+  height: 2.0
+  depth: 2.0
+seats:
+  seat-0:
+    main: true
+    offset:
+      x: 0.0
+      y: 2.0269597612138426
+      z: -0.8425359836411798
+particles: { }
+sounds: { }
+parts:
+  anvil-74861572:
+    identifier: 73995737-9d09-4185-a4b1-c9dd8f5becb8
+    id: anvil-74861572
+    material: ANVIL
+    data:
+      data-type: block-data
+      value: minecraft:anvil[facing=west]
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -1.1363636363636365
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_red_sandstone-66183100:
+    identifier: a1bacc60-a81a-4ee7-8b5d-9467721a45bb
+    id: smooth_red_sandstone-66183100
+    material: SMOOTH_RED_SANDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:smooth_red_sandstone
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -0.13636363636363646
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  acacia_trapdoor-115291534:
+    identifier: 609d7438-f535-41d6-9fe6-aeb290ab553e
+    id: acacia_trapdoor-115291534
+    material: ACACIA_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:acacia_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 2.0
+      z: -0.13636363636363646
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_deepslate_slab-30254805:
+    identifier: 489d7fc5-bafc-4cef-a9c4-54c31949e226
+    id: polished_deepslate_slab-30254805
+    material: POLISHED_DEEPSLATE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_deepslate_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -0.13636363636363646
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  grindstone-86417699:
+    identifier: 50e4a064-9dda-4beb-9fce-cb542ac211e8
+    id: grindstone-86417699
+    material: GRINDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:grindstone[face=floor,facing=south]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 0.8636363636363635
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  lever-61875415:
+    identifier: 9457a83f-23dd-490f-9e43-e6d4118bf01f
+    id: lever-61875415
+    material: LEVER
+    data:
+      data-type: block-data
+      value: minecraft:lever[face=wall,facing=west,powered=false]
+    offset:
+      x: -1.5
+      y: 1.0
+      z: -0.13636363636363646
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_red_sandstone_stairs-115093854:
+    identifier: 1b68323d-3929-4bcb-af61-114b6e0d798a
+    id: smooth_red_sandstone_stairs-115093854
+    material: SMOOTH_RED_SANDSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_red_sandstone_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 1.0
+      z: 0.8636363636363635
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_red_sandstone_slab-59765996:
+    identifier: 7ee3c59d-8408-4030-921a-ba26fc67805a
+    id: smooth_red_sandstone_slab-59765996
+    material: SMOOTH_RED_SANDSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_red_sandstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -2.1363636363636367
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_deepslate_slab-54170717:
+    identifier: 251f0027-893a-4be4-a5dd-04ce2742fae4
+    id: polished_deepslate_slab-54170717
+    material: POLISHED_DEEPSLATE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_deepslate_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -1.1363636363636365
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  lever-73954599:
+    identifier: 78a5c70a-87c5-4b61-8fda-0318983b6e6c
+    id: lever-73954599
+    material: LEVER
+    data:
+      data-type: block-data
+      value: minecraft:lever[face=wall,facing=east,powered=false]
+    offset:
+      x: 0.5
+      y: 1.0
+      z: -0.13636363636363646
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  grindstone-35763606:
+    identifier: 9da3b12b-798a-4850-bddb-57d449445210
+    id: grindstone-35763606
+    material: GRINDSTONE
+    data:
+      data-type: block-data
+      value: minecraft:grindstone[face=wall,facing=north]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -2.1363636363636367
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones: { }
+animations: { }

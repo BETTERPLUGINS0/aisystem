@@ -1,0 +1,3370 @@
+id: truck
+type: COMPOUND
+model-offset: 0.0
+hitbox:
+  width: 5.0
+  height: 5.0
+  depth: 5.0
+seats:
+  seat-0:
+    main: true
+    offset:
+      x: 0.5375460862135526
+      y: 2.5380718229976833
+      z: 4.292045073787999
+  seat-1:
+    main: false
+    offset:
+      x: -0.556765853425956
+      y: 2.5380718229976833
+      z: 4.292045073787999
+particles: { }
+sounds: { }
+projectile-shooters: { }
+parts:
+  deepslate-53071546:
+    identifier: a1eb8d05-7f98-4044-9c75-a83e24a14ff2
+    id: deepslate-53071546
+    material: DEEPSLATE
+    data:
+      data-type: block-data
+      value: minecraft:deepslate[axis=y]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -4.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-20163402:
+    identifier: efb0dc11-aef8-4fe8-a469-9b7ac86cb3d1
+    id: polished_andesite-20163402
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -5.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-14910420:
+    identifier: 9931a633-95ee-4bf8-acaa-d61e990708ff
+    id: polished_andesite-14910420
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -7.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-120436918:
+    identifier: 578d5232-4e37-4d8e-aaa0-ea22c85c6e21
+    id: yellow_terracotta-120436918
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -1.0
+      y: 3.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-75910307:
+    identifier: c288d98d-f5a1-4d72-85aa-67ce6b456eb9
+    id: smooth_stone_slab-75910307
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: -7.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-98488821:
+    identifier: f0e4d23e-4310-4b14-8fc0-fb5cd34c6dc1
+    id: polished_andesite-98488821
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -5.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-102528751:
+    identifier: e038a050-bb00-45b6-8faa-0e41bc1b00fb
+    id: smooth_stone_slab-102528751
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-101146621:
+    identifier: 761382ff-a3c3-4133-ad26-1bca8578a07f
+    id: yellow_terracotta-101146621
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate-96658373:
+    identifier: e610df47-1da3-4510-a2a6-d0e7a5205409
+    id: deepslate-96658373
+    material: DEEPSLATE
+    data:
+      data-type: block-data
+      value: minecraft:deepslate[axis=y]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -6.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-70266569:
+    identifier: 195eceb0-d926-4a61-8f9a-1c77015fc977
+    id: polished_andesite-70266569
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -6.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobbled_deepslate-79794426:
+    identifier: 7a9f6f58-5040-4c70-99f9-720a48acef01
+    id: cobbled_deepslate-79794426
+    material: COBBLED_DEEPSLATE
+    data:
+      data-type: block-data
+      value: minecraft:cobbled_deepslate
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -6.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-34937105:
+    identifier: 451f7ad3-681b-4069-9384-8cc150d40182
+    id: smooth_stone_slab-34937105
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-18366683:
+    identifier: df9e1d27-fe8a-4e7b-aee1-7b4713966cf8
+    id: yellow_terracotta-18366683
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_planks-91704686:
+    identifier: 1cf8b924-17dc-4262-a2e2-e456f9a0710e
+    id: bamboo_planks-91704686
+    material: BAMBOO_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_wall_sign[facing=south,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.28125
+      z: 5.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  polished_andesite_stairs-122758160:
+    identifier: ec5abbbf-8da3-43ef-8cbb-9342cf9d1083
+    id: polished_andesite_stairs-122758160
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -6.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-57210169:
+    identifier: f3b51bed-9e73-4d88-b443-25e3690921f0
+    id: polished_andesite_stairs-57210169
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -3.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-78302240:
+    identifier: 061b13c4-f92c-422f-a7eb-c339c97bc8f2
+    id: smooth_stone_slab-78302240
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -2.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-505009:
+    identifier: 377b127d-7b2f-437f-8e94-b8d60458149c
+    id: yellow_terracotta-505009
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-3205199:
+    identifier: d616b674-7ff9-4712-9791-a7321c5c5ed1
+    id: yellow_terracotta-3205199
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-22165382:
+    identifier: c74ccd42-f104-4ce0-a482-dc29eb13f2ff
+    id: smooth_stone_slab-22165382
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 0.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_stairs-4737732:
+    identifier: 9181df9c-0bd3-4981-916b-90066bd0a10b
+    id: quartz_stairs-4737732
+    material: QUARTZ_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-71937438:
+    identifier: 161b8b4e-0619-4fd0-8b35-25328daea928
+    id: polished_andesite-71937438
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -3.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-69718769:
+    identifier: 808e044c-66b7-49df-8a01-6bb113172834
+    id: yellow_terracotta-69718769
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-50407075:
+    identifier: 867017a0-9e1c-48f4-b07a-e8896c26e745
+    id: yellow_terracotta-50407075
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-16652548:
+    identifier: 6517f9de-ef94-45ef-af31-af7246a36f70
+    id: smooth_stone_slab-16652548
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 0.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_carpet-89404280:
+    identifier: a7077ea7-ef2a-48e1-bc49-886d15d70756
+    id: yellow_carpet-89404280
+    material: YELLOW_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:yellow_carpet
+    offset:
+      x: 0.0
+      y: 4.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-110056081:
+    identifier: 450c31b3-0229-437d-85e5-29582951ddcb
+    id: polished_andesite-110056081
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -7.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-109525257:
+    identifier: a568dac2-5835-4b2d-8e85-04e854fcc0c1
+    id: polished_blackstone_button-109525257
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -3.0
+      y: 0.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-57362538:
+    identifier: b6261518-52f8-4419-a83a-59e13af8fba6
+    id: yellow_terracotta-57362538
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-31050375:
+    identifier: 4aaf8fb7-070e-4ea4-a3c5-6fd1f9684edf
+    id: yellow_terracotta-31050375
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 1.0
+      y: 3.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate-122068177:
+    identifier: 8586d902-ba39-4844-990c-2b082bcbff12
+    id: deepslate-122068177
+    material: DEEPSLATE
+    data:
+      data-type: block-data
+      value: minecraft:deepslate[axis=z]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -2.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_stained_glass_pane-24861308:
+    identifier: 2bccafdc-ce7d-4ddb-89f3-4286f82f1902
+    id: light_gray_stained_glass_pane-24861308
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-67361311:
+    identifier: d955944c-8cc1-4577-bf12-c309c357036c
+    id: yellow_terracotta-67361311
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -2.0
+      y: 3.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-108235642:
+    identifier: feca6c56-b8d1-439b-9a4f-0526692e1c06
+    id: polished_andesite-108235642
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -3.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-122580208:
+    identifier: 745b969f-b42a-4c09-98fe-f6de0057d862
+    id: polished_basalt-122580208
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -6.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_carpet-52754938:
+    identifier: 57be943b-317c-4ae1-a459-2e05dde7be27
+    id: yellow_carpet-52754938
+    material: YELLOW_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:yellow_carpet
+    offset:
+      x: -2.0
+      y: 4.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-112037909:
+    identifier: 344dc71a-561b-4ac1-bf8b-5e88a9959145
+    id: polished_andesite-112037909
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -6.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  chain-118627737:
+    identifier: c291b9f0-c292-4bd5-b5a1-0305107419e7
+    id: chain-118627737
+    material: CHAIN
+    data:
+      data-type: block-data
+      value: minecraft:chain[axis=z,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 0.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-118154933:
+    identifier: 6d15924d-7301-4e3f-8186-1c7ef62c7ff7
+    id: yellow_terracotta-118154933
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-10727968:
+    identifier: 9a7b91c1-8d3c-4061-9bd1-31c6939f0227
+    id: smooth_stone_slab-10727968
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -1.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-96767651:
+    identifier: 255d9781-eb60-487a-be5c-7117a237d127
+    id: smooth_stone_slab-96767651
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -5.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-93660319:
+    identifier: c1ebfcac-406d-4a0e-aa74-8c60f06b6006
+    id: polished_andesite-93660319
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -2.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-2082645:
+    identifier: 20ec45bd-3a8b-4983-8b3a-27804609732b
+    id: yellow_terracotta-2082645
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-66070285:
+    identifier: ef7f4868-4cd3-4a88-8a96-933ce4f65d49
+    id: yellow_terracotta-66070285
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -2.0
+      y: 3.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-93295791:
+    identifier: 37b2c6f9-844b-4992-a631-8eedead443be
+    id: polished_andesite-93295791
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -4.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-15690633:
+    identifier: b53c7663-efd0-4fd1-959b-d1a16b2a70ea
+    id: yellow_terracotta-15690633
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 0.0
+      y: 3.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-76404244:
+    identifier: 39dd1fc9-6cbd-4492-8ffb-e65f78e15f8d
+    id: yellow_terracotta-76404244
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-62606085:
+    identifier: 42732bfa-8707-47b9-afa8-45ede1534ea6
+    id: yellow_terracotta-62606085
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-87803315:
+    identifier: 42cd15fc-ceff-46d3-8fd7-cf91e56bb227
+    id: smooth_stone_slab-87803315
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-34780561:
+    identifier: e15e4749-a0b0-4f64-91fb-b314ccb5f1b4
+    id: yellow_terracotta-34780561
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-94654926:
+    identifier: f296187a-cf3e-4ecc-9180-6ef8bc338ebf
+    id: polished_andesite_stairs-94654926
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -1.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-23513954:
+    identifier: 9ffe3a6b-b425-4386-b9ad-63095a1e50f4
+    id: smooth_stone_slab-23513954
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-66781568:
+    identifier: a9849ba2-c81a-4b05-badb-88b0f5516964
+    id: polished_blackstone_button-66781568
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 2.0
+      y: 0.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-50345621:
+    identifier: 33679840-2fbd-4aee-b0e6-2577fc431776
+    id: smooth_stone_slab-50345621
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -5.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-31180391:
+    identifier: 4979c769-fc7a-4e34-a2cd-27c6ca505182
+    id: polished_andesite_stairs-31180391
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=inner_left,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -1.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-50491883:
+    identifier: 85c1020a-c107-4922-96b5-2c2a4f549671
+    id: polished_andesite_stairs-50491883
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -7.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-113719490:
+    identifier: 9cf881c6-dcfd-40c8-bea7-ebe4df6974c2
+    id: yellow_terracotta-113719490
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-107386091:
+    identifier: e279b885-a045-41b3-a53a-97a35c8f999c
+    id: polished_andesite_stairs-107386091
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -5.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-100613507:
+    identifier: 3f47b0c0-2b90-4ca6-aad8-4d4c1966b9ae
+    id: smooth_stone_slab-100613507
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-115764232:
+    identifier: fe0964d1-3084-44d3-b8d8-afc3d20d510c
+    id: smooth_stone_slab-115764232
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: -7.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-81396494:
+    identifier: 7f621fd4-c524-4ee6-b698-c56145ead005
+    id: polished_andesite-81396494
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -3.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_stained_glass_pane-63414320:
+    identifier: bf0b28ab-ccf5-47df-8aad-53de1e527baa
+    id: light_gray_stained_glass_pane-63414320
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobbled_deepslate-24647953:
+    identifier: 0452f06b-d240-497b-99fe-fdc45cef7514
+    id: cobbled_deepslate-24647953
+    material: COBBLED_DEEPSLATE
+    data:
+      data-type: block-data
+      value: minecraft:cobbled_deepslate
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -4.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-85778489:
+    identifier: 5f0712b9-9a13-41a6-a742-3fd9e11fa70e
+    id: smooth_stone_slab-85778489
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -3.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-80342072:
+    identifier: e2868671-130a-4709-8b0c-333699ba0857
+    id: yellow_terracotta-80342072
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-84002335:
+    identifier: caef9991-bdb5-407d-a038-de1b29975ed0
+    id: yellow_terracotta-84002335
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-28577701:
+    identifier: 1bf7a967-4ccb-41a3-a7fd-04170ecb8844
+    id: polished_basalt-28577701
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-35996697:
+    identifier: ef9184e2-3544-437a-85c4-a452910353be
+    id: polished_andesite_stairs-35996697
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -0.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_stained_glass_pane-1322430:
+    identifier: 555a9317-b292-4273-950a-51cf82e17776
+    id: light_gray_stained_glass_pane-1322430
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-40245646:
+    identifier: a43dea89-cd44-43cd-a021-352a0eca2daf
+    id: polished_andesite-40245646
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -3.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobbled_deepslate-87544517:
+    identifier: 68eb9432-8e50-4ef5-8614-410d05f0a2e2
+    id: cobbled_deepslate-87544517
+    material: COBBLED_DEEPSLATE
+    data:
+      data-type: block-data
+      value: minecraft:cobbled_deepslate
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -4.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobbled_deepslate-118732615:
+    identifier: d9657d2c-afeb-4739-bfce-acb42dd63b6d
+    id: cobbled_deepslate-118732615
+    material: COBBLED_DEEPSLATE
+    data:
+      data-type: block-data
+      value: minecraft:cobbled_deepslate
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -3.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-11262925:
+    identifier: 25c6a950-0a21-484e-bb9c-66fba10981e7
+    id: polished_andesite-11262925
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -0.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-27934135:
+    identifier: 4d7ebc1b-cd47-4aca-af2a-fe9f4ab04bdf
+    id: polished_andesite_stairs-27934135
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=inner_left,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -7.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-58428144:
+    identifier: bed38158-d615-4f1d-a33e-e64006f92eea
+    id: polished_basalt-58428144
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate-104903827:
+    identifier: 0fa7d6aa-fc8f-41f7-a95c-3984c0b93dd9
+    id: deepslate-104903827
+    material: DEEPSLATE
+    data:
+      data-type: block-data
+      value: minecraft:deepslate[axis=z]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -5.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_planks-101394559:
+    identifier: 028eaeaf-d5be-4a56-a6a0-80b6f9345cb0
+    id: bamboo_planks-101394559
+    material: BAMBOO_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_wall_sign[facing=south,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.28125
+      z: 5.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  yellow_terracotta-99924407:
+    identifier: a0c0b198-310e-4688-8600-b37680ef4912
+    id: yellow_terracotta-99924407
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-85862986:
+    identifier: 05665dec-1b9e-46bf-9ff6-2e4679f0ed5b
+    id: polished_basalt-85862986
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -4.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-105341627:
+    identifier: a58dd3f1-6bbf-418f-b535-356df1adc86b
+    id: polished_andesite-105341627
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -5.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-88670448:
+    identifier: 440daa81-f588-45e3-ac99-736fb8701e91
+    id: polished_andesite_stairs-88670448
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -2.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-21615302:
+    identifier: 7fb49de8-3694-4639-a43a-57ca59106611
+    id: polished_andesite_stairs-21615302
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -4.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-108615762:
+    identifier: 55d400c5-e2be-4f66-bb37-a68fa3c3dff2
+    id: polished_blackstone_button-108615762
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -3.0
+      y: 0.0
+      z: -6.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-14398956:
+    identifier: e7a0bfec-a0b8-4401-a25a-c0faafcc95e2
+    id: polished_basalt-14398956
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-94477833:
+    identifier: 2547a602-feee-41d3-9241-ea4136c54276
+    id: smooth_stone_slab-94477833
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -7.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-97181788:
+    identifier: 0fed5d08-c1da-4789-b262-93ce87b55995
+    id: iron_trapdoor-97181788
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 5.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-120899456:
+    identifier: 44ac93d7-4a73-45f5-9694-4fc96caaed59
+    id: polished_blackstone_button-120899456
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 2.0
+      y: 0.0
+      z: -0.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-101035:
+    identifier: 8529c398-eb18-4b64-9d7b-6cc7d21631b7
+    id: polished_andesite_stairs-101035
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -5.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobbled_deepslate_slab-53183581:
+    identifier: d93c97b9-134e-4821-9275-f9062d4f910f
+    id: cobbled_deepslate_slab-53183581
+    material: COBBLED_DEEPSLATE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:cobbled_deepslate_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -5.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-10666333:
+    identifier: 05483518-40fd-4492-984c-bfa58af6c42d
+    id: polished_andesite_stairs-10666333
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -0.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-22969454:
+    identifier: 25cc8f8f-de79-4821-a985-35229ba2c396
+    id: polished_andesite_stairs-22969454
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -6.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  glass_pane-115073976:
+    identifier: 6a932062-7de1-422c-a76e-99d15b9b12f7
+    id: glass_pane-115073976
+    material: GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
+    offset:
+      x: -3.0
+      y: 3.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-107073695:
+    identifier: 06fc276a-4670-40f5-9029-a9d69a03b697
+    id: polished_andesite-107073695
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -0.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-90993726:
+    identifier: 57e80a0a-b615-4c2b-8113-e6dd6bd7d1bd
+    id: yellow_terracotta-90993726
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -1.0
+      y: 3.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobbled_deepslate_slab-118133970:
+    identifier: 63965180-ba08-4258-82b1-b44125ee2ceb
+    id: cobbled_deepslate_slab-118133970
+    material: COBBLED_DEEPSLATE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:cobbled_deepslate_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -2.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-82825630:
+    identifier: 2420b234-81f0-4b08-b5f5-078533618ad1
+    id: polished_andesite-82825630
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -4.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-120188472:
+    identifier: 7d0e0724-0f5f-41f0-b980-e5a5c74d71ed
+    id: yellow_terracotta-120188472
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-65995806:
+    identifier: 317df9ad-4ae3-4247-94e4-9b59bb7c7994
+    id: polished_blackstone_button-65995806
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 2.0
+      y: 0.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_carpet-51914552:
+    identifier: 49a533ed-ca79-44b6-9a92-8efcc3d56482
+    id: yellow_carpet-51914552
+    material: YELLOW_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:yellow_carpet
+    offset:
+      x: -1.0
+      y: 4.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_planks-103761524:
+    identifier: 3035f809-91a2-4a84-9fbc-07ae1efe3635
+    id: bamboo_planks-103761524
+    material: BAMBOO_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_wall_sign[facing=north,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.28125
+      z: -7.264701705629175
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  polished_andesite-21655949:
+    identifier: 5cce7abd-1963-49ea-acdd-baa4539af95b
+    id: polished_andesite-21655949
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -7.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-120723103:
+    identifier: b9a28af0-2dfd-4453-995f-1adacd3021bd
+    id: yellow_terracotta-120723103
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 0.0
+      y: 3.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-90318477:
+    identifier: 4d2acce6-d235-481c-8e4e-2d965396dd43
+    id: yellow_terracotta-90318477
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_planks-78217037:
+    identifier: 0f8e7dae-91ea-44bc-b8a3-7eee00d7ad4a
+    id: bamboo_planks-78217037
+    material: BAMBOO_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_wall_sign[facing=north,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.28125
+      z: -7.264701705629175
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  polished_andesite-114719949:
+    identifier: 03817e02-7195-4268-9ae8-edf2d18bf961
+    id: polished_andesite-114719949
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -1.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  glass_pane-66732132:
+    identifier: 2deefd00-96d8-4a2f-9bbd-a5e2142f2208
+    id: glass_pane-66732132
+    material: GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: 2.0
+      y: 3.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-6111747:
+    identifier: 1979fa27-d87c-4bd2-a627-179916c3cb1d
+    id: polished_andesite-6111747
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -1.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-92922000:
+    identifier: e1cacdc7-cd4a-4a52-abea-221290d38832
+    id: polished_blackstone_button-92922000
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 2.0
+      y: 0.0
+      z: -4.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobbled_deepslate-121369129:
+    identifier: ef984fe2-4fdb-4637-9a1e-d8cc8a54fd51
+    id: cobbled_deepslate-121369129
+    material: COBBLED_DEEPSLATE
+    data:
+      data-type: block-data
+      value: minecraft:cobbled_deepslate
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -2.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-44905011:
+    identifier: 7906ee7a-f0ff-445e-a38b-b1b302df2cc8
+    id: polished_basalt-44905011
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -6.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-56541564:
+    identifier: c5d914cb-ecfa-4f4b-b1ae-52e6a35a10a9
+    id: yellow_terracotta-56541564
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-32875726:
+    identifier: 21a3835f-e15a-41c6-8d66-1945dc875a29
+    id: yellow_terracotta-32875726
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-102424381:
+    identifier: 03dbe683-61c9-4a83-a823-20da968a3bdf
+    id: polished_andesite-102424381
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -6.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobbled_deepslate-80327832:
+    identifier: 8f63a21b-5f55-4232-bd24-83d1c2c03232
+    id: cobbled_deepslate-80327832
+    material: COBBLED_DEEPSLATE
+    data:
+      data-type: block-data
+      value: minecraft:cobbled_deepslate
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -3.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-110099863:
+    identifier: 80fe1dcd-df6c-4da2-90b1-afda60a1a70c
+    id: polished_andesite-110099863
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -4.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate-122340687:
+    identifier: fac39ef7-e2d5-4ff6-b3c2-c34d1fbf3990
+    id: deepslate-122340687
+    material: DEEPSLATE
+    data:
+      data-type: block-data
+      value: minecraft:deepslate[axis=y]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -5.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_button-27508173:
+    identifier: 9a596c41-85ba-47e3-9821-d5fe772fe73d
+    id: bamboo_button-27508173
+    material: BAMBOO_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -3.0
+      y: 3.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobbled_deepslate_slab-74387486:
+    identifier: 20335992-1fdd-4a31-847a-5f6c5f731c3f
+    id: cobbled_deepslate_slab-74387486
+    material: COBBLED_DEEPSLATE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:cobbled_deepslate_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -6.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-38635044:
+    identifier: 21107262-76f9-45df-ac50-02e77d6de2c4
+    id: polished_basalt-38635044
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -0.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_carpet-58083075:
+    identifier: 4dee2a20-28e3-4024-bddf-16cd81405484
+    id: yellow_carpet-58083075
+    material: YELLOW_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:yellow_carpet
+    offset:
+      x: 1.0
+      y: 4.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  chain-48233914:
+    identifier: 94ade5e8-c625-4382-833b-36c77e3c3ee6
+    id: chain-48233914
+    material: CHAIN
+    data:
+      data-type: block-data
+      value: minecraft:chain[axis=z,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 0.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_button-14497384:
+    identifier: 1ce8ebe7-ee53-4b0f-ad53-a0fcb1d6bb6a
+    id: bamboo_button-14497384
+    material: BAMBOO_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 2.0
+      y: 1.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_carpet-43314806:
+    identifier: b3d1d93a-c858-42a6-aca1-a6b19c56ee58
+    id: yellow_carpet-43314806
+    material: YELLOW_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:yellow_carpet
+    offset:
+      x: -2.0
+      y: 4.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-83370307:
+    identifier: 350b7ed7-f552-4034-a22f-75178473c78c
+    id: yellow_terracotta-83370307
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-23170475:
+    identifier: 5a94712b-1a1b-4151-8663-4ff387870c01
+    id: yellow_terracotta-23170475
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_stained_glass_pane-72381957:
+    identifier: b04e4232-03ab-45a8-9c65-b620eccb9af7
+    id: light_gray_stained_glass_pane-72381957
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-29686721:
+    identifier: 75af4ef4-90a6-4804-bb8f-0f5407dd59fb
+    id: polished_andesite-29686721
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -2.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-14337267:
+    identifier: 00030b08-fb43-4ed7-a9da-a903a841d554
+    id: smooth_stone_slab-14337267
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -3.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_carpet-6385130:
+    identifier: 8e06794d-d138-47dd-8afa-3aa97ff70557
+    id: yellow_carpet-6385130
+    material: YELLOW_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:yellow_carpet
+    offset:
+      x: 0.0
+      y: 4.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-117944223:
+    identifier: 82e0f0f0-f38e-4ea2-a5c0-f9ccda932616
+    id: smooth_stone_slab-117944223
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-30574677:
+    identifier: 36402575-781a-4475-958e-ac5b98baf64b
+    id: smooth_stone_slab-30574677
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -7.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_carpet-18650332:
+    identifier: e3766e7a-63c1-47a0-b0b6-0090a6b986fc
+    id: yellow_carpet-18650332
+    material: YELLOW_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:yellow_carpet
+    offset:
+      x: -2.0
+      y: 4.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-20059378:
+    identifier: b99e71af-93da-4029-82ea-f88c2e797235
+    id: yellow_terracotta-20059378
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-88139774:
+    identifier: ef58bd27-577c-4550-a15d-d1a97abdccca
+    id: yellow_terracotta-88139774
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_carpet-3623223:
+    identifier: a683ff97-87c6-4bd0-ad79-bca8bcec68ea
+    id: yellow_carpet-3623223
+    material: YELLOW_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:yellow_carpet
+    offset:
+      x: -1.0
+      y: 4.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-83826897:
+    identifier: a348f606-5948-4bae-9df4-c6422b7bf34f
+    id: yellow_terracotta-83826897
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 1.0
+      y: 3.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-63632129:
+    identifier: d8a8dcc8-aa37-469f-8f52-ab3d98d6b86e
+    id: polished_andesite-63632129
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -5.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-97764588:
+    identifier: 6ce46b9a-be0e-4d47-ab39-dd6f23d77442
+    id: polished_andesite-97764588
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -2.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_stained_glass_pane-23977936:
+    identifier: 336753d8-cd8f-442f-92f6-2145499c1f20
+    id: light_gray_stained_glass_pane-23977936
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=false]
+    offset:
+      x: -1.0
+      y: 4.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate-21938773:
+    identifier: 901abf2a-21b6-4686-9f0d-97a7fa0a3ec4
+    id: deepslate-21938773
+    material: DEEPSLATE
+    data:
+      data-type: block-data
+      value: minecraft:deepslate[axis=y]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -5.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_stained_glass_pane-95961190:
+    identifier: 4c9e0648-9175-466c-9416-9a00492afce2
+    id: light_gray_stained_glass_pane-95961190
+    material: LIGHT_GRAY_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_stained_glass_pane[east=false,north=false,south=false,waterlogged=false,west=true]
+    offset:
+      x: 0.0
+      y: 4.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-20112053:
+    identifier: 185db944-036b-409b-9792-b388239e29b9
+    id: smooth_stone_slab-20112053
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 0.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-115578835:
+    identifier: c9c3d72b-f187-4313-bd3b-729c6032a613
+    id: polished_andesite-115578835
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -4.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-17616030:
+    identifier: f028e7a0-16d3-4629-b2c4-99c075845b48
+    id: polished_andesite-17616030
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -6.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-54570243:
+    identifier: d1a202d5-4251-44e9-bd97-cd75d0d5f0f1
+    id: polished_andesite_stairs-54570243
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -7.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-89542978:
+    identifier: 972fa7d7-7d02-4699-8cfb-8b67bbd6d013
+    id: polished_basalt-89542978
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -4.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-78585197:
+    identifier: 5f8996aa-0a7f-44a3-be46-c205763d2de2
+    id: polished_andesite-78585197
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -2.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-61341480:
+    identifier: e6900915-ca9f-4a1c-b0a2-3943776b8121
+    id: polished_basalt-61341480
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -0.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_button-99745909:
+    identifier: 98a0a240-5966-4a84-92ba-7d0db3c8c485
+    id: bamboo_button-99745909
+    material: BAMBOO_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 2.0
+      y: 3.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-74403690:
+    identifier: f68ca348-babe-483c-91fa-c5997e45123b
+    id: smooth_stone_slab-74403690
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 4.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-19800623:
+    identifier: 09f096e8-12ae-4564-b945-d004eafa62c8
+    id: smooth_stone_slab-19800623
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-62807438:
+    identifier: 0807ef03-c090-48c2-8bf3-d29fe122cc0d
+    id: polished_andesite_stairs-62807438
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -3.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-17749767:
+    identifier: 63d5531c-be37-4c89-8698-26f2d4922662
+    id: polished_andesite_stairs-17749767
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -1.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  quartz_stairs-123316048:
+    identifier: f31e1042-7283-4fcf-929e-b9b4bcfa835d
+    id: quartz_stairs-123316048
+    material: QUARTZ_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  cobbled_deepslate_slab-48613477:
+    identifier: 84986d3c-4984-487e-b1e3-3406bec8304d
+    id: cobbled_deepslate_slab-48613477
+    material: COBBLED_DEEPSLATE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:cobbled_deepslate_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -3.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-51536310:
+    identifier: eb2745c1-9309-4f4b-84f0-7e8f1f5a788f
+    id: polished_andesite_stairs-51536310
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -2.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-43030318:
+    identifier: 1a70df90-4eed-4cbf-9273-8c4b11522c1c
+    id: iron_trapdoor-43030318
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 5.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-68200484:
+    identifier: 5c02287d-6515-49b8-92e3-ab3a009d4099
+    id: polished_blackstone_button-68200484
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -3.0
+      y: 0.0
+      z: -4.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-54075629:
+    identifier: 3ab6a020-188c-438a-89a0-d6f9d0006172
+    id: polished_andesite_stairs-54075629
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -4.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-119822385:
+    identifier: 6df38df8-c987-4749-8a2d-15a9dd158d09
+    id: polished_andesite_stairs-119822385
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=inner_right,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -1.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-108282555:
+    identifier: e1cc5c3f-fffb-4303-8926-4e51b5b48978
+    id: polished_andesite-108282555
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -7.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-62660470:
+    identifier: 0e0eb8b9-d1fd-4bc0-8052-4287062d63f2
+    id: smooth_stone_slab-62660470
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -2.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-97123130:
+    identifier: c59f53fa-4370-44ba-8b4c-b1c5dc7037f4
+    id: yellow_terracotta-97123130
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-62905117:
+    identifier: 57ae0f9c-eb40-4cc5-b5cd-fa6cd6e91db5
+    id: smooth_stone_slab-62905117
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -1.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-7299932:
+    identifier: e82ed94c-57bf-4508-a05d-e9c03caba700
+    id: polished_andesite_stairs-7299932
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=inner_right,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -7.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_button-57046423:
+    identifier: 0738f601-2fd8-4ec4-82db-ce88c72f1eea
+    id: bamboo_button-57046423
+    material: BAMBOO_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -3.0
+      y: 1.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-7690159:
+    identifier: a497c512-f76d-45c2-aee7-8b7ab461cc6a
+    id: polished_blackstone_button-7690159
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -3.0
+      y: 0.0
+      z: -0.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-30796491:
+    identifier: fe9279f5-0aa2-49d8-8006-5761755e5704
+    id: polished_basalt-30796491
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-63907803:
+    identifier: ee114f6d-b617-4b35-8624-d266d095af6b
+    id: polished_andesite-63907803
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -1.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_carpet-72850095:
+    identifier: 0836bee1-4c7e-4845-a2b6-4202e7a2324e
+    id: yellow_carpet-72850095
+    material: YELLOW_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:yellow_carpet
+    offset:
+      x: 1.0
+      y: 4.0
+      z: 3.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_stone_slab-117769986:
+    identifier: 7a58c138-5ca9-4534-90f0-fb43732169d4
+    id: smooth_stone_slab-117769986
+    material: SMOOTH_STONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 0.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_carpet-27798809:
+    identifier: 7d349e49-ab1d-43be-bfc5-65e112dcf58c
+    id: yellow_carpet-27798809
+    material: YELLOW_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:yellow_carpet
+    offset:
+      x: 1.0
+      y: 4.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-12178095:
+    identifier: 157cd86b-d737-4def-be76-9137a0de2eb0
+    id: polished_blackstone_button-12178095
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -3.0
+      y: 0.0
+      z: 1.8352982943708247
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-6109783:
+    identifier: 3dca964f-0b5b-4704-ac16-ae95994c8311
+    id: polished_blackstone_button-6109783
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 2.0
+      y: 0.0
+      z: -6.1647017056291755
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-1466887:
+    identifier: 3da961b5-8ef8-43ff-a9dc-6e4aea08c571
+    id: polished_andesite-1466887
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -1.1647017056291753
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  yellow_terracotta-90853165:
+    identifier: a308ad8b-831d-47bf-85ed-705564987389
+    id: yellow_terracotta-90853165
+    material: YELLOW_TERRACOTTA
+    data:
+      data-type: block-data
+      value: minecraft:yellow_terracotta
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 2.8352982943708245
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones: { }
+animations: { }

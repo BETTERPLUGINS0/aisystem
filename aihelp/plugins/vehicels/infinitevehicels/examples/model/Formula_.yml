@@ -1,0 +1,1386 @@
+id: formula
+type: COMPOUND
+hitbox:
+  width: 6.0
+  height: 2.0
+  depth: 6.0
+seats:
+  seat-0:
+    main: true
+    offset:
+      x: 0.0
+      y: 0.2789996996114378
+      z: 1.1190611573361164
+particles: { }
+sounds: { }
+parts:
+  nether_brick_stairs-95454320:
+    identifier: f9a5be14-4f0a-4a77-85fd-dd100e36c3de
+    id: nether_brick_stairs-95454320
+    material: NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:nether_brick_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: -4.561762154102325
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-22427012:
+    identifier: 92647afb-9846-4a49-a47c-cae12cd1cc36
+    id: red_carpet-22427012
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 1.5
+      y: 1.0
+      z: 0.43823784589767456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-5814358:
+    identifier: 308cd714-b67b-49f9-82e8-6a4fe3ad47d4
+    id: red_carpet-5814358
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -1.5
+      y: 1.0
+      z: 0.43823784589767456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-119781781:
+    identifier: e255db24-b6cb-47d7-89b2-f1a718e7e2a4
+    id: red_concrete-119781781
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: -1.5
+      y: 0.0
+      z: -1.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-38987036:
+    identifier: 839344be-5ccf-40e7-b1f3-e1c7ca54975d
+    id: part-38987036
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -0.5
+      y: 2.7755575615628914E-17
+      z: 1.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_stairs-101257133:
+    identifier: 242daa68-21df-431d-bf34-113f6e981fdb
+    id: red_nether_brick_stairs-101257133
+    material: RED_NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 1.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-98562313:
+    identifier: 95c24c77-63ed-47bd-8a11-de28ea966fba
+    id: red_carpet-98562313
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 0.5
+      y: 1.0
+      z: 0.43823784589767456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_fence_gate-121655480:
+    identifier: d190c273-f592-4fa5-ab3b-517e1581bc7b
+    id: dark_oak_fence_gate-121655480
+    material: DARK_OAK_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=true,powered=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 1.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-120380823:
+    identifier: 36c72161-c098-4e76-bf6d-4ec15634e9b6
+    id: red_concrete-120380823
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -1.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_stairs-64838140:
+    identifier: 6005c7d6-a97e-47aa-b916-1352e95fb96c
+    id: red_nether_brick_stairs-64838140
+    material: RED_NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 2.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-117672658:
+    identifier: d83147b5-2730-460d-8b8a-1db44d40b2c8
+    id: polished_basalt-117672658
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -2.5
+      y: 0.0
+      z: -3.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_stairs-12755468:
+    identifier: c92aad5f-3327-4ff8-8087-f93734611c29
+    id: red_nether_brick_stairs-12755468
+    material: RED_NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 1.0
+      z: -4.561762154102325
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_wool-80109308:
+    identifier: 6e59ccbc-010a-49fb-9e96-65c297e8b39f
+    id: red_wool-80109308
+    material: RED_WOOL
+    data:
+      data-type: block-data
+      value: minecraft:red_wool
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -2.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-100611255:
+    identifier: 77f33338-3be0-4e55-9b69-ffa1fc1c065e
+    id: red_carpet-100611255
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 1.5
+      y: 1.0
+      z: -0.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  observer-116954038:
+    identifier: 254a0779-7d3c-480e-a9e0-a0b6461d371f
+    id: observer-116954038
+    material: OBSERVER
+    data:
+      data-type: block-data
+      value: minecraft:observer[facing=east,powered=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: -3.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_button-102271106:
+    identifier: afe7c0e6-f155-49a4-916d-ce30db241272
+    id: birch_button-102271106
+    material: BIRCH_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:birch_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 2.5
+      y: 0.0
+      z: 0.43823784589767456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-62561658:
+    identifier: 234e61ed-91e8-41a8-9e60-4c73b88d02d2
+    id: red_carpet-62561658
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 5.438237845897675
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-105009797:
+    identifier: 7dcbbc3e-86fd-4559-8a0a-5f474be70258
+    id: red_carpet-105009797
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -1.5
+      y: 1.0
+      z: -2.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  nether_brick_stairs-73244459:
+    identifier: 4cf00308-a23d-45dd-9fb0-0f04187e01ee
+    id: nether_brick_stairs-73244459
+    material: NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:nether_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 0.43823784589767456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_button-57780083:
+    identifier: a41cb22e-1464-43d4-bba1-a2b5216a517f
+    id: birch_button-57780083
+    material: BIRCH_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:birch_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -1.5
+      y: 1.0
+      z: -1.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_stairs-2499168:
+    identifier: 48d5e869-4654-43d9-b68b-7ae10aa1a482
+    id: red_nether_brick_stairs-2499168
+    material: RED_NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: -2.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_stairs-87482630:
+    identifier: 037c01b4-f6f0-4bf0-ba53-95fb62a276fc
+    id: red_nether_brick_stairs-87482630
+    material: RED_NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.5
+      y: 0.0
+      z: -0.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_stairs-5045133:
+    identifier: 11235f44-e976-4512-aef7-fdc5aad40df1
+    id: red_nether_brick_stairs-5045133
+    material: RED_NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: -2.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-11971283:
+    identifier: f306958b-cfd7-42f3-b3b5-fb604437270a
+    id: black_concrete-11971283
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.5
+      y: 0.0
+      z: -0.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-53025573:
+    identifier: 79d50be2-81b2-4dd0-b7d0-f51b6c457d87
+    id: red_carpet-53025573
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -0.5
+      y: 2.0
+      z: -4.561762154102325
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-67891383:
+    identifier: 04413607-f20b-453b-a0b6-79456319c75f
+    id: polished_basalt-67891383
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 1.5
+      y: 0.0
+      z: -3.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-101298614:
+    identifier: a00ca7bf-b696-445d-9b39-587b65c4c7e2
+    id: red_concrete-101298614
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -0.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-100572726:
+    identifier: ab608ce0-3db1-4e5f-9440-9af64b016c94
+    id: red_carpet-100572726
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -2.5
+      y: 1.0
+      z: 0.43823784589767456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_button-34674252:
+    identifier: 04fb0811-6a2a-4ec2-9a32-5bbc61d0bd6d
+    id: birch_button-34674252
+    material: BIRCH_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:birch_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -3.5
+      y: 0.0
+      z: 0.43823784589767456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_stairs-114780216:
+    identifier: 0b5e1160-33a1-4c7a-a591-80c95c0e6965
+    id: red_nether_brick_stairs-114780216
+    material: RED_NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.5
+      y: 0.0
+      z: 0.43823784589767456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-40730436:
+    identifier: 865ecf04-4ec6-4fd8-8dfc-9414eeaa61b3
+    id: black_concrete-40730436
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.5
+      y: 0.0
+      z: -0.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-25618274:
+    identifier: ef77bf92-3ae6-48fc-bebb-25541271decd
+    id: black_concrete-25618274
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -3.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-117486782:
+    identifier: 92a1b053-ac9e-4663-89de-0489ac78e674
+    id: red_carpet-117486782
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -1.5
+      y: 1.0
+      z: 1.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-92718235:
+    identifier: 34c7e3cb-f7d2-403b-b6f5-e313150f39bf
+    id: red_carpet-92718235
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -1.5
+      y: 1.0
+      z: -3.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_planks-81362285:
+    identifier: 43f04819-3b33-4c93-8a6f-ddd2aa3aeea7
+    id: oak_planks-81362285
+    material: OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:oak_wall_sign[facing=north,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.28125
+      z: -4.661762154102325
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  dark_oak_fence_gate-66333937:
+    identifier: 7ba50cbc-65cf-4765-a5ea-21bc9e18ca8b
+    id: dark_oak_fence_gate-66333937
+    material: DARK_OAK_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_fence_gate[facing=north,in_wall=false,open=false,powered=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 3.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_stairs-30168329:
+    identifier: 7c7b4b9c-5753-4dbc-ae73-29f15d8ea741
+    id: red_nether_brick_stairs-30168329
+    material: RED_NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.5
+      y: 0.0
+      z: 0.43823784589767456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-43269992:
+    identifier: f7492c8c-08fe-4e80-ae04-120e721b7a34
+    id: red_carpet-43269992
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 0.5
+      y: 1.0
+      z: -3.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_stairs-99535834:
+    identifier: 0b7c3fcb-1043-456a-8466-a4bf21298b4b
+    id: smooth_quartz_stairs-99535834
+    material: SMOOTH_QUARTZ_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -2.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-114543787:
+    identifier: e22288b9-5d96-4d1a-a231-d65db3bccf7b
+    id: smooth_quartz_slab-114543787
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -3.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_stairs-53409916:
+    identifier: 8a95fa98-cba3-4783-ab8e-b95a6674f4cc
+    id: red_nether_brick_stairs-53409916
+    material: RED_NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 1.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_slab-11562552:
+    identifier: fa4f1a5f-f292-4b33-98f3-bac44c5f7643
+    id: red_nether_brick_slab-11562552
+    material: RED_NETHER_BRICK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 1.5
+      y: 0.0
+      z: 5.438237845897675
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-117386255:
+    identifier: 79bad0eb-0572-46d9-97bb-9fab36b465a1
+    id: red_carpet-117386255
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -2.5
+      y: 1.0
+      z: -0.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  acacia_trapdoor-85939755:
+    identifier: fc4ae6c5-168e-46fb-b6e1-c0a00b2a9587
+    id: acacia_trapdoor-85939755
+    material: ACACIA_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:acacia_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 5.438237845897675
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-105328043:
+    identifier: 6431bd50-858a-4bf6-a6ac-663fc2ab2b80
+    id: polished_basalt-105328043
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -2.5
+      y: 0.0
+      z: 3.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  birch_button-5086235:
+    identifier: 0a8d6efa-112f-496f-a7aa-302fd57e1e16
+    id: birch_button-5086235
+    material: BIRCH_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:birch_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 0.5
+      y: 1.0
+      z: -1.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_slab-16258096:
+    identifier: 126bd437-5439-4015-bfeb-65f57c6a3454
+    id: red_nether_brick_slab-16258096
+    material: RED_NETHER_BRICK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 4.438237845897675
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-100125479:
+    identifier: e2d2a9af-9658-44ac-97c3-0b742b22905a
+    id: black_concrete-100125479
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 0.43823784589767456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-48811595:
+    identifier: 1ecb4bc4-2806-4d92-ad60-180130728617
+    id: red_carpet-48811595
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 0.5
+      y: 1.0
+      z: -2.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-105982155:
+    identifier: 960b734a-aef4-4ba9-83bc-2d8b3325876a
+    id: red_carpet-105982155
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 0.5
+      y: 1.0
+      z: 1.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-102418342:
+    identifier: 6766b646-4f8c-4717-9332-1523bfb43ac7
+    id: red_concrete-102418342
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: 0.5
+      y: 0.0
+      z: -1.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  nether_brick_slab-91945953:
+    identifier: b7ab1c40-0f2c-47a6-978d-efcfc8100d96
+    id: nether_brick_slab-91945953
+    material: NETHER_BRICK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:nether_brick_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 2.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  observer-12825593:
+    identifier: 6a400ffc-e20d-47d9-b1bf-787a6f4ac793
+    id: observer-12825593
+    material: OBSERVER
+    data:
+      data-type: block-data
+      value: minecraft:observer[facing=west,powered=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: -3.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  nether_brick_stairs-25313379:
+    identifier: a439fa87-29c6-443c-9a1e-d172f9831cdd
+    id: nether_brick_stairs-25313379
+    material: NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:nether_brick_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: -4.561762154102325
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-111214761:
+    identifier: e4c0bebf-b051-466b-bb04-ac2b5372125b
+    id: red_carpet-111214761
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 0.5
+      y: 1.0
+      z: -0.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-36613026:
+    identifier: 4c38cf8f-e8dd-4e4e-8b5c-4ca8c2d1b1e6
+    id: red_carpet-36613026
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -1.5
+      y: 1.0
+      z: -0.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_stairs-90280307:
+    identifier: 3ca05164-983e-484a-8f0e-1075d9fed5e1
+    id: red_nether_brick_stairs-90280307
+    material: RED_NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 1.0
+      z: -4.561762154102325
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_stairs-95732731:
+    identifier: 3bbb5219-e072-4e5f-a0b5-6076c92da7be
+    id: red_nether_brick_stairs-95732731
+    material: RED_NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.5
+      y: 0.0
+      z: -0.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  nether_brick_stairs-9721581:
+    identifier: ddc4ecc4-acc5-47ce-bb3d-4a7c6bf0db1a
+    id: nether_brick_stairs-9721581
+    material: NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:nether_brick_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -4.561762154102325
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-28384779:
+    identifier: 6632389c-55aa-4780-80cc-2f0117c6154f
+    id: black_concrete-28384779
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -0.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  nether_brick_slab-71811105:
+    identifier: 471e4707-7009-4a10-b01d-720a234e3df3
+    id: nether_brick_slab-71811105
+    material: NETHER_BRICK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:nether_brick_slab[type=bottom,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 2.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-50419184:
+    identifier: 5e4a225d-9dc9-41fc-8c9c-bbbf59c106cb
+    id: red_carpet-50419184
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 5.438237845897675
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-78010162:
+    identifier: 7399c4f5-8f22-4817-a3bc-97ad885beeab
+    id: black_concrete-78010162
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 0.43823784589767456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_slab-73167965:
+    identifier: c176fcb6-4ca1-4791-99b8-09d29663aa43
+    id: red_nether_brick_slab-73167965
+    material: RED_NETHER_BRICK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 3.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_fence_gate-20309200:
+    identifier: 79eb336c-1093-43f5-990d-65c4c5a15cf4
+    id: dark_oak_fence_gate-20309200
+    material: DARK_OAK_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_fence_gate[facing=north,in_wall=false,open=false,powered=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 3.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-89866341:
+    identifier: 94929b9f-297c-4836-be84-6d4b19e6aeb2
+    id: polished_basalt-89866341
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 1.5
+      y: 0.0
+      z: 3.4382378458976746
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-47422641:
+    identifier: 738da41d-99dd-47b5-b9d5-dd63d554d67c
+    id: red_carpet-47422641
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 0.5
+      y: 2.0
+      z: -4.561762154102325
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-5299913:
+    identifier: ca443a7c-973b-4f00-88b5-6455090b162a
+    id: part-5299913
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -1.5000000000000004
+      y: 2.0
+      z: -4.561762154102325
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_pressure_plate-60974246:
+    identifier: f819bae8-54d0-4792-8267-e73be938280a
+    id: stone_pressure_plate-60974246
+    material: STONE_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:stone_pressure_plate[powered=false]
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -4.561762154102325
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-116830313:
+    identifier: 0c40ffe4-c298-4256-880a-267e87ff7f59
+    id: black_concrete-116830313
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -1.5617621541023254
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_nether_brick_slab-14400684:
+    identifier: acd5f96a-ef89-415a-ae7d-3a7519228f62
+    id: red_nether_brick_slab-14400684
+    material: RED_NETHER_BRICK_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]
+    offset:
+      x: -2.5
+      y: 0.0
+      z: 5.438237845897675
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  part-65063190:
+    identifier: 0e88e133-e856-497d-b110-449654372afc
+    id: part-65063190
+    material: NETHER_BRICK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:nether_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 0.43823784589767456
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones: { }
+animations: { }

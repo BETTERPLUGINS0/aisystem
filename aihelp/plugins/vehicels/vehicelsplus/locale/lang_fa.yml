@@ -1,0 +1,317 @@
+vehiclesplus:
+  general:
+    errors:
+      noeconomy: '<c5>Motasefane In Ghabeliat Fa,al nist! Zira Hich Plugini baraye Pool dar Server Vojod Nadard.</c5>'
+      notenoughmoney: '<c5>Pardakht Anjam Nashod, Zira Shoma In Meghdar Pool nadarid!</c5>'
+    vehicles:
+      actionbar:
+        normal: '<c1>Gear </c1><c7>%gear%</c7><c2> | </c2><c1>Speed </c1><c7>%curspeed%</c7><c2>/</c2><c7>%maxspeed%</c7><c1>KM/H</c1><c2> | </c2><c1>Fuel Tank </c1><c7>%fuelperc%</c7><c1>%</c1><c2> (</c2><c7>%curfuel%</c7><c2>/</c2><c7>%maxfuel%</c7><c1>L</c1><c2>)</c2>'
+        outoffuel: '<c5>Shoma Benzin Nadarid!</c5>'
+  commands:
+    addon:
+      descriptions:
+        main: 'VehiclesPlus Addon command'
+        givepaint: 'Dadan Satl Rang Be Player'
+        givewheel: 'Dadan Lastik Be Player'
+      givepaint:
+        item:
+          name: '<c3>Satl Rang</c3>'
+          lore: '<c4>Ghermez: %red%</c4>\n<c4>Sabz: %green%</c4>\n<c4>Abi: %blue%</c4>'
+        given: '<c3>Satl Rang Ba Movafaghiat Be </c3><c4>%player%</c4><c3> Dade Shod.</c3>'
+        received: '<c3>Shoma Yek Satl Rang Daryaft Kardid! Baraye Taghir Rang Roye Mashin click Konid.</c3>'
+      givewheel:
+        item:
+          name: '<c3>Charkh</c3>'
+          lore: '<c4>Type: %type%</c4>'
+        given: '<c3>Charkh Be </c3><c4>%player%</c4><c3> Dade Shod.</c3>'
+        received: '<c3>Shoma Yek Charkh Daryaft Kardid! Baraye Taghir Charkh Mashin , Roye Charkh ha Click konid.</c3>'
+    fuel:
+      descriptions:
+        main: 'VehiclesPlus Fuel command'
+        give: 'Dadan Benzin Be Player'
+        buy: 'Buy fuel directly'
+        shop: 'Baz Kardan Shop Benzin'
+      give: '<c3>Benzin Dade Shod.</c3>'
+      buy: '<c3>You''ve successfully bought </c3><c4>%liters%</c4><c3> Liter </c3><c4>%type%</c4><c3> Kharidid.</c3>'
+    garage:
+      descriptions:
+        main: 'Command baz kardan Garage'
+        open: 'Baz Kardan Garage'
+        create: 'Sakht Garage Jadid'
+        delete: 'Hazf Garage'
+        addmember: 'Ezafe kardan Member be garage'
+        removemember: 'Hazf Member az garage'
+        setowner: 'Tanzim Kardan Saheb Garage'
+      invalid: '<c5>hich garage i ba in esm vojod nadard!</c5>'
+      already: '<c5>Yek garage ba in Esm az ghabl vojod darad!</c5>'
+      created: '<c3>Garage </c3><c4>%garage%</c4><c3> Ba movafaghiat sakhte Shod!</c3>'
+      deleted: '<c3>Garage </c3><c4>%garage%</c4><c3> Ba movafaghiat hazf Shod!</c3>'
+      addedmember: '<c3>Bazikon </c3><c4>%player%</c4><c3> Ba movafaghiat be</c3><c4>%garage%</c4><c3> Ezafe shod!</c3>'
+      removedmember: '<c3>Bazikon </c3><c4>%player%</c4><c3> Ba movafaghiat az </c3><c4>%garage%</c4><c3> Remove shod!</c3>'
+      setowner: '<c3>Bazikon </c3><c4>%player%</c4><c3> Be onvane owner </c3><c4>%garage%</c4><c3> set shod!</c3>'
+    vehiclemodel:
+      descriptions:
+        main: 'VehiclesPlus VehicleModel command'
+        delete: 'Hazf Kardan Model'
+        list: 'List Model Ha'
+        reload: 'Reload Kardan Model Ha'
+        info: 'Etela''ate Model Ha'
+      delete:
+        confirm: '<c3>Aya Motmaen Hastid ke Mikhaid In Model </c3><c4>%model%</c4><c3> ro Hazf Konid?</c3>'
+        deleted: '<c3>Model </c3><c4>%model%</c4><c3> Ba movafaghiat hazf shod!</c3>'
+        cancelled: '<c3>Farayand delete kardan Model Ba movafaghiat Cancel shod!</c3>'
+      list:
+        title: 'Name: <c7>%name%</c7> | Type: <c7>%type%</c7>'
+        hover: 'Etela''ate Bishtar ba Left-click.'
+      reload: '<c3>Model Ha Ba Movafaghiat Reload Shodand!</c3>'
+      info:
+        name: 'Name: <c7>%name%</c7>'
+        type: 'Type: <c7>%type%</c7>'
+        parts:
+          header: 'Parts:'
+          part: '- <c7>%part%</c7>'
+        settings:
+          header: 'Tanzimat:'
+          setting: '<c5>%setting%</c5>'
+          upgradable:
+            base: 'Base: <c7>%base% %unit%</c7>'
+            max: 'Max: <c7>%max% %unit%</c7>'
+            step: 'Upgrading step: <c7>%step% %unit%</c7>'
+            stepcost: 'Upgrading step cost: <c7>%stepcost%</c7>'
+            notupgradable: '<c5>Gheyr Ghabel Ertegha</c5>'
+            maxedout: '<c5>Had Aksar Ertegha</c5>'
+          exhaust:
+            enabled: 'Vaziat: <c7>%enabled%</c7>'
+            xoffset: 'Location X : <c7>%xoffset%</c7>'
+            yoffset: 'Location Y : <c7>%yoffset%</c7>'
+            zoffset: 'Location Z : <c7>%zoffset%</c7>'
+            particle: 'Particle: <c7>%particle%</c7>'
+          fuel:
+            type: 'Type: <c7>%type%</c7>'
+            usage: 'Intori: <c7>%usage%</c7>'
+          heightlimit:
+            minheight: 'HadAghal Ertefa: <c7>%min%</c7>'
+            maxheight: 'HadAksar Ertefa: <c7>%max%</c7>'
+          hitbox:
+            length: "Length: <c7>%length%</c7>\n"
+            width: 'Size be Tul : <c7>%length%</c7>'
+            height: "Size be Ertefa: <c7>%height%</c7>\n"
+          horn:
+            enabled: 'Enabled: <c7>%enabled%</c7>'
+            sound: 'Seda: %sound%'
+          permissions:
+            buy: 'Kharid: <c7>%buy%</c7>'
+            adjust: 'Adjust: <c7>%adjust%</c7>'
+            spawn: 'Spawn: <c7>%spawn%</c7>'
+            ride: 'Ride: <c7>%ride%</c7>'
+            cansitwithoutride: 'Neshtestan Bedone dashtan Permission: <c7>%sit%</c7>'
+          sounds:
+            sound:
+              sound: '- Seda: <c7>%sound%</c7>'
+              duration: '- Zaman Seda: <c7>%duration%</c7>'
+              volume: '- Volume Seda: <c7>%volume%</c7>'
+              pitch: '- Sor,ate Pakhsh Seda: <c7>%pitch%</c7>'
+            idle: 'Sedaye istadeh: %sound%'
+            start: 'Sedaye Start: %sound%'
+            acceleration: 'Sedaye Gaz Dadan: %sound%'
+            driving: 'Sedaye motor: %sound%'
+            slowingdown: 'Kam Kardan Seda: %sound%'
+          gearbox:
+            realistic: 'Realistic: <c7>%realistic%</c7>'
+            cooldown: 'Zaman entezar baraye estefade: <c7>%cooldown%</c7>'
+        drift: 'Drift: <c7>%drift%</c7>'
+        exitwhilemoving: 'Khoroj hengam Harekat: <c7>%exitwhilemoving%</c7>'
+        price: 'Gheymat: <c7>%price%</c7>'
+        health: 'Mizan Salamati: <c7>%health%</c7>'
+        trunksize: 'Size sandogh: <c7>%trunksize%</c7>'
+    vehicles:
+      descriptions:
+        main: 'VehiclesPlus Vehicles command'
+        give: 'Baraye Dadan Vasile naghlie be player'
+        shop: 'Baraye Baz kardan Shop'
+        repair: 'Baraye Tamir Kardan Mashin'
+        spawn: 'Baraye Spawn Kardan Mashin'
+        spawnpersistent: 'Yek Khabidgar-e Paydari Ra Baz Konid'
+        getvoucher: Gereftan Sanad Khodro
+      spawn:
+        spawned: '<c3>Vehicle </c3><c4>%vehicle%</c4><c3> Spawn Shod!</c3>'
+      spawnpersistent:
+        spawned: '<c3>Ba Movafaghiat Khabidgar-e Paydari Ra Baz Kardid </c3><c4>%vehicle%</c4><c3>!</c3>'
+      give:
+        invalidgarage: '<c5>In garage vojod nadard!</c5>'
+        invalidcolor: '<c5>Rang Vared Shode Na motabar ast! Bayad Yek adad beyn 0 ta 255 vared konid.</c5>'
+        nocolor: '<c5>Motasefane Emkan rang kardan in Mashin vojod nadarad!</c5>'
+        added: '<c3>Vehicle </c3><c4>%vehicle%</c4><c3> Ba movafaghiat be garage </c3><c4>%garage%</c4><c3> Add shod!</c3>'
+      repair:
+        novehicle: '<c5>In bazikon Savar Hich Vasile Naghlie i nist!</c5>'
+        repaired: '<c3>Vehicle </c3><c4>%vehicle%</c4><c3> Ba Movafaghiat tamir shod!</c3>'
+      getvoucher: 
+        item: 
+          name: <c3>Sanad Mashin</c3>
+          lore: '<c4>Khodro: %vehicle%</c4>\n<c4>Rang: %color%</c4>\n<c4>Baraye Sabt , Click Rast Konid.</c4>'
+        received: <c3>Shoma Yek Sanad Khodro Daryaft Kardid! Baraye Sabt , Click Rast Konid.</c3>
+  inventories:
+    confirmation:
+      confirm:
+        title: '<c3>Confirm</c3>'
+        lore: '<c4>Baraye Edame Confirm konid.</c4>'
+      cancel:
+        title: '<c5>Cancel</c5>'
+        lore: '<c6>Baraye Edame Cancel konid.</c6>'
+    pagination:
+      first:
+        title: 'Safhe Asli'
+        lore: '<c7>Raftan be Safhe Asli (1).</c7>'
+      previous:
+        title: 'Safhe Ghabl'
+        lore: '<c7>Raftan Be Safhe Ghabli (%page%).</c7>'
+      next:
+        title: 'Safhe Badi'
+        lore: '<c7>Raftan be Safhe Badi (%page%).</c7>'
+      last:
+        title: 'Safhe Akhar'
+        lore: '<c7>Raftan be Safhe akhar (%page%).</c7>'
+    fuel:
+      shop:
+        title: 'Shop Benzin'
+        item:
+          name: '<c3>%type%</c3>'
+          lore: '<c3>Gheymat:</c3> <c4>%price%/L</c4>'
+      amount:
+        title: 'Entekhabe meghdar'
+        item:
+          name: '<c3>%type%</c3> <c7>%amount%L<c7>'
+          lore: '<c3>Gheymat:</c3> <c4>%price%</c4>'
+      bought: '<c3>Shoma Ba movafaghiat </c3><c4>%liters%</c4><c3> Liter </c3><c4>%type%</c4><c3> kharidid.</c3>'
+    vehicles:
+      shop:
+        vehicle:
+          title: 'Shop Vasile Naghlie'
+          item:
+            name: '%name%'
+            lore: '<c3>Gheymat:</c3> <c4>%price%</c4>'
+        color:
+          title: 'Entekhab rang'
+        garage:
+          title: 'Entekhab Garage'
+          item:
+            name: '%garage%'
+            lore:
+              available: '<c3>Owner:</c3> <c4>%owner%</c4>'
+              limited: '<c5>Shoma Be Maximum Limit mashin residid!<c5>'
+        confirmation:
+          title: 'Taiid Kharid'
+          bought: '<c3>Mashin </c3><c4>%vehicle%</c4><c3> Ba Movafaghiat Kharidari shod va dar garage </c3><c4>%garage%</c4><c3> gharar gereft!</c3>'
+      garage:
+        title: '%garage%'
+        moving: '<c5>Baraye Anjam in kar Nabayad darhal harekat Bashid!</c5>'
+        settings:
+          button:
+            name: '<c3>Tanzimat</c4>'
+            lore: '<c4>Baraye Baz Shodan tanzimat Garage Click Konid.</c4>'
+          title: "Tanzimat Garage"
+          setting:
+            rolelist:
+              noowner: '<c5>Shoma Nemitavanid Permission Haye Saheb garage ra Taghir dahid!!</c5>'
+              button:
+                name: '<c3>%role%</c3>'
+                lore: '<c4>Right-click Baraye hazf.</c4>'
+              create:
+                name: '<c3>Sakht role Jadid</c3>'
+                lore: '<c4>Baraye sakht role Click konid.</c4>'
+              delete:
+                title: '<c3>Aya motmaen hastid?</c3>'
+                default: '<c5>Shoma nemitavanid role Default ra hazf konid!</c5>'
+                failed: '<c5>Error hangam Delete role! Motmaen Shavid memberi in Role ra nadashte bashad.</c5>'
+            managemembers:
+              name: "Modiriat Permission Haye Membera"
+              button:
+                name: '<c3>%member%</c3>'
+                loreowner: 'Role Shoma: <c7>%role%</c7>'
+                lore: 'Role Shoma: <c7>%role%</c7>\nClick to change.'
+            delete: "Permissione Delete kardan"
+            buy: "Permission Kharid kardan"
+            remove: "Permissione Remove kardan"
+            repair: "Permission Tamir kardan"
+            spawn: "Permission Spawn kardan"
+            adjust: "Adjust permission"
+            ride: "Permission savar shodan"
+            opentrunk: 'Permission Baz kardan Sandogh'
+            lock: 'Permission Ghofl kardan'
+            upgrade: 'Permission Upgrade kardan'
+            tune: 'Tune permission'
+            renamevehicle: 'Permission Avaz kardan esm mashin'
+            transfervehicle: 'Permission forokhtan Mashin be digaran'
+            manageroles: 'Permission Modiriat kardan role ha'
+            rename: 'Permission Taghir esm Garage'
+            deletegarage: 'Permission Delete kardan Garage'
+            toggle:
+              enabled: "<c3>Granted</c3>"
+              disabled: "<c5>Denied</c5>"
+          repaired: '<c3>Vasile Naghlie </c3><c4>%vehicle%</c4><c3> Ba Movafaghiat Repair Shod!</c3>'
+        spawn:
+          failed: '<c5>Nemitavan mashin ra spawn kard!</c5>'
+          limited: '<c5>Shoma Nemitavanid Bishtar az </c5><c6>%limit%</c6><c5> Vasile Naghlie Hamzaman Spawn Dashte bashid!</c5>'
+        remove:
+          moving: '<c5>Shoma Nemitavanid Remove konid, Mashin darhal Harekat ast!</c5>'
+          confirmation:
+            title: 'Taiid Hazf shodan'
+            removed: '<c3>Shoma </c3><c4>%vehicle%</c4><c3> Ra ba movafaghiat az in Garage remove kardid!</c3>'
+        repair:
+          repaired: '<c3>Mashin </c3><c4>%vehicle%</c4><c3> Ba Movafaghiat Tamir shod!</c3>'
+      interaction:
+        title: '%vehicle%'
+        enter: '<c3>Vorod be Mashin</c3>'
+        remove: '<c5>Despawn</c5>'
+        remove_persistent: '<c5>Remove</c5>'
+        lock: '<c3>Ghofl kardan Dar</c3>'
+        unlock: '<c3>Baz kardan Dar</c3>'
+        locked: '<c3>Dar ha Ba movafaghiat Ghofl Shodand.</c3>'
+        unlocked: '<c3>Ghofl Dar ha Ba movafaghiat baz Shod.</c3>'
+        trunk: '<c3>Baz kardan Sandogh</c3>'
+        settings: '<c3>Tanzimat</c3>'
+        tuning: '<c3>Tuning</c3>'
+        upgrades: 'c3>Upgrade ha</c3>'
+      enter:
+        title: 'Entekhab Sandali'
+        item:
+          seat: '<c3>Sandali #%seat%</c3>'
+          driverseat: '<c3>Sandali Driver</c3>'
+          lore:
+            taken: '<c5>POR AST</c5>'
+            free: 'Click Baraye Vorod'
+        nopermission: '<c5>Shoma Permission Rah raftan ba in Vasile Naghlie ro nadarid!</c5>'
+      settings:
+        title: 'Tanzimat Vehicle'
+        rename:
+          name: '<c3>Taghir Esm Vehicle</c3>'
+          lore: '<c4>Hazine: %cost%</c4>'
+      upgrade:
+        title: 'Vehicle Upgrades'
+        items:
+          speed: '<c3>Sor''at</c3>'
+          fueltank: '<c3>Bak benzin</c3>'
+          acceleration: '<c3>Shetab</c3>'
+          turningradius: '<c3>Shedat Ravooni Farmon</c3>'
+        current: 'Tanzimat Feli: <c7>%current% %unit%</c7>'
+        maxedout: '<c5>Upgrade Ta Akharin daraje Anjam shode ast!</c5>'
+        upgraded: '<c3>Upgrade Ba movafaghiat Anjam Shod!</c3>'
+      trunk:
+        title: '<c3>Sandogh</c3>'
+  prompts:
+    general:
+      cancel: 'In Amal Ba movafaghiat cancel Shod.'
+      number:
+        invalid: '<c5>Adad vared Shode Na Motabar ast! Adade dorost intorie </c5><c6>%num%</c6><c5>, got </c5><c6>%input%</c6><c5>.</c5>'
+    garage:
+      role:
+        create: 'Name Role Jadid baraye Garage Ra Dar Chat Ersal Konid (STOP Baraye Cancel Kardan)'
+        created: '<c3>Role </c3><c4>%role%</c4><c3> Ba movafaghiat Dar garage Sakhte Shod!</c3>'
+        addmember: 'Name Role Jadide Member Dar Garage Ra Dar Chat Ersal Konid (STOP Baraye Cancel Kardan)'
+      rename: 'Esm Jadid Garage ra dar Chat ersal konid (Baraye cancel kardan benevisid STOP).'
+      transfer: 'Lotfan Name Saheb Jadid Ra Dar Chat Ersal Konid (Baraye cancel kardan benevisid STOP).'
+    vehicles:
+      setname: 'Lotfan Esm Mored nazar ro dar Chat Ersal konid (Baraye cancel kardan benevisid STOP).'
+      renamed: '<c3>Name In Mashin Be </c3><c4>%name%</c4><c3> Taghir Kard!</c3>'
+      transfer: 'Name Garage Jadid Ra Dar Chat Ersal Konid (STOP Baraye Cancel Kardan)'
+      moved: '<c3>Vasile Naghlie ba Movafaghiat be Garage </c3><c4>%garage%</c4><c3> Ferestade Shod!</c3>'

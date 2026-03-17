@@ -1,0 +1,2011 @@
+id: f1
+type: COMPOUND
+hitbox:
+  width: 3.0543863844543107
+  height: 2.3981518765499414
+  depth: 3.0543863844543107
+seats:
+  seat-0:
+    main: false
+    offset:
+      x: -0.02066310096581208
+      y: 0.6588066195308309
+      z: -2.2331436426946025
+particles:
+  particle-0:
+    type: DUST
+    offset:
+      x: 0.007133953806967195
+      y: 0.5752976706887412
+      z: -7.722367527192645
+    delay: 0
+    count: 3
+    dispersion: 0.0
+    data:
+      data-type: dust-options
+      red: 1
+      green: 1
+      blue: 1
+      size: 1.0
+    states-to-apply: moving
+  particle-1:
+    type: DUST
+    offset:
+      x: -1.6218160441277705
+      y: -0.1074203296288118
+      z: -6.302317567350199
+    delay: 0
+    count: 3
+    dispersion: 0.0
+    data:
+      data-type: dust-options
+      red: 1
+      green: 1
+      blue: 1
+      size: 1.0
+  particle-2:
+    type: DUST
+    offset:
+      x: 0.007133953806967195
+      y: 0.5752976706887412
+      z: -8.823566883363164
+    delay: 0
+    count: 3
+    dispersion: 0.0
+    data:
+      data-type: dust-options
+      red: 1
+      green: 1
+      blue: 1
+      size: 1.0
+    states-to-apply: moving
+  particle-3:
+    type: DUST
+    offset:
+      x: 1.4498599209049714
+      y: 0.24820411761353037
+      z: -6.302317567350199
+    delay: 0
+    count: 3
+    dispersion: 0.0
+    data:
+      data-type: dust-options
+      red: 1
+      green: 1
+      blue: 1
+      size: 1.0
+  particle-4:
+    type: DUST
+    offset:
+      x: 0.007133953806967195
+      y: 1.1885067477312916
+      z: -7.4562312838185525
+    delay: 0
+    count: 3
+    dispersion: 0.0
+    data:
+      data-type: dust-options
+      red: 1
+      green: 1
+      blue: 1
+      size: 1.0
+sounds: { }
+parts:
+  part-110794359:
+    identifier: 69555617-e2e3-4152-a0b8-b04265b19dbc
+    id: part-110794359
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.0852702787248227
+      y: 1.4733174115538346
+      z: -6.647848931388014
+    rotation:
+      x: -40.00000000000004
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.17675782750749508
+      y: 0.7607016213210476
+      z: 0.28371351089381097
+  part-1887168:
+    identifier: 1e2c6b51-3ab3-4194-b16f-27f0fbd9f229
+    id: part-1887168
+    material: YELLOW_CONCRETE
+    offset:
+      x: 0.1590962974180274
+      y: 1.136604641959571
+      z: 1.829389626826938
+    rotation:
+      x: -90.0000000000002
+      y: 6.3611093629270335E-15
+      z: 90.00000000000004
+    scale:
+      x: 0.09041099766983979
+      y: 0.1984709029760954
+      z: 0.04115684825081081
+  part-61010518:
+    identifier: fe761326-9b38-40ec-8632-883e78b7bb85
+    id: part-61010518
+    material: RED_WOOL
+    offset:
+      x: 0.5856972896404161
+      y: 0.496313524525974
+      z: -4.744420388804983
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: -166.94475277620342
+    scale:
+      x: 1.5999999999999996
+      y: 0.5428407627355664
+      z: 1.003520607888408
+  part-102800967:
+    identifier: 0a63099a-6d38-4c73-93de-53e09b0bc025
+    id: part-102800967
+    material: RED_SHULKER_BOX
+    offset:
+      x: -0.8982763912738931
+      y: 0.48924655169334774
+      z: -1.1645724333714527
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0000000000000004
+      y: 0.6428407627355663
+      z: 0.8456836173468161
+  part-46707104:
+    identifier: 01d793c8-e15c-421e-bfff-37fd4076beba
+    id: part-46707104
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzE2ODUzOTU3ZDhmZTg3MmFmOGMzZmM3NjhjZTI3ZmVhNjk5NTI1Mjk2MmNiYTRjYjA5M2JhZjRjZDBhMDVhMyJ9fX0=
+    offset:
+      x: -0.1969725655901922
+      y: 0.6883746310864644
+      z: -7.073261378055899
+    rotation:
+      x: 180.0
+      y: -1.6618398210646874E-13
+      z: 180.0
+    scale:
+      x: 0.8155139834747934
+      y: 0.6378805454679328
+      z: 0.1562113930234767
+  part-105069032:
+    identifier: 4fafa493-ef54-48cd-a74c-7bebd8103b69
+    id: part-105069032
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.8999999999999998
+      y: 0.23190379994495378
+      z: -5.929564211739888
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.9225614420079014
+      y: 0.07130212209413112
+      z: 0.08489328125540418
+  part-46875280:
+    identifier: 561a342e-5e23-46bb-9753-f8ce870752f9
+    id: part-46875280
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.9000000000000011
+      y: 0.23190379994495375
+      z: 1.3704357882601121
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.9225614420079014
+      y: 0.10024679599801743
+      z: 0.08489328125540418
+  part-70086708:
+    identifier: f273a647-66c8-4d4f-b961-0d43d8921fa1
+    id: part-70086708
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.9000000000000008
+      y: 0.09999999999999998
+      z: -4.600000000000001
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.0
+      y: 0.40000000000000013
+      z: 4.421121217823807
+  part-83009235:
+    identifier: b226425d-195d-4c53-b55c-413c2041b86b
+    id: part-83009235
+    material: RED_CONCRETE
+    offset:
+      x: -0.4010638272619238
+      y: 0.8736268656027788
+      z: -0.600000000000003
+    rotation:
+      x: -2.4649298781342254E-14
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.25736815705664806
+      z: 2.803666272085205
+  part-91500685:
+    identifier: 98b3b071-106c-47a4-a14f-6bc17253073d
+    id: part-91500685
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.505068826536715
+      y: 2.3
+      z: -8.101814288688557
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 1.7681790734478626
+      y: 0.20000000000000004
+      z: -0.030871114115500115
+  part-32146328:
+    identifier: 363c752f-52ca-4a39-928d-d5f218ccde32
+    id: part-32146328
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ2MmVkZDUyYWI0ODkzNDFjOWIyM2NjZmNkZDY2YzJkMDVmNzhmMWQ5NDZiY2QxZTQyMGE0MmIyODVmZjIyNCJ9fX0=
+    offset:
+      x: 1.598132024825505
+      y: 3.1236782543342927
+      z: -6.731910258890024
+    rotation:
+      x: 180.0
+      y: 90.0
+      z: 180.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 0.10000000000000012
+  part-122175073:
+    identifier: 764390b7-3674-4dad-be44-c3cfc8b1c473
+    id: part-122175073
+    material: RED_CONCRETE
+    offset:
+      x: -0.3616371011028375
+      y: 0.48924655169334774
+      z: -2.7205398160434497
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.5733290276569685
+      y: 0.43003123637132423
+      z: 0.2402811096203738
+  part-71658920:
+    identifier: ca3f4da3-d389-4baf-826c-ea6b93f79cdd
+    id: part-71658920
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFiYmY1NGQ2ZDI1MDE0N2U2ZTdhYjA3OWM5ZThjNzYyOTAwNTBjMDA4NmUyNDRjOWZmODFjMTU4M2Q5MDg5YSJ9fX0=
+    offset:
+      x: -0.37218021124709366
+      y: 0.7211637542760841
+      z: -1.8375284609347482
+    rotation:
+      x: 0.0
+      y: 90.0
+      z: 0.0
+    scale:
+      x: 1.0382517780210194
+      y: 0.7187958789802784
+      z: 0.09655200331939133
+  part-11190855:
+    identifier: 52b99234-86f5-488d-9878-d7d662785da6
+    id: part-11190855
+    material: GRAY_CONCRETE
+    offset:
+      x: 0.0
+      y: 0.9999999999999997
+      z: -0.39012902752397277
+    rotation:
+      x: -40.00000000000004
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.14433423427353534
+      y: 0.530540149985145
+      z: 0.19167582805190883
+  part-9281698:
+    identifier: 2d1dffd8-5f18-4b6a-b685-897690daabca
+    id: part-9281698
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -0.36879553058784903
+      y: 0.5152517537409376
+      z: -2.387711978395501
+    rotation:
+      x: -15.000000000000066
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.08373641296237254
+      y: 1.0435838961313526
+      z: 0.12096046810085453
+  part-39449139:
+    identifier: a6dd09b5-0c72-446c-bcc6-42274265167f
+    id: part-39449139
+    material: RED_CONCRETE
+    offset:
+      x: 1.11484916450315
+      y: 0.48924655169334774
+      z: -3.910264773946617
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 0.8999999999999997
+      y: 0.5428407627355664
+      z: 0.18759041595192202
+  part-55855911:
+    identifier: 340a4e77-4794-467f-bda8-fa8c215feee8
+    id: part-55855911
+    material: GRAY_CONCRETE
+    offset:
+      x: 0.1991859202496676
+      y: 0.30000000000000004
+      z: 0.14617866670935079
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 2.5973791562736
+      y: 0.20000000000000015
+      z: 0.20517255266384213
+  part-4551971:
+    identifier: f8e697ac-1696-44b2-beb1-bcc1d8b9f312
+    id: part-4551971
+    material: RED_CONCRETE
+    offset:
+      x: -0.5024464584111524
+      y: 0.34556133608990847
+      z: 3.9801090089248916
+    rotation:
+      x: 180.0
+      y: 90.0
+      z: 180.0
+    scale:
+      x: 0.6460175995665786
+      y: 0.1293676191843097
+      z: 0.9995962605049938
+  part-45842158:
+    identifier: 9b94361a-608d-4ee3-ad41-93aacf4765fd
+    id: part-45842158
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.4112184167652244
+      y: 0.6375686323052167
+      z: 3.3338634669895986
+    rotation:
+      x: 90.00000000000011
+      y: -80.00000000000017
+      z: 90.00000000000021
+    scale:
+      x: 0.6422028675142424
+      y: 0.0665998008508079
+      z: 0.20517255266384213
+  part-98377746:
+    identifier: 148fd6d0-420b-4560-a716-b0f266ce9382
+    id: part-98377746
+    material: RED_CONCRETE
+    offset:
+      x: -0.19676275510312316
+      y: 1.2265266163766297
+      z: -1.5425168236776983
+    rotation:
+      x: 40.000000000000014
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.05488045123344264
+      y: 0.0534960602571011
+      z: 0.044178619390094334
+  part-1623642:
+    identifier: ef86a25f-edbb-44b9-a10c-9494cea1ed78
+    id: part-1623642
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ2MmVkZDUyYWI0ODkzNDFjOWIyM2NjZmNkZDY2YzJkMDVmNzhmMWQ5NDZiY2QxZTQyMGE0MmIyODVmZjIyNCJ9fX0=
+    offset:
+      x: 1.1135296821226073
+      y: 0.7929512662800432
+      z: -2.9501763209228344
+    rotation:
+      x: 180.0
+      y: 90.0
+      z: 180.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 0.10000000000000012
+  part-21089379:
+    identifier: 006fd369-09d2-4ef1-bbd7-4b16a6066ee3
+    id: part-21089379
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.2999999999999992
+      y: 0.17037469187706053
+      z: 1.264571362960178
+    rotation:
+      x: -3.2653712547939233
+      y: -57.201106682496246
+      z: 142.4506661749584
+    scale:
+      x: 1.5434396929379908
+      y: 0.11584496147041766
+      z: 0.12133576349072435
+  part-122021523:
+    identifier: e3e6e5ce-97b3-4c43-83aa-888a7e1b5774
+    id: part-122021523
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFiYmY1NGQ2ZDI1MDE0N2U2ZTdhYjA3OWM5ZThjNzYyOTAwNTBjMDA4NmUyNDRjOWZmODFjMTU4M2Q5MDg5YSJ9fX0=
+    offset:
+      x: 0.49024105284784686
+      y: 0.8670842385331888
+      z: -1.176626154422186
+    rotation:
+      x: -170.00000000000017
+      y: 1.0647037862495644E-13
+      z: 180.0
+    scale:
+      x: 1.0382517780210194
+      y: 1.0
+      z: 0.09655200331939133
+  part-72075806:
+    identifier: 9e33fd77-4522-4f05-9162-6e41f72c015c
+    id: part-72075806
+    material: GRAY_CONCRETE
+    offset:
+      x: 0.010820177235917617
+      y: 0.7357841644545108
+      z: -1.178877551170436
+    rotation:
+      x: -40.00000000000004
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.14433423427353534
+      y: 0.530540149985145
+      z: 0.19167582805190883
+  part-8572795:
+    identifier: 6d33a936-0575-4606-90e5-afb3a14f4078
+    id: part-8572795
+    material: RED_CONCRETE
+    offset:
+      x: 1.3528008389034722
+      y: 0.6552261587082496
+      z: 3.958929527455944
+    rotation:
+      x: -90.0000000000001
+      y: -9.999999999999961
+      z: 90.00000000000016
+    scale:
+      x: 0.62117926349901
+      y: 0.07738946854598361
+      z: 0.2343110026314023
+  part-89507011:
+    identifier: c00ac24b-6c1c-4fe1-9793-1ea04413b8e4
+    id: part-89507011
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.9000000000000011
+      y: 0.30000000000000004
+      z: 1.1027135314892025
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.9225614420079014
+      y: 0.20000000000000015
+      z: 0.20517255266384213
+  part-61814147:
+    identifier: 234385df-3691-47c9-b50c-bb60f0139f98
+    id: part-61814147
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.1034285979248855
+      y: 1.4733174115538346
+      z: -6.647848931388014
+    rotation:
+      x: -40.00000000000004
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.17675782750749508
+      y: 0.7607016213210476
+      z: 0.28371351089381097
+  part-43926976:
+    identifier: 10b67380-c272-4bff-be8a-c188c6be820e
+    id: part-43926976
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.4739773339373639
+      y: 2.632440251979584
+      z: -7.486501122220957
+    rotation:
+      x: -40.00000000000017
+      y: -3.1805546814635168E-15
+      z: 90.00000000000007
+    scale:
+      x: 0.14433423427353534
+      y: 2.853110382052844
+      z: 0.19167582805190883
+  part-88929693:
+    identifier: 1638f6a1-6c21-4774-8808-180019d5e87f
+    id: part-88929693
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 0.6416105510430512
+      y: 1.484259298185229
+      z: -2.6439969321283137
+    rotation:
+      x: -15.000000000000094
+      y: -1.2722218725854067E-14
+      z: 90.00000000000016
+    scale:
+      x: 0.08373641296237254
+      y: 1.0435838961313526
+      z: 0.12096046810085453
+  part-94536400:
+    identifier: ca084224-c0b0-42cd-9686-ee30f917db5a
+    id: part-94536400
+    material: RED_WOOL
+    offset:
+      x: -0.4089159232038365
+      y: 1.333207844755045
+      z: -3.454806867269101
+    rotation:
+      x: 0.0
+      y: -1.6697912077683462E-13
+      z: 0.0
+    scale:
+      x: 0.997980615232278
+      y: 0.24689445476532648
+      z: 0.606696623201719
+  part-33826586:
+    identifier: f0731a4e-659a-4aa5-a0ac-fd7d0e605c8c
+    id: part-33826586
+    material: GRAY_SHULKER_BOX
+    offset:
+      x: -0.6999999999999993
+      y: 0.0
+      z: -5.599999999999995
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.5999999999999996
+      y: 0.10000000000000009
+      z: 0.699999999999999
+  part-21955849:
+    identifier: 1ffce4a4-e7f0-4267-83fe-214e7ee8d58b
+    id: part-21955849
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: -0.21061694396210684
+      y: 1.285594902031426
+      z: -1.5000986874754707
+    rotation:
+      x: 40.000000000000014
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.05488045123344264
+      y: 0.0534960602571011
+      z: 0.044178619390094334
+  part-44744175:
+    identifier: 0c0ffeb9-812e-46eb-be5f-576875525cd9
+    id: part-44744175
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.3105400703647347
+      y: 0.4405007636830822
+      z: 1.4102260413183985
+    rotation:
+      x: 1.49463978823324
+      y: 52.85670589634306
+      z: 11.294011589581483
+    scale:
+      x: 1.9225614420079014
+      y: 0.10024679599801743
+      z: 0.10728612645346589
+  part-61698024:
+    identifier: 9f9cc74f-456c-4e8d-801f-dfeda8a19792
+    id: part-61698024
+    material: RED_CONCRETE
+    offset:
+      x: -1.2800009745800296
+      y: 0.6657744743226505
+      z: 3.9753052727004246
+    rotation:
+      x: -90.00000000000031
+      y: 5.000000000000062
+      z: 90.00000000000033
+    scale:
+      x: 0.6460175995665786
+      y: 0.07738946854598361
+      z: 0.2343110026314023
+  part-22419605:
+    identifier: 5e2fdc0c-cd28-4b46-b20f-0307c6b15135
+    id: part-22419605
+    material: RED_CONCRETE
+    offset:
+      x: -0.400835220579008
+      y: 0.3920672611168831
+      z: -0.5339490267067605
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.6428407627355663
+      z: 1.6368021307244192
+  part-6953116:
+    identifier: 047af3b5-bab3-4181-9965-c56eee1fcd9c
+    id: part-6953116
+    material: RED_CONCRETE
+    offset:
+      x: -0.02769929672121066
+      y: 0.9217904051189828
+      z: -6.771218048941234
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.24147299432901487
+      y: 0.5070000574536195
+      z: 2.617564131056771
+  part-25015371:
+    identifier: a19dbfea-d4ff-419d-92cd-c81186628d2a
+    id: part-25015371
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 0.5293174855577901
+      y: 0.5152517537409376
+      z: -2.387711978395501
+    rotation:
+      x: -15.000000000000066
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.08373641296237254
+      y: 1.0435838961313526
+      z: 0.12096046810085453
+  part-82185133:
+    identifier: ef998372-485b-47d2-b404-4acb93a7f015
+    id: part-82185133
+    material: ACACIA_FENCE_GATE
+    offset:
+      x: -0.22429552796305738
+      y: 1.2259696843375583
+      z: -2.0493384418152014
+    rotation:
+      x: 35.00000000000001
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.6312393135479275
+      y: 0.5702686897275232
+      z: 1.0
+  part-69266341:
+    identifier: 3bbb7664-288b-481d-9066-b81c365432fb
+    id: part-69266341
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.6016517553999263
+      y: 2.3734737563643815
+      z: -8.107037518926875
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 1.7681790734478626
+      y: 0.20000000000000004
+      z: -0.030871114115500115
+  part-38586606:
+    identifier: 6a7ae7f7-ee8c-4402-8d4d-c78bfd49899d
+    id: part-38586606
+    material: YELLOW_CONCRETE
+    offset:
+      x: 0.026570713746859004
+      y: 1.1396233985709834
+      z: 1.5881182314994813
+    rotation:
+      x: -90.00000000000054
+      y: 2.65791122781714E-13
+      z: 179.99999999999997
+    scale:
+      x: 0.09041099766983979
+      y: 0.16488109141801585
+      z: 0.04115684825081081
+  part-106571285:
+    identifier: 5ea86e06-5407-4aff-9200-c2b9b50f0b32
+    id: part-106571285
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.4008352205790079
+      y: 0.1
+      z: -5.565161632401654
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.4146591083489698
+      z: 1.3000000000000003
+  part-74593326:
+    identifier: a9e74b54-0a71-478b-91b2-87873b4df75f
+    id: part-74593326
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFiYmY1NGQ2ZDI1MDE0N2U2ZTdhYjA3OWM5ZThjNzYyOTAwNTBjMDA4NmUyNDRjOWZmODFjMTU4M2Q5MDg5YSJ9fX0=
+    offset:
+      x: 0.5902742838921
+      y: 0.7839492696964059
+      z: -1.8375284609347482
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 1.0382517780210194
+      y: 0.7187958789802784
+      z: 0.09655200331939133
+  part-53990161:
+    identifier: d58134e8-ab5c-4097-b7f6-2fbaa36118cc
+    id: part-53990161
+    material: RED_WOOL
+    offset:
+      x: -0.6089159232038349
+      y: 1.146524377957869
+      z: -3.6548068672691025
+    rotation:
+      x: 0.0
+      y: -1.6697912077683462E-13
+      z: 0.0
+    scale:
+      x: 1.397980615232278
+      y: 0.24689445476532648
+      z: 1.006696623201719
+  part-114966581:
+    identifier: b0920ba1-a095-4f9a-baa4-8928f1f6729f
+    id: part-114966581
+    material: RED_CONCRETE
+    offset:
+      x: -0.4008352205790082
+      y: 0.3920672611168831
+      z: -6.742464914073756
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5070000574536195
+      z: 2.417564131056771
+  part-50461702:
+    identifier: 259d6bc5-afe7-42dd-9625-eb496c022da9
+    id: part-50461702
+    material: RED_CONCRETE
+    offset:
+      x: -1.4521807137213167
+      y: 0.5171422457086321
+      z: 3.9801090089248916
+    rotation:
+      x: 90.0000000000004
+      y: 80.00000000000043
+      z: -90.00000000000055
+    scale:
+      x: 0.6460175995665786
+      y: 0.1293676191843097
+      z: 0.9995962605049938
+  part-93722534:
+    identifier: f52321bc-1499-42b7-9af0-ea07dd3cde69
+    id: part-93722534
+    material: RED_SHULKER_BOX
+    offset:
+      x: 1.10148985552255
+      y: 0.48924655169334774
+      z: -2.7205398160434497
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 2.0000000000000004
+      y: 0.6428407627355663
+      z: 0.32594608833950806
+  part-116192176:
+    identifier: 18072a9b-efdf-4cab-8c51-644f5f77c24b
+    id: part-116192176
+    material: YELLOW_CONCRETE
+    offset:
+      x: 0.1590962974180274
+      y: 1.1432110997169334
+      z: 1.6089797507939314
+    rotation:
+      x: -90.0000000000002
+      y: 6.3611093629270335E-15
+      z: 90.00000000000004
+    scale:
+      x: 0.09041099766983979
+      y: 0.23240656965008624
+      z: 0.04115684825081081
+  part-7319423:
+    identifier: e1730ae3-8311-44c0-991a-14efb28fb4e4
+    id: part-7319423
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwYjcwMDlhZGE4ZDkyYWY2OTRmZGMxZmRmZDkxNDU1OGFiNmEwNjkwOGVjZDIyNzJiNjFiNmM4YmU0OTM4NSJ9fX0=
+    offset:
+      x: 1.5884038080998901
+      y: 3.1236782543342927
+      z: -7.354471040540726
+    rotation:
+      x: 180.0
+      y: 90.0
+      z: 180.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 0.10000000000000012
+  part-91129747:
+    identifier: d3c9e8b3-ed02-47b3-8c8d-1f8d886db9d3
+    id: part-91129747
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.40207902541389917
+      y: 0.6617938495504733
+      z: 2.5080535874222774
+    rotation:
+      x: 20.000000000000004
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.2629660120727442
+      z: 1.0
+  part-100108318:
+    identifier: 8b11793d-7260-488b-bc01-ba7a5eca1e43
+    id: part-100108318
+    material: RED_CONCRETE
+    offset:
+      x: -1.3018676341030746
+      y: 2.5
+      z: -7.574294701708801
+    rotation:
+      x: -30.00000000000003
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.7960847286323056
+      y: 1.0
+      z: 0.1691288858844999
+  part-57859561:
+    identifier: f966b95e-adc4-4863-82f1-5fe4c4820a15
+    id: part-57859561
+    material: YELLOW_CONCRETE
+    offset:
+      x: 0.1590962974180274
+      y: 1.136604641959571
+      z: 2.027265330401653
+    rotation:
+      x: -90.0000000000002
+      y: 6.3611093629270335E-15
+      z: 90.00000000000004
+    scale:
+      x: 0.09041099766983979
+      y: 0.2261069558918394
+      z: 0.04115684825081081
+  part-65704885:
+    identifier: 82f17d08-c106-431a-89b4-3ddb372cb5fa
+    id: part-65704885
+    material: RED_CONCRETE
+    offset:
+      x: -0.6929626558383022
+      y: 0.48924655169334774
+      z: -4.589120336963939
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.2232237672090949
+      y: 0.3428407627355664
+      z: 0.21531541931078996
+  part-109618121:
+    identifier: 4bf97683-6a39-438c-8f7b-b1ae15adf4d8
+    id: part-109618121
+    material: GRAY_SHULKER_BOX
+    offset:
+      x: -0.6999999999999993
+      y: 0.0
+      z: 0.4999999999999999
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.5999999999999996
+      y: 0.10000000000000009
+      z: 0.6999999999999992
+  part-123302803:
+    identifier: 3b682e13-7ba2-4b37-9e40-58b46a82d5f8
+    id: part-123302803
+    material: RED_CONCRETE
+    offset:
+      x: -0.7205571990650044
+      y: 0.48924655169334774
+      z: -3.910264773946617
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 0.8999999999999997
+      y: 0.5428407627355664
+      z: 0.18759041595192202
+  part-38774800:
+    identifier: d9c7a4a8-3f2f-4665-8772-88ca6337e40f
+    id: part-38774800
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: 1.5014580659906553
+      y: 0.4
+      z: -6.090352265279965
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 2.0399459100769075
+      y: 1.9206248221062792
+      z: 1.9392222724866608
+  part-52468384:
+    identifier: 755e8c2a-a65b-48c6-91d9-804b66a26dea
+    id: part-52468384
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.39373551800024476
+      y: 0.3105475226783677
+      z: 2.5101421862532622
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.2639053711030807
+      z: 1.0
+  part-46461951:
+    identifier: 71766f68-0ae3-4c73-9d5a-bc07527b185d
+    id: part-46461951
+    material: GRAY_SHULKER_BOX
+    offset:
+      x: -1.2000000000000006
+      y: 0.0
+      z: -4.899999999999998
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.6000000000000005
+      y: 0.10000000000000009
+      z: 5.428350420159297
+  part-30149224:
+    identifier: 4dd58a23-71e2-4fcf-9306-b54788a8a733
+    id: part-30149224
+    material: RED_WOOL
+    offset:
+      x: -0.40891592320383674
+      y: 1.3917458816876351
+      z: -2.8548068672691014
+    rotation:
+      x: 0.0
+      y: -1.6697912077683462E-13
+      z: 0.0
+    scale:
+      x: 0.997980615232278
+      y: 0.34689445476532654
+      z: 0.20669662320171897
+  part-63183719:
+    identifier: 63384ee5-bcab-4bfa-a8f1-15130891fc3d
+    id: part-63183719
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzE2ODUzOTU3ZDhmZTg3MmFmOGMzZmM3NjhjZTI3ZmVhNjk5NTI1Mjk2MmNiYTRjYjA5M2JhZjRjZDBhMDVhMyJ9fX0=
+    offset:
+      x: 0.3402472369662463
+      y: 1.1256804930258877
+      z: -7.073261378055899
+    rotation:
+      x: 180.0
+      y: -1.6618398210646874E-13
+      z: 180.0
+    scale:
+      x: 0.8155139834747934
+      y: 0.6200050759182901
+      z: 0.1562113930234767
+  part-33634698:
+    identifier: 2d066c0d-bd65-43ef-9a9a-a7fa9a6e2b3d
+    id: part-33634698
+    material: RED_SHULKER_BOX
+    offset:
+      x: 0.042947797895559005
+      y: 1.4708660670160225
+      z: -3.8737039531347257
+    rotation:
+      x: 0.0
+      y: -1.6697912077683462E-13
+      z: 0.0
+    scale:
+      x: 0.09798061523227788
+      y: 0.34689445476532654
+      z: 1.106696623201719
+  part-56701728:
+    identifier: 65d114a1-06a4-4b03-9c6d-ebc531d6cd0b
+    id: part-56701728
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzE2ODUzOTU3ZDhmZTg3MmFmOGMzZmM3NjhjZTI3ZmVhNjk5NTI1Mjk2MmNiYTRjYjA5M2JhZjRjZDBhMDVhMyJ9fX0=
+    offset:
+      x: -0.1969725655901922
+      y: 1.1256804930258877
+      z: -7.073261378055899
+    rotation:
+      x: 180.0
+      y: -1.6618398210646874E-13
+      z: 180.0
+    scale:
+      x: 0.8155139834747934
+      y: 0.6138350446871517
+      z: 0.1562113930234767
+  part-68664204:
+    identifier: 3bc4eb78-0b36-4f9f-9f49-742b8cee4d21
+    id: part-68664204
+    material: GRAY_CONCRETE
+    offset:
+      x: 0.5973484870747688
+      y: 0.31766842244929727
+      z: -6.496083873074994
+    rotation:
+      x: 180.0
+      y: 4.3732626870123355E-14
+      z: 180.0
+    scale:
+      x: 1.0
+      y: 0.30504442595360254
+      z: 0.5885779618108165
+  part-20045102:
+    identifier: 5ed38588-9011-422d-ac9a-a646cfb42de7
+    id: part-20045102
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: 0.3296055526201131
+      y: 1.285594902031426
+      z: -1.5000986874754707
+    rotation:
+      x: 40.000000000000014
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.05488045123344264
+      y: 0.0534960602571011
+      z: 0.044178619390094334
+  part-115759158:
+    identifier: 2dccdf43-a15f-46e6-b4ea-427dd0194c5c
+    id: part-115759158
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwYjcwMDlhZGE4ZDkyYWY2OTRmZGMxZmRmZDkxNDU1OGFiNmEwNjkwOGVjZDIyNzJiNjFiNmM4YmU0OTM4NSJ9fX0=
+    offset:
+      x: -1.4481035472157848
+      y: 3.1236782543342927
+      z: -6.785681733838975
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 0.10000000000000012
+  part-111861513:
+    identifier: c389cd87-225f-44fe-ac73-411ae4f4e339
+    id: part-111861513
+    material: GREEN_TERRACOTTA
+    offset:
+      x: -0.20595581556900044
+      y: 1.323516928755221
+      z: -1.4668315034301773
+    rotation:
+      x: 40.000000000000014
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.05488045123344264
+      y: 0.0534960602571011
+      z: 0.044178619390094334
+  part-58117175:
+    identifier: 6d3a604e-5d5e-43c6-bff4-f048c39a1e08
+    id: part-58117175
+    material: RED_CONCRETE
+    offset:
+      x: -1.3018676341030746
+      y: 2.5
+      z: -8.103684701813352
+    rotation:
+      x: 179.99999999999997
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 1.7681790734478626
+      y: 1.0
+      z: 0.1691288858844999
+  part-75443527:
+    identifier: 6a769aa2-3acc-4edc-bbe9-4a0364194a69
+    id: part-75443527
+    material: GRAY_CONCRETE
+    offset:
+      x: 0.5991647794209917
+      y: 0.5988830310705002
+      z: -6.858140664558858
+    rotation:
+      x: 180.0
+      y: 4.3732626870123355E-14
+      z: 180.0
+    scale:
+      x: 1.0
+      y: 0.8340942913646788
+      z: 0.22308223351794554
+  part-62090271:
+    identifier: 355f073c-a7a1-4226-9802-5271e5209043
+    id: part-62090271
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ2MmVkZDUyYWI0ODkzNDFjOWIyM2NjZmNkZDY2YzJkMDVmNzhmMWQ5NDZiY2QxZTQyMGE0MmIyODVmZjIyNCJ9fX0=
+    offset:
+      x: -1.4481035472157848
+      y: 3.1236782543342927
+      z: -7.354471040540726
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 0.10000000000000012
+  part-87835476:
+    identifier: d4a43407-44c3-4245-bb62-dda274851f3f
+    id: part-87835476
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdhNDZjMjk4ZDQzMWM1OTFlMDVmOGU1ZmVlZTkwM2RmODNjMmYyOWFjOWQ2YTI1NTliZTk1NWYxNDY1YjM1MSJ9fX0=
+    offset:
+      x: 0.12433099239989368
+      y: 1.804829074695875
+      z: -2.739687306378288
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.9
+      z: 0.30000000000000016
+  part-31266892:
+    identifier: d4b8675d-f1a5-4a5a-9fc6-00ead7030b85
+    id: part-31266892
+    material: GRAY_CONCRETE
+    offset:
+      x: 0.19918592024966839
+      y: 0.30000000000000004
+      z: -7.153821333290649
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 1.9225614420079014
+      y: 0.17105532609611382
+      z: 0.20517255266384213
+  part-4044012:
+    identifier: a185f599-0212-4023-8bd9-24a0e5d4ce3e
+    id: part-4044012
+    material: RED_CONCRETE
+    offset:
+      x: 0.5991647794209918
+      y: 0.6156445336695545
+      z: -6.7340980122324305
+    rotation:
+      x: 180.0
+      y: 4.3732626870123355E-14
+      z: 180.0
+    scale:
+      x: 1.0
+      y: 0.8140279243480623
+      z: 0.12682541363853192
+  part-113758900:
+    identifier: ba6c1945-d164-4c2d-aba3-cd0a08011c09
+    id: part-113758900
+    material: GRAY_CONCRETE
+    offset:
+      x: 0.0
+      y: 2.1999999999999997
+      z: -7.274294701708803
+    rotation:
+      x: -40.00000000000004
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.17675782750749508
+      y: 0.7607016213210476
+      z: 0.483713510893811
+  part-54500611:
+    identifier: 033f42ce-2149-4241-80e6-39ee32a600ee
+    id: part-54500611
+    material: RED_CONCRETE
+    offset:
+      x: 1.107037344161698
+      y: 0.48924655169334774
+      z: -4.589120336963939
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.2232237672090949
+      y: 0.3428407627355664
+      z: 0.21531541931078996
+  part-93869022:
+    identifier: 1220cabf-2638-4af8-8a76-d5b6ee0e2382
+    id: part-93869022
+    material: RED_CONCRETE
+    offset:
+      x: -0.7235972266855714
+      y: 0.48924655169334774
+      z: -5.354806867269103
+    rotation:
+      x: 0.0
+      y: -1.6697912077683462E-13
+      z: 0.0
+    scale:
+      x: 1.6423358578176677
+      y: 0.6428407627355663
+      z: 2.220732008158997
+  part-22684078:
+    identifier: 44dd2d27-2b00-421d-bd04-2bcd218e32bf
+    id: part-22684078
+    material: RED_CONCRETE
+    offset:
+      x: 1.5981323658969255
+      y: 2.5
+      z: -8.103684701813352
+    rotation:
+      x: 179.99999999999997
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 1.7681790734478626
+      y: 1.0
+      z: 0.1691288858844999
+  part-51079994:
+    identifier: aeba9bfe-ff6d-4d3a-976c-d2c1f3d6ff36
+    id: part-51079994
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.273977333937364
+      y: 1.8324402519795835
+      z: -6.986501122220963
+    rotation:
+      x: -40.00000000000017
+      y: -3.1805546814635168E-15
+      z: 90.00000000000007
+    scale:
+      x: 0.14433423427353534
+      y: 2.3531103820528436
+      z: 0.19167582805190883
+  part-95658578:
+    identifier: bd21e165-1b5c-47c4-b294-dd9bf4a1edef
+    id: part-95658578
+    material: RED_CONCRETE
+    offset:
+      x: 0.44991800702462836
+      y: 0.34556133608990847
+      z: 3.9801090089248916
+    rotation:
+      x: -90.00000000000018
+      y: 80.00000000000006
+      z: 90.00000000000018
+    scale:
+      x: 0.6460175995665786
+      y: 0.1293676191843097
+      z: 0.9995962605049938
+  part-109981780:
+    identifier: 35d67195-8c59-4523-884d-ce33fd3ffb8b
+    id: part-109981780
+    material: RED_CONCRETE
+    offset:
+      x: 0.85043969836372
+      y: 0.48924655169334774
+      z: -2.7205398160434497
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.5733290276569685
+      y: 0.43003123637132423
+      z: 0.2402811096203738
+  part-49343948:
+    identifier: 04ac36fc-f593-436f-8e3f-9ae82c33ec24
+    id: part-49343948
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: -1.198541934009345
+      y: 0.4
+      z: -6.090352265279965
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 2.0399459100769075
+      y: 1.9206248221062792
+      z: 1.9392222724866608
+  part-26471741:
+    identifier: b0c9ff0d-2ee5-4247-adb5-f5712b13d5d6
+    id: part-26471741
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.4008352205790095
+      y: 0.1
+      z: -0.49999999999999656
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.30504442595360254
+      z: 1.3000000000000003
+  part-39556674:
+    identifier: 1d561d16-1c63-4ba8-a62f-dcf341733ba5
+    id: part-39556674
+    material: GRAY_CONCRETE
+    offset:
+      x: 0.01696068953097231
+      y: 0.7956461294943604
+      z: -5.887099948143166
+    rotation:
+      x: -40.00000000000004
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.14433423427353534
+      y: 2.6846618477101294
+      z: 0.19167582805190883
+  part-100445204:
+    identifier: 9bc89e7f-021d-48c0-9c50-e74c967b04c7
+    id: part-100445204
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzE2ODUzOTU3ZDhmZTg3MmFmOGMzZmM3NjhjZTI3ZmVhNjk5NTI1Mjk2MmNiYTRjYjA5M2JhZjRjZDBhMDVhMyJ9fX0=
+    offset:
+      x: 0.3402472369662463
+      y: 0.6883746310864644
+      z: -7.073261378055899
+    rotation:
+      x: 180.0
+      y: -1.6618398210646874E-13
+      z: 180.0
+    scale:
+      x: 0.8155139834747934
+      y: 0.6350627972086773
+      z: 0.1562113930234767
+  part-30517889:
+    identifier: 53ae12f1-5d1d-41f2-9a42-468603e0e2c1
+    id: part-30517889
+    material: RED_SHULKER_BOX
+    offset:
+      x: 0.042947797895559005
+      y: 1.82072971230797
+      z: -3.548149283317057
+    rotation:
+      x: 0.0
+      y: -1.6697912077683462E-13
+      z: 0.0
+    scale:
+      x: 0.09798061523227788
+      y: 0.2468944547653265
+      z: 0.806696623201719
+  part-45564960:
+    identifier: c987c84e-01f3-4dd1-9345-490748135e64
+    id: part-45564960
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.8999999999999998
+      y: 0.30000000000000004
+      z: -6.197286468510797
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.9225614420079014
+      y: 0.20000000000000015
+      z: 0.20517255266384213
+  part-18167380:
+    identifier: a3d2655e-8a21-4dad-beea-ed753655c068
+    id: part-18167380
+    material: RED_CONCRETE
+    offset:
+      x: -0.9088563118627698
+      y: 0.48924655169334774
+      z: -3.154806867269102
+    rotation:
+      x: 0.0
+      y: -1.6697912077683462E-13
+      z: 0.0
+    scale:
+      x: 2.019679601385464
+      y: 0.6375031261128152
+      z: 0.4875904159519223
+  part-14972223:
+    identifier: 76fe48ba-cd5e-4be6-8d7c-127b9e3439db
+    id: part-14972223
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwYjcwMDlhZGE4ZDkyYWY2OTRmZGMxZmRmZDkxNDU1OGFiNmEwNjkwOGVjZDIyNzJiNjFiNmM4YmU0OTM4NSJ9fX0=
+    offset:
+      x: -0.9314641699450075
+      y: 0.8286982329357948
+      z: -3.0530541099054047
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 0.10000000000000012
+  part-89219439:
+    identifier: da1220e9-cb81-461e-81d1-769125d98c99
+    id: part-89219439
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.273977333937364
+      y: 1.5324402519795832
+      z: -6.686501122220964
+    rotation:
+      x: -40.00000000000017
+      y: -3.1805546814635168E-15
+      z: 90.00000000000007
+    scale:
+      x: 0.14433423427353534
+      y: 2.3531103820528436
+      z: 0.19167582805190883
+  part-40698796:
+    identifier: 0d568c27-9feb-46b1-a311-0a792e239b82
+    id: part-40698796
+    material: GREEN_TERRACOTTA
+    offset:
+      x: 0.3342666810132197
+      y: 1.3285427083370869
+      z: -1.4668315034301773
+    rotation:
+      x: 40.000000000000014
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.05488045123344264
+      y: 0.0534960602571011
+      z: 0.044178619390094334
+  part-10634425:
+    identifier: 90397161-8e5a-4c85-a476-4be39581d194
+    id: part-10634425
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.4194531032422448
+      y: 0.42625327704943144
+      z: -2.360786981065568
+    rotation:
+      x: -15.000000000000002
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.1
+      y: 1.2000000000000002
+      z: 0.0999999999999999
+  part-61783829:
+    identifier: c23422bf-0adf-48de-b541-1c5f4c2b8e13
+    id: part-61783829
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.2292515652090317
+      y: 0.5996381565801879
+      z: 3.3338634669895986
+    rotation:
+      x: -90.0
+      y: -80.00000000000001
+      z: -90.00000000000003
+    scale:
+      x: 0.6422028675142424
+      y: 0.0665998008508079
+      z: 0.20517255266384213
+  part-10552288:
+    identifier: 61608647-aa69-4f98-ba6f-121f9f9d5d5c
+    id: part-10552288
+    material: RED_SHULKER_BOX
+    offset:
+      x: -0.4977865740855627
+      y: 0.48924655169334774
+      z: -2.7205398160434497
+    rotation:
+      x: 0.0
+      y: -90.0
+      z: 0.0
+    scale:
+      x: 2.1000000000000005
+      y: 0.6428407627355663
+      z: 0.40063111585931566
+  part-98826056:
+    identifier: 4b352358-94c3-4e53-b6a8-df39c4b1492a
+    id: part-98826056
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.39373551800024476
+      y: 0.3105475226783677
+      z: 2.5101421862532622
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.344572526957875
+      z: 0.46909907690572883
+  part-92907595:
+    identifier: 4b0ba8d9-0a10-4686-80b8-ef5239d5a6de
+    id: part-92907595
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQwYjcwMDlhZGE4ZDkyYWY2OTRmZGMxZmRmZDkxNDU1OGFiNmEwNjkwOGVjZDIyNzJiNjFiNmM4YmU0OTM4NSJ9fX0=
+    offset:
+      x: 0.0923341576121541
+      y: 0.9235667794510173
+      z: 2.7220696900317143
+    rotation:
+      x: -70.00000000000004
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 0.10000000000000012
+  part-6296941:
+    identifier: 10bc9c26-fa66-4c37-872c-560d27658499
+    id: part-6296941
+    material: RED_CONCRETE
+    offset:
+      x: -0.4010638272619229
+      y: 1.0149879442984135
+      z: 2.0769585068060588
+    rotation:
+      x: 19.99999999999994
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.1293676191843097
+      z: 1.7930521863757611
+  part-115581558:
+    identifier: e81f3f06-58ff-4713-ad65-0ece33d8bf2c
+    id: part-115581558
+    material: RED_CONCRETE
+    offset:
+      x: 0.31822183912553764
+      y: 1.2265266163766297
+      z: -1.5425168236776983
+    rotation:
+      x: 40.000000000000014
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.05488045123344264
+      y: 0.0534960602571011
+      z: 0.044178619390094334
+  part-91708205:
+    identifier: 74290ee6-ddaf-47b3-8155-762fcd4172ed
+    id: part-91708205
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: -1.098541934009346
+      y: 0.4
+      z: 1.2015146369785286
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 2.0399459100769075
+      y: 1.9206248221062792
+      z: 1.9392222724866608
+  part-26512412:
+    identifier: 58d320ab-1425-42d7-a8d0-4748327f1bac
+    id: part-26512412
+    material: YELLOW_CONCRETE
+    offset:
+      x: 0.1566123382213333
+      y: 1.1310677954177961
+      z: 1.7890723009663492
+    rotation:
+      x: -90.00000000000054
+      y: 2.65791122781714E-13
+      z: 179.99999999999997
+    scale:
+      x: 0.09041099766983979
+      y: 0.22643096934458729
+      z: 0.04115684825081081
+  part-116491290:
+    identifier: 1a5f29fc-77b5-4a09-976c-d89bf32c829c
+    id: part-116491290
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: 1.5014580659906553
+      y: 0.4
+      z: 1.2015146369785286
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 2.0399459100769075
+      y: 1.9206248221062792
+      z: 1.9392222724866608
+  part-37690681:
+    identifier: 0202e4d8-aa48-47cb-9981-8eb2054043f6
+    id: part-37690681
+    material: RED_SHULKER_BOX
+    offset:
+      x: 0.16220227927497238
+      y: 1.30119871154139
+      z: -4.301677372514368
+    rotation:
+      x: -90.0
+      y: -90.0
+      z: -149.03624346792648
+    scale:
+      x: 0.43053810265659187
+      y: 0.5428407627355664
+      z: 0.1281196002026483
+bones:
+  back-wheels:
+    identifier: 5a67511c-d385-495b-a110-611e22b09f54
+    id: back-wheels
+    pivot:
+      x: 0.0
+      y: 0.4
+      z: -1.4999999999999996
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  front-wheels:
+    identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+    id: front-wheels
+    pivot:
+      x: 0.0
+      y: 0.4
+      z: 1.7000000000000002
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+rig:
+  74290ee6-ddaf-47b3-8155-762fcd4172ed:
+    identifier: 74290ee6-ddaf-47b3-8155-762fcd4172ed
+    parent: ec1a4785-a7db-4882-aa93-bf57f578008d
+  d9c7a4a8-3f2f-4665-8772-88ca6337e40f:
+    identifier: d9c7a4a8-3f2f-4665-8772-88ca6337e40f
+    parent: 5a67511c-d385-495b-a110-611e22b09f54
+  ec1a4785-a7db-4882-aa93-bf57f578008d:
+    identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+    children:
+      - 1a5f29fc-77b5-4a09-976c-d89bf32c829c
+      - 74290ee6-ddaf-47b3-8155-762fcd4172ed
+  1a5f29fc-77b5-4a09-976c-d89bf32c829c:
+    identifier: 1a5f29fc-77b5-4a09-976c-d89bf32c829c
+    parent: ec1a4785-a7db-4882-aa93-bf57f578008d
+  04ac36fc-f593-436f-8e3f-9ae82c33ec24:
+    identifier: 04ac36fc-f593-436f-8e3f-9ae82c33ec24
+    parent: 5a67511c-d385-495b-a110-611e22b09f54
+  5a67511c-d385-495b-a110-611e22b09f54:
+    identifier: 5a67511c-d385-495b-a110-611e22b09f54
+    children:
+      - d9c7a4a8-3f2f-4665-8772-88ca6337e40f
+      - 04ac36fc-f593-436f-8e3f-9ae82c33ec24
+animations:
+  wheel-spin-forward:
+    id: wheel-spin-forward
+    interpolation-mode: SMOOTH
+    loop-mode: LOOP
+    keyframes:
+      keyframe-0:
+        duration: 1
+        translations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 0.0
+              y: -0.30000000000000004
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 45.00000000000006
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-1:
+        duration: 1
+        translations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -0.1
+              y: -0.5
+              z: -0.5
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 90.00000000000013
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-2:
+        duration: 1
+        translations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -0.1
+              y: -0.30000000000000004
+              z: -0.8999999999999999
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+        rotations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: 145.00000000000017
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 0.0
+              y: 0.0
+              z: 0.0
+      keyframe-3:
+        duration: 2
+        translations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -0.30000000000000004
+              y: 0.3999999999999999
+              z: -0.4999999999999999
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 2.7755575615628914E-17
+              y: -1.6000000000000003
+              z: -0.3
+        rotations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -90.00000000000026
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 20.000000000000007
+              y: 0.0
+              z: 0.0
+      keyframe-4:
+        duration: 2
+        translations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -0.30000000000000004
+              y: 0.3999999999999999
+              z: -0.4999999999999999
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 2.7755575615628914E-17
+              y: -4.000000000000003
+              z: -2.3000000000000007
+        rotations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -90.00000000000026
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 60.00000000000004
+              y: 0.0
+              z: 0.0
+      keyframe-5:
+        duration: 2
+        translations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -0.30000000000000004
+              y: 0.3999999999999999
+              z: -0.4999999999999999
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 2.7755575615628914E-17
+              y: -4.000000000000003
+              z: -6.899999999999999
+        rotations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -90.00000000000026
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 120.00000000000017
+              y: 0.0
+              z: 0.0
+      keyframe-6:
+        duration: 0
+        translations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -0.30000000000000004
+              y: 0.3999999999999999
+              z: -0.4999999999999999
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 2.7755575615628914E-17
+              y: -1.915134717478395E-15
+              z: -9.199999999999996
+        rotations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -90.00000000000026
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -179.99999999999983
+              y: 0.0
+              z: -0.0
+      keyframe-7:
+        duration: 0
+        translations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -0.30000000000000004
+              y: 0.3999999999999999
+              z: -0.4999999999999999
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: 2.7755575615628914E-17
+              y: -1.915134717478395E-15
+              z: -9.199999999999996
+        rotations:
+          v-0:
+            identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+            value:
+              x: -90.00000000000026
+              y: 0.0
+              z: 0.0
+          v-1:
+            identifier: 5a67511c-d385-495b-a110-611e22b09f54
+            value:
+              x: -179.99999999999983
+              y: 0.0
+              z: -0.0
+    states-to-apply: moving_backwards,moving,moving_backwards_turning_left,moving_turning_left,moving_backwards_turning_right,moving_turning_right

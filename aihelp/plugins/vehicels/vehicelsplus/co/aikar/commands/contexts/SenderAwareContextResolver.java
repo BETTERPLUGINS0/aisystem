@@ -1,0 +1,14 @@
+/*
+ * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
+ */
+package co.aikar.commands.contexts;
+
+import co.aikar.commands.CommandExecutionContext;
+import co.aikar.commands.CommandIssuer;
+import co.aikar.commands.contexts.IssuerAwareContextResolver;
+
+@Deprecated
+public interface SenderAwareContextResolver<T, C extends CommandExecutionContext<?, ? extends CommandIssuer>>
+extends IssuerAwareContextResolver<T, C> {
+}
+

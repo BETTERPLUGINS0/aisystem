@@ -1,0 +1,44 @@
+id: tank
+name: 'Tank'
+
+exit-shortcut:
+  operator: CROUCH
+
+model: tank
+upgrade: ground-vehicle-upgrades
+
+item-storage-slots: 2
+
+fuel:
+  capacity: 100
+  min-consumption: 0.08
+  max-consumption: 0.010
+
+controllers:
+  main:
+    id: ground-vehicle
+
+pickup-item: 'tank-spawner'
+
+physics:
+  # whether can float on liquid surfaces
+  floats: false
+  
+  gravity:
+    maximum: 2.48
+    acceleration: 0.040
+  
+  friction:
+    air: 15
+    on-unknown: 70
+    on-solid: 100
+    on-dusty: 60
+    on-snowy: 60
+    on-slippery: 40
+    on-water: 40
+    on-lava: 60
+    through-water: 50
+    through-lava: 90
+
+  climbing:
+    block-climb-capacity: 2

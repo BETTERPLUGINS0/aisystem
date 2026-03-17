@@ -1,0 +1,2428 @@
+id: SUV
+type: COMPOUND
+hitbox:
+  width: 3.0543863844543107
+  height: 2.3981518765499414
+  depth: 3.0543863844543107
+seats:
+  seat-0:
+    main: false
+    offset:
+      x: 0.7962920104539327
+      y: 1.285844702977978
+      z: 0.38417635882959184
+  seat-1:
+    main: false
+    offset:
+      x: -0.004539411125512097
+      y: 1.303089112863003
+      z: -1.4159619539631014
+  seat-2:
+    main: true
+    offset:
+      x: -0.7835469481721361
+      y: 1.285844702977978
+      z: 0.38417635882959184
+  seat-3:
+    main: false
+    offset:
+      x: 0.9351729403747343
+      y: 1.303089112863003
+      z: -1.4159619539631014
+  seat-4:
+    main: false
+    offset:
+      x: -0.963184475444213
+      y: 1.303089112863003
+      z: -1.384036564572047
+particles: { }
+sounds: { }
+parts:
+  part-99744978:
+    identifier: 750a88c5-b2b3-41d7-adcc-698a1128a64a
+    id: part-99744978
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: -0.355064586188781
+      y: 0.77994907755784
+      z: -1.717318978871609
+    rotation:
+      x: -100.00000000000053
+      y: 4.594616171524093E-15
+      z: -179.99999999999983
+    scale:
+      x: 0.9572880185610604
+      y: 0.2602826362475527
+      z: 1.553446574486213
+  part-43032749:
+    identifier: ef05ed5e-ae65-4f1e-9484-88316da20cca
+    id: part-43032749
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.5205280340767628
+      y: 2.1499961868454633
+      z: -4.642777107051106
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.04633703619310764
+      z: 1.7873348229201478
+  part-106104348:
+    identifier: 38324f67-b798-4a68-bdc5-7271cdcb489e
+    id: part-106104348
+    material: GRAY_SHULKER_BOX
+    offset:
+      x: 1.172473069123773
+      y: 2.0581148373071434
+      z: -0.13975296472618942
+    rotation:
+      x: -90.00000000000057
+      y: 4.490705685257854E-15
+      z: -180.0
+    scale:
+      x: 0.797875286861896
+      y: 0.3197611456124205
+      z: 0.6264873865334974
+  part-114534314:
+    identifier: ff512a8d-dd45-4084-a815-0f6f66028fd8
+    id: part-114534314
+    material: BLACK_CONCRETE
+    offset:
+      x: 0.9888122709566859
+      y: 1.4740642884364537
+      z: 1.339928613279321
+    rotation:
+      x: 0.0
+      y: 7.156248033292912E-15
+      z: -25.00000000000001
+    scale:
+      x: 0.10025513385077416
+      y: 0.415312833284607
+      z: 0.10033953866144588
+  part-120482460:
+    identifier: 915074bf-7d04-4a9f-987e-7cd997692880
+    id: part-120482460
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.70540348886479
+      y: 0.7547127047154212
+      z: -4.4114120310306015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 1.4152656074020369
+      z: 0.8000000000000004
+  part-22260647:
+    identifier: 6ed960cb-7550-4064-925a-a2a477122d88
+    id: part-22260647
+    material: RED_CONCRETE
+    offset:
+      x: 1.1
+      y: 1.254603591863021
+      z: -4.711412031030603
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5035899683693058
+      y: 0.8
+      z: 0.29999999999999993
+  part-67620406:
+    identifier: 16e4b09f-641d-488a-8196-8a42dbf3153d
+    id: part-67620406
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.3
+      y: 0.6864495403693338
+      z: -2.011412031030598
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 0.19999999999999993
+      y: 1.0000000000000002
+      z: 2.6000000000000014
+  part-10375731:
+    identifier: 731dc171-0498-44c8-83d4-dc06c77baa12
+    id: part-10375731
+    material: BLACK_CONCRETE
+    offset:
+      x: -1.2
+      y: 0.754603591863021
+      z: -4.355031440024027
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.500000000000001
+      y: 0.9
+      z: 0.7
+  part-109551320:
+    identifier: d6866321-0527-4785-916a-0bd02c7443a6
+    id: part-109551320
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.8000000000000003
+      y: 0.877972285405158
+      z: -2.05159206725923
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.09999999999999964
+      y: 0.8
+      z: 0.29999999999999993
+  part-65803926:
+    identifier: 91fca571-23ba-4a7c-a0e1-e48229b015a0
+    id: part-65803926
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: -1.5941145077408856
+      y: 0.3546035918630207
+      z: -2.0114120310305963
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 3.300000000000001
+      y: 0.29999999999999993
+      z: 4.1000000000000005
+  part-64357382:
+    identifier: d1d69dc7-3446-4d4c-952e-34bd44c31e81
+    id: part-64357382
+    material: BLACK_CONCRETE
+    offset:
+      x: -1.3
+      y: 1.5514329408036738
+      z: 1.762599520001865
+    rotation:
+      x: 25.00000000000001
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5000000000000001
+      y: 0.0444998377557562
+      z: 0.09999999999999998
+  part-82004879:
+    identifier: cd98efa8-e15b-4198-82a5-46d3740d77de
+    id: part-82004879
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.697063549029806
+      y: 0.6451888111687911
+      z: -4.39306747072774
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.10307931978252419
+      y: 0.30000000000000027
+      z: 0.7399392854123131
+  part-97681551:
+    identifier: c49060f0-4778-4ea9-90d0-efe2accc79b8
+    id: part-97681551
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.4000000000000001
+      y: 1.8779722854051586
+      z: 2.088587968969404
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.8
+      y: 0.20000000000000004
+      z: 1.7
+  part-33010102:
+    identifier: 4586e1c5-728e-40f2-941f-b6e536611df2
+    id: part-33010102
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: 1.1970635490298058
+      y: 0.3536113834417014
+      z: 4.033507735238818
+    rotation:
+      x: 180.0
+      y: -89.99999914622634
+      z: -161.56505117707798
+    scale:
+      x: 0.21109221206564066
+      y: 0.4524071795683285
+      z: 2.4106934478504325
+  part-3365738:
+    identifier: 85264823-144b-4139-8728-b75bf7fc6987
+    id: part-3365738
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.4625226928410031
+      y: 1.5550231775313972
+      z: -3.676121204815081
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.5000000000000006
+      z: 1.6000000000000005
+  part-46565221:
+    identifier: 8821f7d3-b043-4329-8a20-9e34f2672142
+    id: part-46565221
+    material: GLASS
+    offset:
+      x: -1.3690699665822634
+      y: 1.0961011246166752
+      z: -0.04243333314049749
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 2.000000000000001
+      y: 1.0690669896293723
+      z: 0.10000000000000014
+  part-42908825:
+    identifier: e07d6336-ffbd-4ff4-a078-a67103ff2c56
+    id: part-42908825
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: -1.2313080061352957
+      y: 0.7378210980756653
+      z: 0.10163884205217903
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.9510422992422457
+      y: 0.5593836481749822
+      z: 1.0233077323355884
+  part-50832135:
+    identifier: f5c10990-332b-4e98-992c-3573e2c99edb
+    id: part-50832135
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.500000000000001
+      y: 1.8546035918630208
+      z: 1.9016388420521755
+    rotation:
+      x: 1.0416421151647811E-16
+      y: 19.99999999999996
+      z: -1.8366960914578462E-17
+    scale:
+      x: 0.5000000000000001
+      y: 0.29999999999999993
+      z: 0.10000000000000014
+  part-8186581:
+    identifier: 5ee72518-9d24-4a4d-89ad-e67c89626d97
+    id: part-8186581
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.5000000000000002
+      y: 1.486449540369334
+      z: -3.7148719812951936
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.20000000000000037
+      z: 0.702139002360923
+  part-118222731:
+    identifier: 01b15e2f-fbb4-4785-80a8-6f288078217f
+    id: part-118222731
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.3000000000000003
+      y: 0.554603591863021
+      z: 1.3885879689694047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.60579586570403
+      y: 0.7000000000000001
+      z: 0.7000000000000001
+  part-87799091:
+    identifier: ff8cca98-0d62-4a62-a8b5-0543dba73509
+    id: part-87799091
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.8000000000000007
+      y: 1.486449540369334
+      z: -2.614871981295195
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.20000000000000037
+      z: 0.702139002360923
+  part-15634438:
+    identifier: f6fbcf8b-0739-4afe-b81f-490c0e750a64
+    id: part-15634438
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.7000000000000008
+      y: 1.5864495403693342
+      z: 2.085128018704806
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.20000000000000037
+      z: 1.5021390023609236
+  part-84323660:
+    identifier: c90148d7-53c1-4d0d-bca0-5805daa5611f
+    id: part-84323660
+    material: GLASS
+    offset:
+      x: 1.5309300334177365
+      y: 1.7961011246166758
+      z: -1.8424333331404974
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 1.8000000000000007
+      y: 1.0690669896293723
+      z: 0.10000000000000014
+  part-104570836:
+    identifier: 4c88fbaa-6bd2-4515-9766-d901e32250fa
+    id: part-104570836
+    material: GLASS
+    offset:
+      x: 1.5309300334177367
+      y: 1.1961011246166753
+      z: -0.1424333331404975
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 2.0000000000000004
+      y: 1.0690669896293723
+      z: 0.10000000000000014
+  part-33611543:
+    identifier: e5f3c944-deb0-4344-a37c-668c579fd79f
+    id: part-33611543
+    material: BLACK_CONCRETE
+    offset:
+      x: -0.5522021053335667
+      y: 1.479767654626083
+      z: -1.4341975912867475
+    rotation:
+      x: 0.0
+      y: 7.156248033292912E-15
+      z: -25.00000000000001
+    scale:
+      x: 0.10025513385077416
+      y: 0.415312833284607
+      z: 0.10033953866144588
+  part-10218051:
+    identifier: fadf7008-0d87-4504-a428-59cbcddad0bd
+    id: part-10218051
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: 0.5992933076720762
+      y: 0.77994907755784
+      z: -1.717318978871609
+    rotation:
+      x: -100.00000000000053
+      y: 4.594616171524093E-15
+      z: -179.99999999999983
+    scale:
+      x: 0.9572880185610604
+      y: 0.2602826362475527
+      z: 1.553446574486213
+  part-46154824:
+    identifier: d1901921-b765-4d2b-a0ae-8a81841a1eac
+    id: part-46154824
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.4291086632854515
+      y: 0.7547127047154212
+      z: -4.4114120310306015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 1.4000000000000004
+      z: 0.8000000000000004
+  part-78948241:
+    identifier: 035442fe-3319-48e0-b849-87c4b0b5cc76
+    id: part-78948241
+    material: BLACK_CONCRETE
+    offset:
+      x: 0.7097727619546826
+      y: 1.48570367276185
+      z: 1.3350286921896148
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.10950633765095917
+      y: 0.33921544079067895
+      z: 0.10592792513477435
+  part-75425288:
+    identifier: 2be930f2-1d6b-4617-bce4-6f9a7bfd1ee6
+    id: part-75425288
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.6000000000000003
+      y: 2.7988166350256822
+      z: -2.018135266356836
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 3.2
+      y: 0.20000000000000004
+      z: 3.1000000000000005
+  part-59828600:
+    identifier: 2224cb5b-c1e4-4403-adce-e71ed6dd67cc
+    id: part-59828600
+    material: BLACK_CONCRETE
+    offset:
+      x: -1.2989831644021423
+      y: 1.6397871779961373
+      z: 1.8005582923256331
+    rotation:
+      x: 25.00000000000001
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5000000000000001
+      y: 0.0444998377557562
+      z: 0.09999999999999998
+  part-53554204:
+    identifier: 5b6a95c8-442b-45f6-84bd-76a29cc7b57d
+    id: part-53554204
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.5000000000000002
+      y: 1.5864495403693342
+      z: -3.614871981295194
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.20000000000000037
+      z: 1.5021390023609236
+  part-73632455:
+    identifier: 48780142-a30a-481e-a83b-302073082d15
+    id: part-73632455
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: -1.6034446742919324
+      y: 1.0141697269085745
+      z: 3.8016388420521756
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.6000000000000001
+      y: 0.5000000000000001
+      z: 0.19999999999999998
+  part-90545065:
+    identifier: 0ba77aef-a825-48d8-a7b0-98f3ee31f555
+    id: part-90545065
+    material: GRAY_CONCRETE
+    offset:
+      x: 0.3977661392768306
+      y: 0.8817571191111393
+      z: 1.6099189493656443
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.8
+      y: 1.0
+      z: 0.5000000000000001
+  part-65897605:
+    identifier: 898e6c96-f672-43e5-b643-64b49ebb190e
+    id: part-65897605
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.7000000000000004
+      y: 0.877972285405158
+      z: 3.648407932740769
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.09999999999999964
+      y: 0.8
+      z: 0.29999999999999993
+  part-100480531:
+    identifier: 92e680f5-1ef7-4824-b9d5-7fe5c363ddb4
+    id: part-100480531
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.4000000000000001
+      y: 0.5864495403693338
+      z: -2.011412031030598
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.30000000000000027
+      z: 4.100000000000002
+  part-95072356:
+    identifier: d34a8f61-7e50-45d1-b14b-eb0da3e68a23
+    id: part-95072356
+    material: GLASS
+    offset:
+      x: -1.3
+      y: 2.136590793366869
+      z: -2.0114120310305963
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.6000000000000005
+      y: 0.6690669896293724
+      z: 0.10000000000000014
+  part-100944825:
+    identifier: b624d31a-e73d-47f9-a33d-9dbef8ae0d79
+    id: part-100944825
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: 0.30000000000000004
+      y: 0.7378210980756653
+      z: 0.10163884205217903
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.9510422992422457
+      y: 0.5593836481749822
+      z: 1.0233077323355884
+  part-52142971:
+    identifier: 616ca208-80a6-4cea-bc21-175a4270fb63
+    id: part-52142971
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.6
+      y: 0.877972285405158
+      z: 1.84840793274077
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.09999999999999964
+      y: 0.8
+      z: 0.29999999999999993
+  part-75478378:
+    identifier: 27924180-0bcf-44c6-bb9a-03c63d7f2841
+    id: part-75478378
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.3
+      y: 0.654603591863021
+      z: -4.4114120310306015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 1.4984771740697715
+      z: 0.8000000000000004
+  part-113989324:
+    identifier: 6c2bf484-c159-411a-8f0b-a4910bb06d99
+    id: part-113989324
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk5MjRiY2ZkN2VjNmVhNDM3NDM4Yjc1YjcyZWU0MWEyYjU3MTA0ZGJhMjVlY2FmYTYxMThlNjhlMWI4MWM5ZCJ9fX0=
+    offset:
+      x: 0.16204419964465067
+      y: 1.6594424054680796
+      z: 1.815920375398237
+    rotation:
+      x: 114.99999999999997
+      y: -2.0007543417460987E-15
+      z: 180.0
+    scale:
+      x: 0.7999999999999999
+      y: 0.10000000000000014
+      z: 0.5000000000000001
+  part-111553493:
+    identifier: efc20b70-4e0d-433a-9fb0-b12ffa6dfd7c
+    id: part-111553493
+    material: ORANGE_CONCRETE
+    offset:
+      x: -1.6308780478238338
+      y: 1.4545121435541928
+      z: -4.718068310168924
+    rotation:
+      x: 0.0
+      y: 6.992086822661018
+      z: 0.0
+    scale:
+      x: 0.40000000000000013
+      y: 0.5000000000000001
+      z: 0.30000000000000016
+  part-18602577:
+    identifier: 89a2078e-0436-41cb-bd4d-e4a049001b14
+    id: part-18602577
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.3999999999999997
+      y: 0.9864495403693339
+      z: -1.911412031030598
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.8000000000000003
+      z: 1.5646398359682099
+  part-57497579:
+    identifier: 490d5f4a-1718-4bb9-b805-fca7ebf60374
+    id: part-57497579
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: 1.3177228646344323
+      y: 0.77994907755784
+      z: -1.717318978871609
+    rotation:
+      x: -100.00000000000053
+      y: 4.594616171524093E-15
+      z: -179.99999999999983
+    scale:
+      x: 0.9572880185610604
+      y: 0.2602826362475527
+      z: 1.553446574486213
+  part-32879656:
+    identifier: bc363b71-1265-478c-8454-00643d41512a
+    id: part-32879656
+    material: BLACK_CONCRETE
+    offset:
+      x: 1.087330187892443
+      y: 1.4339177040011886
+      z: 1.339928613279321
+    rotation:
+      x: 1.4124500153760508E-30
+      y: 7.156248033292975E-15
+      z: 95.0000000000001
+    scale:
+      x: 0.10025513385077416
+      y: 0.36171448581562166
+      z: 0.10033953866144588
+  part-52511344:
+    identifier: 9bb558c8-926e-4c0e-869c-f4ea7199a9d1
+    id: part-52511344
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.3
+      y: 1.5546035918630212
+      z: -3.7114120310306
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.6000000000000005
+      z: 1.7000000000000006
+  part-66499253:
+    identifier: e30984cf-f2fd-4c3b-b98f-e85d8f2de0c0
+    id: part-66499253
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.7000000000000002
+      y: 0.877972285405158
+      z: -3.851592067259229
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.09999999999999964
+      y: 0.8
+      z: 0.29999999999999993
+  part-63788376:
+    identifier: cd744fb6-15c1-4d53-8edb-81cd868551e0
+    id: part-63788376
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.700000000000001
+      y: 1.486449540369334
+      z: 3.0851280187048062
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.20000000000000037
+      z: 0.702139002360923
+  part-64504437:
+    identifier: a5fb501f-7517-4d37-a4cd-05579530dc94
+    id: part-64504437
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.6000000000000003
+      y: 0.654603591863021
+      z: -4.4114120310306015
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 1.5076698992131872
+      z: 0.8000000000000004
+  part-70991052:
+    identifier: a0a4ee46-93f1-44d1-a520-c8fc20f11dbb
+    id: part-70991052
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.08086556721072517
+      y: 1.246089719050623
+      z: 0.7667798277328179
+    rotation:
+      x: -30.00000000000001
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.10000000000000014
+      y: 0.40000000000000013
+      z: 0.10000000000000009
+  part-99048112:
+    identifier: e6f16a42-8906-4738-8f13-03ecd7be703f
+    id: part-99048112
+    material: GLASS
+    offset:
+      x: -1.3690699665822634
+      y: 1.7961011246166758
+      z: -1.8424333331404974
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 1.8000000000000007
+      y: 1.0690669896293723
+      z: 0.10000000000000014
+  part-66286090:
+    identifier: a7f60717-aa2d-411b-b48c-030e2e16aab2
+    id: part-66286090
+    material: BLACK_CONCRETE
+    offset:
+      x: 1.1714485210950374
+      y: 1.7763719610039976
+      z: 1.339928613279321
+    rotation:
+      x: 0.0
+      y: 7.156248033292937E-15
+      z: 24.999999999999957
+    scale:
+      x: 0.10025513385077416
+      y: 0.415312833284607
+      z: 0.10033953866144588
+  part-13601733:
+    identifier: 5e12a09a-a854-4cf9-a792-07c517416105
+    id: part-13601733
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGViZGVhMmI1YzRkYjVmYTQ0YTRlYzQwMzI2NTgzMmZhN2QxY2FmYThjNGE2Y2Y3ZmE2OTYwYmJhY2Q3In19fQ==
+    offset:
+      x: -0.32670845650165653
+      y: 1.5439527377876812
+      z: 1.7669401482193647
+    rotation:
+      x: -155.00000000000014
+      y: -3.58249161182379E-15
+      z: 180.0
+    scale:
+      x: 1.1
+      y: 0.7000000000000001
+      z: 0.10000000000000003
+  part-83146631:
+    identifier: 2537042b-d5bf-4781-ba62-5b9f77ffdaab
+    id: part-83146631
+    material: RECOVERY_COMPASS
+    offset:
+      x: 0.6716161008300445
+      y: 1.8677807751760356
+      z: 1.619237470115523
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.15576160371515613
+      y: 0.21099451248372647
+      z: 0.5000000000000001
+  part-24787535:
+    identifier: d10d3d92-80c9-4941-bd40-1ebd6bf2edc9
+    id: part-24787535
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.3
+      y: 1.6142678150733192
+      z: -2.0114120310305963
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.6000000000000005
+      y: 0.5156517080310579
+      z: 0.10000000000000014
+  part-29359060:
+    identifier: 28cc1e74-fcec-4b1a-9b8c-08ef77303b5a
+    id: part-29359060
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.7000000000000004
+      y: 0.877972285405158
+      z: 1.84840793274077
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.09999999999999964
+      y: 0.8
+      z: 0.29999999999999993
+  part-122436015:
+    identifier: b238e12e-f256-41f4-ac34-a66c68e4198c
+    id: part-122436015
+    material: BLACK_CONCRETE
+    offset:
+      x: -1.5692338068496934
+      y: 1.8540282878944134
+      z: -0.5114120310305977
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.30000000000000004
+      y: 0.9531356006416305
+      z: 0.6000000000000002
+  part-75162030:
+    identifier: 34315b9a-b5e0-41bf-8a7d-eb0ad050e6ad
+    id: part-75162030
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.0308996498961474
+      y: 1.094280379639457
+      z: 4.000311355490659
+    rotation:
+      x: 1.5902773407317596E-14
+      y: -5.64980006150421E-30
+      z: -5.72499842663433E-14
+    scale:
+      x: 0.1999999999999999
+      y: 0.4147156154877434
+      z: 0.10000000000000014
+  part-74569932:
+    identifier: b54b2af3-f0d7-43fd-8fc2-cdcf5fcbdd62
+    id: part-74569932
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.4250948095374687
+      y: 1.5546035918630212
+      z: -3.7114120310306
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.6000000000000005
+      z: 1.7000000000000006
+  part-29615215:
+    identifier: c7cd7833-b9b7-424f-aa43-da46167bd62c
+    id: part-29615215
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.6
+      y: 0.654603591863021
+      z: -4.353207827552224
+    rotation:
+      x: 180.0
+      y: 90.0
+      z: 180.0
+    scale:
+      x: 0.29999999999999993
+      y: 1.5000000000000004
+      z: 3.200000000000001
+  part-29178129:
+    identifier: 86f1f637-cb9d-4f92-b1a8-97602f27b584
+    id: part-29178129
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.7456607572846157
+      y: 1.5550231775313972
+      z: -3.676121204815081
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.5000000000000006
+      z: 1.6000000000000005
+  part-65469313:
+    identifier: 641cfec1-5d67-430f-ab19-53562964568e
+    id: part-65469313
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.5846403680479255
+      y: 1.4756957176864318
+      z: 0.28858796896940264
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 20.000000000000007
+    scale:
+      x: 0.20000000000000004
+      y: 0.15313560064163065
+      z: 0.6000000000000002
+  part-78430372:
+    identifier: 7ed59fff-20c2-4008-aa2b-3be7948321e8
+    id: part-78430372
+    material: BLACK_CONCRETE
+    offset:
+      x: 1.2478183392625677
+      y: 1.8540282878944134
+      z: -0.5114120310305977
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.30000000000000004
+      y: 0.9531356006416305
+      z: 0.6000000000000002
+  part-28707080:
+    identifier: 193ca4ab-0ae6-4f95-86a5-280a56040470
+    id: part-28707080
+    material: BLACK_CONCRETE
+    offset:
+      x: -0.45368418839781044
+      y: 1.4396210701908179
+      z: -1.4341975912867475
+    rotation:
+      x: 1.4124500153760508E-30
+      y: 7.156248033292975E-15
+      z: 95.0000000000001
+    scale:
+      x: 0.10025513385077416
+      y: 0.36171448581562166
+      z: 0.10033953866144588
+  part-26024594:
+    identifier: e9e78a02-3c08-4b94-ae1e-9db440f78325
+    id: part-26024594
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.4250948095374687
+      y: 2.1499961868454633
+      z: -4.329921872870485
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.04633703619310764
+      z: 0.49247393017550845
+  part-119033261:
+    identifier: 354322ae-9e07-49fb-8619-7b48a3788d41
+    id: part-119033261
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.4000000000000001
+      y: 1.486449540369334
+      z: 1.9851280187048057
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.20000000000000037
+      z: 0.702139002360923
+  part-97091991:
+    identifier: 4e996586-75c0-4f1f-b12f-8278052c646c
+    id: part-97091991
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.4000000000000001
+      y: 1.486449540369334
+      z: 3.0851280187048062
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.20000000000000037
+      z: 0.702139002360923
+  part-49285814:
+    identifier: c7ec14cb-fe92-49e4-8f4d-359eb8711f97
+    id: part-49285814
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: -1.5941145077408856
+      y: 0.3546035918630207
+      z: -4.773860410143417
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 3.200000000000001
+      y: 0.29999999999999993
+      z: 1.1712654026345481
+  part-48208692:
+    identifier: 17551c88-3b98-4c59-a819-609ed9af6618
+    id: part-48208692
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: -1.9696918878800347
+      y: 1.8546035918630213
+      z: 1.7038384230754648
+    rotation:
+      x: -8.261113174812559E-15
+      y: -20.00000000000001
+      z: -1.1044720436664882E-15
+    scale:
+      x: 0.40000000000000013
+      y: 0.26665305412280216
+      z: 0.03395745140026924
+  part-607323:
+    identifier: a93f37da-0c7d-4869-85bd-d9b92d57999a
+    id: part-607323
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: -1.3
+      y: 0.7378210980756653
+      z: -1.698361157947821
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.9546469970389444
+      y: 0.5593836481749822
+      z: 1.0233077323355884
+  part-49698498:
+    identifier: 5118bc7d-29d3-4e46-b68d-2947f664cf97
+    id: part-49698498
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.9999999999999996
+      y: 1.8546035918630208
+      z: 1.7016388420521757
+    rotation:
+      x: 0.0
+      y: -20.000000000000004
+      z: 0.0
+    scale:
+      x: 0.5000000000000001
+      y: 0.29999999999999993
+      z: 0.10000000000000014
+  part-7611265:
+    identifier: b846f1e9-dee4-4d59-adc2-8cc9263a0575
+    id: part-7611265
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.7000000000000002
+      y: 0.877972285405158
+      z: -2.05159206725923
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.09999999999999964
+      y: 0.8
+      z: 0.29999999999999993
+  part-75163186:
+    identifier: 25de7d83-8103-4829-8bf0-4e5450018db8
+    id: part-75163186
+    material: BLACK_CONCRETE
+    offset:
+      x: -0.17822820072806664
+      y: 1.0785925542295243
+      z: 0.5281126305485457
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.30000000000000016
+      y: 0.2000000000000001
+      z: 0.4400084516832163
+  part-97863988:
+    identifier: 8447f3bb-0d4a-4183-82e0-c80e733bc25f
+    id: part-97863988
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.6000000000000003
+      y: 1.4988166350256822
+      z: -4.418135266356838
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 3.2
+      y: 0.20000000000000004
+      z: 2.5
+  part-25496720:
+    identifier: 43750eb7-b4b7-4fcf-acde-b9d46f4810bd
+    id: part-25496720
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: 1.2014580659906533
+      y: 0.654603591863021
+      z: -2.801764296310559
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 2.4000000000000004
+      y: 2.400000000000001
+      z: 1.8
+  part-21042960:
+    identifier: b308210e-8adb-4336-9a2a-357a9c425b0e
+    id: part-21042960
+    material: ORANGE_SHULKER_BOX
+    offset:
+      x: 1.226901313341246
+      y: 1.4545121435541928
+      z: -4.767576149841315
+    rotation:
+      x: 0.0
+      y: -5.000000000000005
+      z: 0.0
+    scale:
+      x: 0.40000000000000013
+      y: 0.5000000000000001
+      z: 0.30000000000000016
+  part-16277971:
+    identifier: 1acad09e-e27b-483d-84bc-433dc306080e
+    id: part-16277971
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -0.6787590512149968
+      y: 0.9965097700980673
+      z: 4.000311355490659
+    rotation:
+      x: 1.5902773407317578E-14
+      y: -4.237350046128152E-30
+      z: -89.99999999999999
+    scale:
+      x: 0.0999999999999999
+      y: 1.3375737625160946
+      z: 0.10000000000000014
+  part-35067845:
+    identifier: 585bf71a-d612-418d-bf71-89cf4d3f395c
+    id: part-35067845
+    material: BLACK_CONCRETE
+    offset:
+      x: 0.7097727619546826
+      y: 1.7493830460335176
+      z: 1.3350286921896148
+    rotation:
+      x: 90.00000000000009
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.10950633765095917
+      y: 0.33921544079067895
+      z: 0.10592792513477435
+  part-29513767:
+    identifier: 63af3550-caa5-4ab1-85e3-d56faf8a306c
+    id: part-29513767
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.6000000000000003
+      y: 0.8864495403693338
+      z: -2.011412031030598
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 1.0000000000000002
+      z: 4.100000000000002
+  part-35893629:
+    identifier: 279e3115-bcd7-4804-a2ec-c618a71fba6d
+    id: part-35893629
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.5000000000000002
+      y: 1.486449540369334
+      z: -2.6148719812951953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.20000000000000037
+      z: 0.702139002360923
+  part-82066105:
+    identifier: 704d658e-a4dd-4c2d-94bd-3a92906931b1
+    id: part-82066105
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.702543701738601
+      y: 0.9864495403693339
+      z: -1.911412031030598
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.8000000000000003
+      z: 1.5646398359682099
+  part-30476690:
+    identifier: a2b60827-3fd7-42fa-bd72-56cfe225f5b3
+    id: part-30476690
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.6
+      y: 0.877972285405158
+      z: 3.648407932740769
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.09999999999999964
+      y: 0.8
+      z: 0.29999999999999993
+  part-95990246:
+    identifier: 1a8c717c-2815-416b-b1a1-ed35967e13f3
+    id: part-95990246
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: -0.34564210613914337
+      y: 0.7378210980756653
+      z: -1.698361157947821
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.9546469970389444
+      y: 0.5593836481749822
+      z: 1.0233077323355884
+  part-117529338:
+    identifier: 2d3358be-d489-473b-9a69-737a5c86dae1
+    id: part-117529338
+    material: GLASS
+    offset:
+      x: -1.411992360677184
+      y: 1.9368241261336896
+      z: 2.002369633098136
+    rotation:
+      x: -44.99999999999999
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.870132046573001
+      y: 1.3690669896293726
+      z: 0.10000000000000014
+  part-29903945:
+    identifier: d328c4b8-1b6c-4483-8f54-e4aa0da0ab71
+    id: part-29903945
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.3999999999999997
+      y: 0.9864495403693339
+      z: -0.014871981295194438
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.8000000000000003
+      z: 1.9021390023609233
+  part-45571846:
+    identifier: af4e2a0a-6661-4831-abe6-982f23dbdf6e
+    id: part-45571846
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.4629033360363466
+      y: 0.754603591863021
+      z: -4.376121204815082
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 1.3000000000000003
+      z: 0.7000000000000004
+  part-44584175:
+    identifier: cae7340f-f800-46bd-aff8-37a84fb389f3
+    id: part-44584175
+    material: BLACK_CONCRETE
+    offset:
+      x: -1.3
+      y: 1.59294549161566
+      z: 1.7802357207517052
+    rotation:
+      x: 25.00000000000001
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5000000000000001
+      y: 0.0444998377557562
+      z: 0.09999999999999998
+  part-89069795:
+    identifier: 354fad54-32af-4e54-bb28-f068f4b8ca9a
+    id: part-89069795
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 0.842086326719618
+      y: 1.1126520615357047
+      z: 4.000311355490659
+    rotation:
+      x: 1.5902773407317596E-14
+      y: -5.64980006150421E-30
+      z: -5.72499842663433E-14
+    scale:
+      x: 0.1999999999999999
+      y: 0.4147156154877434
+      z: 0.10000000000000014
+  part-14341997:
+    identifier: 68137f4a-15a4-4db3-8478-35af887d40d8
+    id: part-14341997
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.700000000000001
+      y: 1.486449540369334
+      z: 1.9851280187048057
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.20000000000000037
+      z: 0.702139002360923
+  part-79632040:
+    identifier: 885c6da9-8f3c-4832-8506-e3c1a3989d59
+    id: part-79632040
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.0999999999999999
+      y: 0.5864495403693338
+      z: -2.011412031030598
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.30000000000000027
+      z: 4.100000000000002
+  part-80178323:
+    identifier: 97c2fb27-53fd-4787-82c2-825d1d96b088
+    id: part-80178323
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: -1.098541934009347
+      y: 0.654603591863021
+      z: 2.898235703689441
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 2.4000000000000004
+      y: 2.400000000000001
+      z: 1.8
+  part-94754694:
+    identifier: d09db2bf-eb15-4f57-8a0b-daf520f7c7e5
+    id: part-94754694
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: -0.09638305163319555
+      y: 1.5717465711629273
+      z: 0.5615946851302014
+    rotation:
+      x: -30.00000000000001
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.12314814656391142
+      y: 0.10000000000000014
+      z: 0.12538081838504553
+  part-115262445:
+    identifier: c7d36ceb-e658-4c13-ab37-9cd3119ef216
+    id: part-115262445
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.8000000000000007
+      y: 1.486449540369334
+      z: -3.7148719812951945
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.20000000000000037
+      z: 0.702139002360923
+  part-97061361:
+    identifier: 2b373a29-cb03-4917-8dc2-db89ae136563
+    id: part-97061361
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: -0.28637259232407636
+      y: 0.77994907755784
+      z: 0.08268102112839103
+    rotation:
+      x: -100.00000000000053
+      y: 4.594616171524093E-15
+      z: -179.99999999999983
+    scale:
+      x: 0.9536833207643617
+      y: 0.2602826362475527
+      z: 1.553446574486213
+  part-118147138:
+    identifier: 6c501f66-ae9f-4d8d-bee0-a5361f57daaf
+    id: part-118147138
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.3941145077408854
+      y: 0.44619875265873316
+      z: -2.0114120310305963
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.7000000000000006
+      y: 0.29999999999999993
+      z: 4.1000000000000005
+  part-109225320:
+    identifier: aa66fbb1-95b3-4a4f-be0d-462197e1fc14
+    id: part-109225320
+    material: BLACK_CONCRETE
+    offset:
+      x: -0.37028785317199314
+      y: 1.7820753271936267
+      z: -1.4341975912867475
+    rotation:
+      x: 0.0
+      y: 7.156248033292937E-15
+      z: 24.999999999999957
+    scale:
+      x: 0.10025513385077416
+      y: 0.415312833284607
+      z: 0.10033953866144588
+  part-49861994:
+    identifier: 8e994c2c-305f-4384-b299-6f35304c335f
+    id: part-49861994
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: 1.0022235802865298
+      y: 1.0141697269085745
+      z: 3.8016388420521756
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.6000000000000001
+      y: 0.5000000000000001
+      z: 0.19999999999999998
+  part-109207169:
+    identifier: c1ebd321-dd2d-477a-8d59-5f9b68a118d2
+    id: part-109207169
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.4000000000000001
+      y: 1.5864495403693342
+      z: 2.085128018704806
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.20000000000000037
+      z: 1.5021390023609236
+  part-71387299:
+    identifier: e10d73c6-5beb-43fc-8b76-23bbded85a41
+    id: part-71387299
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.702543701738601
+      y: 0.9864495403693339
+      z: -0.014871981295194438
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.8000000000000003
+      z: 1.9021390023609233
+  part-58963172:
+    identifier: 339b3349-12a2-4587-8702-2dcd452756a5
+    id: part-58963172
+    material: ORANGE_CONCRETE
+    offset:
+      x: 1.226901313341246
+      y: 1.4545121435541928
+      z: -4.767576149841315
+    rotation:
+      x: 0.0
+      y: -5.000000000000005
+      z: 0.0
+    scale:
+      x: 0.40000000000000013
+      y: 0.5000000000000001
+      z: 0.30000000000000016
+  part-120009837:
+    identifier: e6cc16a3-c8b2-4e71-b200-2a889922ed54
+    id: part-120009837
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: 1.2014580659906533
+      y: 0.654603591863021
+      z: 2.898235703689441
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 2.4000000000000004
+      y: 2.400000000000001
+      z: 1.8
+  part-13469747:
+    identifier: 5e77cf55-5613-46b6-b9d9-9e82793bc020
+    id: part-13469747
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: 1.1970635490298058
+      y: 0.3536113834417014
+      z: -4.8336131029233265
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 0.21109221206564066
+      y: 0.4524071795683285
+      z: 2.4106934478504325
+  part-107214012:
+    identifier: 1506e582-134a-4a61-a361-56158a5d5f85
+    id: part-107214012
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.4000000000000001
+      y: -0.7296285150867466
+      z: 4.001638842052177
+    rotation:
+      x: 1.590277340731765E-14
+      y: -8.474700092256305E-30
+      z: -115.00000000000037
+    scale:
+      x: 0.0999999999999999
+      y: 0.40000000000000013
+      z: 0.10000000000000014
+  part-35492919:
+    identifier: 2c718be3-a928-4abe-a11e-a18b07ca092d
+    id: part-35492919
+    material: PLAYER_HEAD
+    data:
+      data-type: head-texture
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRmZTVhOTYzODY5NDE1MzQwZDJjZWMwZjgyZDA4ZGY3M2RjYjE2ODQyODQ4N2I1MTRhYThkNGVjMTlmZTJjIn19fQ==
+    offset:
+      x: -1.098541934009347
+      y: 0.654603591863021
+      z: -2.801764296310559
+    rotation:
+      x: 0.0
+      y: -89.99
+      z: 0.0
+    scale:
+      x: 2.4000000000000004
+      y: 2.400000000000001
+      z: 1.8
+  part-19498765:
+    identifier: 93048832-df76-4bca-94ec-706816fb73c4
+    id: part-19498765
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.3000000000000003
+      y: 1.6001827275205742
+      z: -2.0114120310305976
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.30000000000000004
+      y: 1.3000000000000003
+      z: 0.3000000000000002
+  part-102717290:
+    identifier: a1b24a70-5cc7-4f07-940c-94894f0a88de
+    id: part-102717290
+    material: BLACK_CONCRETE
+    offset:
+      x: 1.083373716162917
+      y: 2.0796456771630334
+      z: 1.3383149215008774
+    rotation:
+      x: -5.714922583112462E-16
+      y: 8.581731800557675E-15
+      z: 85.0000000000002
+    scale:
+      x: 0.10025513385077416
+      y: 0.36171448581562166
+      z: 0.10033953866144588
+  part-121116366:
+    identifier: ea2565ec-17f1-4c4d-a57f-6c834d549517
+    id: part-121116366
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.7890057372635495
+      y: 1.4756957176864318
+      z: 0.28858796896940264
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: -19.999999999999996
+    scale:
+      x: 0.20000000000000004
+      y: 0.15313560064163065
+      z: 0.6000000000000002
+  part-76040541:
+    identifier: a73b6709-bc08-4913-9999-3b3777a2969f
+    id: part-76040541
+    material: GRAY_SHULKER_BOX
+    offset:
+      x: -0.3588349370115225
+      y: 2.0581148373071434
+      z: -0.13975296472618942
+    rotation:
+      x: -90.00000000000057
+      y: 4.490705685257854E-15
+      z: -180.0
+    scale:
+      x: 0.797875286861896
+      y: 0.3197611456124205
+      z: 0.6264873865334974
+  part-58266944:
+    identifier: b146b469-090b-4f45-b8b2-4d068b333445
+    id: part-58266944
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -0.6719730956854292
+      y: 1.697451194200339
+      z: 4.000311355490659
+    rotation:
+      x: 1.5902773407317578E-14
+      y: -4.237350046128152E-30
+      z: -89.99999999999999
+    scale:
+      x: 0.0999999999999999
+      y: 1.3782687435370258
+      z: 0.10000000000000014
+  part-111410504:
+    identifier: 332a0adc-35f9-491f-b4e5-e0a91e726479
+    id: part-111410504
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -0.9999999999999999
+      y: 1.1703714849132538
+      z: 4.001638842052177
+    rotation:
+      x: 1.590277340731765E-14
+      y: -8.474700092256305E-30
+      z: -115.00000000000037
+    scale:
+      x: 0.0999999999999999
+      y: 0.40000000000000013
+      z: 0.10000000000000014
+  part-107210912:
+    identifier: 585c5424-91ad-4df1-9614-40f3823c6f68
+    id: part-107210912
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.7452801140892722
+      y: 0.754603591863021
+      z: -4.376121204815082
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 1.3000000000000003
+      z: 0.7000000000000004
+  part-9971400:
+    identifier: e0eb45b7-9b64-45ad-a998-9785594d0896
+    id: part-9971400
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: -1.6
+      y: 0.4518482882670163
+      z: 3.609057753278015
+    rotation:
+      x: -10.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 3.2
+      y: 0.3260195296669051
+      z: 0.5106063390704303
+  part-5255600:
+    identifier: 39cc8ad7-e03d-4e4b-b3cd-268106bf8bdd
+    id: part-5255600
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.3
+      y: 0.8864495403693338
+      z: -2.011412031030598
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 1.0000000000000002
+      z: 4.100000000000002
+  part-120803305:
+    identifier: 346999a8-715e-4c9b-8b35-420da89295df
+    id: part-120803305
+    material: RED_CONCRETE
+    offset:
+      x: -1.6058398859435166
+      y: 1.254603591863021
+      z: -4.711412031030603
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.5035899683693058
+      y: 0.8
+      z: 0.29999999999999993
+  part-21398094:
+    identifier: d6925495-cb2e-4f7e-a9c1-dc506a5f8871
+    id: part-21398094
+    material: BLACK_CONCRETE
+    offset:
+      x: -0.6
+      y: 0.3546035918630207
+      z: 2.088587968969405
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.3000000000000003
+      y: 1.4000000000000004
+      z: 1.5999999999999999
+  part-60032613:
+    identifier: 2536bf7b-0d63-46aa-a5b2-8ab94b8d7aae
+    id: part-60032613
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.5846403680479255
+      y: 1.4756957176864318
+      z: -1.611412031030597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 20.000000000000007
+    scale:
+      x: 0.20000000000000004
+      y: 0.15313560064163065
+      z: 0.6000000000000002
+  part-113981155:
+    identifier: 6767a719-1031-494b-a747-c1df16da66f7
+    id: part-113981155
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: 1.5866799160327663
+      y: 1.8546035918630213
+      z: 1.863082931985369
+    rotation:
+      x: -7.505609801464556E-15
+      y: 19.999999999999954
+      z: -1.1044720436664892E-15
+    scale:
+      x: 0.40000000000000013
+      y: 0.26665305412280216
+      z: 0.03395745140026924
+  part-85440800:
+    identifier: 61fc5904-2a8d-4723-89d8-9ebcf9599432
+    id: part-85440800
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.6
+      y: 0.7779722854051581
+      z: 3.588587968969402
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 3.2
+      y: 1.1
+      z: 0.3999999999999999
+  part-84888557:
+    identifier: c142164d-b732-485b-8c47-7e22f1ea64ab
+    id: part-84888557
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.6711951748483316
+      y: 2.1499961868454633
+      z: -3.7114120310306
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.04633703619310764
+      z: 1.7000000000000006
+  part-27337290:
+    identifier: 5481dc56-df0c-4f5b-be70-eaef9300ec9c
+    id: part-27337290
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.3
+      y: 0.9546035918630208
+      z: 1.4885879689694046
+    rotation:
+      x: 25.00000000000001
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 2.6000000000000005
+      y: 1.0
+      z: 0.4
+  part-85596001:
+    identifier: 2ec8b916-802a-4f8f-b313-052a5c0fcd56
+    id: part-85596001
+    material: BLACK_CONCRETE
+    offset:
+      x: -0.4576406601273362
+      y: 2.0853490433526622
+      z: -1.4341975912867475
+    rotation:
+      x: -5.714922583112462E-16
+      y: 8.581731800557675E-15
+      z: 85.0000000000002
+    scale:
+      x: 0.10025513385077416
+      y: 0.36171448581562166
+      z: 0.10033953866144588
+  part-69633378:
+    identifier: 1e2b6b4f-4321-450e-a86a-c740d86d64d3
+    id: part-69633378
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.8000000000000007
+      y: 1.5864495403693342
+      z: -3.614871981295195
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.20000000000000037
+      z: 1.5021390023609236
+  part-62379938:
+    identifier: 0051e0a7-56b2-4947-84af-b6aef89cd8bf
+    id: part-62379938
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.6
+      y: 1.7779722854051585
+      z: 1.9885879689694037
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 3.2
+      y: 0.20000000000000004
+      z: 1.9
+  part-25411953:
+    identifier: 47451c25-c73c-445d-9ce7-98dbf69ddb76
+    id: part-25411953
+    material: BLACK_CONCRETE
+    offset:
+      x: -0.6
+      y: 0.754603591863021
+      z: -3.7114120310305947
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.3000000000000003
+      y: 0.9000000000000002
+      z: 1.5999999999999999
+  part-72993283:
+    identifier: 92726f0d-2c38-45d8-b244-b50b51bcb948
+    id: part-72993283
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.7988022877635497
+      y: 0.6451888111687911
+      z: -4.39306747072774
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.10307931978252419
+      y: 0.30000000000000027
+      z: 0.7399392854123131
+  part-25074905:
+    identifier: 47149ddb-de44-48fd-a9c6-b0535c9b3878
+    id: part-25074905
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.6
+      y: 1.8004315561543285
+      z: 1.988587968969402
+    rotation:
+      x: -45.00000000000004
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.1999999999999999
+      y: 1.5000000000000004
+      z: 0.19999999999999993
+  part-70291645:
+    identifier: 8eb5a809-a60c-4ed4-a6d3-09c2ec488a0b
+    id: part-70291645
+    material: BLACK_CONCRETE
+    offset:
+      x: -0.8826657793711639
+      y: 0.98392529155487
+      z: 3.9619378258151983
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.7000000000000006
+      y: 0.5999999999999998
+      z: 0.09999999999999992
+  part-14446766:
+    identifier: f19da746-6a68-4985-8b2d-ccd648f76db8
+    id: part-14446766
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 0.6202574234310115
+      y: 1.0045225668627078
+      z: 3.9995367119180614
+    rotation:
+      x: 1.5902773407317574E-14
+      y: -8.474700092256305E-30
+      z: -59.99999999999998
+    scale:
+      x: 0.0999999999999999
+      y: 0.40000000000000013
+      z: 0.10000000000000014
+  part-33143485:
+    identifier: 2c93ba4c-01fe-4d37-b9ae-44a9af2a5b58
+    id: part-33143485
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.8000000000000003
+      y: 0.877972285405158
+      z: -3.85159206725923
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.09999999999999964
+      y: 0.8
+      z: 0.29999999999999993
+  part-43831020:
+    identifier: 3f71b2a6-24fa-4e3d-a69b-5620c94cd13b
+    id: part-43831020
+    material: GRAY_CONCRETE
+    offset:
+      x: 1.4000000000000006
+      y: 1.8004315561543285
+      z: 1.988587968969402
+    rotation:
+      x: -45.00000000000004
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.1999999999999999
+      y: 1.5000000000000004
+      z: 0.19999999999999993
+  part-39670015:
+    identifier: 4b4442aa-7295-4ce6-87ea-8c330110d4e8
+    id: part-39670015
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.7057841320601337
+      y: 1.5546035918630212
+      z: -3.7114120310306
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.6000000000000005
+      z: 1.7000000000000006
+  part-54161165:
+    identifier: c28ad54f-4e33-44f2-a660-9f9aa54e83c1
+    id: part-54161165
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: 0.3727874508232132
+      y: 0.7378210980756653
+      z: -1.698361157947821
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.9546469970389444
+      y: 0.5593836481749822
+      z: 1.0233077323355884
+  part-75112566:
+    identifier: da3d2c13-51fd-4ba7-a696-91f263897501
+    id: part-75112566
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -0.2584221102519886
+      y: 2.1499961868454633
+      z: -4.642777107051106
+    rotation:
+      x: 180.0
+      y: -90.0
+      z: 180.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.04633703619310764
+      z: 1.1872569249024012
+  part-110885913:
+    identifier: 012be93a-ac77-4672-b4f1-a993476f952d
+    id: part-110885913
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 0.22025742343101143
+      y: -0.8954774331372929
+      z: 3.9995367119180614
+    rotation:
+      x: 1.5902773407317574E-14
+      y: -8.474700092256305E-30
+      z: -59.99999999999998
+    scale:
+      x: 0.0999999999999999
+      y: 0.40000000000000013
+      z: 0.10000000000000014
+  part-61374224:
+    identifier: f0aabb6d-ad2d-4924-86a5-fcaa89c14838
+    id: part-61374224
+    material: GRAY_CONCRETE
+    offset:
+      x: -0.24348389679213236
+      y: 0.7893796489855834
+      z: 0.10669245947043197
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.4585532900738283
+      y: 0.395994323063803
+      z: 1.3521337200319523
+  part-31730113:
+    identifier: 971c3d84-d931-4922-abed-c97672c3b3d0
+    id: part-31730113
+    material: GRAY_CONCRETE
+    offset:
+      x: -1.6
+      y: 1.6001827275205742
+      z: -2.0114120310305976
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.30000000000000004
+      y: 1.3000000000000003
+      z: 0.3000000000000002
+  part-71310339:
+    identifier: cc7737d9-bc89-49b1-8a98-8371e85f5158
+    id: part-71310339
+    material: LIGHT_BLUE_CONCRETE
+    offset:
+      x: -1.9696918878800347
+      y: 1.8546035918630213
+      z: 1.7038384230754648
+    rotation:
+      x: -8.261113174812559E-15
+      y: -20.00000000000001
+      z: -1.1044720436664882E-15
+    scale:
+      x: 0.40000000000000013
+      y: 0.26665305412280216
+      z: 0.03395745140026924
+  part-40121985:
+    identifier: 3dfc6a29-ea40-48a3-ba04-4def46f4429f
+    id: part-40121985
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.6711951748483316
+      y: 2.1499961868454633
+      z: -4.329921872870485
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.04633703619310764
+      z: 0.49247393017550845
+  part-64533507:
+    identifier: 90b273be-805d-497d-89be-c55e50434afc
+    id: part-64533507
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: 1.4250948095374687
+      y: 2.1499961868454633
+      z: -3.7114120310306
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.29999999999999993
+      y: 0.04633703619310764
+      z: 1.7000000000000006
+  part-11991138:
+    identifier: df285742-e90c-44dc-819a-8d9083ffd3c7
+    id: part-11991138
+    material: BLACK_SHULKER_BOX
+    offset:
+      x: 1.2449354138112192
+      y: 0.77994907755784
+      z: 0.08268102112839103
+    rotation:
+      x: -100.00000000000053
+      y: 4.594616171524093E-15
+      z: -179.99999999999983
+    scale:
+      x: 0.9536833207643617
+      y: 0.2602826362475527
+      z: 1.553446574486213
+  part-36104651:
+    identifier: 0bcffe01-3d21-4231-a81f-76b34f162f57
+    id: part-36104651
+    material: BLACK_CONCRETE
+    offset:
+      x: 0.38453605348793335
+      y: 1.8299894723092378
+      z: 1.3350286921896148
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: -90.00000000000004
+    scale:
+      x: 0.10950633765095917
+      y: 0.766528072171236
+      z: 0.10592792513477435
+  part-12466621:
+    identifier: 59d6931d-3ef5-47c5-8617-db38eb8fec35
+    id: part-12466621
+    material: COMPASS
+    offset:
+      x: 0.9655597585340768
+      y: 1.8648677737752557
+      z: 1.619237470115523
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 0.2001462607091663
+      y: 0.23592055526438285
+      z: 0.5000000000000001
+  part-63158545:
+    identifier: 889879a6-2f29-416b-982b-2b259edb11b7
+    id: part-63158545
+    material: LIGHT_GRAY_CONCRETE
+    offset:
+      x: -1.7890057372635495
+      y: 1.4756957176864318
+      z: -1.611412031030597
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: -19.999999999999996
+    scale:
+      x: 0.20000000000000004
+      y: 0.15313560064163065
+      z: 0.6000000000000002
+bones:
+  front-wheels:
+    identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+    id: front-wheels
+    pivot:
+      x: 0.0
+      y: 0.4
+      z: 1.7000000000000002
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  bone-27213807:
+    identifier: 2fadbf10-b7d3-478b-9336-3b36277aa3d4
+    id: bone-27213807
+    pivot:
+      x: -0.2
+      y: 0.0
+      z: 0.7999999999999999
+    rotation:
+      x: -1.1449996853268715E-13
+      y: 4.0431381690140177E-29
+      z: 179.99999999999983
+  back-wheels:
+    identifier: 5a67511c-d385-495b-a110-611e22b09f54
+    id: back-wheels
+    pivot:
+      x: 0.0
+      y: 0.4
+      z: -1.4999999999999996
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+  bone-93817685:
+    identifier: 9dc184cb-e7c0-4e00-85d5-52a4c9d9916a
+    id: bone-93817685
+    pivot:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 180.0
+      y: -1.6697912077683462E-13
+      z: 180.0
+rig:
+  1506e582-134a-4a61-a361-56158a5d5f85:
+    identifier: 1506e582-134a-4a61-a361-56158a5d5f85
+    parent: 2fadbf10-b7d3-478b-9336-3b36277aa3d4
+  43750eb7-b4b7-4fcf-acde-b9d46f4810bd:
+    identifier: 43750eb7-b4b7-4fcf-acde-b9d46f4810bd
+    parent: ec1a4785-a7db-4882-aa93-bf57f578008d
+  9dc184cb-e7c0-4e00-85d5-52a4c9d9916a:
+    identifier: 9dc184cb-e7c0-4e00-85d5-52a4c9d9916a
+    children:
+      - e5f3c944-deb0-4344-a37c-668c579fd79f
+      - 193ca4ab-0ae6-4f95-86a5-280a56040470
+      - aa66fbb1-95b3-4a4f-be0d-462197e1fc14
+      - 2ec8b916-802a-4f8f-b313-052a5c0fcd56
+  2fadbf10-b7d3-478b-9336-3b36277aa3d4:
+    identifier: 2fadbf10-b7d3-478b-9336-3b36277aa3d4
+    children:
+      - 1506e582-134a-4a61-a361-56158a5d5f85
+      - 012be93a-ac77-4672-b4f1-a993476f952d
+  5a67511c-d385-495b-a110-611e22b09f54:
+    identifier: 5a67511c-d385-495b-a110-611e22b09f54
+  aa66fbb1-95b3-4a4f-be0d-462197e1fc14:
+    identifier: aa66fbb1-95b3-4a4f-be0d-462197e1fc14
+    parent: 9dc184cb-e7c0-4e00-85d5-52a4c9d9916a
+  e6cc16a3-c8b2-4e71-b200-2a889922ed54:
+    identifier: e6cc16a3-c8b2-4e71-b200-2a889922ed54
+    parent: ec1a4785-a7db-4882-aa93-bf57f578008d
+  e5f3c944-deb0-4344-a37c-668c579fd79f:
+    identifier: e5f3c944-deb0-4344-a37c-668c579fd79f
+    parent: 9dc184cb-e7c0-4e00-85d5-52a4c9d9916a
+  012be93a-ac77-4672-b4f1-a993476f952d:
+    identifier: 012be93a-ac77-4672-b4f1-a993476f952d
+    parent: 2fadbf10-b7d3-478b-9336-3b36277aa3d4
+  2c718be3-a928-4abe-a11e-a18b07ca092d:
+    identifier: 2c718be3-a928-4abe-a11e-a18b07ca092d
+    parent: ec1a4785-a7db-4882-aa93-bf57f578008d
+  ec1a4785-a7db-4882-aa93-bf57f578008d:
+    identifier: ec1a4785-a7db-4882-aa93-bf57f578008d
+    children:
+      - 97c2fb27-53fd-4787-82c2-825d1d96b088
+      - 2c718be3-a928-4abe-a11e-a18b07ca092d
+      - e6cc16a3-c8b2-4e71-b200-2a889922ed54
+      - 43750eb7-b4b7-4fcf-acde-b9d46f4810bd
+  2ec8b916-802a-4f8f-b313-052a5c0fcd56:
+    identifier: 2ec8b916-802a-4f8f-b313-052a5c0fcd56
+    parent: 9dc184cb-e7c0-4e00-85d5-52a4c9d9916a
+  97c2fb27-53fd-4787-82c2-825d1d96b088:
+    identifier: 97c2fb27-53fd-4787-82c2-825d1d96b088
+    parent: ec1a4785-a7db-4882-aa93-bf57f578008d
+  193ca4ab-0ae6-4f95-86a5-280a56040470:
+    identifier: 193ca4ab-0ae6-4f95-86a5-280a56040470
+    parent: 9dc184cb-e7c0-4e00-85d5-52a4c9d9916a
+animations: { }

@@ -1,0 +1,8 @@
+id: yacht-spawner
+material: PLAYER_HEAD
+display-name: '&cSpawn Yacht'
+head-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcwNTA5YTY0YzQ5NmNkZGJhNDEzNWU2NzEyYmIwNWQ5YWFkNDIwNTJhMThmZWVlZWQ3ZDQ0ZGEyYzNiZDBjYyJ9fX0='
+
+action:
+  type: spawn
+  vehicle-id: 'yacht'

@@ -1,0 +1,8 @@
+id: police-car-spawner
+material: PLAYER_HEAD
+display-name: '&cSpawn Police Car'
+head-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYxMGFkZTNhMzBjOGY1ODJmOGFjZDdmMzQ0ZTEzNDhjNTcwZTBmNDM4Y2EzZjVjMzNlMmM5YTkzYmU3OGYwYyJ9fX0='
+
+action:
+  type: spawn
+  vehicle-id: 'police-car'

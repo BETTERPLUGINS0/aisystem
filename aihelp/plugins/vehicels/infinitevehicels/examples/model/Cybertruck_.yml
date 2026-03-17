@@ -1,0 +1,3078 @@
+id: cyber-truck
+type: COMPOUND
+model-offset: 0.0
+hitbox:
+  width: 5.0
+  height: 4.0
+  depth: 5.0
+seats:
+  seat-0:
+    main: false
+    offset:
+      x: -0.6211327606527662
+      y: 2.507542654254152
+      z: -1.0139230804450885
+  seat-1:
+    main: true
+    offset:
+      x: -0.6211327606527662
+      y: 2.2822977150387533
+      z: 1.0257512965491011
+  seat-2:
+    main: false
+    offset:
+      x: 0.6221136410413655
+      y: 2.507542654254152
+      z: -1.0139230804450885
+  seat-3:
+    main: false
+    offset:
+      x: 0.5295552636481679
+      y: 2.3891617420912032
+      z: 0.9346368739961702
+particles: { }
+sounds: { }
+projectile-shooters: { }
+parts:
+  polished_blackstone_slab-82228762:
+    identifier: 8865cee5-c60b-4edc-878c-fcd109bece01
+    id: polished_blackstone_slab-82228762
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-78431568:
+    identifier: f46161ad-4096-4311-9836-f2d4aa4b0f0a
+    id: iron_trapdoor-78431568
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 1.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-13900931:
+    identifier: ac84d2a7-c81f-4737-ae6a-479bdd03b76a
+    id: iron_trapdoor-13900931
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-37884207:
+    identifier: 6e3cd06f-4ce7-45fd-8d86-52dec124c38e
+    id: blackstone_stairs-37884207
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_stained_glass_pane-46510291:
+    identifier: 3e999dd7-03ee-4881-863a-95c0b824eb92
+    id: black_stained_glass_pane-46510291
+    material: BLACK_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:black_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-24759523:
+    identifier: 57eaae25-c346-4a52-9885-91b2b353017b
+    id: polished_andesite_stairs-24759523
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-45490935:
+    identifier: d93cd837-849b-41e1-aa98-cf83ff9c3081
+    id: polished_blackstone_slab-45490935
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-108492596:
+    identifier: 32b4177b-64ee-4202-a5e1-f2478d832ed0
+    id: polished_andesite_stairs-108492596
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-31932253:
+    identifier: 8eaff9ac-c7ac-4900-9b27-86c41c46e48f
+    id: blackstone_stairs-31932253
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: 1.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-16665292:
+    identifier: 03b04bf6-efbe-4c54-ad56-92332aa38f4c
+    id: blackstone_stairs-16665292
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-119589102:
+    identifier: 3239d456-e663-460d-ad98-7933f2a5738b
+    id: polished_blackstone_button-119589102
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -3.0
+      y: 2.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-89297365:
+    identifier: 414c8682-2043-4052-a615-e6fddc0450c6
+    id: blackstone_stairs-89297365
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-23091123:
+    identifier: 2793f876-075a-41a5-88ba-9a5109a14b7f
+    id: black_concrete-23091123
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-111239341:
+    identifier: 9dfa249d-1768-4869-918c-03639f518140
+    id: black_concrete-111239341
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-58812754:
+    identifier: e3ed0715-0adc-4d1b-8f75-e4545362151f
+    id: black_concrete-58812754
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-31468830:
+    identifier: 0eb0883e-653e-4ecb-b743-bf0616ed272d
+    id: polished_andesite_stairs-31468830
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-20987340:
+    identifier: 07b6a8f9-fd16-46e8-9972-2a7432a20afd
+    id: black_concrete-20987340
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_wall-2424704:
+    identifier: 1324780d-6411-4bf1-8639-0a4f5d359a62
+    id: blackstone_wall-2424704
+    material: BLACKSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-45799016:
+    identifier: db7a2490-6359-4227-a5e5-acf1cfe7f825
+    id: black_concrete-45799016
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-30812769:
+    identifier: 2d488156-a2c1-4179-bcfd-1344fdf99c45
+    id: black_carpet-30812769
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-29953926:
+    identifier: beee3a35-4ecf-466c-a228-91a005275247
+    id: polished_andesite_stairs-29953926
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-48475171:
+    identifier: 5bcbd03a-17f7-47ae-b6bc-7d3d213159b6
+    id: black_concrete-48475171
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-42407556:
+    identifier: 41246a2f-a4d2-46ba-83b7-63710605cc00
+    id: blackstone_stairs-42407556
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-96029677:
+    identifier: 097916d1-fcfb-4853-81fb-0632128d40e1
+    id: black_carpet-96029677
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-75769318:
+    identifier: 2f83fc8a-de60-431e-a9c8-628a778bc5b2
+    id: black_concrete-75769318
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-117371972:
+    identifier: 207d6c5b-f5ec-4fed-8e4c-77f5360fb1d1
+    id: blackstone_stairs-117371972
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-50670266:
+    identifier: 1709fb00-b40e-4c08-ab95-5a59a675af22
+    id: polished_andesite_stairs-50670266
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-26460114:
+    identifier: 1401d8f3-e91b-46c3-a316-40ddac11b58b
+    id: polished_blackstone_stairs-26460114
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-60416009:
+    identifier: e0ee6f43-1280-4715-99e3-c39c1beefc70
+    id: dark_oak_trapdoor-60416009
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -6.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-78023825:
+    identifier: 88f32f8b-bd7b-4214-8580-3cb559e69f88
+    id: polished_blackstone_stairs-78023825
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=east,half=top,shape=outer_left,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 4.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-42916932:
+    identifier: 20dd60c1-133f-43da-92a5-4e3d1eb6aec3
+    id: blackstone_stairs-42916932
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_carpet-56813228:
+    identifier: 99b8fb85-f1bc-46c7-a189-357119c8f9ef
+    id: light_gray_carpet-56813228
+    material: LIGHT_GRAY_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_carpet
+    offset:
+      x: -1.0
+      y: 3.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-114362618:
+    identifier: 605b63d5-d7f3-4ae0-b4be-52fdc2638e71
+    id: black_carpet-114362618
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-84793789:
+    identifier: 692bbe62-9ba9-4b42-b92b-cdaf9486f84f
+    id: blackstone_stairs-84793789
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_carpet-122966213:
+    identifier: 7791ba3c-76f8-4096-9860-4a3871b8247b
+    id: light_gray_carpet-122966213
+    material: LIGHT_GRAY_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_carpet
+    offset:
+      x: 0.0
+      y: 3.0
+      z: 4.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-2414177:
+    identifier: 6efc2f4a-5714-4c6c-8411-d9acc86512e6
+    id: polished_blackstone_stairs-2414177
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-113605338:
+    identifier: 2af68375-99cc-4763-86f0-b267cf82cf85
+    id: polished_andesite_stairs-113605338
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_planks-37376530:
+    identifier: 998763f9-976b-4b67-a632-df07836d3316
+    id: dark_oak_planks-37376530
+    material: DARK_OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_wall_sign[facing=south,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.28125
+      z: 5.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  blackstone_stairs-4386600:
+    identifier: 845a3a50-eb02-4dcc-9fdd-e261c3674c50
+    id: blackstone_stairs-4386600
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-2914193:
+    identifier: b94d1261-2cc2-4a50-9cb4-b831c706fe56
+    id: blackstone_stairs-2914193
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-86524749:
+    identifier: 70f2f0a5-5f5c-4f8e-901d-29568419efb6
+    id: dark_oak_trapdoor-86524749
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 4.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-1851975:
+    identifier: 528a0e4a-b32f-48de-95df-6104f98e34e4
+    id: black_concrete-1851975
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-97815529:
+    identifier: 18e371fc-972c-4052-b023-e0e9d7835a35
+    id: blackstone_stairs-97815529
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-18187528:
+    identifier: f8ad1624-565c-4965-a81c-097b82a20a47
+    id: iron_trapdoor-18187528
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-43911797:
+    identifier: 60b55aa4-56fd-4f0f-9891-f07fe8b38165
+    id: polished_blackstone_button-43911797
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -3.0
+      y: 2.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-108420819:
+    identifier: 39dbeb01-3b6d-4c8f-9dac-60c6e507de19
+    id: black_carpet-108420819
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_pressure_plate-17335821:
+    identifier: daf4ee44-6176-4c92-bd5f-0303a6f78f02
+    id: stone_pressure_plate-17335821
+    material: STONE_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:stone_pressure_plate[powered=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: 4.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-55083952:
+    identifier: d4a8b211-9959-46ed-b552-4bc3b1db5b8c
+    id: polished_andesite-55083952
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -5.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-43889165:
+    identifier: 5a8e0a84-06d5-46a9-a8a3-9e06505ae48c
+    id: polished_blackstone_stairs-43889165
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=west,half=top,shape=outer_right,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 4.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-107836367:
+    identifier: c7554e06-cb70-4b3e-aa96-64bd6fa15358
+    id: black_concrete-107836367
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-112480062:
+    identifier: 62b1c7b8-b204-4698-bda4-990eedeccc59
+    id: deepslate_tile_stairs-112480062
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 4.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-91352313:
+    identifier: 63f6987c-ac15-498d-86b8-829f23ac1c24
+    id: polished_andesite_slab-91352313
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite-112947509:
+    identifier: f7db0095-19d4-48df-85ba-a16c2acb66a8
+    id: polished_andesite-112947509
+    material: POLISHED_ANDESITE
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -5.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-9630460:
+    identifier: f38efd4b-3a8b-4d99-9d39-50e3e2a621df
+    id: iron_trapdoor-9630460
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 1.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-22224730:
+    identifier: 3cee0f31-d7c7-4ad0-a88b-3328ebd2fe43
+    id: black_concrete-22224730
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-72336885:
+    identifier: 5389fbd2-3b94-4d70-ac9b-2bcf8eb5ba22
+    id: iron_trapdoor-72336885
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-64618368:
+    identifier: bfca22b8-19e7-402d-ab6d-b6ed8a4c22ef
+    id: black_carpet-64618368
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-10627466:
+    identifier: 90e15c47-8b0a-42a2-8180-12f2c85140f2
+    id: blackstone_stairs-10627466
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-95955633:
+    identifier: caf08a52-6c40-4d74-a2be-b96369cfbe87
+    id: blackstone_stairs-95955633
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_planks-47696839:
+    identifier: 1eee1a31-86f1-40b6-a2c6-a0a68f65f996
+    id: dark_oak_planks-47696839
+    material: DARK_OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_wall_sign[facing=south,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.28125
+      z: 5.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  polished_andesite_stairs-36606314:
+    identifier: 10b140af-bbb1-4e20-8282-ff415bef9422
+    id: polished_andesite_stairs-36606314
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 1.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-73834553:
+    identifier: 7548c641-5c4d-4a9c-a384-1aba56ab9fec
+    id: polished_andesite_slab-73834553
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_stained_glass_pane-9106331:
+    identifier: 47172410-9b5b-4d77-b80a-818a10a9994f
+    id: black_stained_glass_pane-9106331
+    material: BLACK_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:black_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-102603743:
+    identifier: 5ee3a62a-e5d9-4bfd-9c66-754e399960bd
+    id: polished_blackstone_slab-102603743
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-82796187:
+    identifier: f7165e1a-d5ec-46f7-91c0-b03cc5b2c8e3
+    id: polished_andesite_stairs-82796187
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -5.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-29028967:
+    identifier: 87df0c2b-5a95-4913-849a-4bf099b49fa4
+    id: polished_andesite_stairs-29028967
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-110736007:
+    identifier: d5fc5b18-b367-486e-940b-3841c3ccc08e
+    id: black_concrete-110736007
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  andesite_stairs-49089937:
+    identifier: 4be5f69a-f910-48af-a726-d91ae19a5b79
+    id: andesite_stairs-49089937
+    material: ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:andesite_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 4.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_pressure_plate-87891066:
+    identifier: 22733bc1-0384-4c38-995a-f296292fa03f
+    id: stone_pressure_plate-87891066
+    material: STONE_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:stone_pressure_plate[powered=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: 4.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-114675140:
+    identifier: 38511f79-2939-46dd-bde7-8b1678dbf15d
+    id: polished_andesite_slab-114675140
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-34835348:
+    identifier: fb778c21-0773-4f83-9e69-71135a369493
+    id: blackstone_stairs-34835348
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: 1.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-26131243:
+    identifier: 162cc149-089a-4d16-8d76-dc8448f1a781
+    id: black_concrete-26131243
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-8680302:
+    identifier: 0a1acdca-9203-4887-aacb-ea2bcef18cc4
+    id: polished_andesite_stairs-8680302
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-81431854:
+    identifier: 44206b5a-cbfb-4232-bf3f-368bb2a33d0e
+    id: dark_oak_trapdoor-81431854
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 1.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-82924205:
+    identifier: 39c4c2f9-6226-4ea0-8caf-f6dc84f91400
+    id: polished_blackstone_slab-82924205
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -5.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-27282937:
+    identifier: d2a6823d-f538-47de-bc75-de586f95ed68
+    id: polished_blackstone_button-27282937
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 2.0
+      y: 2.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-16581428:
+    identifier: 8f2fe803-ad18-4023-939d-7099ce2686f2
+    id: blackstone_stairs-16581428
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: 1.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  deepslate_tile_stairs-81680183:
+    identifier: 58d5fdcc-3ddc-4ec1-b343-35d9fe625d82
+    id: deepslate_tile_stairs-81680183
+    material: DEEPSLATE_TILE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 4.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-75146707:
+    identifier: 791b8ce3-45c1-4c1c-840c-d9af056322e2
+    id: iron_trapdoor-75146707
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-55906349:
+    identifier: 4cd7a6d6-e388-4550-a29d-9924fb148f8a
+    id: black_concrete-55906349
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-104072447:
+    identifier: b918c10b-1f37-4ebb-810e-7978e18e5409
+    id: black_carpet-104072447
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-17120293:
+    identifier: 842ad9d1-39d2-4593-be99-e69a64abe6a6
+    id: black_concrete-17120293
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_carpet-45804504:
+    identifier: fb9f119f-5592-4b04-bbb2-538d25ede6ff
+    id: light_gray_carpet-45804504
+    material: LIGHT_GRAY_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_carpet
+    offset:
+      x: -1.0
+      y: 3.0
+      z: 4.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-106293199:
+    identifier: 6b2b191e-b6d6-4f18-bef2-00f1d95a63a0
+    id: blackstone_stairs-106293199
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-14863508:
+    identifier: c4bcb80f-4ec1-4eff-97af-1e9e9e555805
+    id: polished_andesite_slab-14863508
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-3990947:
+    identifier: 9679a0eb-5f35-4562-b6bb-499d4979744f
+    id: black_concrete-3990947
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  light_gray_carpet-83505030:
+    identifier: 4b78fac5-37e7-4553-a073-271bfdec6058
+    id: light_gray_carpet-83505030
+    material: LIGHT_GRAY_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:light_gray_carpet
+    offset:
+      x: 0.0
+      y: 3.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-37830854:
+    identifier: b2c0f2dc-04c5-456a-9cbb-6d8235264b7f
+    id: polished_blackstone_slab-37830854
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-92113783:
+    identifier: 8e2853e2-1344-4943-87fa-f88091810daa
+    id: blackstone_stairs-92113783
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-100419342:
+    identifier: 7f66e26a-d893-45a5-8157-622884cc62d8
+    id: dark_oak_trapdoor-100419342
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=top,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -6.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-17625918:
+    identifier: bc298750-be1d-47e3-a23a-ec216d46503c
+    id: polished_andesite_slab-17625918
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-72000086:
+    identifier: 35931d5f-deb4-4c86-825c-9627e0c62584
+    id: black_carpet-72000086
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: -1.0
+      y: 3.0
+      z: -5.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-67044999:
+    identifier: 4e1c6b74-682d-4bf7-b3f1-3b32be80538d
+    id: black_concrete-67044999
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-92309115:
+    identifier: 97216305-b5c3-4fab-8286-a11519daf248
+    id: blackstone_stairs-92309115
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-54977978:
+    identifier: 829303cc-9434-43eb-b4c9-849a1c041a0d
+    id: black_concrete-54977978
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-39035283:
+    identifier: 118ecd88-19fc-4c0a-8b89-8f170a1f6689
+    id: black_carpet-39035283
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -5.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-62055320:
+    identifier: 94dce8a0-08d0-4df9-8681-de52cc75174a
+    id: blackstone_stairs-62055320
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-10975612:
+    identifier: c336a073-fe2d-4c27-aea8-87ef3b8b7b0d
+    id: black_concrete-10975612
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  andesite_stairs-44390810:
+    identifier: 30dce1bd-e3e2-4a7c-8d49-ac36982249b1
+    id: andesite_stairs-44390810
+    material: ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:andesite_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 4.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-89072544:
+    identifier: e0b437a7-1d70-45a1-a6f2-da90da8d5af1
+    id: black_concrete-89072544
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_planks-2545663:
+    identifier: b74cdc66-d922-4530-b606-b27a5e91a513
+    id: dark_oak_planks-2545663
+    material: DARK_OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_wall_sign[facing=north,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.28125
+      z: 2.2460351556539537
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  black_carpet-2132936:
+    identifier: e295c400-8211-4e41-956a-4961866ee6d7
+    id: black_carpet-2132936
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-31466794:
+    identifier: a81f2c27-42f0-4064-9df0-f1330ab97eac
+    id: dark_oak_trapdoor-31466794
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-4090896:
+    identifier: 56ccc975-9bf3-4fda-a353-1cc77bc8c6ac
+    id: dark_oak_trapdoor-4090896
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 4.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-30336631:
+    identifier: 4021a2bb-f8ec-4af5-870b-70ffb536748c
+    id: iron_trapdoor-30336631
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-43947752:
+    identifier: 6e07daff-17c5-4f42-b520-318bb2aa2b34
+    id: black_concrete-43947752
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-22434320:
+    identifier: aa1d235a-8ad3-45e1-9599-5500cc291847
+    id: polished_andesite_slab-22434320
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-64067151:
+    identifier: ae717926-ce77-4dac-8d73-8459e5337824
+    id: black_concrete-64067151
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 1.0
+      z: 1.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-112589399:
+    identifier: 3fea3128-5086-4226-84a1-a4ef056b350a
+    id: polished_andesite_stairs-112589399
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-24920035:
+    identifier: 1c599383-bd62-4d87-915f-08c8fc7188fa
+    id: dark_oak_trapdoor-24920035
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: 1.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-84016414:
+    identifier: 2bb34d76-00b7-42fb-9cbf-4f34eaf06060
+    id: black_concrete-84016414
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-108903213:
+    identifier: bf6bd523-d349-4b09-b98a-a2bb31cda382
+    id: black_carpet-108903213
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: 0.0
+      y: 3.0
+      z: -5.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-118128496:
+    identifier: 3ed4b5aa-ca79-426a-86e8-5acecd40a874
+    id: dark_oak_trapdoor-118128496
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-24201478:
+    identifier: 9cd43703-a024-4c0e-8c4a-a35fc53aa070
+    id: polished_andesite_stairs-24201478
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-100715733:
+    identifier: 699d4ab2-aae4-4fb4-9aa7-6089e23d1716
+    id: polished_andesite_stairs-100715733
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-115403782:
+    identifier: 2a3c8b26-bb45-4242-a408-4462a51cd05e
+    id: iron_trapdoor-115403782
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-91146678:
+    identifier: c31f569c-e76c-438a-8bf5-6e11f79d1ca5
+    id: black_concrete-91146678
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-27766609:
+    identifier: 2beb5a63-d8b2-48f0-9a7e-255179fe8893
+    id: polished_blackstone_button-27766609
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 2.0
+      y: 2.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-38961313:
+    identifier: ef16cc21-e0ff-4d3c-b6f3-9a6b1f7473f6
+    id: dark_oak_trapdoor-38961313
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-81075583:
+    identifier: 345bee76-ca68-45d9-9945-65ae76f6daca
+    id: polished_blackstone_slab-81075583
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-80653437:
+    identifier: 3132d0bc-e2c4-4c5d-955f-f434afcb9a63
+    id: black_concrete-80653437
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-40816021:
+    identifier: e0ba6910-5145-431c-9820-4935e1863d85
+    id: polished_blackstone_slab-40816021
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-123190714:
+    identifier: 9acf75dd-5f41-4c0a-b4e5-caa667fa293b
+    id: black_carpet-123190714
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_fence_gate-60434730:
+    identifier: b619c60c-3b08-4c84-a6ed-da5cc8def2f4
+    id: dark_oak_fence_gate-60434730
+    material: DARK_OAK_FENCE_GATE
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_fence_gate[facing=south,in_wall=false,open=true,powered=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: 1.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-17847049:
+    identifier: 72a2a4fb-4aa0-417e-9ef8-9733ed3ea253
+    id: iron_trapdoor-17847049
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 0.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-73980593:
+    identifier: 58cfd136-4422-4e3a-8fc9-eeb8f8104577
+    id: black_concrete-73980593
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-33566288:
+    identifier: 7d3a1bef-d226-48e8-bb8b-b4f4ce11268e
+    id: black_concrete-33566288
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: 0.0
+      y: 1.0
+      z: 1.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_carpet-85640047:
+    identifier: 6b41ae0f-f465-4d43-981e-4ea5e42d7565
+    id: black_carpet-85640047
+    material: BLACK_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:black_carpet
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -5.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-112100327:
+    identifier: f5d2b587-1dd3-45b0-88bd-183c37c41e7e
+    id: polished_andesite_stairs-112100327
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=north,half=top,shape=outer_left,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 4.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-67860059:
+    identifier: d102a664-cfa7-4d18-bf05-a380506d8b65
+    id: blackstone_stairs-67860059
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_pressure_plate-18099775:
+    identifier: 9ba09f6b-0600-45f1-881d-202449caac52
+    id: polished_blackstone_pressure_plate-18099775
+    material: POLISHED_BLACKSTONE_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_pressure_plate[powered=false]
+    offset:
+      x: 1.0
+      y: 4.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-7045314:
+    identifier: 8a061053-3045-4adf-a007-94fc7ea314bc
+    id: dark_oak_trapdoor-7045314
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 3.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-111165588:
+    identifier: dc8a1abf-272e-4410-844e-89bd25e2bfbe
+    id: black_concrete-111165588
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-16446617:
+    identifier: aa467e7a-82bc-4657-9f17-3d07a83e56f4
+    id: polished_andesite_stairs-16446617
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=north,half=top,shape=outer_right,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 4.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-161059:
+    identifier: 21ffb71b-6263-499c-ad90-873814a38eae
+    id: polished_andesite_slab-161059
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-23383815:
+    identifier: bd12fa31-5eee-4dc2-8e82-510773957f7c
+    id: iron_trapdoor-23383815
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 0.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_planks-10095499:
+    identifier: a310518d-19d8-431b-a279-70fc9c0831a1
+    id: dark_oak_planks-10095499
+    material: DARK_OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_wall_sign[facing=south,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.28125
+      z: 5.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  blackstone_wall-109618545:
+    identifier: 2ec8c11c-425f-47db-98cc-739c67540587
+    id: blackstone_wall-109618545
+    material: BLACKSTONE_WALL
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_wall[east=none,north=low,south=low,up=true,waterlogged=false,west=none]
+    offset:
+      x: -2.0
+      y: 3.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-74994277:
+    identifier: b710c6f7-5e58-4d96-8c9d-3678ce5ff486
+    id: polished_andesite_stairs-74994277
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -3.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-66591095:
+    identifier: 22544f9e-0dba-491a-bc27-e41c48a68421
+    id: polished_blackstone_stairs-66591095
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-4336790:
+    identifier: c7716f35-5dec-45ef-a788-3a131e4c8a70
+    id: polished_blackstone_slab-4336790
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: -5.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_pressure_plate-61368320:
+    identifier: c5dc4d51-dac0-4edb-905b-41654574c8b3
+    id: polished_blackstone_pressure_plate-61368320
+    material: POLISHED_BLACKSTONE_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_pressure_plate[powered=false]
+    offset:
+      x: -2.0
+      y: 4.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_stairs-54473568:
+    identifier: 28b13c00-0a4a-4298-932b-9d9b084d2737
+    id: polished_blackstone_stairs-54473568
+    material: POLISHED_BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-107684658:
+    identifier: 45a243f4-1090-49a4-aa9f-46af3039bb1e
+    id: polished_andesite_stairs-107684658
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: 1.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-17100512:
+    identifier: eff4408a-fad4-4c85-a63f-57854eb43818
+    id: polished_andesite_slab-17100512
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: 3.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-64745198:
+    identifier: ac4c9e9a-8a2a-4d9e-85e2-da31adc3751e
+    id: polished_blackstone_slab-64745198
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 1.0
+      z: -5.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-4052320:
+    identifier: 4ba6c8fc-7215-400a-8184-a6f252dd3a77
+    id: polished_andesite_stairs-4052320
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -0.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_planks-25457086:
+    identifier: bcaeff4c-0f84-460b-8d4f-f8ae675a078d
+    id: dark_oak_planks-25457086
+    material: DARK_OAK_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_wall_sign[facing=south,waterlogged=false]
+    offset:
+      x: -1.0
+      y: 2.28125
+      z: 5.346035155653953
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  dark_oak_trapdoor-88526093:
+    identifier: 5ee085c0-b96b-4ca5-b455-fed2e03517cd
+    id: dark_oak_trapdoor-88526093
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 0.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-68689803:
+    identifier: 2c289dcc-5baa-458d-a9c3-d8fb986b9603
+    id: polished_andesite_stairs-68689803
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 2.0
+      z: -5.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_slab-27315666:
+    identifier: 94ca5ef7-9c2b-4635-a917-fd01972b55c0
+    id: polished_blackstone_slab-27315666
+    material: POLISHED_BLACKSTONE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 1.0
+      z: -5.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_stained_glass_pane-36692989:
+    identifier: cec78262-9375-487c-99ae-506f3bc54d4b
+    id: black_stained_glass_pane-36692989
+    material: BLACK_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:black_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  dark_oak_trapdoor-50211649:
+    identifier: cbcb64ba-b4d5-4130-bee2-97fef706cd5b
+    id: dark_oak_trapdoor-50211649
+    material: DARK_OAK_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:dark_oak_trapdoor[facing=south,half=bottom,open=false,powered=false,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-36736869:
+    identifier: a34a7741-6b28-459d-8f3c-b03942f48bbb
+    id: blackstone_stairs-36736869
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: 0.0
+      y: 3.0
+      z: 1.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  blackstone_stairs-88456885:
+    identifier: fd562f60-8641-4528-9657-27cf8291487c
+    id: blackstone_stairs-88456885
+    material: BLACKSTONE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:blackstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 0.0
+      z: 2.3460351556539534
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-6495832:
+    identifier: 0cf5956d-b5af-469a-ae71-fb62035acacc
+    id: polished_andesite_slab-6495832
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: 1.0
+      y: 2.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_stained_glass_pane-16785589:
+    identifier: 8342faef-0dcc-4eaa-a5da-8cfeaf51589d
+    id: black_stained_glass_pane-16785589
+    material: BLACK_STAINED_GLASS_PANE
+    data:
+      data-type: block-data
+      value: minecraft:black_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]
+    offset:
+      x: 1.0
+      y: 3.0
+      z: -1.6539648443460464
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_slab-119269988:
+    identifier: b399a5ba-9595-4131-843a-f9f920172c13
+    id: polished_andesite_slab-119269988
+    material: POLISHED_ANDESITE_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_slab[type=top,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 1.0
+      z: 0.3460351556539536
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  black_concrete-96071153:
+    identifier: 6efb0458-12b2-4fa5-9098-968411d92ce3
+    id: black_concrete-96071153
+    material: BLACK_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:black_concrete
+    offset:
+      x: -1.0
+      y: 1.0
+      z: -4.653964844346047
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_andesite_stairs-30660718:
+    identifier: 21bcda56-479f-4ff6-a11b-88a97e802d48
+    id: polished_andesite_stairs-30660718
+    material: POLISHED_ANDESITE_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:polished_andesite_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -2.0
+      y: 2.0
+      z: -2.6539648443460466
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones: { }
+animations: { }

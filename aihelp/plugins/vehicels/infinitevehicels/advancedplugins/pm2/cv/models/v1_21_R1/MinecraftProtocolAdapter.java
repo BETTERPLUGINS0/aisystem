@@ -1,0 +1,183 @@
+package advancedplugins.pm2.cv.models.v1_21_R1;
+
+import advancedplugins.pm2.cv.models.api.model.nrpc.nms.FakeDisplayEntityManager;
+import advancedplugins.pm2.cv.models.api.model.rpc.generator.assets.ItemModelData;
+import advancedplugins.pm2.cv.models.api.model.rpc.joint.renderer.BehaviorRenderer;
+import advancedplugins.pm2.cv.models.api.model.rpc.joint.renderer.BehaviorRendererParser;
+import advancedplugins.pm2.cv.models.api.model.rpc.joint.renderer.renderer.LeashRenderer;
+import advancedplugins.pm2.cv.models.api.model.rpc.joint.renderer.renderer.MountRenderer;
+import advancedplugins.pm2.cv.models.api.model.rpc.joint.renderer.renderer.NameTagRenderer;
+import advancedplugins.pm2.cv.models.api.model.rpc.joint.renderer.renderer.SegmentRenderer;
+import advancedplugins.pm2.cv.models.api.model.rpc.joint.renderer.renderer.SubHitboxRenderer;
+import advancedplugins.pm2.cv.models.api.model.rpc.renderer.DisplayRenderer;
+import advancedplugins.pm2.cv.models.api.model.rpc.renderer.ModelRenderer;
+import advancedplugins.pm2.cv.models.api.model.rpc.renderer.ModelRendererParser;
+import advancedplugins.pm2.cv.models.api.model.rpc.visual.renderer.VisualDisplayRenderer;
+import advancedplugins.pm2.cv.models.api.model.rpc.visual.renderer.VisualRenderer;
+import advancedplugins.pm2.cv.models.api.model.rpc.visual.renderer.VisualRendererParser;
+import advancedplugins.pm2.cv.models.api.nms.NMSHandler;
+import advancedplugins.pm2.cv.models.api.nms.RenderParsers;
+import advancedplugins.pm2.cv.models.api.nms.entity.EntityHandler;
+import advancedplugins.pm2.cv.models.api.nms.network.NetworkHandler;
+import advancedplugins.pm2.cv.models.v1_21_R1.entity.EntityManagementSystem;
+import advancedplugins.pm2.cv.models.v1_21_R1.entity.fake.FakeDisplayEntityManagerImpl;
+import advancedplugins.pm2.cv.models.v1_21_R1.network.ChannelManagerImpl;
+import advancedplugins.pm2.cv.models.v1_21_R1.parser.behavior.ConnectionLinkHandler;
+import advancedplugins.pm2.cv.models.v1_21_R1.parser.behavior.InteractionZoneManager;
+import advancedplugins.pm2.cv.models.v1_21_R1.parser.behavior.JointedDisplayCoordinator;
+import advancedplugins.pm2.cv.models.v1_21_R1.parser.behavior.RideableEntityProcessor;
+import advancedplugins.pm2.cv.models.v1_21_R1.parser.behavior.TextLabelController;
+import advancedplugins.pm2.cv.models.v1_21_R1.parser.model.ModelEntitySynchronizer;
+import advancedplugins.pm2.cv.models.v1_21_R1.parser.visual.EffectRenderer;
+import java.util.Set;
+import java.util.regex.Pattern;
+import lombok.Generated;
+import org.bukkit.Color;
+import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
+
+public class MinecraftProtocolAdapter implements NMSHandler {
+   private final EntityHandler entityHandler = this.initializeEntitySystem();
+   private final NetworkHandler networkHandler = this.initializeNetworkSystem();
+   private final RenderParsers globalParsers = this.configureRenderingPipeline();
+   private final EffectRenderer vfxDisplayParser = new EffectRenderer();
+   private final FakeDisplayEntityManager fakeDisplayEntityManager = new FakeDisplayEntityManagerImpl();
+
+   private EntityHandler initializeEntitySystem() {
+      return new EntityManagementSystem();
+   }
+
+   private NetworkHandler initializeNetworkSystem() {
+      return new ChannelManagerImpl();
+   }
+
+   public RenderParsers createParsers() {
+      return this.configureRenderingPipeline();
+   }
+
+   private RenderParsers configureRenderingPipeline() {
+      RenderParsers var1 = new RenderParsers();
+      this.registerModelProcessors(var1);
+      this.registerBehaviorProcessors(var1);
+      return var1;
+   }
+
+   private void registerModelProcessors(RenderParsers pipeline) {
+      var1.registerModelParser((var0) -> {
+         return var0 instanceof DisplayRenderer;
+      }, ModelEntitySynchronizer::new);
+   }
+
+   private void registerBehaviorProcessors(RenderParsers pipeline) {
+      var1.registerBehaviorParser((var0) -> {
+         return var0 instanceof MountRenderer;
+      }, RideableEntityProcessor::new);
+      var1.registerBehaviorParser((var0) -> {
+         return var0 instanceof LeashRenderer;
+      }, ConnectionLinkHandler::new);
+      var1.registerBehaviorParser((var0) -> {
+         return var0 instanceof NameTagRenderer;
+      }, TextLabelController::new);
+      var1.registerBehaviorParser((var0) -> {
+         return var0 instanceof SubHitboxRenderer;
+      }, InteractionZoneManager::new);
+      var1.registerBehaviorParser((var0) -> {
+         return var0 instanceof SegmentRenderer;
+      }, JointedDisplayCoordinator::new);
+   }
+
+   public Set<ItemStack> createStack(ItemModelData data, ItemModelData.Context context) {
+      ItemStack var3 = this.constructBaseItem();
+      this.applyModelData(var3, var1, var2);
+      return Set.of(var3);
+   }
+
+   private ItemStack constructBaseItem() {
+      return new ItemStack(Material.BONE);
+   }
+
+   private void applyModelData(ItemStack item, ItemModelData data, ItemModelData.Context context) {
+      ItemMeta var4 = var1.getItemMeta();
+      this.configureItemModel(var4, var2);
+      this.applyColorData(var4, var3.color());
+      var1.setItemMeta(var4);
+   }
+
+   private void configureItemModel(ItemMeta metadata, ItemModelData data) {
+      NamespacedKey var3 = var2.getSingleComposite().model();
+
+      try {
+         String var4 = var3.getKey();
+         int var5;
+         if (Pattern.compile("\\d+").matcher(var4).matches()) {
+            var5 = Integer.parseInt(var4);
+         } else {
+            var5 = Math.abs(var3.hashCode());
+         }
+
+         var1.setCustomModelData(var5);
+      } catch (NumberFormatException var6) {
+         throw new IllegalArgumentException("Cannot use model key as custom model data: " + String.valueOf(var3), var6);
+      }
+   }
+
+   private void applyColorData(ItemMeta metadata, Color color) {
+   }
+
+   public boolean colorStack(ItemStack stack, Color color) {
+      if (!this.hasValidMetadata(var1)) {
+         return false;
+      } else {
+         ItemMeta var3 = var1.getItemMeta();
+         var1.setItemMeta(var3);
+         return true;
+      }
+   }
+
+   private boolean hasValidMetadata(ItemStack stack) {
+      return var1.getItemMeta() != null;
+   }
+
+   public <T extends ModelRenderer> ModelRendererParser<T> getModelRendererParser(T renderer) {
+      return this.globalParsers.getModelParser(var1);
+   }
+
+   public <T extends BehaviorRenderer> BehaviorRendererParser<T> getBehaviorRendererParser(T renderer) {
+      return this.globalParsers.getBehaviorParser(var1);
+   }
+
+   public <T extends VisualRenderer> VisualRendererParser<T> getVFXRendererParser(T renderer) {
+      return this.resolveVisualParser(var1);
+   }
+
+   private <T extends VisualRenderer> VisualRendererParser<T> resolveVisualParser(T renderer) {
+      return var1 instanceof VisualDisplayRenderer ? this.vfxDisplayParser : null;
+   }
+
+   @Generated
+   public EntityHandler getEntityHandler() {
+      return this.entityHandler;
+   }
+
+   @Generated
+   public NetworkHandler getNetworkHandler() {
+      return this.networkHandler;
+   }
+
+   @Generated
+   public RenderParsers getGlobalParsers() {
+      return this.globalParsers;
+   }
+
+   @Generated
+   public EffectRenderer getVfxDisplayParser() {
+      return this.vfxDisplayParser;
+   }
+
+   @Generated
+   public FakeDisplayEntityManager getFakeDisplayEntityManager() {
+      return this.fakeDisplayEntityManager;
+   }
+}

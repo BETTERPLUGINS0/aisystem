@@ -1,0 +1,26 @@
+package com.bergerkiller.bukkit.tc.signactions;
+
+import com.bergerkiller.bukkit.tc.events.SignActionEvent;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public abstract class TrainCartsSignAction extends SignAction {
+   private final String[] typeIdentifiers;
+
+   public TrainCartsSignAction(String... typeIdentifiers) {
+      if (typeIdentifiers.length == 0) {
+         throw new IllegalArgumentException("Must have at least one unique type identifier set");
+      } else {
+         this.typeIdentifiers = typeIdentifiers;
+      }
+   }
+
+   public final List<String> getTypeIdentifiers() {
+      return Collections.unmodifiableList(Arrays.asList(this.typeIdentifiers));
+   }
+
+   public final boolean match(SignActionEvent event) {
+      return event.getMode() != SignActionMode.NONE && event.isType(this.typeIdentifiers);
+   }
+}

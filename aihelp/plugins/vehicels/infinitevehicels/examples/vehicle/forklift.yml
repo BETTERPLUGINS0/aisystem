@@ -1,0 +1,44 @@
+id: forklift
+name: 'Forklift'
+
+exit-shortcut:
+  operator: CROUCH
+
+model: forklift
+upgrade: ground-vehicle-upgrades
+
+item-storage-slots: 1
+
+fuel:
+  capacity: 50
+  min-consumption: 0.04
+  max-consumption: 0.06
+
+controllers:
+  main:
+    id: ground-vehicle
+
+pickup-item: 'forklift-spawner'
+
+physics:
+  # whether can float on liquid surfaces
+  floats: false
+  
+  gravity:
+    maximum: 2.48
+    acceleration: 0.040
+  
+  friction:
+    air: 10
+    on-unknown: 70
+    on-solid: 70
+    on-dusty: 40
+    on-snowy: 40
+    on-slippery: 30
+    on-water: 20
+    on-lava: 30
+    through-water: 50
+    through-lava: 90
+
+  climbing:
+    block-climb-capacity: 1

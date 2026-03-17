@@ -1,0 +1,8 @@
+id: truck-spawner
+material: PLAYER_HEAD
+display-name: '&cSpawn Truck'
+head-texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhkMWFkZDBiNmFjYjY5OTVjZjk3MDlmMmRjNWIwZTNjMTA0YzQ3YzgxYzM3YzU0ODIxYmI3N2E5Zjg2YzcifX19'
+
+action:
+  type: spawn
+  vehicle-id: 'truck'

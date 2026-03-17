@@ -1,0 +1,1348 @@
+id: fire-car
+type: COMPOUND
+hitbox:
+  width: 4.0
+  height: 3.0
+  depth: 4.0
+seats:
+  seat-0:
+    main: true
+    offset:
+      x: 0.0
+      y: 1.4823586728549545
+      z: -0.6931934874716861
+particles: { }
+sounds: { }
+parts:
+  red_concrete-25197517:
+    identifier: 5877a013-950a-4e3d-b081-dc03c19600f0
+    id: red_concrete-25197517
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: 0.5
+      y: 1.0
+      z: 2.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-116405959:
+    identifier: a69813d8-76e5-4ba9-96e1-a410045c7670
+    id: polished_basalt-116405959
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 1.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_button-25279038:
+    identifier: 4fe32e5c-4349-44ff-ab62-55035c2706d7
+    id: stone_button-25279038
+    material: STONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:stone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -2.5
+      y: 1.0
+      z: -0.34276785850524905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-90054931:
+    identifier: 6b8e656a-fdbe-412a-82a5-df32892d941d
+    id: polished_blackstone_button-90054931
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 1.5
+      y: 0.0
+      z: -2.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-93096165:
+    identifier: 2c1a773a-fb4d-49be-ac3a-fa45475d2374
+    id: red_concrete-93096165
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: -1.5
+      y: 1.0
+      z: 1.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-40456617:
+    identifier: ae352ebd-4635-4283-9df9-27b82dda5238
+    id: smooth_quartz_slab-40456617
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: 2.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-91856380:
+    identifier: 4855bdb1-6bde-4a8c-912c-4324ca93af60
+    id: polished_basalt-91856380
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 1.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-17320133:
+    identifier: b62d9523-f145-451b-abad-0fa2dbcef282
+    id: smooth_quartz_slab-17320133
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 2.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  tinted_glass-63283421:
+    identifier: 1c97a277-89f5-496b-97c6-5849b233525e
+    id: tinted_glass-63283421
+    material: TINTED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:tinted_glass
+    offset:
+      x: 0.5
+      y: 2.0
+      z: -2.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  heavy_weighted_pressure_plate-43632687:
+    identifier: 3dff284c-980c-4ae3-b3eb-1bce485ee575
+    id: heavy_weighted_pressure_plate-43632687
+    material: HEAVY_WEIGHTED_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:heavy_weighted_pressure_plate[power=0]
+    offset:
+      x: -0.5
+      y: 2.0
+      z: 2.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_planks-35392443:
+    identifier: 9543587a-0974-463f-83e2-9e95754aa16b
+    id: bamboo_planks-35392443
+    material: BAMBOO_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_wall_sign[facing=north,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.28125
+      z: -3.442767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  tinted_glass-37704325:
+    identifier: c92e624e-9c16-440c-af93-97bd4c113dfe
+    id: tinted_glass-37704325
+    material: TINTED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:tinted_glass
+    offset:
+      x: -1.5
+      y: 2.0
+      z: -0.34276785850524905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-80107661:
+    identifier: 93dbf031-2d77-4cdc-bf91-d5a2141c6b01
+    id: smooth_quartz_slab-80107661
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 2.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  white_carpet-11441495:
+    identifier: d40bbef2-1723-431a-8302-4377cce23453
+    id: white_carpet-11441495
+    material: WHITE_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:white_carpet
+    offset:
+      x: -0.5
+      y: 3.0
+      z: -2.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-37841710:
+    identifier: e11a8f71-ec0f-4c38-a498-2608d160c5d5
+    id: red_carpet-37841710
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -1.5
+      y: 3.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  white_carpet-78520181:
+    identifier: cea48dc2-0120-4638-9bf9-3510fce6765b
+    id: white_carpet-78520181
+    material: WHITE_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:white_carpet
+    offset:
+      x: -0.5
+      y: 3.0
+      z: -0.34276785850524905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-93281841:
+    identifier: 7b9c4919-03ad-43b1-9ea0-7a21ce80a4d1
+    id: smooth_quartz_slab-93281841
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-21153833:
+    identifier: 335429b4-8b9e-422e-ba1e-38e5e8ac7548
+    id: smooth_quartz_slab-21153833
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-856322:
+    identifier: dd4c0209-2449-4216-ad28-2a14bcbbc734
+    id: red_concrete-856322
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: -1.5
+      y: 2.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  tinted_glass-51140533:
+    identifier: cf7cd8f2-1df5-42ac-82d0-57062ee45e61
+    id: tinted_glass-51140533
+    material: TINTED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:tinted_glass
+    offset:
+      x: 0.5
+      y: 2.0
+      z: -0.34276785850524905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-64106656:
+    identifier: e2ab9809-954a-4a1a-b3d7-309e82358171
+    id: polished_blackstone_button-64106656
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -2.5
+      y: 0.0
+      z: -2.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-30122970:
+    identifier: 75375ff4-bff6-43b8-8004-2e133d0141e7
+    id: polished_blackstone_button-30122970
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 1.5
+      y: 0.0
+      z: 1.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-123342567:
+    identifier: 2a5b960c-3ae5-4161-ab44-bfd3d64c189f
+    id: red_concrete-123342567
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: 0.5
+      y: 1.0
+      z: -3.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  oak_stairs-112211705:
+    identifier: e7590ec2-873e-4364-9ba5-cf12b3b12d7f
+    id: oak_stairs-112211705
+    material: OAK_STAIRS
+    data:
+      data-type: block-data
+      value: minecraft:oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  stone_button-6336860:
+    identifier: 300d0be9-8183-4e62-ad55-50c30a23424b
+    id: stone_button-6336860
+    material: STONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:stone_button[face=wall,facing=east,powered=false]
+    offset:
+      x: 1.5
+      y: 1.0
+      z: -0.34276785850524905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-104680717:
+    identifier: b7a377ac-22d7-4f5f-a74e-c79b9ddc7e19
+    id: polished_basalt-104680717
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: -2.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-56257038:
+    identifier: a56976c1-b374-457a-9f2d-32ef14fa624e
+    id: red_concrete-56257038
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: 0.5
+      y: 1.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_basalt-45527811:
+    identifier: c435f478-3eee-4ac0-9f04-9fd7e0dece77
+    id: polished_basalt-45527811
+    material: POLISHED_BASALT
+    data:
+      data-type: block-data
+      value: minecraft:polished_basalt[axis=x]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: -2.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  tinted_glass-4678733:
+    identifier: 62cdda2b-a264-40ba-a15b-c2de75363c6f
+    id: tinted_glass-4678733
+    material: TINTED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:tinted_glass
+    offset:
+      x: -1.5
+      y: 2.0
+      z: -2.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-77029227:
+    identifier: f902a87a-c2dc-4de3-99b7-5c1d907bdefe
+    id: smooth_quartz_slab-77029227
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: -3.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-17678735:
+    identifier: 9fdcca13-5243-4eed-91bf-c788c6edec6e
+    id: smooth_quartz_slab-17678735
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: -0.34276785850524905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-60385639:
+    identifier: f5fcd896-8b2e-4e8e-9f14-415eb54103f4
+    id: smooth_quartz_slab-60385639
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: -3.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  white_concrete-71982657:
+    identifier: 992ed4e7-e7ff-415b-b7e7-7bc9aee942bc
+    id: white_concrete-71982657
+    material: WHITE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:white_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: 1.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-56379591:
+    identifier: 5dce88e5-10c4-46a1-9b43-cf185012e77c
+    id: red_carpet-56379591
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 0.5
+      y: 3.0
+      z: -0.34276785850524905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  white_concrete-115753073:
+    identifier: acbc4205-f76a-4a6e-ae30-9dc6de72a2fc
+    id: white_concrete-115753073
+    material: WHITE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:white_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: 2.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-34531420:
+    identifier: e760d0db-19f2-453e-8133-9320b35b0989
+    id: smooth_quartz_slab-34531420
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -3.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-31185815:
+    identifier: a71de9ca-923e-4b59-ad70-c11ee93cf39c
+    id: red_concrete-31185815
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: 0.5
+      y: 1.0
+      z: 0.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-83450852:
+    identifier: 5fbb279d-de9f-4ba1-a2b7-623bccc8c309
+    id: red_concrete-83450852
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: -1.5
+      y: 1.0
+      z: -3.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-60512062:
+    identifier: 61b35436-fb30-4b26-b683-a021f1242b07
+    id: red_carpet-60512062
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -1.5
+      y: 3.0
+      z: -2.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-78837479:
+    identifier: 30d1f9b3-47fc-4630-9acb-f69fa8ff77dc
+    id: red_carpet-78837479
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 0.5
+      y: 3.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-40028592:
+    identifier: fef54e66-78e8-4baf-876f-0bc977df7e21
+    id: iron_trapdoor-40028592
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -2.5
+      y: 1.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-112549193:
+    identifier: 9331fda6-2f22-46ac-a461-ae68924eb5d2
+    id: red_concrete-112549193
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: 0.5
+      y: 1.0
+      z: 1.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-35495977:
+    identifier: 584ecd28-081f-4f52-a972-6754ae7a15f0
+    id: iron_trapdoor-35495977
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: -2.5
+      y: 2.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  white_concrete-69898919:
+    identifier: 3fc5095c-63be-42f2-9681-1d74de7809cb
+    id: white_concrete-69898919
+    material: WHITE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:white_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -2.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-88257988:
+    identifier: 6338f8ef-deb7-4d4f-9524-409e56616a25
+    id: iron_trapdoor-88257988
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 1.5
+      y: 2.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  polished_blackstone_button-6296192:
+    identifier: 35c36a09-3090-429f-82bf-c656174cbe70
+    id: polished_blackstone_button-6296192
+    material: POLISHED_BLACKSTONE_BUTTON
+    data:
+      data-type: block-data
+      value: minecraft:polished_blackstone_button[face=wall,facing=west,powered=false]
+    offset:
+      x: -2.5
+      y: 0.0
+      z: 1.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  bamboo_planks-29925169:
+    identifier: 6e3a6bc1-b3a6-4d16-b2c6-f6f8abc9ab6f
+    id: bamboo_planks-29925169
+    material: BAMBOO_PLANKS
+    data:
+      data-type: block-data
+      value: minecraft:bamboo_wall_sign[facing=south,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.28125
+      z: 3.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 0.5
+      z: 0.09375
+  iron_trapdoor-69902158:
+    identifier: c0255274-eb9e-4d70-839b-81b5ca8db563
+    id: iron_trapdoor-69902158
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=south,half=top,open=false,powered=false,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 1.0
+      z: 3.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  anvil-108995409:
+    identifier: 36bee9c8-4a68-4065-84b0-d6ebb7e4530d
+    id: anvil-108995409
+    material: ANVIL
+    data:
+      data-type: block-data
+      value: minecraft:anvil[facing=south]
+    offset:
+      x: -0.5
+      y: 2.0
+      z: 1.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  white_concrete-31499907:
+    identifier: dea22ed5-a949-423f-8dbd-d0099d79c23b
+    id: white_concrete-31499907
+    material: WHITE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:white_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -3.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-45463905:
+    identifier: 87c02b6d-ea91-4045-84f9-fffa06645ed7
+    id: smooth_quartz_slab-45463905
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: 0.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-96950324:
+    identifier: 55c687bb-a0a2-42f9-be09-580887a83731
+    id: red_concrete-96950324
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: -1.5
+      y: 1.0
+      z: -2.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-83646044:
+    identifier: 0b307f91-144f-4b9e-891e-8f563c81d821
+    id: red_concrete-83646044
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: 0.5
+      y: 1.0
+      z: -2.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  iron_trapdoor-111326368:
+    identifier: b20a615e-bb58-4bc1-9ce1-b45d6235e301
+    id: iron_trapdoor-111326368
+    material: IRON_TRAPDOOR
+    data:
+      data-type: block-data
+      value: minecraft:iron_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]
+    offset:
+      x: 1.5
+      y: 1.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  heavy_weighted_pressure_plate-52543787:
+    identifier: 45fcaf78-8b53-45ee-9a57-54e7213fb83a
+    id: heavy_weighted_pressure_plate-52543787
+    material: HEAVY_WEIGHTED_PRESSURE_PLATE
+    data:
+      data-type: block-data
+      value: minecraft:heavy_weighted_pressure_plate[power=0]
+    offset:
+      x: -0.5
+      y: 2.0
+      z: 0.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-50056337:
+    identifier: ad1a19dc-49c5-4da8-af0e-77f898ed6271
+    id: red_concrete-50056337
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: 0.5
+      y: 1.0
+      z: -0.34276785850524905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  tinted_glass-21679795:
+    identifier: 621cd34d-d4b6-4d6d-b26e-4ac52925b2d0
+    id: tinted_glass-21679795
+    material: TINTED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:tinted_glass
+    offset:
+      x: -0.5
+      y: 2.0
+      z: -0.34276785850524905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-115907034:
+    identifier: a93e0cac-a744-4eaf-bb67-80b076426b06
+    id: red_concrete-115907034
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: -1.5
+      y: 1.0
+      z: 0.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  white_concrete-1360962:
+    identifier: 48d4e9ff-02b7-4c9f-b9ac-0be41044dccb
+    id: white_concrete-1360962
+    material: WHITE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:white_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: 0.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  tinted_glass-23938478:
+    identifier: dc4f527c-8bea-4928-8486-79c8747b100c
+    id: tinted_glass-23938478
+    material: TINTED_GLASS
+    data:
+      data-type: block-data
+      value: minecraft:tinted_glass
+    offset:
+      x: -0.5
+      y: 2.0
+      z: -2.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-108942786:
+    identifier: f980a3e9-721b-47c9-973f-3c7268747d2b
+    id: red_concrete-108942786
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: -1.5
+      y: 1.0
+      z: 2.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-38790993:
+    identifier: f77d0bde-10d5-4c04-8096-8b0a5d437960
+    id: red_concrete-38790993
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: 0.5
+      y: 2.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-101804249:
+    identifier: cad2226c-21d6-4a7d-abb2-bbcbea6cc73e
+    id: smooth_quartz_slab-101804249
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -0.5
+      y: 0.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-74276387:
+    identifier: bd5d8354-015d-495a-954d-bb2a394d4dd8
+    id: smooth_quartz_slab-74276387
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: -1.5
+      y: 0.0
+      z: 0.657232141494751
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-98171287:
+    identifier: 3c2b5476-573a-4b7f-84e7-f47151b14bdc
+    id: red_carpet-98171287
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: -1.5
+      y: 3.0
+      z: -0.34276785850524905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_carpet-30806859:
+    identifier: 5c536720-d7d9-4569-8a66-5121da9e68ee
+    id: red_carpet-30806859
+    material: RED_CARPET
+    data:
+      data-type: block-data
+      value: minecraft:red_carpet
+    offset:
+      x: 0.5
+      y: 3.0
+      z: -2.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-12721986:
+    identifier: 907035ae-09c3-4158-8e3b-dfc5bae14b31
+    id: red_concrete-12721986
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: -1.5
+      y: 1.0
+      z: -0.34276785850524905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  smooth_quartz_slab-78893694:
+    identifier: 3abee19d-4fa2-48ce-a586-197d3e2e12de
+    id: smooth_quartz_slab-78893694
+    material: SMOOTH_QUARTZ_SLAB
+    data:
+      data-type: block-data
+      value: minecraft:smooth_quartz_slab[type=top,waterlogged=false]
+    offset:
+      x: 0.5
+      y: 0.0
+      z: -0.34276785850524905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  white_concrete-110484584:
+    identifier: ceeb95ec-7e83-42ef-bb5e-45cbf72abbcc
+    id: white_concrete-110484584
+    material: WHITE_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:white_concrete
+    offset:
+      x: -0.5
+      y: 1.0
+      z: -0.34276785850524905
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  red_concrete-6061140:
+    identifier: b94762b1-3996-48f4-907e-db4a7d86ee77
+    id: red_concrete-6061140
+    material: RED_CONCRETE
+    data:
+      data-type: block-data
+      value: minecraft:red_concrete
+    offset:
+      x: -1.5
+      y: 1.0
+      z: -1.342767858505249
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+bones: { }
+animations: { }

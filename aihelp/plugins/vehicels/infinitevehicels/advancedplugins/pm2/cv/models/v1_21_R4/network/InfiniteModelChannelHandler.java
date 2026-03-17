@@ -1,0 +1,346 @@
+package advancedplugins.pm2.cv.models.v1_21_R4.network;
+
+import advancedplugins.pm2.cv.models.api.ModelAPI;
+import advancedplugins.pm2.cv.models.api.model.rpc.IModelContainer;
+import advancedplugins.pm2.cv.models.api.model.rpc.IVisualModel;
+import advancedplugins.pm2.cv.models.api.model.rpc.ModelUpdaters;
+import advancedplugins.pm2.cv.models.api.model.rpc.interaction.DynamicHitbox;
+import advancedplugins.pm2.cv.models.api.model.rpc.joint.behavior.JointAction;
+import advancedplugins.pm2.cv.models.api.model.rpc.joint.renderer.renderer.MountRenderer;
+import advancedplugins.pm2.cv.models.api.model.rpc.joint.type.JointBehaviorTypes;
+import advancedplugins.pm2.cv.models.api.model.rpc.joint.type.Mount;
+import advancedplugins.pm2.cv.models.api.model.rpc.mount.controller.MountController;
+import advancedplugins.pm2.cv.models.api.nms.entity.EntityHandler;
+import advancedplugins.pm2.cv.models.api.nms.network.ClientDesyncMonitor;
+import advancedplugins.pm2.cv.models.api.nms.network.PipelineWrapper;
+import advancedplugins.pm2.cv.models.api.utils.config.ConfigProperty;
+import advancedplugins.pm2.cv.models.api.utils.data.tracker.CollectionDataTracker;
+import advancedplugins.pm2.cv.models.api.utils.math.MathUtils;
+import advancedplugins.pm2.cv.models.v1_21_R4.entity.EntityContainer;
+import advancedplugins.pm2.cv.models.v1_21_R4.network.patch.ServerboundInteractPacketWrapper;
+import advancedplugins.pm2.cv.models.v1_21_R4.network.utils.NetworkUtils;
+import advancedplugins.pm2.cv.models.v1_21_R4.network.utils.PacketInterceptor;
+import io.netty.channel.ChannelDuplexHandler;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.channel.ChannelPromise;
+import it.unimi.dsi.fastutil.Pair;
+import it.unimi.dsi.fastutil.ints.IntArrayList;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
+import net.minecraft.network.PacketDataSerializer;
+import net.minecraft.network.RegistryFriendlyByteBuf;
+import net.minecraft.network.protocol.Packet;
+import net.minecraft.network.protocol.common.ClientboundKeepAlivePacket;
+import net.minecraft.network.protocol.common.ServerboundPongPacket;
+import net.minecraft.network.protocol.game.ClientboundBundlePacket;
+import net.minecraft.network.protocol.game.PacketListenerPlayIn;
+import net.minecraft.network.protocol.game.PacketListenerPlayOut;
+import net.minecraft.network.protocol.game.PacketPlayInFlying;
+import net.minecraft.network.protocol.game.PacketPlayInSteerVehicle;
+import net.minecraft.network.protocol.game.PacketPlayInUseEntity;
+import net.minecraft.network.protocol.game.PacketPlayOutAnimation;
+import net.minecraft.network.protocol.game.PacketPlayOutEntityDestroy;
+import net.minecraft.network.protocol.game.PacketPlayOutEntityEffect;
+import net.minecraft.network.protocol.game.PacketPlayOutEntityEquipment;
+import net.minecraft.network.protocol.game.PacketPlayOutEntityHeadRotation;
+import net.minecraft.network.protocol.game.PacketPlayOutEntityMetadata;
+import net.minecraft.network.protocol.game.PacketPlayOutEntityStatus;
+import net.minecraft.network.protocol.game.PacketPlayOutEntityTeleport;
+import net.minecraft.network.protocol.game.PacketPlayOutEntityVelocity;
+import net.minecraft.network.protocol.game.PacketPlayOutMount;
+import net.minecraft.network.protocol.game.PacketPlayOutRemoveEntityEffect;
+import net.minecraft.network.protocol.game.PacketPlayOutSpawnEntity;
+import net.minecraft.network.protocol.game.ServerboundClientTickEndPacket;
+import net.minecraft.network.protocol.game.PacketPlayInFlying.PacketPlayInPosition;
+import net.minecraft.network.protocol.game.PacketPlayInFlying.PacketPlayInPositionLook;
+import net.minecraft.network.protocol.game.PacketPlayOutEntity.PacketPlayOutEntityLook;
+import net.minecraft.network.protocol.game.PacketPlayOutEntity.PacketPlayOutRelEntityMove;
+import net.minecraft.network.protocol.game.PacketPlayOutEntity.PacketPlayOutRelEntityMoveLook;
+import net.minecraft.network.syncher.DataWatcherRegistry;
+import net.minecraft.network.syncher.DataWatcher.c;
+import net.minecraft.server.level.EntityPlayer;
+import org.bukkit.craftbukkit.v1_21_R4.entity.CraftPlayer;
+import org.bukkit.entity.Player;
+import org.jetbrains.annotations.NotNull;
+
+public class InfiniteModelChannelHandler extends ChannelDuplexHandler {
+   private final Player player;
+   private final EntityPlayer serverPlayer;
+   private final ModelUpdaters updaters;
+   private final EntityHandler entityHandler;
+   private final ClientDesyncMonitor desyncMonitor;
+   private final PacketInterceptor<PacketListenerPlayOut> writeInterceptors;
+   private final PacketInterceptor<PacketListenerPlayIn> readInterceptors;
+
+   public InfiniteModelChannelHandler(Player player, PipelineWrapper pipeline) {
+      this.player = var1;
+      this.serverPlayer = ((CraftPlayer)var1).getHandle();
+      this.updaters = ModelAPI.getAPI().getModelUpdaters();
+      this.entityHandler = ModelAPI.getEntityHandler();
+      this.desyncMonitor = var2.getDesyncMonitor();
+      this.writeInterceptors = new PacketInterceptor();
+      this.writeInterceptors.register(PacketPlayOutSpawnEntity.class, this::handleAddEntity).register(PacketPlayOutEntityDestroy.class, this::handleRemoveEntities).register(PacketPlayOutRelEntityMove.class, this::handleEntityId).register(PacketPlayOutEntityLook.class, this::handleEntityId).register(PacketPlayOutRelEntityMoveLook.class, this::handleEntityId).register(PacketPlayOutEntityHeadRotation.class, this::handleEntityId).register(PacketPlayOutEntityStatus.class, this::handleEntityId).register(PacketPlayOutEntityVelocity.class, this::handleEntityMotion).register(PacketPlayOutEntityTeleport.class, this::handleTeleportEntity).register(PacketPlayOutAnimation.class, this::handleAnimate).register(PacketPlayOutEntityMetadata.class, this::handleEntityData).register(PacketPlayOutEntityEquipment.class, this::handleSetEquipment).register(PacketPlayOutRemoveEntityEffect.class, this::handleRemoveMobEffect).register(PacketPlayOutEntityEffect.class, this::handleUpdateMobEffect).register(ClientboundKeepAlivePacket.class, this::handleKeepAlive).registerPost(PacketPlayOutSpawnEntity.class, this::handleAddEntityPost);
+      this.readInterceptors = new PacketInterceptor();
+      this.readInterceptors.register(PacketPlayInUseEntity.class, this::handleInteract).register(PacketPlayInSteerVehicle.class, this::handlePlayerInput).register(ServerboundPongPacket.class, this::handlePong).register(PacketPlayInPosition.class, this::handlePlayerMove).register(PacketPlayInPositionLook.class, this::handlePlayerMove).register(ServerboundClientTickEndPacket.class, this::handleClientTickEnd);
+   }
+
+   public void write(ChannelHandlerContext ctx, Object msg, ChannelPromise promise) {
+      if (!(var2 instanceof Packet)) {
+         super.write(var1, var2, var3);
+      } else {
+         Packet var4 = (Packet)var2;
+
+         try {
+            ArrayList var5;
+            ClientboundBundlePacket var11;
+            if (var4 instanceof ClientboundBundlePacket) {
+               ClientboundBundlePacket var6 = (ClientboundBundlePacket)var4;
+               var5 = new ArrayList();
+               Iterator var7 = var6.b().iterator();
+
+               while(var7.hasNext()) {
+                  Packet var8 = (Packet)var7.next();
+                  Packet var9 = this.writeInterceptors.accept(var8);
+                  if (var9 != null) {
+                     var5.add(var9);
+                     var5.addAll(this.writeInterceptors.acceptPost(var9));
+                  }
+               }
+
+               if (!var5.isEmpty()) {
+                  var11 = new ClientboundBundlePacket(var5);
+                  super.write(var1, var11, var3);
+               }
+            } else {
+               var4 = this.writeInterceptors.accept(var4);
+               if (var4 == null) {
+                  return;
+               }
+
+               var5 = new ArrayList();
+               var5.add(var4);
+               var5.addAll(this.writeInterceptors.acceptPost(var4));
+               if (var5.size() == 1) {
+                  super.write(var1, var4, var3);
+               } else {
+                  var11 = new ClientboundBundlePacket(var5);
+                  super.write(var1, var11, var3);
+               }
+            }
+         } catch (Throwable var10) {
+            var10.printStackTrace();
+         }
+      }
+
+   }
+
+   public void channelRead(@NotNull ChannelHandlerContext ctx, @NotNull Object msg) {
+      if (!(var2 instanceof Packet)) {
+         super.channelRead(var1, var2);
+      } else {
+         Packet var3 = this.readInterceptors.accept((Packet)var2);
+         if (var3 != null) {
+            super.channelRead(var1, var3);
+            this.readInterceptors.acceptPost(var3);
+         }
+      }
+
+   }
+
+   private PacketPlayOutSpawnEntity handleAddEntity(PacketPlayOutSpawnEntity packet) {
+      return this.shouldShow(var1.b()) ? var1 : null;
+   }
+
+   private List<Packet<? super PacketListenerPlayOut>> handleAddEntityPost(PacketPlayOutSpawnEntity packet) {
+      return this.handleMount(var1.e());
+   }
+
+   private List<Packet<? super PacketListenerPlayOut>> handleMount(UUID uuid) {
+      Pair var2 = ModelAPI.getMountPairManager().get(var1);
+      if (var2 == null) {
+         return null;
+      } else {
+         IVisualModel var3 = (IVisualModel)var2.left();
+         ArrayList var4 = null;
+         Optional var5 = var3.getBehaviorRenderer(JointBehaviorTypes.MOUNT);
+         if (var5.isPresent()) {
+            Object var6 = var5.get();
+            if (var6 instanceof MountRenderer) {
+               MountRenderer var7 = (MountRenderer)var6;
+               MountController var8 = (MountController)var2.right();
+               Mount var9 = var8.getMount();
+               if (var9 instanceof JointAction) {
+                  JointAction var10 = (JointAction)var9;
+                  MountRenderer.Mount var11 = (MountRenderer.Mount)var7.getRendered().get(var10.getJoint().getJointId());
+                  if (var11 == null) {
+                     return null;
+                  }
+
+                  CollectionDataTracker var12 = var11.getPassengers();
+                  var4 = new ArrayList();
+                  var4.add(new PacketPlayOutMount(EntityContainer.of(var11.getMountId(), (Collection)var12)));
+               }
+            }
+         }
+
+         return var4;
+      }
+   }
+
+   private PacketPlayOutEntityDestroy handleRemoveEntities(PacketPlayOutEntityDestroy packet) {
+      int[] var2 = var1.b().intStream().filter(this::shouldShow).toArray();
+      return var2.length == var1.b().size() ? var1 : new PacketPlayOutEntityDestroy(IntArrayList.wrap(var2));
+   }
+
+   private <T extends Packet<? super PacketListenerPlayOut>> T handleEntityId(T packet) {
+      PacketDataSerializer var2 = NetworkUtils.readClientbound(var1);
+      int var3 = var2.l();
+      return this.shouldShow(var3) ? var1 : null;
+   }
+
+   private PacketPlayOutEntityVelocity handleEntityMotion(PacketPlayOutEntityVelocity packet) {
+      return this.shouldShow(var1.b()) ? var1 : null;
+   }
+
+   private PacketPlayOutEntityTeleport handleTeleportEntity(PacketPlayOutEntityTeleport packet) {
+      return this.shouldShow(var1.b()) ? var1 : null;
+   }
+
+   private PacketPlayOutAnimation handleAnimate(PacketPlayOutAnimation packet) {
+      return this.shouldShow(var1.b()) ? var1 : null;
+   }
+
+   private PacketPlayOutEntityMetadata handleEntityData(PacketPlayOutEntityMetadata packet) {
+      if (!this.shouldShow(var1.b())) {
+         return null;
+      } else if (var1.b() != this.player.getEntityId()) {
+         return var1;
+      } else {
+         if (this.entityHandler.isForcedInvisible(this.player)) {
+            ArrayList var2 = new ArrayList();
+            RegistryFriendlyByteBuf var3 = NetworkUtils.createByteBuf();
+            var3.c(var1.b());
+            Iterator var4 = var1.e().iterator();
+
+            while(var4.hasNext()) {
+               c var5 = (c)var4.next();
+               if (var5.a() == 0) {
+                  byte var6 = (Byte)var5.c();
+                  var6 = MathUtils.setBit(var6, 5, true);
+                  var2.add(new c(0, DataWatcherRegistry.a, var6));
+               } else {
+                  var2.add(var5);
+               }
+            }
+
+            var3.l(255);
+            var1 = new PacketPlayOutEntityMetadata(var1.b(), var2);
+         }
+
+         return var1;
+      }
+   }
+
+   private PacketPlayOutEntityEquipment handleSetEquipment(PacketPlayOutEntityEquipment packet) {
+      return this.shouldShow(var1.b()) ? var1 : null;
+   }
+
+   private PacketPlayOutRemoveEntityEffect handleRemoveMobEffect(PacketPlayOutRemoveEntityEffect packet) {
+      int var2 = var1.b();
+      return this.shouldShow(var2) ? var1 : null;
+   }
+
+   private PacketPlayOutEntityEffect handleUpdateMobEffect(PacketPlayOutEntityEffect packet) {
+      return this.shouldShow(var1.b()) ? var1 : null;
+   }
+
+   private boolean shouldShow(int id) {
+      if (ModelAPI.isRenderCanceled(var1)) {
+         return false;
+      } else if (this.player.getEntityId() == var1) {
+         return true;
+      } else {
+         IModelContainer var2 = this.updaters.getModeledEntity(var1);
+         return var2 == null || var2.isBaseEntityVisible();
+      }
+   }
+
+   private ClientboundKeepAlivePacket handleKeepAlive(ClientboundKeepAlivePacket packet) {
+      if (this.desyncMonitor.clientTickShifted() || this.desyncMonitor.shouldRetest()) {
+         this.desyncMonitor.startTest();
+      }
+
+      return var1;
+   }
+
+   private Packet<? super PacketListenerPlayIn> handleInteract(PacketPlayInUseEntity packet) {
+      PacketDataSerializer var2 = NetworkUtils.readServerbound(var1, this.serverPlayer);
+      int var3 = var2.l();
+      int var4 = var2.l();
+      if (var3 == DynamicHitbox.getHitboxId()) {
+         DynamicHitbox var5 = ModelAPI.getInteractionTracker().getDynamicHitbox(this.player.getUniqueId());
+         if (var5 != null) {
+            return new ServerboundInteractPacketWrapper(var3, var5.getTarget(), var4, var1);
+         }
+      }
+
+      IVisualModel var8 = ModelAPI.getInteractionTracker().getModelRelay(var3);
+      if (var8 != null) {
+         IModelContainer var9 = var8.getModeledEntity();
+         if (var9 == null) {
+            return var1;
+         } else {
+            int var7 = var9.getBase().getEntityId();
+            return new ServerboundInteractPacketWrapper(var3, var7, var4, var1);
+         }
+      } else {
+         Integer var6 = ModelAPI.getInteractionTracker().getEntityRelay(var3);
+         return (Packet)(var6 != null ? new ServerboundInteractPacketWrapper(var3, var6, var4, var1) : var1);
+      }
+   }
+
+   private PacketPlayInSteerVehicle handlePlayerInput(PacketPlayInSteerVehicle inputPacket) {
+      MountController var2 = ModelAPI.getMountPairManager().getController(this.player.getUniqueId());
+      if (var2 != null) {
+         MountController.MountInput var3 = var2.getInput();
+         if (var3 == null) {
+            var2.setInput(new MountController.MountInput(var1.b().a(), var1.b().b(), var1.b().c(), var1.b().d(), var1.b().e(), var1.b().f(), var1.b().g()));
+         } else {
+            var3.setForward(var1.b().a());
+            var3.setBackward(var1.b().b());
+            var3.setLeft(var1.b().c());
+            var3.setRight(var1.b().d());
+            var3.setJump(var1.b().e());
+            var3.setSneak(var1.b().f());
+            var3.setSprint(var1.b().g());
+         }
+      }
+
+      return var1;
+   }
+
+   private ServerboundPongPacket handlePong(ServerboundPongPacket packet) {
+      this.desyncMonitor.recordPongTime(System.currentTimeMillis());
+      return null;
+   }
+
+   private PacketPlayInFlying handlePlayerMove(PacketPlayInFlying packet) {
+      if (!ConfigProperty.SYNC_CLIENT_TICK_END.getBoolean()) {
+         this.desyncMonitor.recordClientSyncTime(System.currentTimeMillis());
+      }
+
+      return var1;
+   }
+
+   private ServerboundClientTickEndPacket handleClientTickEnd(ServerboundClientTickEndPacket packet) {
+      if (ConfigProperty.SYNC_CLIENT_TICK_END.getBoolean()) {
+         this.desyncMonitor.recordClientSyncTime(System.currentTimeMillis());
+      }
+
+      return var1;
+   }
+}

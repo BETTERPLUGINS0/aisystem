@@ -1,0 +1,265 @@
+id: "boat-upgrades"
+material: "PRISMARINE_CRYSTALS"
+display-name: "&bBoat Upgrades"
+slot: 8
+title: "Boat Upgrades"
+rows: 3
+
+upgrades:
+  propeller_upgrade:
+    slot: 11
+    tiers:
+      1:
+        material: "PLAYER_HEAD"
+        head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Q4YTU4ODEzZGJhYmQ3ZTY0MzExZmY1M2QyNzM3NWIzMjFlZWQ2ZjcyZjQxZjFlYzY0NzU2NDU0Mjg0In19fQ=="
+        display-name: "&6Propeller Upgrade I"
+        description:
+          - ""
+          - "&7Upgrades your boat's propeller"
+          - "&7to level 1"
+          - ""
+          - "&8+ Increased forward thrust"
+          - "&8+ Faster acceleration on water"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "PLAYER_HEAD"
+          head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Q4YTU4ODEzZGJhYmQ3ZTY0MzExZmY1M2QyNzM3NWIzMjFlZWQ2ZjcyZjQxZjFlYzY0NzU2NDU0Mjg0In19fQ=="
+          display-name: "&6Propeller Upgrade I"
+          description:
+            - ""
+            - "&7Upgrades your boat's propeller"
+            - "&7to level 1"
+            - ""
+            - "&8+ Increased forward thrust"
+            - "&8+ Faster acceleration on water"
+            - ""
+            - "&7Right-click boat to upgrade"
+        upgrades:
+          max-positive-acceleration: 0.20
+          positive-acceleration-on-water: 0.030
+        requirements:
+          vault-money: 1000
+          exp: 10
+          level: 10
+      2:
+        material: "PLAYER_HEAD"
+        head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Q4YTU4ODEzZGJhYmQ3ZTY0MzExZmY1M2QyNzM3NWIzMjFlZWQ2ZjcyZjQxZjFlYzY0NzU2NDU0Mjg0In19fQ=="
+        display-name: "&6Propeller Upgrade II"
+        description:
+          - ""
+          - "&7Upgrades your boat's propeller"
+          - "&7to level 2"
+          - ""
+          - "&8++ Increased forward thrust"
+          - "&8++ Faster acceleration on water"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "PLAYER_HEAD"
+          head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Q4YTU4ODEzZGJhYmQ3ZTY0MzExZmY1M2QyNzM3NWIzMjFlZWQ2ZjcyZjQxZjFlYzY0NzU2NDU0Mjg0In19fQ=="
+          display-name: "&6Propeller Upgrade II"
+          description:
+            - ""
+            - "&7Upgrades your boat's propeller"
+            - "&7to level 2"
+            - ""
+            - "&8++ Increased forward thrust"
+            - "&8++ Faster acceleration on water"
+            - ""
+            - "&7Right-click boat to upgrade"
+        upgrades:
+          max-positive-acceleration: 0.25
+          positive-acceleration-on-water: 0.035
+        requirements:
+          vault-money: 1500
+          exp: 15
+          level: 15
+      3:
+        material: "PLAYER_HEAD"
+        head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Q4YTU4ODEzZGJhYmQ3ZTY0MzExZmY1M2QyNzM3NWIzMjFlZWQ2ZjcyZjQxZjFlYzY0NzU2NDU0Mjg0In19fQ=="
+        display-name: "&6Propeller Upgrade III"
+        description:
+          - ""
+          - "&7Upgrades your boat's propeller"
+          - "&7to level 3"
+          - ""
+          - "&8+++ Increased forward thrust"
+          - "&8+++ Faster acceleration on water"
+          - ""
+          - "&7Click to upgrade"
+        selected-description: 
+          - ""
+          - "&7Propeller at maximum efficiency!"
+          - "&8+++ Top-tier forward thrust"
+          - "&8+++ Superior acceleration on water"
+          - ""
+          - "&cMAX LEVEL"
+        physical-item:
+          material: "PLAYER_HEAD"
+          head-texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Q4YTU4ODEzZGJhYmQ3ZTY0MzExZmY1M2QyNzM3NWIzMjFlZWQ2ZjcyZjQxZjFlYzY0NzU2NDU0Mjg0In19fQ=="
+          display-name: "&6Propeller Upgrade III"
+          description:
+            - ""
+            - "&7Upgrades your boat's propeller"
+            - "&7to level 3"
+            - ""
+            - "&8+++ Increased forward thrust"
+            - "&8+++ Faster acceleration on water"
+            - ""
+            - "&7Right-click boat to upgrade"
+        upgrades:
+          max-positive-acceleration: 0.30
+          positive-acceleration-on-water: 0.040
+        requirements:
+          vault-money: 2000
+          exp: 20
+          level: 20
+
+  rudder_upgrade:
+    slot: 13
+    tiers:
+      1:
+        material: "OAK_BOAT"
+        display-name: "&aRudder Upgrade I"
+        description:
+          - ""
+          - "&7Improves your boat's rudder"
+          - "&7for better handling to level 1"
+          - ""
+          - "&8+ Enhanced turning sharpness"
+          - "&8+ Improved maneuverability"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "OAK_BOAT"
+          display-name: "&aRudder Upgrade I"
+          description:
+            - ""
+            - "&7Improves your boat's rudder"
+            - "&7for better handling to level 1"
+            - ""
+            - "&8+ Enhanced turning sharpness"
+            - "&8+ Improved maneuverability"
+            - ""
+            - "&7Right-click boat to upgrade"
+        upgrades:
+          turning-angle-min: 2
+          turning-angle-max: 4
+        requirements:
+          vault-money: 750
+          exp: 5
+          level: 5
+      2:
+        material: "OAK_BOAT"
+        display-name: "&aRudder Upgrade II"
+        description:
+          - ""
+          - "&7Improves your boat's rudder"
+          - "&7for better handling to level 2"
+          - ""
+          - "&8++ Sharper turning"
+          - "&8++ Superior maneuverability"
+          - ""
+          - "&7Click to upgrade"
+        selected-description:
+          - ""
+          - "&7Rudder at peak performance!"
+          - "&8++ Maximum turning sharpness"
+          - "&8++ Unmatched maneuverability"
+          - ""
+          - "&cMAX LEVEL"
+        physical-item:
+          material: "OAK_BOAT"
+          display-name: "&aRudder Upgrade II"
+          description:
+            - ""
+            - "&7Improves your boat's rudder"
+            - "&7for better handling to level 2"
+            - ""
+            - "&8++ Sharper turning"
+            - "&8++ Superior maneuverability"
+            - ""
+            - "&7Right-click boat to upgrade"
+        upgrades:
+          turning-angle-min: 3
+          turning-angle-max: 5
+        requirements:
+          vault-money: 1200
+          exp: 10
+          level: 10
+
+  reverse_thrust_upgrade:
+    slot: 15 
+    tiers:
+      1:
+        material: "REDSTONE"
+        display-name: "&cReverse Thrust I"
+        description:
+          - ""
+          - "&7Enhances boat's reverse thrust"
+          - "&7and stopping power to level 1"
+          - ""
+          - "&8+ Increased reverse speed"
+          - "&8+ Better deceleration on water"
+          - ""
+          - "&7Click to upgrade"
+        physical-item:
+          material: "REDSTONE"
+          display-name: "&cReverse Thrust I"
+          description:
+            - ""
+            - "&7Enhances boat's reverse thrust"
+            - "&7and stopping power to level 1"
+            - ""
+            - "&8+ Increased reverse speed"
+            - "&8+ Better deceleration on water"
+            - ""
+            - "&7Right-click boat to upgrade"
+        upgrades:
+          max-negative-acceleration: 0.12
+          negative-acceleration-on-water: 0.030 
+          deceleration: 0.018 
+        requirements:
+          vault-money: 750
+          exp: 5
+          level: 5
+      2:
+        material: "REDSTONE"
+        display-name: "&cReverse Thrust II"
+        description:
+          - ""
+          - "&7Enhances boat's reverse thrust"
+          - "&7and stopping power to level 2"
+          - ""
+          - "&8++ Faster reverse speed"
+          - "&8++ Quicker deceleration on water"
+          - ""
+          - "&7Click to upgrade"
+        selected-description:
+          - ""
+          - "&7Reverse thrust at maximum capacity!"
+          - "&8++ Top-tier reverse performance"
+          - "&8++ Optimal stopping power"
+          - ""
+          - "&cMAX LEVEL"
+        physical-item:
+          material: "REDSTONE"
+          display-name: "&cReverse Thrust II"
+          description:
+            - ""
+            - "&7Enhances boat's reverse thrust"
+            - "&7and stopping power to level 2"
+            - ""
+            - "&8++ Faster reverse speed"
+            - "&8++ Quicker deceleration on water"
+            - ""
+            - "&7Right-click boat to upgrade"
+        upgrades:
+          max-negative-acceleration: 0.15
+          negative-acceleration-on-water: 0.035
+          deceleration: 0.020
+        requirements:
+          vault-money: 1200
+          exp: 10
+          level: 10

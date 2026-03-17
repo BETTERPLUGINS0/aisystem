@@ -1,0 +1,45 @@
+id: wood-helicopter
+name: 'Wood Helicopter'
+
+exit-shortcut:
+  operator: CROUCH_JUMP
+
+model: wood-helicopter
+upgrade: heli-upgrades
+
+item-storage-slots: 3
+
+controllers:
+  main:
+    id: rotorcraft-vehicle
+
+
+fuel:
+  capacity: 100
+  min-consumption: 0.08
+  max-consumption: 0.010
+
+pickup-item: 'wood-helicopter-spawner'
+
+physics:
+  # whether can float on liquid surfaces
+  floats: false
+  
+  gravity:
+    maximum: 2.48
+    acceleration: 0.040
+  
+  friction:
+    air: 60
+    on-unknown: 60
+    on-solid: 60
+    on-dusty: 40
+    on-snowy: 40
+    on-slippery: 30
+    on-water: 20
+    on-lava: 30
+    through-water: 50
+    through-lava: 90
+
+  climbing:
+    block-climb-capacity: 1

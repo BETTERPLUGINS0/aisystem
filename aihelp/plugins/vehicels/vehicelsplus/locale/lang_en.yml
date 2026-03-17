@@ -1,0 +1,317 @@
+vehiclesplus:
+  general:
+    errors:
+      noeconomy: '<c5>Economy support is disabled! This command will not work. Please contact the server owner.</c5>'
+      notenoughmoney: '<c5>Could not complete the payment. You don''t have enough money!</c5>'
+    vehicles:
+      actionbar:
+        normal: '<c1>Gear </c1><c7>%gear%</c7><c2> | </c2><c1>Speed </c1><c7>%curspeed%</c7><c2>/</c2><c7>%maxspeed%</c7><c1>KM/H</c1><c2> | </c2><c1>Fuel Tank </c1><c7>%fuelperc%</c7><c1>%</c1><c2> (</c2><c7>%curfuel%</c7><c2>/</c2><c7>%maxfuel%</c7><c1>L</c1><c2>)</c2>'
+        outoffuel: '<c5>Out of fuel!</c5>'
+  commands:
+    addon:
+      descriptions:
+        main: 'VehiclesPlus Addon command'
+        givepaint: 'Give a paint buck to a player'
+        givewheel: 'Give a wheel to a player'
+      givepaint:
+        item:
+          name: '<c3>Paint Bucket</c3>'
+          lore: '<c4>Red: %red%</c4>\n<c4>Green: %green%</c4>\n<c4>Blue: %blue%</c4>'
+        given: '<c3>The paint bucket has been given to </c3><c4>%player%</c4><c3>.</c3>'
+        received: '<c3>You''ve received a paint bucket! Click on a part to change its color.</c3>'
+      givewheel:
+        item:
+          name: '<c3>Wheel</c3>'
+          lore: '<c4>Type: %type%</c4>'
+        given: '<c3>The wheel has been given to </c3><c4>%player%</c4><c3>.</c3>'
+        received: '<c3>You''ve received a wheel! Click on the old wheel to change it to this one.</c3>'
+    fuel:
+      descriptions:
+        main: 'VehiclesPlus Fuel command'
+        give: 'Give fuel to a player'
+        buy: 'Buy fuel directly'
+        shop: 'Open the fuel shop'
+      give: '<c3>The fuel has been given.</c3>'
+      buy: '<c3>You''ve successfully bought </c3><c4>%liters%L</c4><c3> of </c3><c4>%type%</c4><c3>.</c3>'
+    garage:
+      descriptions:
+        main: 'VehiclesPlus Garage command'
+        open: 'Open the garage'
+        create: 'Create a new garage'
+        delete: 'Delete a garage'
+        addmember: 'Add a member to a garage'
+        removemember: 'Remove a member from a garage'
+        setowner: 'Set the owner of a garage'
+      invalid: '<c5>That garage does not exists!</c5>'
+      already: '<c5>That garage already exists!</c5>'
+      created: '<c3>Successfully created </c3><c4>%garage%</c4><c3>!</c3>'
+      deleted: '<c3>Successfully deleted </c3><c4>%garage%</c4><c3>!</c3>'
+      addedmember: '<c3>Successfully added </c3><c4>%player%</c4><c3> to </c3><c4>%garage%</c4><c3>!</c3>'
+      removedmember: '<c3>Successfully removed </c3><c4>%player%</c4><c3> from </c3><c4>%garage%</c4><c3>!</c3>'
+      setowner: '<c3>Successfully set </c3><c4>%player%</c4><c3> as the owner of </c3><c4>%garage%</c4><c3>!</c3>'
+    vehiclemodel:
+      descriptions:
+        main: 'VehiclesPlus VehicleModel command'
+        delete: 'Delete a vehicle model'
+        list: 'List all vehicle models'
+        reload: 'Reload the vehicle models'
+        info: 'Get information about a vehicle model'
+      delete:
+        confirm: '<c3>Are you sure you want to delete the vehicle model </c3><c4>%model%</c4><c3>? It will remove all the linked vehicles from the garages too!</c3>'
+        deleted: '<c3>Successfully deleted the vehicle model </c3><c4>%model%</c4><c3>!</c3>'
+        cancelled: '<c3>Successfully canceled deleting the vehicle model!</c3>'
+      list:
+        title: 'Name: <c7>%name%</c7> | Type: <c7>%type%</c7>'
+        hover: 'Left click for more information.'
+      reload: '<c3>Successfully reloaded the vehicle models!</c3>'
+      info:
+        name: 'Name: <c7>%name%</c7>'
+        type: 'Type: <c7>%type%</c7>'
+        parts:
+          header: 'Parts:'
+          part: '- <c7>%part%</c7>'
+        settings:
+          header: 'Settings:'
+          setting: '<c5>%setting%</c5>'
+          upgradable:
+            base: 'Base setting: <c7>%base% %unit%</c7>'
+            max: 'Max setting: <c7>%max% %unit%</c7>'
+            step: 'Upgrading step: <c7>%step% %unit%</c7>'
+            stepcost: 'Upgrading step cost: <c7>%stepcost%</c7>'
+            notupgradable: '<c5>Not upgradable</c5>'
+            maxedout: '<c5>Maxed out</c5>'
+          exhaust:
+            enabled: 'Enabled: <c7>%enabled%</c7>'
+            xoffset: 'X offset: <c7>%xoffset%</c7>'
+            yoffset: 'Y offset: <c7>%yoffset%</c7>'
+            zoffset: 'Z offset: <c7>%zoffset%</c7>'
+            particle: 'Particle: <c7>%particle%</c7>'
+          fuel:
+            type: 'Type: <c7>%type%</c7>'
+            usage: 'Usage: <c7>%usage%</c7>'
+          heightlimit:
+            minheight: 'Min height: <c7>%min%</c7>'
+            maxheight: 'Max height: <c7>%max%</c7>'
+          hitbox:
+            length: 'Length: <c7>%length%</c7>'
+            width: 'Width: <c7>%width%</c7>'
+            height: 'Height: <c7>%height%</c7>'
+          horn:
+            enabled: 'Enabled: <c7>%enabled%</c7>'
+            sound: 'Sound: %sound%'
+          permissions:
+            buy: 'Buy: <c7>%buy%</c7>'
+            adjust: 'Adjust: <c7>%adjust%</c7>'
+            spawn: 'Spawn: <c7>%spawn%</c7>'
+            ride: 'Ride: <c7>%ride%</c7>'
+            cansitwithoutride: 'Can sit without ride permission: <c7>%sit%</c7>'
+          sounds:
+            sound:
+              sound: '- Sound: <c7>%sound%</c7>'
+              duration: '- Duration: <c7>%duration%</c7>'
+              volume: '- Volume: <c7>%volume%</c7>'
+              pitch: '- Pitch: <c7>%pitch%</c7>'
+            idle: 'Idle sound: %sound%'
+            start: 'Start sound: %sound%'
+            acceleration: 'Acceleration sound: %sound%'
+            driving: 'Driving sound: %sound%'
+            slowingdown: 'Slowing down sound: %sound%'
+          gearbox:
+            realistic: 'Realistic: <c7>%realistic%</c7>'
+            cooldown: 'Cooldown: <c7>%cooldown%</c7>'
+        drift: 'Drift: <c7>%drift%</c7>'
+        exitwhilemoving: 'Exit while moving: <c7>%exitwhilemoving%</c7>'
+        price: 'Price: <c7>%price%</c7>'
+        health: 'Health: <c7>%health%</c7>'
+        trunksize: 'Trunk size: <c7>%trunksize%</c7>'
+    vehicles:
+      descriptions:
+        main: 'VehiclesPlus Vehicles command'
+        give: 'Give a vehicle to a player'
+        shop: 'Open the vehicle shop'
+        repair: 'Repair the vehicle'
+        spawn: 'Spawn a vehicle'
+        spawnpersistent: 'Spawn a persistent vehicle'
+        getvoucher: Get a vehicle voucher
+      spawn:
+        spawned: '<c3>Successfully spawned the vehicle </c3><c4>%vehicle%</c4><c3>!</c3>'
+      spawnpersistent:
+        spawned: '<c3>Successfully spawned the persistent vehicle </c3><c4>%vehicle%</c4><c3>!</c3>'
+      give:
+        invalidgarage: '<c5>That garage does not exists!</c5>'
+        invalidcolor: '<c5>The provided color is invalid! RGB values must be between 0 and 255.</c5>'
+        nocolor: '<c5>The provided vehicle doesn''t support coloring!</c5>'
+        added: '<c3>Successfully added </c3><c4>%vehicle%</c4><c3> to </c3><c4>%garage%</c4><c3>!</c3>'
+      repair:
+        novehicle: '<c5>The player is not inside a vehicle!</c5>'
+        repaired: '<c3>Successfully repaired the vehicle </c3><c4>%vehicle%</c4><c3>!</c3>'
+      getvoucher: 
+        item: 
+          name: <c3>Vehicle Voucher</c3>
+          lore: '<c4>Vehicle: %vehicle%</c4>\n<c4>Color: %color%</c4>\n<c4>Right click to redeem it.</c4>'
+        received: <c3>You've received a vehicle voucher! Right click to redeem it.</c3>
+  inventories:
+    confirmation:
+      confirm:
+        title: '<c3>Confirm</c3>'
+        lore: '<c4>Confirm your action.</c4>'
+      cancel:
+        title: '<c5>Cancel</c5>'
+        lore: '<c6>Cancel your action.</c6>'
+    pagination:
+      first:
+        title: 'First page'
+        lore: '<c7>Go to the first page (1).</c7>'
+      previous:
+        title: 'Previous page'
+        lore: '<c7>Go to the previous page (%page%).</c7>'
+      next:
+        title: 'Next page'
+        lore: '<c7>Go to the next page (%page%).</c7>'
+      last:
+        title: 'Last page'
+        lore: '<c7>Go to the last page (%page%).</c7>'
+    fuel:
+      shop:
+        title: 'Fuel Shop'
+        item:
+          name: '<c3>%type%</c3>'
+          lore: '<c3>Price:</c3> <c4>%price%/L</c4>'
+      amount:
+        title: 'Choose amount'
+        item:
+          name: '<c3>%type%</c3> <c7>%amount%L<c7>'
+          lore: '<c3>Price:</c3> <c4>%price%</c4>'
+      bought: '<c3>You''ve successfully bought </c3><c4>%liters%L</c4><c3> of </c3><c4>%type%</c4><c3>.</c3>'
+    vehicles:
+      shop:
+        vehicle:
+          title: 'Vehicle Shop'
+          item:
+            name: '%name%'
+            lore: '<c3>Price:</c3> <c4>%price%</c4>'
+        color:
+          title: 'Select color'
+        garage:
+          title: 'Select garage'
+          item:
+            name: '%garage%'
+            lore:
+              available: '<c3>Owner:</c3> <c4>%owner%</c4>'
+              limited: '<c5>Reached global vehicle limit!<c5>'
+        confirmation:
+          title: 'Confirm purchase'
+          bought: '<c3>You''ve successfully bought </c3><c4>%vehicle%</c4><c3>. It has been stored in </c3><c4>%garage%</c4><c3>!</c3>'
+      garage:
+        title: '%garage%'
+        moving: '<c5>You cannot perform this action while the vehicle is moving!</c5>'
+        settings:
+          button:
+            name: '<c3>Settings</c4>'
+            lore: '<c4>Click to open the garage settings.</c4>'
+          title: "Garage Settings"
+          setting:
+            rolelist:
+              noowner: '<c5>You can''t change the permissions of the owner of the garage!</c5>'
+              button:
+                name: '<c3>%role%</c3>'
+                lore: '<c4>Right click to delete.</c4>'
+              create:
+                name: '<c3>Create new role</c3>'
+                lore: '<c4>Click to create a new role.</c4>'
+              delete:
+                title: '<c3>Are you sure?</c3>'
+                default: '<c5>You can''t delete a default role!</c5>'
+                failed: '<c5>Failed to delete the role! Make sure no members have this role.</c5>'
+            managemembers:
+              name: "Manage members permission"
+              button:
+                name: '<c3>%member%</c3>'
+                loreowner: 'Current role: <c7>%role%</c7>'
+                lore: 'Current role: <c7>%role%</c7>\nClick to change.'
+            delete: "Delete permission"
+            buy: "Buy permission"
+            remove: "Remove permission"
+            repair: "Repair permission"
+            spawn: "Spawn permission"
+            adjust: "Adjust permission"
+            ride: "Ride permission"
+            opentrunk: 'Open trunk permission'
+            lock: 'Lock permission'
+            upgrade: 'Upgrade permission'
+            tune: 'Tune permission'
+            renamevehicle: 'Rename vehicle permission'
+            transfervehicle: 'Transfer vehicle permission'
+            manageroles: 'Manage roles permission'
+            rename: 'Rename garage permission'
+            deletegarage: 'Delete garage permission'
+            toggle:
+              enabled: "<c3>Granted</c3>"
+              disabled: "<c5>Denied</c5>"
+          repaired: '<c3>Successfully repaired the vehicle </c3><c4>%vehicle%</c4><c3>!</c3>'
+        spawn:
+          failed: '<c5>Could not spawn the vehicle!</c5>'
+          limited: '<c5>You can only spawn </c5><c6>%limit%</c6><c5> vehicles at the same time from this garage!</c5>'
+        remove:
+          moving: '<c5>You can''t remove a vehicle while it''s moving!</c5>'
+          confirmation:
+            title: 'Confirm removal'
+            removed: '<c3>Successfully removed the vehicle </c3><c4>%vehicle%</c4><c3> from his garage!</c3>'
+        repair:
+          repaired: '<c3>Successfully repaired the vehicle </c3><c4>%vehicle%</c4><c3>!</c3>'
+      interaction:
+        title: '%vehicle%'
+        enter: '<c3>Enter vehicle</c3>'
+        remove: '<c5>Despawn vehicle</c5>'
+        remove_persistent: '<c5>Remove vehicle</c5>'
+        lock: '<c3>Lock vehicle</c3>'
+        unlock: '<c3>Unlock vehicle</c3>'
+        locked: '<c3>The vehicle has been locked.</c3>'
+        unlocked: '<c3>The vehicle has been unlocked.</c3>'
+        trunk: '<c3>Open trunk</c3>'
+        settings: '<c3>Settings</c3>'
+        tuning: '<c3>Tuning</c3>'
+        upgrades: '<c3>Upgrades</c3>'
+      enter:
+        title: 'Pick a seat'
+        item:
+          seat: '<c3>Seat #%seat%</c3>'
+          driverseat: '<c3>Driver Seat</c3>'
+          lore:
+            taken: '<c5>OCCUPIED</c5>'
+            free: 'Click to enter'
+        nopermission: '<c5>You don''t have permission to drive this vehicle!</c5>'
+      settings:
+        title: 'Vehicle Settings'
+        rename:
+          name: '<c3>Rename</c3>'
+          lore: '<c4>Cost: %cost%</c4>'
+      upgrade:
+        title: 'Vehicle Upgrades'
+        items:
+          speed: '<c3>Speed</c3>'
+          fueltank: '<c3>Fuel Tank</c3>'
+          acceleration: '<c3>Acceleration</c3>'
+          turningradius: '<c3>Turning Radius</c3>'
+        current: 'Current setting: <c7>%current% %unit%</c7>'
+        maxedout: '<c5>This upgrade is already maxed out!</c5>'
+        upgraded: '<c3>The vehicle has been upgraded successfully!</c3>'
+      trunk:
+        title: '<c3>Trunk</c3>'
+  prompts:
+    general:
+      cancel: 'This action has been canceled.'
+      number:
+        invalid: '<c5>The provided amount of numbers is invalid! Expected </c5><c6>%num%</c6><c5>, got </c5><c6>%input%</c6><c5>.</c5>'
+    garage:
+      role:
+        create: 'Send the name of the new garage role in the chat (Send STOP to cancel).'
+        created: '<c3>Successfully created the new garage role </c3><c4>%role%</c4><c3>!</c3>'
+        addmember: 'Send the name of the new garage role for the member in the chat (Send STOP to cancel).'
+      rename: 'Send the new name of the garage in the chat (Send STOP to cancel).'
+      transfer: 'Send the name of the new owner in the chat (Send STOP to cancel).'
+    vehicles:
+      setname: 'Send the new name of the vehicle in the chat (Send STOP to cancel).'
+      renamed: '<c3>Successfully renamed the vehicle to </c3><c4>%name%</c4><c3>!</c3>'
+      transfer: 'Send the name of the new garage in the chat (Send STOP to cancel).'
+      moved: '<c3>Successfully moved the vehicle to </c3><c4>%garage%</c4><c3>!</c3>'
